@@ -37,3 +37,11 @@
 | gh72-api-mdzy | 100 | 100 | 4 | 96 | 573 | healthy |
 | gh72-live-baishi | 67 | 67 | 67 | 0 | 67 | healthy |
 | gh72-live-scenery | 70 | 70 | 70 | 0 | 70 | healthy |
+
+## Rollback
+
+- Previous public data commit: `977d28a5bc706d767f412d229e06ad83413dcc08`
+- Previous Worker version: `1.1.0`
+- Previous catalog contract: `2.1`
+- Pages deployment: unavailable from configured evidence
+- Rollback verified: false (deployment gate blocked)
