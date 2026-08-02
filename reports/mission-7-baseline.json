@@ -1,0 +1,949 @@
+{
+  "generated_at": "2026-08-02T18:36:52.737535+00:00",
+  "fresh_upstream_fetch": false,
+  "catalog": {
+    "total": 3481,
+    "type_counts": {
+      "other": 2631,
+      "anime": 260,
+      "variety": 120,
+      "tv": 367,
+      "movie": 103
+    },
+    "content_mode_counts": {
+      "vod": 3481
+    },
+    "section_counts": {
+      "av": 2273,
+      "regular": 1208
+    },
+    "dimensions": {
+      "movie": {
+        "canonical_media": 103,
+        "episode_count": 178,
+        "stream_count": 229,
+        "playlist_entries": 0
+      },
+      "tv": {
+        "canonical_media": 367,
+        "episode_count": 1945,
+        "stream_count": 4677,
+        "playlist_entries": 0
+      },
+      "anime": {
+        "canonical_media": 260,
+        "episode_count": 1427,
+        "stream_count": 17592,
+        "playlist_entries": 0
+      },
+      "variety": {
+        "canonical_media": 120,
+        "episode_count": 7591,
+        "stream_count": 25835,
+        "playlist_entries": 0
+      },
+      "documentary": {
+        "canonical_media": 0,
+        "episode_count": 0,
+        "stream_count": 0,
+        "playlist_entries": 0
+      },
+      "short": {
+        "canonical_media": 0,
+        "episode_count": 0,
+        "stream_count": 0,
+        "playlist_entries": 0
+      },
+      "other": {
+        "canonical_media": 2631,
+        "episode_count": 490,
+        "stream_count": 697,
+        "playlist_entries": 0
+      },
+      "live": {
+        "canonical_media": 358,
+        "episode_count": 0,
+        "stream_count": 358,
+        "playlist_entries": 358
+      },
+      "manga": {
+        "canonical_media": 0,
+        "episode_count": 0,
+        "stream_count": 0,
+        "playlist_entries": 0
+      }
+    }
+  },
+  "sources": {
+    "count": 59,
+    "final_status_counts": {
+      "complete": 16,
+      "unreachable": 30,
+      "invalid_api": 5,
+      "partial_with_reason": 8
+    },
+    "records": [
+      {
+        "source_id": "regular-360",
+        "source_url": "https://360zy.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 67981,
+        "reported_pages": 680,
+        "completed_pages": 680,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.538907+00:00"
+      },
+      {
+        "source_id": "regular-墨斗",
+        "source_url": "https://www.mdzyapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 86414,
+        "reported_pages": 865,
+        "completed_pages": 865,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539057+00:00"
+      },
+      {
+        "source_id": "regular-黑木耳",
+        "source_url": "https://json02.heimuer.xyz/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539061+00:00"
+      },
+      {
+        "source_id": "regular-华为吧",
+        "source_url": "https://hw8.live/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539064+00:00"
+      },
+      {
+        "source_id": "regular-腐剧",
+        "source_url": "http://www.fuju2024.cc:8013/ruifenglb_api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "timeout",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539066+00:00"
+      },
+      {
+        "source_id": "regular-金鹰",
+        "source_url": "https://jinyingzy.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_403",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539068+00:00"
+      },
+      {
+        "source_id": "regular-ok",
+        "source_url": "https://okzyw9.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539070+00:00"
+      },
+      {
+        "source_id": "regular-宝片",
+        "source_url": "https://zpsps.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "invalid_api",
+        "reason": "http_404",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539072+00:00"
+      },
+      {
+        "source_id": "regular-小黄人",
+        "source_url": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539073+00:00"
+      },
+      {
+        "source_id": "regular-牛牛",
+        "source_url": "https://api.niuniuzy.me/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 121457,
+        "reported_pages": 6073,
+        "completed_pages": 5000,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539075+00:00"
+      },
+      {
+        "source_id": "regular-丫丫",
+        "source_url": "https://cj.yayazy.net/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 119497,
+        "reported_pages": 5975,
+        "completed_pages": 5000,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539077+00:00"
+      },
+      {
+        "source_id": "regular-影图",
+        "source_url": "https://cj.vodimg.top/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_403",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539079+00:00"
+      },
+      {
+        "source_id": "regular-u酷",
+        "source_url": "https://api.ukuapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 55968,
+        "reported_pages": 2799,
+        "completed_pages": 2799,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539080+00:00"
+      },
+      {
+        "source_id": "regular-豪华",
+        "source_url": "https://hhzyapi.com/api.php/provide/vod",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 108709,
+        "reported_pages": 1088,
+        "completed_pages": 1088,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539082+00:00"
+      },
+      {
+        "source_id": "regular-极速",
+        "source_url": "https://jszyapi.com/api.php/provide/vod",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 107957,
+        "reported_pages": 1080,
+        "completed_pages": 1080,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539083+00:00"
+      },
+      {
+        "source_id": "regular-索尼",
+        "source_url": "https://suoniapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_429",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539085+00:00"
+      },
+      {
+        "source_id": "regular-ikun",
+        "source_url": "https://ikunzyapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_429",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539086+00:00"
+      },
+      {
+        "source_id": "regular-非凡",
+        "source_url": "http://cj.ffzyapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 97626,
+        "reported_pages": 977,
+        "completed_pages": 977,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539088+00:00"
+      },
+      {
+        "source_id": "regular-量子",
+        "source_url": "https://cj.lziapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 147186,
+        "reported_pages": 7360,
+        "completed_pages": 5000,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539089+00:00"
+      },
+      {
+        "source_id": "regular-暴风",
+        "source_url": "https://bfzyapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_429",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539091+00:00"
+      },
+      {
+        "source_id": "regular-红牛",
+        "source_url": "https://www.hongniuzy2.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 109371,
+        "reported_pages": 1094,
+        "completed_pages": 1094,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539092+00:00"
+      },
+      {
+        "source_id": "regular-快车",
+        "source_url": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539094+00:00"
+      },
+      {
+        "source_id": "regular-闪电",
+        "source_url": "http://sdzyapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 121237,
+        "reported_pages": 6062,
+        "completed_pages": 6062,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539095+00:00"
+      },
+      {
+        "source_id": "regular-樱花",
+        "source_url": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "no completed attempt recorded",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539097+00:00"
+      },
+      {
+        "source_id": "regular-卧龙",
+        "source_url": "https://collect.wolongzyw.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "invalid_api",
+        "reason": "invalid_response",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539099+00:00"
+      },
+      {
+        "source_id": "regular-飘花",
+        "source_url": "http://www.ahjiuman.com/api.php/provide/vod/at/json",
+        "section": "regular",
+        "final_status": "invalid_api",
+        "reason": "http_404",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539100+00:00"
+      },
+      {
+        "source_id": "regular-虎牙",
+        "source_url": "https://www.huyaapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 108627,
+        "reported_pages": 1087,
+        "completed_pages": 1087,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539102+00:00"
+      },
+      {
+        "source_id": "regular-飘零",
+        "source_url": "https://p2100.net/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_403",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539103+00:00"
+      },
+      {
+        "source_id": "regular-无尽",
+        "source_url": "https://api.wujinapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "no completed attempt recorded",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539105+00:00"
+      },
+      {
+        "source_id": "regular-速博",
+        "source_url": "https://subocaiji.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 109780,
+        "reported_pages": 1098,
+        "completed_pages": 1098,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539110+00:00"
+      },
+      {
+        "source_id": "regular-魔都",
+        "source_url": "https://caiji.moduapi.cc/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539112+00:00"
+      },
+      {
+        "source_id": "regular-最大",
+        "source_url": "http://zuidazy.me/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "unreachable",
+        "reason": "http_520",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539113+00:00"
+      },
+      {
+        "source_id": "regular-火狐",
+        "source_url": "https://hhzyapi.com/api.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 108709,
+        "reported_pages": 1088,
+        "completed_pages": 1088,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539115+00:00"
+      },
+      {
+        "source_id": "regular-新浪",
+        "source_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+        "section": "regular",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 109797,
+        "reported_pages": 1098,
+        "completed_pages": 1098,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539116+00:00"
+      },
+      {
+        "source_id": "av-森林资源",
+        "source_url": "https://slapibf.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 248543,
+        "reported_pages": 2486,
+        "completed_pages": 2001,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539120+00:00"
+      },
+      {
+        "source_id": "av-探探资源",
+        "source_url": "https://apittzy.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "timeout",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539121+00:00"
+      },
+      {
+        "source_id": "av-奥斯卡资源",
+        "source_url": "https://aosikazy.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 210585,
+        "reported_pages": 2106,
+        "completed_pages": 2001,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539123+00:00"
+      },
+      {
+        "source_id": "av-老鸭资源",
+        "source_url": "https://api.apilyzy.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539124+00:00"
+      },
+      {
+        "source_id": "av-皇冠",
+        "source_url": "https://hghhh.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "timeout",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539126+00:00"
+      },
+      {
+        "source_id": "av-91麻豆",
+        "source_url": "https://91md.me/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 36804,
+        "reported_pages": 369,
+        "completed_pages": 369,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539127+00:00"
+      },
+      {
+        "source_id": "av-易看资源",
+        "source_url": "https://api.yikanapi.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539128+00:00"
+      },
+      {
+        "source_id": "av-皇冠资源",
+        "source_url": "https://hghhh.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "timeout",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539130+00:00"
+      },
+      {
+        "source_id": "av-91md",
+        "source_url": "https://91md.me/api.php/provide/vod/from/mdm3u8/",
+        "section": "av",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 36804,
+        "reported_pages": 369,
+        "completed_pages": 369,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539131+00:00"
+      },
+      {
+        "source_id": "av-番号资源",
+        "source_url": "http://fhapi9.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "no completed attempt recorded",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539133+00:00"
+      },
+      {
+        "source_id": "av-鲨鱼资源",
+        "source_url": "https://shayuapi.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "no completed attempt recorded",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539134+00:00"
+      },
+      {
+        "source_id": "av-kk写真资源",
+        "source_url": "https://kkzy.me/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539136+00:00"
+      },
+      {
+        "source_id": "av-aivin",
+        "source_url": "http://lbapiby.com/api.php/provide/vod/at/json",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "http_502",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539137+00:00"
+      },
+      {
+        "source_id": "av-好色资源",
+        "source_url": "https://haosezyw.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539139+00:00"
+      },
+      {
+        "source_id": "av-最色资源",
+        "source_url": "https://zszyw.top/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539142+00:00"
+      },
+      {
+        "source_id": "av-色色虎资源",
+        "source_url": "https://apisesehuzy.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539143+00:00"
+      },
+      {
+        "source_id": "av-黄瓜资源",
+        "source_url": "https://www.zy018.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "invalid_api",
+        "reason": "http_404",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539145+00:00"
+      },
+      {
+        "source_id": "av-玉兔资源",
+        "source_url": "https://apiyutu.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 206256,
+        "reported_pages": 2063,
+        "completed_pages": 2001,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539146+00:00"
+      },
+      {
+        "source_id": "av-麻豆视频",
+        "source_url": "http://www.madouse.la/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "no completed attempt recorded",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539148+00:00"
+      },
+      {
+        "source_id": "av-辣椒资源",
+        "source_url": "https://apilj.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 220714,
+        "reported_pages": 2208,
+        "completed_pages": 2001,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539149+00:00"
+      },
+      {
+        "source_id": "av-甜蜜资源",
+        "source_url": "https://timizy10.cc/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "invalid_api",
+        "reason": "http_404",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539151+00:00"
+      },
+      {
+        "source_id": "av-奶香香",
+        "source_url": "https://Naixxzy.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 173901,
+        "reported_pages": 1740,
+        "completed_pages": 1740,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539152+00:00"
+      },
+      {
+        "source_id": "av-精品资源",
+        "source_url": "https://www.jingpinx.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "complete",
+        "reason": "all reported pages completed",
+        "reported_total": 49985,
+        "reported_pages": 500,
+        "completed_pages": 500,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539153+00:00"
+      },
+      {
+        "source_id": "av-草榴资源",
+        "source_url": "https://www.caoliuzyw.com/api.php/prodao/vod/",
+        "section": "av",
+        "final_status": "unreachable",
+        "reason": "connection",
+        "reported_total": null,
+        "reported_pages": null,
+        "completed_pages": 0,
+        "snapshot": false,
+        "checked_at": "2026-08-02T16:48:11.539155+00:00"
+      },
+      {
+        "source_id": "av-老色逼资源",
+        "source_url": "https://apilsbzy1.com/api.php/provide/vod/",
+        "section": "av",
+        "final_status": "partial_with_reason",
+        "reason": "last-known-good snapshot preserved; current source did not complete",
+        "reported_total": 206256,
+        "reported_pages": 2063,
+        "completed_pages": 2001,
+        "snapshot": true,
+        "checked_at": "2026-08-02T16:48:11.539162+00:00"
+      }
+    ]
+  },
+  "sync": {
+    "mode": "incremental",
+    "started_at": "2026-08-02T13:52:26Z",
+    "finished_at": "2026-08-02T13:53:15Z",
+    "status": "partial",
+    "sources_total": 59,
+    "sources_succeeded": 35,
+    "sources_failed": 24,
+    "records_received": 1480,
+    "media_generated": 730,
+    "episodes_generated": 11496,
+    "streams_generated": 48878,
+    "duplicates_merged": 750,
+    "unsupported_streams": 8567,
+    "outputs_changed": true,
+    "failures": [
+      {
+        "source_id": "regular-黑木耳",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "regular-华为吧",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "regular-腐剧",
+        "error_type": "timeout",
+        "message": "ConnectTimeout"
+      },
+      {
+        "source_id": "regular-金鹰",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
+        "source_id": "regular-ok",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "regular-宝片",
+        "error_type": "http_404",
+        "message": "HTTP 404 from source endpoint"
+      },
+      {
+        "source_id": "regular-小黄人",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "regular-影图",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
+        "source_id": "regular-快车",
+        "error_type": "connection",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+      },
+      {
+        "source_id": "regular-卧龙",
+        "error_type": "invalid_response",
+        "message": "invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "source_id": "regular-飘花",
+        "error_type": "http_404",
+        "message": "HTTP 404 from source endpoint"
+      },
+      {
+        "source_id": "regular-飘零",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
+        "source_id": "av-探探资源",
+        "error_type": "timeout",
+        "message": "ConnectTimeout"
+      },
+      {
+        "source_id": "av-老鸭资源",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "av-皇冠",
+        "error_type": "timeout",
+        "message": "ConnectTimeout"
+      },
+      {
+        "source_id": "av-易看资源",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "av-皇冠资源",
+        "error_type": "timeout",
+        "message": "ConnectTimeout"
+      },
+      {
+        "source_id": "av-kk写真资源",
+        "error_type": "connection",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+      },
+      {
+        "source_id": "av-好色资源",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "av-最色资源",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "av-色色虎资源",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "av-黄瓜资源",
+        "error_type": "http_404",
+        "message": "HTTP 404 from source endpoint"
+      },
+      {
+        "source_id": "av-甜蜜资源",
+        "error_type": "http_404",
+        "message": "HTTP 404 from source endpoint"
+      },
+      {
+        "source_id": "av-草榴资源",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      }
+    ]
+  },
+  "publication_pipeline": [
+    "source-reported",
+    "fetched",
+    "normalized",
+    "classified",
+    "deduplicated",
+    "generated",
+    "published",
+    "worker-visible",
+    "frontend-visible"
+  ],
+  "notes": [
+    "Counts are derived from committed snapshots; no unreachable source was fetched.",
+    "Historical Fastone data is provenance-only."
+  ]
+}
