@@ -6,13 +6,13 @@
   "year": 2025,
   "category": "剧情片",
   "section": "regular",
-  "poster": "https://img.ukuapi88.com/upload/vod/20260802-1/0614c42fddf9052d7fe51a4fabb71edb.jpg",
+  "poster": "https://www.mdzypic.com/upload/vod/20260801-1/17052ccc3a9f10b5658dc3628649ae39.jpg",
   "overview": "虽然有像亲兄弟一样的脱北者朋友，但为了隐藏自己同性恋身份而感到孤独的脱北青年哲俊，平生第一次鼓起勇气踏入韩国同性恋社区。在酒吧认识的邻里朋友英俊的帮助下，哲俊很快融入了同志圈，但却因一个微小的误会导致人际关系网开始出现裂痕，让哲俊倾注了全部心血的社区陷入了动荡…",
   "actors": [
-    "曹有铉",
+    "林智亨",
     "金贤穆",
-    "赵大熙",
-    "林智亨"
+    "曹有铉",
+    "赵大熙"
   ],
   "directors": [
     "朴俊浩"
@@ -24,9 +24,24 @@
   "updated_at": "2026-08-02 18:43:40",
   "source_records": [
     {
+      "source_id": "regular-ikun",
+      "source_vod_id": "69719",
+      "source_name": "ikun|点播"
+    },
+    {
       "source_id": "regular-u酷",
       "source_vod_id": "70916",
       "source_name": "U酷|点播"
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "87344",
+      "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "87344",
+      "source_name": "魔都|点播"
     }
   ],
   "episodes": [
@@ -39,17 +54,6 @@
         {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzyvod3.ukubf5.com/share/6qelyYQgNC",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 18:43:40"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
           "provider": "ukm3u8",
           "url": "https://ukzyvod3.ukubf5.com/20260802/Ce9Z3a23/index.m3u8",
           "protocol": "hls",
@@ -57,6 +61,47 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 18:43:40"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzyvod3.ukubf5.com/share/6qelyYQgNC",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 18:43:40"
+        }
+      ]
+    },
+    {
+      "id": "movie-d20e84591d50421982b9-item-0001-9abc744d",
+      "name": "正片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260801/Pap4aNq5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 19:26:52"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260801/wuVzbSF9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 19:01:19"
         }
       ]
     }
