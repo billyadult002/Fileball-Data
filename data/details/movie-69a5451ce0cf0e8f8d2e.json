@@ -6,21 +6,28 @@
   "year": 2025,
   "category": "剧情片",
   "section": "regular",
-  "poster": "https://hhmage.com/cover/ea8df9172e5ad7ce79b77bada66d3e3e.jpg",
+  "poster": "https://img.ukuapi88.com/upload/vod/20251027-1/7c116ace864d2fe2d94b3c95b2cc54a3.jpg",
   "overview": "青涩的十六岁少年艾素不知自己想要什么，却清楚自己不要什么：父母享受的中产生活、哥哥向往的名校前途。砌砖建墙，朴拙的体力劳动，来得实实在在；乌克兰工友结实肉体散发阳刚与温柔，单纯的存在感，更呼唤原始欲望的悸动。《课室风云》金棕榈奖得主罗伦康堤未及开镜因病离世，长期拍档兼《心动120》导演罗宾金比路接手完成遗愿。两种异质感性交叠，轻抚少年躁动的脉搏，将混沌、渴望、矛盾与汗水一同挥发于青空下，为康堤谱出美丽的天鹅之歌。",
   "actors": [
     "埃洛伊·波胡",
+    "皮耶尔弗兰切斯科·法维诺",
+    "埃洛迪·布歇",
+    "玛洛·赫比齐",
     "皮耶尔弗兰切斯科"
   ],
   "directors": [
     "罗宾·坎皮略"
   ],
   "genres": [
-    "剧情",
-    "剧情片"
+    "drama"
   ],
   "updated_at": "2026-08-02 16:07:26",
   "source_records": [
+    {
+      "source_id": "regular-u酷",
+      "source_vod_id": "61867",
+      "source_name": "U酷|点播"
+    },
     {
       "source_id": "regular-新浪",
       "source_vod_id": "169303",
@@ -59,8 +66,8 @@
   ],
   "episodes": [
     {
-      "id": "movie-69a5451ce0cf0e8f8d2e-item-0001-9abc744d",
-      "name": "正片",
+      "id": "movie-69a5451ce0cf0e8f8d2e-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
@@ -120,6 +127,17 @@
           "updated_at": "2026-08-02 16:02:46"
         },
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzyvod3.ukubf5.com/20251027/pXPf7Shp/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2025-10-27 10:42:37"
+        },
+        {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
           "provider": "subyun",
@@ -173,10 +191,75 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 16:02:46"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzyvod3.ukubf5.com/share/SOUkvksSMs",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2025-10-27 10:42:37"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "恩佐",
+  "title_en": "enzuo",
+  "aliases": [],
+  "media_type_labels": {
+    "zh": "电影",
+    "en": "Movies"
+  },
+  "genre_labels": {
+    "drama": {
+      "zh": "剧情",
+      "en": "Drama"
+    }
+  },
+  "source_category_translations": {
+    "zh": "剧情片",
+    "en": ""
+  },
+  "search_terms": [
+    "恩佐",
+    "enzuo",
+    "剧情片",
+    "drama"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "western-europe",
+  "country": "france",
+  "language": "french",
+  "region_labels": {
+    "zh": "西欧",
+    "en": "Western Europe"
+  },
+  "country_labels": {
+    "zh": "法国",
+    "en": "France"
+  },
+  "language_labels": {
+    "zh": "法语",
+    "en": "French"
+  },
+  "title_records": [
+    {
+      "value": "恩佐",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "enzuo",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "movie"
 }

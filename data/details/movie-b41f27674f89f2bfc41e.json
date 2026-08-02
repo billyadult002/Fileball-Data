@@ -14,35 +14,121 @@
     "罗莎琳德·以利亚撒",
     "弗朗西斯·麦基",
     "爱德华·罗",
-    "玛丽·伍德维恩"
+    "玛丽·伍德维恩",
+    "雅娜·彭罗斯"
   ],
   "directors": [
     "马克·詹金"
   ],
   "genres": [
-    "剧情",
-    "恐怖"
+    "horror",
+    "drama"
   ],
-  "updated_at": "2026-08-02 14:05:26",
+  "updated_at": "2026-08-01 21:42:09",
   "source_records": [
-    {
-      "source_id": "regular-ikun",
-      "source_vod_id": "69730",
-      "source_name": "ikun|点播"
-    },
     {
       "source_id": "regular-u酷",
       "source_vod_id": "70837",
       "source_name": "U酷|点播"
+    },
+    {
+      "source_id": "regular-新浪",
+      "source_vod_id": "169214",
+      "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-极速",
+      "source_vod_id": "113242",
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139354",
+      "source_name": "火狐|点播"
+    },
+    {
+      "source_id": "regular-红牛",
+      "source_vod_id": "152892",
+      "source_name": "红牛|点播"
+    },
+    {
+      "source_id": "regular-虎牙",
+      "source_vod_id": "114698",
+      "source_name": "虎牙|点播"
+    },
+    {
+      "source_id": "regular-豪华",
+      "source_vod_id": "139354",
+      "source_name": "豪华|点播"
+    },
+    {
+      "source_id": "regular-速博",
+      "source_vod_id": "117234",
+      "source_name": "速博|点播"
     }
   ],
   "episodes": [
     {
-      "id": "movie-b41f27674f89f2bfc41e-e0720-e3b0c442",
-      "name": "720P",
+      "id": "movie-b41f27674f89f2bfc41e-main",
+      "name": "主片",
       "season": null,
-      "episode": 720,
+      "episode": null,
       "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dNkY4R2e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 21:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aM8J46me/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 18:42:04"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/aKrL4RGe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 17:42:29"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hym3u8",
+          "url": "https://1080p.huyall.com/play/dL9v4RDe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 15:45:02"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnm3u8",
+          "url": "https://hn.bfvvs.com/play/dG6M4EKb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 15:42:43"
+        },
         {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
@@ -53,6 +139,61 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 12:46:16"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dNkY4R2e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 21:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aM8J46me",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 18:42:04"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/aKrL4RGe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 17:42:29"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hyyun",
+          "url": "https://1080p.huyall.com/play/dL9v4RDe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 15:45:02"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnyun",
+          "url": "https://hn.bfvvs.com/play/dG6M4EKb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 15:42:43"
         },
         {
           "source_id": "regular-u酷",
@@ -66,27 +207,67 @@
           "updated_at": "2026-08-01 12:46:16"
         }
       ]
-    },
-    {
-      "id": "movie-b41f27674f89f2bfc41e-item-0001-9abc744d",
-      "name": "正片",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260802/4aFN8use/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 14:05:26"
-        }
-      ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "内华达之瑰",
+  "title_en": "neihuadazhigui",
+  "aliases": [
+    "谜航(台),英伦转生号(港),内华达玫瑰"
+  ],
+  "media_type_labels": {
+    "zh": "电影",
+    "en": "Movies"
+  },
+  "genre_labels": {
+    "horror": {
+      "zh": "恐怖",
+      "en": "Horror"
+    },
+    "drama": {
+      "zh": "剧情",
+      "en": "Drama"
+    }
+  },
+  "source_category_translations": {
+    "zh": "恐怖片",
+    "en": ""
+  },
+  "search_terms": [
+    "内华达之瑰",
+    "neihuadazhigui",
+    "谜航(台),英伦转生号(港),内华达玫瑰",
+    "恐怖片",
+    "horror",
+    "drama"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "united-kingdom-ireland",
+  "country": "united-kingdom",
+  "language": "english",
+  "region_labels": {},
+  "country_labels": {
+    "zh": "英国",
+    "en": "United Kingdom"
+  },
+  "language_labels": {
+    "zh": "英语",
+    "en": "English"
+  },
+  "title_records": [
+    {
+      "value": "内华达之瑰",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "neihuadazhigui",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "movie"
 }

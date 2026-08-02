@@ -6,61 +6,181 @@
   "year": 2026,
   "category": "爱情片",
   "section": "regular",
-  "poster": "https://img.jisuimage.com/cover/14179b8b1b7b28c74c66bc49489f50fe.jpg",
+  "poster": "https://hhmage.com/cover/14179b8b1b7b28c74c66bc49489f50fe.jpg",
   "overview": "一场燃气爆炸后，妮蒂娅失去了部分记忆，男友迈克尔也随之失踪。更诡异的是，从医院醒来的她发现，身边每一个男人竟都长着迈克尔的脸。医生认为这是创伤留下的后遗症，可随着陌生人闯入、旧日画作浮现、越来越多地疑点浮现......",
   "actors": [
     "Hannah Reji Koshy",
-    "Kalesh Ramanand"
+    "Kalesh Ramanand",
+    "Hannah",
+    "Reji",
+    "Koshy",
+    "Kalesh",
+    "Ramanand"
   ],
   "directors": [
-    "Neelesh EK"
+    "Neelesh EK",
+    "Neelesh",
+    "EK"
   ],
   "genres": [
     "romance",
     "mystery",
     "thriller"
   ],
-  "updated_at": "2026-08-03 03:30:27",
+  "updated_at": "2026-08-02 23:23:05",
   "source_records": [
     {
-      "source_id": "gh72-api-jszy",
-      "source_vod_id": "113378",
-      "source_name": "gh72-api-jszy"
+      "source_id": "regular-新浪",
+      "source_vod_id": "169350",
+      "source_name": "新浪|点播"
     },
     {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "142231",
-      "source_name": "gh72-api-maotai"
+      "source_id": "regular-极速",
+      "source_vod_id": "113378",
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139490",
+      "source_name": "火狐|点播"
+    },
+    {
+      "source_id": "regular-红牛",
+      "source_vod_id": "153028",
+      "source_name": "红牛|点播"
+    },
+    {
+      "source_id": "regular-虎牙",
+      "source_vod_id": "114834",
+      "source_name": "虎牙|点播"
+    },
+    {
+      "source_id": "regular-豪华",
+      "source_vod_id": "139490",
+      "source_name": "豪华|点播"
+    },
+    {
+      "source_id": "regular-速博",
+      "source_vod_id": "117370",
+      "source_name": "速博|点播"
     }
   ],
   "episodes": [
     {
-      "id": "movie-c6767fc7926b413dfd52-item-0001-9abc744d",
-      "name": "正片",
+      "id": "movie-c6767fc7926b413dfd52-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/aKrL3l8e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 23:17:27"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
           "url": "https://vv.jisuzyv.com/play/dNkY3o8e/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-03 03:30:27"
+          "updated_at": "2026-08-02 23:12:03"
         },
         {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260801/hdPkWo5n/index.m3u8",
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aM8J3n1e/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 15:33:16"
+          "updated_at": "2026-08-02 23:06:02"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hym3u8",
+          "url": "https://1080p.huyall.com/play/dL9v3mve/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 21:36:02"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnm3u8",
+          "url": "https://hn.bfvvs.com/play/dG6M3N5b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 21:33:25"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/aKrL3l8e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 23:17:27"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dNkY3o8e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 23:12:03"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aM8J3n1e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 23:06:02"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hyyun",
+          "url": "https://1080p.huyall.com/play/dL9v3mve",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 21:36:02"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnyun",
+          "url": "https://hn.bfvvs.com/play/dG6M3N5b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 21:33:25"
         }
       ]
     }
@@ -130,8 +250,5 @@
       "official": true
     }
   ],
-  "media_type": "movie",
-  "source_ids": [
-    "gh72-api-maotai"
-  ]
+  "media_type": "movie"
 }

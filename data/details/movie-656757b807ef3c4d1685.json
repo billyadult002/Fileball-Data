@@ -11,23 +11,28 @@
   "actors": [
     "Kya-Celina·Barucki",
     "Julia·Novohradsky",
-    "Nhung·Hong"
+    "Nhung·Hong",
+    "Kya-Celina Barucki",
+    "Julia Novohradsky",
+    "Nhung Hong"
   ],
   "directors": [
     "马蒂娜·普鲁拉"
   ],
-  "genres": [],
+  "genres": [
+    "comedy"
+  ],
   "updated_at": "2026-08-02 13:29:36",
   "source_records": [
+    {
+      "source_id": "regular-u酷",
+      "source_vod_id": "70889",
+      "source_name": "U酷|点播"
+    },
     {
       "source_id": "regular-丫丫",
       "source_vod_id": "128915",
       "source_name": "丫丫|点播"
-    },
-    {
-      "source_id": "regular-最大",
-      "source_vod_id": "128890",
-      "source_name": "最大|点播"
     },
     {
       "source_id": "regular-牛牛",
@@ -42,8 +47,8 @@
   ],
   "episodes": [
     {
-      "id": "movie-656757b807ef3c4d1685-item-0001-52ff0394",
-      "name": "HD",
+      "id": "movie-656757b807ef3c4d1685-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
@@ -57,17 +62,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:29:36"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202608/02/6Y51MjVkWL27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 13:28:37"
         },
         {
           "source_id": "regular-丫丫",
@@ -90,10 +84,86 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:07:19"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzyvod3.ukubf5.com/20260802/NEUW1VD1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 10:07:29"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzyvod3.ukubf5.com/share/Dv1InH437k",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 10:07:29"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "女孩们，女孩们！",
+  "title_en": "nvhaimennvhaimen",
+  "aliases": [],
+  "media_type_labels": {
+    "zh": "电影",
+    "en": "Movies"
+  },
+  "genre_labels": {
+    "comedy": {
+      "zh": "喜剧",
+      "en": "Comedy"
+    }
+  },
+  "source_category_translations": {
+    "zh": "喜剧片",
+    "en": ""
+  },
+  "search_terms": [
+    "女孩们，女孩们！",
+    "nvhaimennvhaimen",
+    "喜剧片",
+    "comedy"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "western-europe",
+  "country": "germany",
+  "language": "german",
+  "region_labels": {
+    "zh": "西欧",
+    "en": "Western Europe"
+  },
+  "country_labels": {
+    "zh": "德国",
+    "en": "Germany"
+  },
+  "language_labels": {
+    "zh": "德语",
+    "en": "German"
+  },
+  "title_records": [
+    {
+      "value": "女孩们，女孩们！",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "nvhaimennvhaimen",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "movie"
 }

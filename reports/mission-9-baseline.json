@@ -1,0 +1,40 @@
+{
+  "mission": "9",
+  "generated_at": "2026-08-02T18:00:00Z",
+  "repository": {
+    "private_commit": "4e83d8f58d80dfb0814bb7f5dcf6e118e10de310",
+    "working_tree_has_uncommitted_changes": true
+  },
+  "production": {
+    "public_data_commit": "ebe99d69ea94a841cb850e2b1cbe2b34064cc8a3",
+    "worker_version": "cd637331-1a6d-4640-8655-49ff04fcbedf",
+    "pages_deployment": "bca0e01a.fireball-b4q.pages.dev",
+    "catalog_contract": "2.3",
+    "movies_api_total": 144,
+    "movies_m3u_extinf_count": "not_observed_in_this_baseline",
+    "senplayer_canonical_movie_count": "not_observed_in_this_baseline"
+  },
+  "local_snapshot": {
+    "catalog_items": 3481,
+    "canonical_movies": 103,
+    "movie_playlist_extinf_count": 98,
+    "movie_detail_files": 103,
+    "source_registry_entries": 101,
+    "enabled_type1_sources": 59,
+    "raw_records_in_audited_snapshots": 2789546,
+    "raw_movie_candidates_in_audited_snapshots": 501083,
+    "movie_source_records_in_current_catalog": 119,
+    "movie_streams_and_movie_records_are_distinct": true
+  },
+  "interpretation": {
+    "primary_gap": "full source snapshots are not reconciled into the published canonical movie catalog",
+    "frontend_limit_is_not_the_primary_gap": true,
+    "no_production_claims_from_local_counts": true
+  },
+  "rollback": {
+    "previous_public_data_commit": "ebe99d69ea94a841cb850e2b1cbe2b34064cc8a3",
+    "previous_worker_version": "cd637331-1a6d-4640-8655-49ff04fcbedf",
+    "previous_pages_deployment": "bca0e01a.fireball-b4q.pages.dev",
+    "previous_catalog_contract": "2.3"
+  }
+}

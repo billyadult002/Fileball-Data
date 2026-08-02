@@ -14,19 +14,26 @@
   "directors": [
     "李立铭"
   ],
-  "genres": [],
+  "genres": [
+    "action"
+  ],
   "updated_at": "2026-08-02 18:16:49",
   "source_records": [
     {
       "source_id": "regular-360",
       "source_vod_id": "102733",
       "source_name": "360|点播"
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "87399",
+      "source_name": "墨斗|点播"
     }
   ],
   "episodes": [
     {
-      "id": "movie-1e817d68f5e4fb3b8ca5-item-0001-9abc744d",
-      "name": "正片",
+      "id": "movie-1e817d68f5e4fb3b8ca5-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
@@ -40,10 +47,75 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 18:16:49"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260802/y5NCALQP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 12:40:46"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "宗师叶问",
+  "title_en": "zongshiyewen",
+  "aliases": [],
+  "media_type_labels": {
+    "zh": "电影",
+    "en": "Movies"
+  },
+  "genre_labels": {
+    "action": {
+      "zh": "动作",
+      "en": "Action"
+    }
+  },
+  "source_category_translations": {
+    "zh": "动作片",
+    "en": ""
+  },
+  "search_terms": [
+    "宗师叶问",
+    "zongshiyewen",
+    "动作片",
+    "action"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "mainland-china",
+  "country": "mainland-china",
+  "language": "mandarin",
+  "region_labels": {
+    "zh": "中国大陆",
+    "en": "Mainland China"
+  },
+  "country_labels": {
+    "zh": "中国大陆",
+    "en": "Mainland China"
+  },
+  "language_labels": {
+    "zh": "普通话",
+    "en": "Mandarin"
+  },
+  "title_records": [
+    {
+      "value": "宗师叶问",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "zongshiyewen",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "movie"
 }

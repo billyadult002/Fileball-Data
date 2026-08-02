@@ -18,8 +18,8 @@
     "钱升玮"
   ],
   "genres": [
-    "喜剧",
-    "动作"
+    "action",
+    "comedy"
   ],
   "updated_at": "2026-07-31 21:17:23",
   "source_records": [
@@ -31,22 +31,11 @@
   ],
   "episodes": [
     {
-      "id": "movie-829bd276f9424e7541f2-item-0001-e0bf1616",
-      "name": "HD国语",
+      "id": "movie-829bd276f9424e7541f2-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
-        {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vip.ffzy-play9.com/share/aa98ed8d6ce3f3a5d5eabb46213f767b",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-07-31 21:17:23"
-        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -54,25 +43,6 @@
           "url": "https://vip.ffzy-play9.com/20260731/46844_aa98ed8d/index.m3u8",
           "protocol": "hls",
           "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-07-31 21:17:23"
-        }
-      ]
-    },
-    {
-      "id": "movie-829bd276f9424e7541f2-item-0002-964c7f10",
-      "name": "HD粤语",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vip.ffzy-play9.com/share/80189d342698330b84a8a7999eaca843",
-          "protocol": "http",
-          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-07-31 21:17:23"
@@ -87,10 +57,94 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-07-31 21:17:23"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-play9.com/share/80189d342698330b84a8a7999eaca843",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-07-31 21:17:23"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-play9.com/share/aa98ed8d6ce3f3a5d5eabb46213f767b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-07-31 21:17:23"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "霸王花之皇家赌船",
+  "title_en": "bawanghuazhihuangjiaduchuan",
+  "aliases": [
+    "霸王花第三集,Raid On Royal Casino Marine,The Inspector Wears Skirts III"
+  ],
+  "media_type_labels": {
+    "zh": "电影",
+    "en": "Movies"
+  },
+  "genre_labels": {
+    "action": {
+      "zh": "动作",
+      "en": "Action"
+    },
+    "comedy": {
+      "zh": "喜剧",
+      "en": "Comedy"
+    }
+  },
+  "source_category_translations": {
+    "zh": "喜剧片",
+    "en": ""
+  },
+  "search_terms": [
+    "霸王花之皇家赌船",
+    "bawanghuazhihuangjiaduchuan",
+    "霸王花第三集,Raid On Royal Casino Marine,The Inspector Wears Skirts III",
+    "喜剧片",
+    "action",
+    "comedy"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "hong-kong",
+  "country": "hong-kong",
+  "language": "cantonese",
+  "region_labels": {
+    "zh": "香港",
+    "en": "Hong Kong"
+  },
+  "country_labels": {
+    "zh": "香港",
+    "en": "Hong Kong"
+  },
+  "language_labels": {
+    "zh": "粤语",
+    "en": "Cantonese"
+  },
+  "title_records": [
+    {
+      "value": "霸王花之皇家赌船",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "bawanghuazhihuangjiaduchuan",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "movie"
 }

@@ -15,7 +15,7 @@
   ],
   "directors": [],
   "genres": [
-    "喜剧"
+    "comedy"
   ],
   "updated_at": "2026-08-01 16:19:50",
   "source_records": [
@@ -27,22 +27,11 @@
   ],
   "episodes": [
     {
-      "id": "movie-4bc50ac5cc20027e78c0-e0001-e3b0c442",
-      "name": "第01集",
+      "id": "movie-4bc50ac5cc20027e78c0-main",
+      "name": "主片",
       "season": null,
-      "episode": 1,
+      "episode": null,
       "streams": [
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf8.com/share/12mDJX81IO",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 16:19:50"
-        },
         {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
@@ -53,10 +42,75 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 16:19:50"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf8.com/share/12mDJX81IO",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 16:19:50"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "成年人 第二季",
+  "title_en": "chengnianrendierji",
+  "aliases": [],
+  "media_type_labels": {
+    "zh": "电影",
+    "en": "Movies"
+  },
+  "genre_labels": {
+    "comedy": {
+      "zh": "喜剧",
+      "en": "Comedy"
+    }
+  },
+  "source_category_translations": {
+    "zh": "喜剧片",
+    "en": ""
+  },
+  "search_terms": [
+    "成年人 第二季",
+    "chengnianrendierji",
+    "喜剧片",
+    "comedy"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "north-america",
+  "country": "united-states",
+  "language": "english",
+  "region_labels": {
+    "zh": "北美",
+    "en": "North America"
+  },
+  "country_labels": {
+    "zh": "美国",
+    "en": "United States"
+  },
+  "language_labels": {
+    "zh": "英语",
+    "en": "English"
+  },
+  "title_records": [
+    {
+      "value": "成年人 第二季",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "chengnianrendierji",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "movie"
 }
