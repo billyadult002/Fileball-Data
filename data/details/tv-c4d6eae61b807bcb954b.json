@@ -21,7 +21,7 @@
     "冒险",
     "欧美"
   ],
-  "updated_at": "2026-08-02 20:36:04",
+  "updated_at": "2026-08-03 03:51:50",
   "source_records": [
     {
       "source_id": "regular-丫丫",
@@ -67,6 +67,11 @@
       "source_id": "regular-非凡",
       "source_vod_id": "98813",
       "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "112887",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -327,8 +332,49 @@
           "updated_at": "2026-08-02 20:01:17"
         }
       ]
+    },
+    {
+      "id": "tv-c4d6eae61b807bcb954b-e0001-e3b0c442",
+      "name": "第1集",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e9rDwQ8a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 03:51:50"
+        }
+      ]
+    },
+    {
+      "id": "tv-c4d6eae61b807bcb954b-e0002-e3b0c442",
+      "name": "第2集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bo2jxrXa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 03:51:50"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

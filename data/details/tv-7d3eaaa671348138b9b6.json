@@ -27,7 +27,7 @@
     "韩剧",
     "韩国"
   ],
-  "updated_at": "2026-08-02 12:24:05",
+  "updated_at": "2026-08-03 02:54:44",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -128,6 +128,26 @@
       "source_id": "regular-魔都",
       "source_vod_id": "86130",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69468",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-zuid",
+      "source_vod_id": "128011",
+      "source_name": "gh72-api-zuid"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "101304",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "86130",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -2034,8 +2054,55 @@
           "updated_at": "2026-08-01 23:36:15"
         }
       ]
+    },
+    {
+      "id": "tv-7d3eaaa671348138b9b6-e0008-e3b0c442",
+      "name": "第08集",
+      "season": null,
+      "episode": 8,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260802/1OfOog8U/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 23:37:48"
+        },
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260802/ikNEtohJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 23:50:32"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260803/culKNSiK/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 00:55:34"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy",
+    "gh72-api-zuid"
+  ]
 }

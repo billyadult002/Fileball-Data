@@ -1,0 +1,22 @@
+# Mission 7.2 production contribution
+
+- mission: 7.3
+- generated_at: 2026-08-02T19:54:21Z
+- frozen_source_ids: ['gh72-api-360zy', 'gh72-api-dbzy', 'gh72-api-ikun', 'gh72-api-jszy', 'gh72-api-maotai', 'gh72-api-mdzy', 'gh72-api-suoni', 'gh72-api-xingba', 'gh72-api-xxibao', 'gh72-api-zuid', 'gh72-live-baishi', 'gh72-live-scenery']
+- raw_records: 897
+- canonical_staging_records: 689
+- vod_staging_records: 552
+- live_staging_records: 137
+- new_canonical_media_added: 468
+- existing_canonical_media_enriched: 429
+- new_episodes_added: 0
+- new_streams_added: 3757
+- new_live_channels_added: 137
+- duplicates_merged: 429
+- records_rejected_at_production_merge: -137
+- classification: {'Other': 254, 'TV Series': 317, 'Movies': 62, 'Anime': 115, 'AV': 8, 'Documentary': 4}
+- live_classification: {'TV channels': 137, 'scenery channels': 0, 'regional channels': 0, 'other live': 0}
+- production_catalog_before: 3481
+- production_catalog_after: 3812
+- rejection_policy_preserved: True
+- publication_gate: qualified

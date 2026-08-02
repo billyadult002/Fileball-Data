@@ -36,6 +36,11 @@
       "source_id": "regular-闪电",
       "source_vod_id": "134777",
       "source_name": "闪电|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69645",
+      "source_name": "gh72-api-ikun"
     }
   ],
   "episodes": [
@@ -88,6 +93,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:06:49"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260726/dnEoXpyf/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 12:03:44"
         }
       ]
     },
@@ -140,6 +156,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:06:49"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260726/r6MMjU62/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 12:03:44"
         }
       ]
     },
@@ -192,10 +219,24 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:06:49"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260802/9jzhMBZu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 12:03:44"
         }
       ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-ikun"
+  ]
 }

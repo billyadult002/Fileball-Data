@@ -24,7 +24,7 @@
   "genres": [
     "动画"
   ],
-  "updated_at": "2026-08-01 13:14:45",
+  "updated_at": "2026-08-02 14:04:18",
   "source_records": [
     {
       "source_id": "regular-ikun",
@@ -60,6 +60,11 @@
       "source_id": "regular-非凡",
       "source_vod_id": "98679",
       "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "140286",
+      "source_name": "gh72-api-maotai"
     }
   ],
   "episodes": [
@@ -167,6 +172,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 00:26:55"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260725/tskuXHZU/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 14:04:18"
         }
       ]
     },
@@ -274,6 +290,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 00:26:55"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260731/uSVZwEwS/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 14:04:18"
         }
       ]
     },
@@ -381,10 +408,24 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 00:26:55"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260802/1E53hUBR/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 14:04:18"
         }
       ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-maotai"
+  ]
 }

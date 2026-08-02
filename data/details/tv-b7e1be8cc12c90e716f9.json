@@ -23,7 +23,7 @@
     "爱情",
     "国产"
   ],
-  "updated_at": "2026-08-02 17:21:03",
+  "updated_at": "2026-08-03 01:45:33",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -64,6 +64,31 @@
       "source_id": "regular-闪电",
       "source_vod_id": "135087",
       "source_name": "闪电|点播"
+    },
+    {
+      "source_id": "gh72-api-suoni",
+      "source_vod_id": "152129",
+      "source_name": "gh72-api-suoni"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69735",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-zuid",
+      "source_vod_id": "128892",
+      "source_name": "gh72-api-zuid"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "102797",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87404",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -160,6 +185,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:08:00"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260802/U9i3apQK/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 16:36:57"
         }
       ]
     },
@@ -256,6 +292,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:08:00"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260802/jlbeozXc/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 16:36:57"
         }
       ]
     },
@@ -352,6 +399,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:08:00"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260802/83gKB9IW/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 16:36:57"
         }
       ]
     },
@@ -448,10 +506,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 13:08:00"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260802/SdkUend5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 16:36:57"
         }
       ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy",
+    "gh72-api-suoni",
+    "gh72-api-zuid"
+  ]
 }
