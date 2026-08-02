@@ -20,3 +20,20 @@
 - production_catalog_after: 3812
 - rejection_policy_preserved: True
 - publication_gate: qualified
+
+## Source breakdown
+
+| Source | Raw | Normalized | Added | Merged | Streams | Status |
+|---|---:|---:|---:|---:|---:|---|
+| gh72-api-dbzy | 100 | 100 | 94 | 6 | 49 | healthy |
+| gh72-api-xingba | 100 | 100 | 100 | 0 | 0 | healthy |
+| gh72-api-suoni | 20 | 20 | 19 | 1 | 0 | healthy |
+| gh72-api-ikun | 100 | 100 | 29 | 71 | 773 | healthy |
+| gh72-api-jszy | 100 | 100 | 15 | 85 | 286 | healthy |
+| gh72-api-zuid | 20 | 20 | 7 | 13 | 17 | healthy |
+| gh72-api-360zy | 100 | 100 | 3 | 97 | 593 | healthy |
+| gh72-api-maotai | 100 | 100 | 40 | 60 | 1329 | healthy |
+| gh72-api-xxibao | 20 | 20 | 20 | 0 | 0 | healthy |
+| gh72-api-mdzy | 100 | 100 | 4 | 96 | 573 | healthy |
+| gh72-live-baishi | 67 | 67 | 67 | 0 | 67 | healthy |
+| gh72-live-scenery | 70 | 70 | 70 | 0 | 70 | healthy |
