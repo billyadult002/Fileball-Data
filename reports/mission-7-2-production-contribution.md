@@ -21,6 +21,8 @@
 - rejection_policy_preserved: True
 - publication_gate: qualified
 
+- failures: {}
+
 ## Source breakdown
 
 | Source | Raw | Normalized | Added | Merged | Streams | Status |
