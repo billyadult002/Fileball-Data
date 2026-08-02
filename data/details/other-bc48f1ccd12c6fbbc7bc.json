@@ -6,7 +6,7 @@
   "year": 2026,
   "category": "足球",
   "section": "regular",
-  "poster": "https://hongniuzyimage.com/cover/af17b9d72632cf538b191472d83eceeb.jpg",
+  "poster": "https://hhmage.com/cover/af17b9d72632cf538b191472d83eceeb.jpg",
   "overview": "暂无简介",
   "actors": [],
   "directors": [],
@@ -16,6 +16,21 @@
   "updated_at": "2026-08-02 17:39:02",
   "source_records": [
     {
+      "source_id": "regular-新浪",
+      "source_vod_id": "169318",
+      "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-极速",
+      "source_vod_id": "113345",
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139457",
+      "source_name": "火狐|点播"
+    },
+    {
       "source_id": "regular-红牛",
       "source_vod_id": "152995",
       "source_name": "红牛|点播"
@@ -24,6 +39,16 @@
       "source_id": "regular-虎牙",
       "source_vod_id": "114803",
       "source_name": "虎牙|点播"
+    },
+    {
+      "source_id": "regular-豪华",
+      "source_vod_id": "139457",
+      "source_name": "豪华|点播"
+    },
+    {
+      "source_id": "regular-速博",
+      "source_vod_id": "117337",
+      "source_name": "速博|点播"
     }
   ],
   "episodes": [
@@ -43,6 +68,39 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 17:39:02"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/aM8J3XBe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:37:26"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dPNz3Gla/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:36:03"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aOYP3GGd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:36:02"
         },
         {
           "source_id": "regular-红牛",
@@ -67,6 +125,39 @@
           "updated_at": "2026-08-02 17:39:02"
         },
         {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/aM8J3XBe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:37:26"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dPNz3Gla",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:36:03"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aOYP3GGd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:36:02"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -79,5 +170,7 @@
         }
       ]
     }
-  ]
+  ],
+  "content_mode": "vod",
+  "media_type": "other"
 }

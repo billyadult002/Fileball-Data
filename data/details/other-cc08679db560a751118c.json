@@ -21,6 +21,11 @@
       "source_name": "新浪|点播"
     },
     {
+      "source_id": "regular-极速",
+      "source_vod_id": "113348",
+      "source_name": "极速|点播"
+    },
+    {
       "source_id": "regular-火狐",
       "source_vod_id": "139463",
       "source_name": "火狐|点播"
@@ -87,6 +92,17 @@
           "updated_at": "2026-08-02 17:52:26"
         },
         {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bYEy3Z9b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:51:02"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnm3u8",
@@ -131,6 +147,17 @@
           "updated_at": "2026-08-02 17:52:26"
         },
         {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bYEy3Z9b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:51:02"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -143,5 +170,7 @@
         }
       ]
     }
-  ]
+  ],
+  "content_mode": "vod",
+  "media_type": "other"
 }

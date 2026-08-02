@@ -18,9 +18,10 @@
     "剧情",
     "惊悚",
     "恐怖",
+    "冒险",
     "欧美"
   ],
-  "updated_at": "2026-08-02 20:01:17",
+  "updated_at": "2026-08-02 20:36:04",
   "source_records": [
     {
       "source_id": "regular-丫丫",
@@ -53,6 +54,11 @@
       "source_name": "索尼|点播"
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "148395",
+      "source_name": "量子|点播"
+    },
+    {
       "source_id": "regular-闪电",
       "source_vod_id": "134784",
       "source_name": "闪电|点播"
@@ -70,6 +76,17 @@
       "season": null,
       "episode": 1,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260726/9010_270241d7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 20:36:04"
+        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -159,6 +176,17 @@
           "updated_at": "2026-08-02 16:33:44"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/dff1749a367a95e75a84a6385df5dfa9",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 20:36:04"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "feifan",
@@ -177,6 +205,17 @@
       "season": null,
       "episode": 2,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260802/14446_6eb792a7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 20:36:04"
+        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -266,6 +305,17 @@
           "updated_at": "2026-08-02 16:33:44"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/6ec3ff0c922ce84561ce5162f912b47e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 20:36:04"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "feifan",
@@ -278,5 +328,7 @@
         }
       ]
     }
-  ]
+  ],
+  "content_mode": "vod",
+  "media_type": "tv"
 }

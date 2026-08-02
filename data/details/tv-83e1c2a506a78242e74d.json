@@ -16,17 +16,42 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-08-02 17:36:02",
+  "updated_at": "2026-08-02 17:39:02",
   "source_records": [
+    {
+      "source_id": "regular-新浪",
+      "source_vod_id": "169317",
+      "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-极速",
+      "source_vod_id": "113347",
+      "source_name": "极速|点播"
+    },
     {
       "source_id": "regular-火狐",
       "source_vod_id": "139459",
       "source_name": "火狐|点播"
     },
     {
+      "source_id": "regular-红牛",
+      "source_vod_id": "152997",
+      "source_name": "红牛|点播"
+    },
+    {
+      "source_id": "regular-虎牙",
+      "source_vod_id": "114801",
+      "source_name": "虎牙|点播"
+    },
+    {
       "source_id": "regular-豪华",
       "source_vod_id": "139459",
       "source_name": "豪华|点播"
+    },
+    {
+      "source_id": "regular-速博",
+      "source_vod_id": "117339",
+      "source_name": "速博|点播"
     }
   ],
   "episodes": [
@@ -36,6 +61,39 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hym3u8",
+          "url": "https://1080p.huyall.com/play/axk2Kyne/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:39:02"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/dwpKJxme/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:37:26"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/azp7MA7d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:36:03"
+        },
         {
           "source_id": "regular-豪华",
           "source_name": "豪华|点播",
@@ -48,6 +106,50 @@
           "updated_at": "2026-08-02 17:36:02"
         },
         {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnm3u8",
+          "url": "https://hn.bfvvs.com/play/erkmApka/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:34:26"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hyyun",
+          "url": "https://1080p.huyall.com/play/axk2Kyne",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:39:02"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/dwpKJxme",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:37:26"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/azp7MA7d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:36:03"
+        },
+        {
           "source_id": "regular-豪华",
           "source_name": "豪华|点播",
           "provider": "hhyun",
@@ -57,8 +159,21 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 17:36:02"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnyun",
+          "url": "https://hn.bfvvs.com/play/erkmApka",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 17:34:26"
         }
       ]
     }
-  ]
+  ],
+  "content_mode": "vod",
+  "media_type": "tv"
 }

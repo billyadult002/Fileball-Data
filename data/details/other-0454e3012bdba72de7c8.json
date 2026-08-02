@@ -24,7 +24,8 @@
     "曾英庭"
   ],
   "genres": [
-    "剧情"
+    "剧情",
+    "台湾"
   ],
   "updated_at": "2026-08-02 15:51:11",
   "source_records": [
@@ -32,6 +33,16 @@
       "source_id": "regular-u酷",
       "source_vod_id": "70900",
       "source_name": "U酷|点播"
+    },
+    {
+      "source_id": "regular-樱花",
+      "source_vod_id": "101265",
+      "source_name": "樱花|点播"
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "98860",
+      "source_name": "非凡|点播"
     }
   ],
   "episodes": [
@@ -44,6 +55,39 @@
         {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf8.com/20260802/RCeBMMFr/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 15:51:11"
+        },
+        {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260801/BDw1mNuTbw88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-01 13:00:13"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260731/37764_4d67c8d3/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-07-31 12:34:15"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
           "provider": "ukyun",
           "url": "https://ukzy.ukubf8.com/share/FPp3sBdAYm",
           "protocol": "http",
@@ -53,17 +97,19 @@
           "updated_at": "2026-08-02 15:51:11"
         },
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf8.com/20260802/RCeBMMFr/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/4d67c8d359f4940fccc597021f79d625",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 15:51:11"
+          "updated_at": "2026-07-31 12:34:15"
         }
       ]
     }
-  ]
+  ],
+  "content_mode": "vod",
+  "media_type": "other"
 }
