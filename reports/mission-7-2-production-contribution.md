@@ -1,21 +1,21 @@
 # Mission 7.2 production contribution
 
 - mission: 7.3
-- generated_at: 2026-08-04T21:12:22Z
+- generated_at: 2026-08-04T23:03:14Z
 - frozen_source_ids: ['gh72-api-360zy', 'gh72-api-dbzy', 'gh72-api-ikun', 'gh72-api-jszy', 'gh72-api-maotai', 'gh72-api-mdzy', 'gh72-api-suoni', 'gh72-api-xingba', 'gh72-api-xxibao', 'gh72-api-zuid', 'gh72-live-scenery']
 - raw_records: 830
 - canonical_staging_records: 689
 - vod_staging_records: 552
 - live_staging_records: 137
-- new_canonical_media_added: 0
+- new_canonical_media_added: 67
 - existing_canonical_media_enriched: 760
 - new_episodes_added: 0
-- new_streams_added: 0
-- new_live_channels_added: 0
+- new_streams_added: 67
+- new_live_channels_added: 67
 - duplicates_merged: 760
-- records_rejected_at_production_merge: 0
+- records_rejected_at_production_merge: -67
 - classification: {'Other': 313, 'Anime': 76, 'TV Series': 342, 'Movies': 20, 'Documentary': 3, 'AV': 6}
-- live_classification: {'TV channels': 0, 'scenery channels': 0, 'regional channels': 0, 'other live': 0}
+- live_classification: {'TV channels': 67, 'scenery channels': 0, 'regional channels': 0, 'other live': 0}
 - failures: {}
 - production_catalog_before: 3481
 - production_catalog_after: 4174
@@ -37,4 +37,4 @@
 | gh72-api-maotai | 100 | 100 | 0 | 100 | 0 | healthy |
 | gh72-api-xxibao | 20 | 20 | 0 | 20 | 0 | healthy |
 | gh72-api-mdzy | 100 | 100 | 0 | 100 | 0 | healthy |
-| gh72-live-scenery | 0 | 0 | 0 | 0 | 0 | healthy |
+| gh72-live-scenery | 67 | 67 | 67 | 0 | 67 | healthy |
