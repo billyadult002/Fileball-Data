@@ -2,14 +2,13 @@
 
 {
   "policy_version": "live-policy-1",
-  "generated_at": "2026-08-02T20:23:43Z",
-  "input_records": 428,
-  "audited_records": 428,
+  "generated_at": "2026-08-04T21:32:25Z",
+  "input_records": 73,
+  "audited_records": 73,
   "published_channels": 3,
   "published_streams": 3,
   "by_classification": {
-    "excluded_china_tv": 358,
-    "allowed_scenery": 3,
+    "allowed_scenery": 6,
     "excluded_unknown_origin": 67
   }
 }
