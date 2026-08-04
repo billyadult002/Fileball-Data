@@ -23,7 +23,7 @@
     "古装",
     "国产动漫"
   ],
-  "updated_at": "2026-08-02 12:00:11",
+  "updated_at": "2026-08-04 14:37:13",
   "source_records": [
     {
       "source_id": "regular-ikun",
@@ -64,6 +64,11 @@
       "source_id": "regular-非凡",
       "source_vod_id": "37922",
       "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "46745",
+      "source_name": "gh72-api-ikun"
     }
   ],
   "episodes": [
@@ -42732,8 +42737,30 @@
           "updated_at": "2026-08-01 10:19:08"
         }
       ]
+    },
+    {
+      "id": "anime-ea99c6f3f13f62b5186d-e0365-e3b0c442",
+      "name": "第365集",
+      "season": null,
+      "episode": 365,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260804/zBH5GjOY/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 14:37:13"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-ikun"
+  ]
 }

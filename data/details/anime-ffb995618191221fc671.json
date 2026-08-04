@@ -15,7 +15,7 @@
   "genres": [
     "动漫"
   ],
-  "updated_at": "2026-08-02 11:28:51",
+  "updated_at": "2026-08-04 11:33:15",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -36,6 +36,11 @@
       "source_id": "regular-魔都",
       "source_vod_id": "87286",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69713",
+      "source_name": "gh72-api-ikun"
     }
   ],
   "episodes": [
@@ -202,8 +207,49 @@
           "updated_at": "2026-08-02 11:18:52"
         }
       ]
+    },
+    {
+      "id": "anime-ffb995618191221fc671-e0005-e3b0c442",
+      "name": "第05集",
+      "season": null,
+      "episode": 5,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260803/vjNNHnfl/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 11:33:15"
+        }
+      ]
+    },
+    {
+      "id": "anime-ffb995618191221fc671-e0006-e3b0c442",
+      "name": "第06集",
+      "season": null,
+      "episode": 6,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260804/PYRwcqY9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 11:33:15"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-ikun"
+  ]
 }

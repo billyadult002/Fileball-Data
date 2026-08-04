@@ -21,12 +21,17 @@
   "genres": [
     "国产动漫"
   ],
-  "updated_at": "2026-08-02 12:23:22",
+  "updated_at": "2026-08-04 17:44:36",
   "source_records": [
     {
       "source_id": "regular-360",
       "source_vod_id": "64921",
       "source_name": "360|点播"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "64921",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -12930,8 +12935,30 @@
           "updated_at": "2026-08-02 12:23:22"
         }
       ]
+    },
+    {
+      "id": "anime-598c5997c653a2b1d7fd-e0680-e3b0c442",
+      "name": "第680集",
+      "season": null,
+      "episode": 680,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260804/Pkxmcg8t/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 17:44:36"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-360zy"
+  ]
 }
