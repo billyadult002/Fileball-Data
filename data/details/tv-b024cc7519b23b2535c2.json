@@ -16,12 +16,17 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-08-05 21:55:08",
+  "updated_at": "2026-08-06 07:03:54",
   "source_records": [
     {
       "source_id": "imported-api-guangsuapi-com-source",
       "source_vod_id": "171882",
       "source_name": "🍁┃光速┃有广"
+    },
+    {
+      "source_id": "imported-cj-lziapi-com-source",
+      "source_vod_id": "150436",
+      "source_name": "🔃量子┃资源"
     },
     {
       "source_id": "imported-hhzyapi-com-source",
@@ -37,6 +42,11 @@
       "source_id": "imported-jyzyapi-com-source",
       "source_vod_id": "116974",
       "source_name": "🔰金鹰┃影视"
+    },
+    {
+      "source_id": "imported-lzizy1-com-source",
+      "source_vod_id": "150436",
+      "source_name": "🥑┃量子┃资源"
     },
     {
       "source_id": "imported-www-huyaapi-com-source",
@@ -84,19 +94,14 @@
       "source_name": "速博|点播"
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "150436",
+      "source_name": "量子|点播"
+    },
+    {
       "source_id": "regular-魔都",
       "source_vod_id": "87571",
       "source_name": "魔都|点播"
-    },
-    {
-      "source_id": "gh72-api-jszy",
-      "source_vod_id": "113524",
-      "source_name": "gh72-api-jszy"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "87571",
-      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -107,6 +112,17 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzcdn33v1.com/20260805/28650_e28e0857/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 07:03:54"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -116,6 +132,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 21:55:08"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzcdn33v1.com/share/52d3882d85ec8a840371c62855241ceb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 07:03:54"
         }
       ]
     },
@@ -1870,9 +1897,5 @@
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-jszy",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "tv"
 }

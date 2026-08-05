@@ -17,8 +17,18 @@
     "现代都市",
     "国产"
   ],
-  "updated_at": "2026-08-05 20:17:02",
+  "updated_at": "2026-08-06 06:55:25",
   "source_records": [
+    {
+      "source_id": "imported-cj-lziapi-com-source",
+      "source_vod_id": "150420",
+      "source_name": "🔃量子┃资源"
+    },
+    {
+      "source_id": "imported-lzizy1-com-source",
+      "source_vod_id": "150420",
+      "source_name": "🥑┃量子┃资源"
+    },
     {
       "source_id": "regular-墨斗",
       "source_vod_id": "87562",
@@ -30,14 +40,14 @@
       "source_name": "樱花|点播"
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "150420",
+      "source_name": "量子|点播"
+    },
+    {
       "source_id": "regular-魔都",
       "source_vod_id": "87562",
       "source_name": "魔都|点播"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "87562",
-      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -48,6 +58,17 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzcdn33v1.com/20260805/28634_1aa18749/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 06:55:25"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -57,6 +78,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:17:02"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzcdn33v1.com/share/5c6839e11219ac4b4021d194b43665f7",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 06:55:25"
         }
       ]
     },
@@ -1706,8 +1738,5 @@
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-mdzy"
-  ]
+  "media_type": "tv"
 }
