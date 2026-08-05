@@ -27,16 +27,6 @@
   "updated_at": "2026-08-04 09:38:19",
   "source_records": [
     {
-      "source_id": "regular-ikun",
-      "source_vod_id": "movie-legacy-4234fe934a7792828bf4",
-      "source_name": "regular-ikun"
-    },
-    {
-      "source_id": "regular-u酷",
-      "source_vod_id": "movie-legacy-4234fe934a7792828bf4",
-      "source_name": "regular-u酷"
-    },
-    {
       "source_id": "regular-非凡",
       "source_vod_id": "98902",
       "source_name": "非凡|点播"
@@ -44,8 +34,8 @@
   ],
   "episodes": [
     {
-      "id": "movie-b41f27674f89f2bfc41e-item-0001-ba356c4a",
-      "name": "HD中字",
+      "id": "movie-b41f27674f89f2bfc41e-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
@@ -70,36 +60,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 09:38:19"
-        }
-      ]
-    },
-    {
-      "id": "main",
-      "name": "主片",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260802/4aFN8use/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 1,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.450936+00:00"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "regular-u酷",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://ukzyvod3.ukubf5.com/20260801/UYlYzYNL/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.450927+00:00"
         }
       ]
     }

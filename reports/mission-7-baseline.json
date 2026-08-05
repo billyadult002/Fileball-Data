@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-08-05T02:07:45.800365+00:00",
+  "generated_at": "2026-08-05T03:36:58.932184+00:00",
   "fresh_upstream_fetch": false,
   "catalog": {
-    "total": 6084,
+    "total": 6110,
     "type_counts": {
-      "other": 4782,
-      "tv": 773,
-      "anime": 367,
-      "variety": 144,
+      "other": 4783,
+      "tv": 798,
+      "anime": 380,
+      "variety": 131,
       "documentary": 7,
       "short": 11
     },
     "content_mode_counts": {
-      "vod": 6084
+      "vod": 6110
     },
     "section_counts": {
-      "regular": 2210,
+      "regular": 2236,
       "av": 3874
     },
     "dimensions": {
       "movie": {
         "canonical_media": 0,
-        "episode_count": 91852,
-        "stream_count": 799242,
+        "episode_count": 91767,
+        "stream_count": 799170,
         "playlist_entries": 0
       },
       "tv": {
-        "canonical_media": 773,
-        "episode_count": 51341,
-        "stream_count": 151530,
+        "canonical_media": 798,
+        "episode_count": 55288,
+        "stream_count": 177181,
         "playlist_entries": 0
       },
       "anime": {
-        "canonical_media": 367,
-        "episode_count": 27750,
-        "stream_count": 116100,
+        "canonical_media": 380,
+        "episode_count": 29709,
+        "stream_count": 105880,
         "playlist_entries": 0
       },
       "variety": {
-        "canonical_media": 144,
-        "episode_count": 16146,
-        "stream_count": 54594,
+        "canonical_media": 131,
+        "episode_count": 16016,
+        "stream_count": 54644,
         "playlist_entries": 0
       },
       "documentary": {
@@ -56,9 +56,9 @@
         "playlist_entries": 0
       },
       "other": {
-        "canonical_media": 4782,
-        "episode_count": 4606,
-        "stream_count": 6355,
+        "canonical_media": 4783,
+        "episode_count": 4607,
+        "stream_count": 6347,
         "playlist_entries": 0
       },
       "live": {
@@ -796,18 +796,18 @@
   },
   "sync": {
     "mode": "incremental",
-    "started_at": "2026-08-05T02:02:41Z",
-    "finished_at": "2026-08-05T02:06:52Z",
+    "started_at": "2026-08-05T03:30:57Z",
+    "finished_at": "2026-08-05T03:35:53Z",
     "status": "partial",
     "sources_total": 59,
     "sources_succeeded": 35,
     "sources_failed": 24,
     "records_received": 5400,
-    "media_generated": 97868,
-    "episodes_generated": 191729,
-    "streams_generated": 1127858,
-    "duplicates_merged": 2997,
-    "unsupported_streams": 416765,
+    "media_generated": 97842,
+    "episodes_generated": 197421,
+    "streams_generated": 1143259,
+    "duplicates_merged": 2998,
+    "unsupported_streams": 424617,
     "outputs_changed": true,
     "failures": [
       {
@@ -931,9 +931,13 @@
         "message": "[Errno -2] Name or service not known"
       }
     ],
+    "episode_regroup": {
+      "series_rebuilt": 5,
+      "records_absorbed": 32
+    },
     "carry_over": {
-      "previous_titles_read": 95988,
-      "titles_this_run_did_not_refetch": 95422,
+      "previous_titles_read": 97868,
+      "titles_this_run_did_not_refetch": 95416,
       "enabled": true
     },
     "source_pagination": [

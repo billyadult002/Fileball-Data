@@ -1,17 +1,17 @@
 {
   "mode": "incremental",
-  "started_at": "2026-08-05T02:02:41Z",
-  "finished_at": "2026-08-05T02:06:52Z",
+  "started_at": "2026-08-05T03:30:57Z",
+  "finished_at": "2026-08-05T03:35:53Z",
   "status": "partial",
   "sources_total": 59,
   "sources_succeeded": 35,
   "sources_failed": 24,
   "records_received": 5400,
-  "media_generated": 97868,
-  "episodes_generated": 191729,
-  "streams_generated": 1127858,
-  "duplicates_merged": 2997,
-  "unsupported_streams": 416765,
+  "media_generated": 97842,
+  "episodes_generated": 197421,
+  "streams_generated": 1143259,
+  "duplicates_merged": 2998,
+  "unsupported_streams": 424617,
   "outputs_changed": true,
   "failures": [
     {
@@ -135,9 +135,13 @@
       "message": "[Errno -2] Name or service not known"
     }
   ],
+  "episode_regroup": {
+    "series_rebuilt": 5,
+    "records_absorbed": 32
+  },
   "carry_over": {
-    "previous_titles_read": 95988,
-    "titles_this_run_did_not_refetch": 95422,
+    "previous_titles_read": 97868,
+    "titles_this_run_did_not_refetch": 95416,
     "enabled": true
   },
   "source_pagination": [

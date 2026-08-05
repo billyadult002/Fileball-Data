@@ -7,7 +7,7 @@
   "category": "科幻片",
   "section": "regular",
   "poster": "https://tupian.ffeiimg.com/upload/vod/20260802-1/638f01e8cd6736498c811ddf3e1fd17a.jpg",
-  "overview": "Recovered from an offline historical authorized playlist snapshot.",
+  "overview": "",
   "actors": [
     "根岸拓哉",
     "宫武美樱",
@@ -28,26 +28,32 @@
   "genres": [
     "science-fiction"
   ],
-  "updated_at": "2026-08-02T18:05:15.461096+00:00",
+  "updated_at": "2026-08-02 12:46:11",
   "source_records": [
     {
       "source_id": "regular-非凡",
       "source_vod_id": "98890",
       "source_name": "非凡|点播"
-    },
-    {
-      "source_id": "regular-非凡",
-      "source_vod_id": "movie-legacy-3e87d1042103a3d62b2f",
-      "source_name": "regular-非凡"
     }
   ],
   "episodes": [
     {
-      "id": "movie-459154d48e593e9cfa6b-item-0002-ba356c4a",
-      "name": "HD中字",
+      "id": "movie-459154d48e593e9cfa6b-main",
+      "name": "主片",
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-play9.com/20260802/46849_85cd9809/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 12:46:11"
+        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -69,25 +75,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 12:46:11"
-        }
-      ]
-    },
-    {
-      "id": "movie-459154d48e593e9cfa6b-item-0001-e0bf1616",
-      "name": "HD国语",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vip.ffzy-play9.com/20260802/46849_85cd9809/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:46:11"
         },
         {
           "source_id": "regular-非凡",
@@ -99,25 +86,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 12:46:11"
-        }
-      ]
-    },
-    {
-      "id": "main",
-      "name": "主片",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "regular-非凡",
-          "source_name": "regular-非凡",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://vip.ffzy-play9.com/20260802/46849_85cd9809/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451638+00:00"
         }
       ]
     }
