@@ -18,7 +18,7 @@
     "mystery",
     "drama"
   ],
-  "updated_at": "2026-08-04 21:12:34",
+  "updated_at": "2026-08-05 21:55:40",
   "source_records": [
     {
       "source_id": "imported-cj-ffzyapi-com-source",
@@ -54,6 +54,16 @@
       "source_id": "regular-魔都",
       "source_vod_id": "87526",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-dbzy",
+      "source_vod_id": "142145",
+      "source_name": "gh72-api-dbzy"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "142485",
+      "source_name": "gh72-api-maotai"
     }
   ],
   "episodes": [
@@ -106,6 +116,118 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 19:51:59"
+        },
+        {
+          "source_id": "gh72-api-dbzy",
+          "source_name": "gh72-api-dbzy",
+          "provider": "dbm3u8",
+          "url": "https://vodcnd16.ajupf.com/20260805/vfnHd0QY/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:39:11"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260805/w55SiEzJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:55:40"
+        }
+      ]
+    },
+    {
+      "id": "tv-42f706b311fcb447fac1-e0002-e3b0c442",
+      "name": "第02集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-dbzy",
+          "source_name": "gh72-api-dbzy",
+          "provider": "dbm3u8",
+          "url": "https://vodcnd16.ajupf.com/20260805/VWsO2sQQ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:39:11"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260805/In1u2pLD/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:55:40"
+        }
+      ]
+    },
+    {
+      "id": "tv-42f706b311fcb447fac1-e0003-e3b0c442",
+      "name": "第03集",
+      "season": null,
+      "episode": 3,
+      "streams": [
+        {
+          "source_id": "gh72-api-dbzy",
+          "source_name": "gh72-api-dbzy",
+          "provider": "dbm3u8",
+          "url": "https://vodcnd16.ajupf.com/20260805/5yr3T4VP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:39:11"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260805/xcFDi5gP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:55:40"
+        }
+      ]
+    },
+    {
+      "id": "tv-42f706b311fcb447fac1-e0004-e3b0c442",
+      "name": "第04集",
+      "season": null,
+      "episode": 4,
+      "streams": [
+        {
+          "source_id": "gh72-api-dbzy",
+          "source_name": "gh72-api-dbzy",
+          "provider": "dbm3u8",
+          "url": "https://vodcnd16.ajupf.com/20260805/9t8IHqip/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:39:11"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260805/9hCub5df/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 21:55:40"
         }
       ]
     }
@@ -173,5 +295,9 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-dbzy",
+    "gh72-api-maotai"
+  ]
 }
