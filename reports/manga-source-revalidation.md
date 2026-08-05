@@ -4,11 +4,12 @@
   "mission": "7.5",
   "source_id": "external-mangadex-org",
   "endpoint": "https://api.mangadex.org",
-  "checked_at": "2026-08-02T20:42:30.985882+00:00",
-  "status": "blocked",
-  "blocker": "ConnectError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1082)",
-  "catalog_records": 0,
-  "chapter_records": 0
+  "checked_at": "2026-08-05T06:33:18.235404+00:00",
+  "status": "enabled_external_reader",
+  "blocker": null,
+  "catalog_records": 24,
+  "chapter_records": 880,
+  "catalog_written": true
 }
 
 No placeholder records are published when the public API cannot be reached.
