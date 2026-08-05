@@ -17,7 +17,7 @@
   "genres": [
     "documentary"
   ],
-  "updated_at": "2026-08-05 21:42:27",
+  "updated_at": "2026-08-06 00:18:03",
   "source_records": [
     {
       "source_id": "regular-ikun",
@@ -43,6 +43,11 @@
       "source_id": "gh72-api-mdzy",
       "source_vod_id": "87590",
       "source_name": "gh72-api-mdzy"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "113556",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -73,6 +78,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 21:42:22"
+        },
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/egJnRWGd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:18:03"
         }
       ]
     }
@@ -135,6 +151,7 @@
   "media_type": "other",
   "source_ids": [
     "gh72-api-ikun",
+    "gh72-api-jszy",
     "gh72-api-mdzy"
   ]
 }

@@ -16,7 +16,7 @@
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-08-05 23:16:39",
+  "updated_at": "2026-08-06 00:32:40",
   "source_records": [
     {
       "source_id": "gh72-api-dbzy",
@@ -32,6 +32,11 @@
       "source_id": "gh72-api-maotai",
       "source_vod_id": "142699",
       "source_name": "gh72-api-maotai"
+    },
+    {
+      "source_id": "gh72-api-zuid",
+      "source_vod_id": "129009",
+      "source_name": "gh72-api-zuid"
     }
   ],
   "episodes": [
@@ -133,6 +138,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:00:22"
+        },
+        {
+          "source_id": "gh72-api-zuid",
+          "source_name": "gh72-api-zuid",
+          "provider": "zuidam3u8",
+          "url": "https://v14.zuidazym3u8.com/yyv14/202608/05/7AmCvH6fdn27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:32:40"
         }
       ]
     },
@@ -174,6 +190,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:00:22"
+        },
+        {
+          "source_id": "gh72-api-zuid",
+          "source_name": "gh72-api-zuid",
+          "provider": "zuidam3u8",
+          "url": "https://v14.zuidazym3u8.com/yyv14/202608/05/aqQWC1ch6q27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:32:40"
         }
       ]
     },
@@ -275,6 +302,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:00:22"
+        },
+        {
+          "source_id": "gh72-api-zuid",
+          "source_name": "gh72-api-zuid",
+          "provider": "zuidam3u8",
+          "url": "https://v14.zuidazym3u8.com/yyv14/202608/05/8DEgSg9yzJ27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:32:40"
         }
       ]
     }
@@ -339,7 +377,9 @@
   ],
   "media_type": "tv",
   "source_ids": [
+    "gh72-api-dbzy",
     "gh72-api-maotai",
-    "gh72-api-suoni"
+    "gh72-api-suoni",
+    "gh72-api-zuid"
   ]
 }
