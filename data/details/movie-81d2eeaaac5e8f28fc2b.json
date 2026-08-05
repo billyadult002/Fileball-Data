@@ -34,7 +34,7 @@
   "genres": [
     "horror"
   ],
-  "updated_at": "2026-08-05 14:31:28",
+  "updated_at": "2026-08-05 16:26:58",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -47,9 +47,19 @@
       "source_name": "ikun|点播"
     },
     {
-      "source_id": "regular-暴风",
-      "source_vod_id": "151355",
-      "source_name": "暴风|点播"
+      "source_id": "regular-u酷",
+      "source_vod_id": "71002",
+      "source_name": "U酷|点播"
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "87533",
+      "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "87533",
+      "source_name": "魔都|点播"
     }
   ],
   "episodes": [
@@ -59,6 +69,28 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260805/GbdJdWrG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 16:26:58"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzyvod3.ukubf5.com/20260805/wGg94Or9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:27:36"
+        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -82,15 +114,15 @@
           "updated_at": "2026-08-05 13:05:39"
         },
         {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://v.fengbao11.com/video/mengshiyijiaqin/7fb7db6696db/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzyvod3.ukubf5.com/share/j2IEpTdUTA",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:32:57"
+          "updated_at": "2026-08-05 15:27:36"
         }
       ]
     }
