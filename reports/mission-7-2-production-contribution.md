@@ -1,7 +1,7 @@
 # Mission 7.2 production contribution
 
 - mission: 7.3
-- generated_at: 2026-08-05T17:28:23Z
+- generated_at: 2026-08-05T17:29:53Z
 - frozen_source_ids: ['gh72-api-360zy', 'gh72-api-dbzy', 'gh72-api-ikun', 'gh72-api-jszy', 'gh72-api-maotai', 'gh72-api-mdzy', 'gh72-api-suoni', 'gh72-api-xingba', 'gh72-api-xxibao', 'gh72-api-zuid', 'gh72-live-scenery']
 - raw_records: 830
 - canonical_staging_records: 689
