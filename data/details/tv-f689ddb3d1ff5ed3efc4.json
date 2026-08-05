@@ -25,6 +25,41 @@
   "updated_at": "2026-08-05 20:42:09",
   "source_records": [
     {
+      "source_id": "imported-360zy-com-source",
+      "source_vod_id": "99539",
+      "source_name": "🍚玛丽┃秒播"
+    },
+    {
+      "source_id": "imported-cj-ffzyapi-com-source",
+      "source_vod_id": "98446",
+      "source_name": "🍁┃非凡┃有广"
+    },
+    {
+      "source_id": "imported-ffzy1-tv-source",
+      "source_vod_id": "98446",
+      "source_name": "🥗┃非凡┃资源"
+    },
+    {
+      "source_id": "imported-hhzyapi-com-source",
+      "source_vod_id": "136221",
+      "source_name": "🔥️火狐┃秒播"
+    },
+    {
+      "source_id": "imported-ikunzyapi-com-source",
+      "source_vod_id": "69056",
+      "source_name": "🥣爱坤┃影视"
+    },
+    {
+      "source_id": "imported-jszyapi-com-source",
+      "source_vod_id": "110108",
+      "source_name": "🎀极速┃采集"
+    },
+    {
+      "source_id": "imported-lzizy1-com-source",
+      "source_vod_id": "141732",
+      "source_name": "🥑┃量子┃资源"
+    },
+    {
       "source_id": "regular-360",
       "source_vod_id": "99539",
       "source_name": "360|点播"
@@ -40,6 +75,21 @@
       "source_name": "墨斗|点播"
     },
     {
+      "source_id": "regular-极速",
+      "source_vod_id": "110108",
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "136221",
+      "source_name": "火狐|点播"
+    },
+    {
+      "source_id": "regular-豪华",
+      "source_vod_id": "136221",
+      "source_name": "豪华|点播"
+    },
+    {
       "source_id": "regular-非凡",
       "source_vod_id": "98446",
       "source_name": "非凡|点播"
@@ -48,34 +98,2201 @@
       "source_id": "regular-魔都",
       "source_vod_id": "84671",
       "source_name": "魔都|点播"
-    },
-    {
-      "source_id": "gh72-api-ikun",
-      "source_vod_id": "69056",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-jszy",
-      "source_vod_id": "110108",
-      "source_name": "gh72-api-jszy"
-    },
-    {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "99539",
-      "source_name": "gh72-api-360zy"
-    },
-    {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "137548",
-      "source_name": "gh72-api-maotai"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "84671",
-      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0001-e3b0c442",
+      "name": "第1期上",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bo2Z4wja/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e5y7GNBe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b4x60M1b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/en5R4vRd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bo2Z4wja",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e5y7GNBe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b4x60M1b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/en5R4vRd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0002-e3b0c442",
+      "name": "第2期上",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bYE7O4Yb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dPNjBR6a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aOYgAQEd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eXDQN3Ve/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bYE7O4Yb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dPNjBR6a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aOYgAQEd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eXDQN3Ve",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0003-e3b0c442",
+      "name": "第3期上",
+      "season": null,
+      "episode": 3,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dBBPLDkd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dL9v8QXe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aADMPB3e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aKrLZPMe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dBBPLDkd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dL9v8QXe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aADMPB3e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aKrLZPMe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0004-e3b0c442",
+      "name": "第4期上",
+      "season": null,
+      "episode": 4,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/azp7qLYd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bqxlAy2a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dyP9pK7b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/epYk9x2a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/azp7qLYd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bqxlAy2a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dyP9pK7b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/epYk9x2a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0005-e3b0c442",
+      "name": "第5期上",
+      "season": null,
+      "episode": 5,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e5yR49Xe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/egJnELjd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b4xz3RJb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e0R07VNb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e5yR49Xe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/egJnELjd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b4xz3RJb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e0R07VNb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0006-e3b0c442",
+      "name": "第6期上",
+      "season": null,
+      "episode": 6,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bo2j1v3a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/egJn0x3d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e0R0K2Kb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/en5g1YEd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bo2j1v3a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/egJn0x3d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e0R0K2Kb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/en5g1YEd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-e0007-e3b0c442",
+      "name": "第7期上",
+      "season": null,
+      "episode": 7,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bW6QY5Ea/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e31yZkAb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b2k7YjMd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eVO7X4za/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bW6QY5Ea",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e31yZkAb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b2k7YjMd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eVO7X4za",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0001-07f80047",
+      "name": "20260617先导片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260618/11447_fe01da57/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/327e125136fd2d7d012efe5acf1a1301",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0002-7b7715b1",
+      "name": "20260624上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260624/11718_64c2fc24/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/5e72a74d8b2d25bc4ed9f479909c4b98",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0003-ce2f8ba2",
+      "name": "20260624下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260624/11717_e13deac7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/7da9de56f480e009b5e9f18b279859d7",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0004-86753f39",
+      "name": "20260625饭纯享版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260625/11775_0eae574e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/88059058ba56daa4bf889eb6cdf2e6c1",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0005-35593e76",
+      "name": "20260629百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260629/11972_24c1886f/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/6d79e030371e47e6231337805a7a2685",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0006-6fcea21c",
+      "name": "20260701上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260701/12058_bcc31cde/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/de56596363329673fab1b93be2210df7",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0007-569b1406",
+      "name": "20260701下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260701/12057_fe959a43/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/8b910e56415eb6bd1037b46e6e619c58",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0008-46d1c7c8",
+      "name": "20260702下饭纯享版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260702/12108_1c96adfa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/786fc80896b25422b5324cb6e57b701c",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0015-4720c82a",
+      "name": "20260702百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dJ6NnB2d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dG6Mk07b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dJ6NnB2d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dG6Mk07b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0009-18232fa2",
+      "name": "20260708上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260708/12390_757496ab/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/03bc8e45ce4903b86f933ebb1fedbc44",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0010-a9f7e018",
+      "name": "20260708下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260708/12389_18a452e7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/945a1b4276b1524763d2acc19dc8c475",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0008-4c50b351",
+      "name": "20260709下饭纯享",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bYEyWzYb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eXDrLyVe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bYEyWzYb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eXDrLyVe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0012-55af5620",
+      "name": "20260709下饭纯享版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260709/12455_a971351a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/0dd4f2526c7c874d06f19523264f6552",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0007-f3bde752",
+      "name": "20260709百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260709/12454_3ae8306b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dJ6Ny4yd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dG6Mv15b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/e43a09ffc30b44cb1f0db46f87836f40",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dJ6Ny4yd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dG6Mv15b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0013-0ba5edb7",
+      "name": "20260715上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260715/12736_54a55de7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/fc9e5c39356354a60d33ca59499913ca",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0014-ef7fa304",
+      "name": "20260715下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260715/12733_344969c0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/e350113047e82ceecb455c33c21ef32a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0011-2ad54a7a",
+      "name": "20260716下饭纯享",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/av28D2Va/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/erkmXkwa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/av28D2Va",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/erkmXkwa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0010-5f52546c",
+      "name": "20260716百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260716/12820_0c3f85b9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bmZYGZpd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/elY2DYla/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/e4017fc196bfb479f173f387595d79e5",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bmZYGZpd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/elY2DYla",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0016-4c69cdd5",
+      "name": "20260716饭纯享版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260716/12821_bd281e65/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/c05c903e3d997added79518f0e850026",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0017-629cb460",
+      "name": "20260722上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260722/13122_75b03920/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/8922176f5043c3196357e6e8d2d50852",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0018-05472890",
+      "name": "20260722下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260722/13121_adae93b5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/74890305f6e5581d18ccfdbc2dbd7939",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0018-d0cbdae5",
+      "name": "20260722抢先版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e9rDkqJa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b82Mjpje/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e9rDkqJa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b82Mjpje",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0013-ea3f6a44",
+      "name": "20260723下饭纯享",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/eER0pDka/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bDkQoBna/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/eER0pDka",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bDkQoBna",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0020-f63d5607",
+      "name": "20260723下饭纯享版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260723/13179_1d5fc15e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/db59260cce0b871c7b2bb780eee305db",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0014-fa336a34",
+      "name": "20260723百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260723/13178_a2733b74/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/azp78kYd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dyP94j7b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/1d6047b6fe956eae11ba23c70e9fe053",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/azp78kYd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dyP94j7b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0021-cd2312ed",
+      "name": "20260729上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260729/13457_13de9696/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/1cd45c346398d2ee6a71296e1fa88796",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0022-3313039c",
+      "name": "20260729下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260729/13456_c8b3c32d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/92251e8665e19be62c86ff039528e16e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0019-1d811685",
+      "name": "20260729抢先版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bmZYDARd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/elY2BJja/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bmZYDARd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/elY2BJja",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0017-8661791c",
+      "name": "20260730下饭纯享",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/axk23y9e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dwpK3xRe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/axk23y9e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dwpK3xRe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0024-61588123",
+      "name": "20260730下饭纯享版",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260730/13520_239a0f7d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/2410f01cc34c57702bbec8f884db18d5",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0020-a6ea88b4",
+      "name": "20260730百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260730/13521_7c72e740/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/av28PN8a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/erkmLJ2a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/f2a58d530f82792e08c9ffb0e7f0ee1f",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/av28PN8a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/erkmLJ2a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0025-eb112382",
+      "name": "20260805上",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260805/13808_b4b330f6/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/1de5b30a72e738862b9f25c1131f2a98",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0026-f649f27a",
+      "name": "20260805下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260805/13807_5cf8321f/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        },
+        {
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/71ffa17407d66e134442eebb32d330ec",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 12:32:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0003-9ee39fc5",
+      "name": "下饭纯享",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dBBrw7Wd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dJ68pV2d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aAD6v7pe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dG6RmP7b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dBBrw7Wd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dJ68pV2d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aAD6v7pe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dG6RmP7b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0001-6023175d",
+      "name": "先导",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bYE7P3Kb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eXDQO8We/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bYE7P3Kb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eXDQO8We",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
+    {
+      "id": "tv-f689ddb3d1ff5ed3efc4-item-0004-f473e85f",
+      "name": "百厨干饭局",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dPNj3zya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aOYg3PBd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dPNj3zya",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:09"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aOYg3PBd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 13:42:01"
+        }
+      ]
+    },
     {
       "id": "tv-f689ddb3d1ff5ed3efc4-item-0001-0f8aca82",
       "name": "第20260617期先导",
@@ -303,17 +2520,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260626/0aku6wbT/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -519,17 +2725,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260701/aGnTvECF/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -593,17 +2788,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260701/YHFEuyNE/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -749,17 +2933,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/H4bPuc6H/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -823,17 +2996,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/9GJQ7AfH/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -946,17 +3108,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd13.uvjtih.cn/20260709/DtgSjjRW/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1050,17 +3201,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260715/AzmlpDGj/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1124,17 +3264,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260715/EWfkSbB6/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1176,17 +3305,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260716/MqtfZI3Z/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1228,17 +3346,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260716/VKsiZ2hg/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1488,17 +3595,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260722/BegHFbSw/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1540,17 +3636,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260729/CFlYkFxh/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1592,17 +3677,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260729/l4haSPYu/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1666,17 +3740,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260729/cuWTDW5Z/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1740,17 +3803,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:29:39"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260729/DnffNhbV/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1792,17 +3844,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260730/0u8q7cKX/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1844,17 +3885,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260730/swKD23ym/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -1896,17 +3926,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:14:31"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260730/bA5Znuu0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
         }
       ]
     },
@@ -2076,648 +4095,6 @@
           "updated_at": "2026-08-05 20:14:31"
         }
       ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0001-6023175d",
-      "name": "先导",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bYE7P3Kb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0001-e3b0c442",
-      "name": "第1期上",
-      "season": null,
-      "episode": 1,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bo2Z4wja/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e5y7GNBe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0003-9ee39fc5",
-      "name": "下饭纯享",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dJ68pV2d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dBBrw7Wd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0004-f473e85f",
-      "name": "百厨干饭局",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dPNj3zya/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0002-e3b0c442",
-      "name": "第2期上",
-      "season": null,
-      "episode": 2,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bYE7O4Yb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dPNjBR6a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0003-e3b0c442",
-      "name": "第3期上",
-      "season": null,
-      "episode": 3,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dBBPLDkd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dL9v8QXe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0007-f3bde752",
-      "name": "20260709百厨干饭局",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dJ6Ny4yd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0008-4c50b351",
-      "name": "20260709下饭纯享",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bYEyWzYb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0004-e3b0c442",
-      "name": "第4期上",
-      "season": null,
-      "episode": 4,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/azp7qLYd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bqxlAy2a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0010-5f52546c",
-      "name": "20260716百厨干饭局",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bmZYGZpd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0011-2ad54a7a",
-      "name": "20260716下饭纯享",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/av28D2Va/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0005-e3b0c442",
-      "name": "第5期上",
-      "season": null,
-      "episode": 5,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/egJnELjd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e5yR49Xe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0013-ea3f6a44",
-      "name": "20260723下饭纯享",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/eER0pDka/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0014-fa336a34",
-      "name": "20260723百厨干饭局",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/azp78kYd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0015-4720c82a",
-      "name": "20260702百厨干饭局",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dJ6NnB2d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0006-e3b0c442",
-      "name": "第6期上",
-      "season": null,
-      "episode": 6,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bo2j1v3a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/egJn0x3d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0017-8661791c",
-      "name": "20260730下饭纯享",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/axk23y9e/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0018-d0cbdae5",
-      "name": "20260722抢先版",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e9rDkqJa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0019-1d811685",
-      "name": "20260729抢先版",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bmZYDARd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0020-a6ea88b4",
-      "name": "20260730百厨干饭局",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/av28PN8a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0007-e3b0c442",
-      "name": "第7期上",
-      "season": null,
-      "episode": 7,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e31yZkAb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bW6QY5Ea/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 13:42:09"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0001-faf5c6d2",
-      "name": "第20260624期先导",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260624/PGt7KLrh/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0002-a4d9d2fb",
-      "name": "20260624第一期上",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260624/9UwI3DX5/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0004-f748dddf",
-      "name": "第20260629期",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260629/i1HNFV76/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0007-22143b0c",
-      "name": "第20260702期",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260702/qnFhjQNh/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-item-0011-34cfeaa4",
-      "name": "第20260709期下饭纯享版",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd13.uvjtih.cn/20260709/xXWD02Fn/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0005-e3b0c442",
-      "name": "20260722第5期上",
-      "season": null,
-      "episode": 5,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260722/uIPPeZuW/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260722/ysDK9BGJ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
-    },
-    {
-      "id": "tv-f689ddb3d1ff5ed3efc4-e0007-e3b0c442",
-      "name": "20260805第7期上",
-      "season": null,
-      "episode": 7,
-      "streams": [
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260805/lVuycPbG/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260805/OT4DXRVv/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:50:35"
-        }
-      ]
     }
   ],
   "content_mode": "vod",
@@ -2769,12 +4146,5 @@
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-ikun",
-    "gh72-api-jszy",
-    "gh72-api-maotai",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "tv"
 }

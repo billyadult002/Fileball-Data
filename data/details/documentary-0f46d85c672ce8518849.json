@@ -7,27 +7,44 @@
   "category": "纪录片",
   "section": "regular",
   "poster": "https://www.imgzy360.com:7788/upload/vod/20260805-1/4c6387e6312eae24714211b22c6b259c.webp",
-  "overview": "",
+  "overview": "暂无简介",
   "actors": [
     "莫·吉里根"
   ],
   "directors": [
-    "Liana Stewart"
+    "Liana Stewart",
+    "Liana",
+    "Stewart"
   ],
   "genres": [
     "documentary"
   ],
-  "updated_at": "2026-08-05 20:16:12",
+  "updated_at": "2026-08-06 00:17:26",
   "source_records": [
+    {
+      "source_id": "imported-360zy-com-source",
+      "source_vod_id": "103005",
+      "source_name": "🍚玛丽┃秒播"
+    },
     {
       "source_id": "regular-360",
       "source_vod_id": "103005",
       "source_name": "360|点播"
     },
     {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "103005",
-      "source_name": "gh72-api-360zy"
+      "source_id": "regular-新浪",
+      "source_vod_id": "169528",
+      "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-红牛",
+      "source_vod_id": "153206",
+      "source_name": "红牛|点播"
+    },
+    {
+      "source_id": "regular-速博",
+      "source_vod_id": "117548",
+      "source_name": "速博|点播"
     }
   ],
   "episodes": [
@@ -38,6 +55,28 @@
       "episode": null,
       "streams": [
         {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/b82MGrge/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:17:26"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnm3u8",
+          "url": "https://hn.bfvvs.com/play/b68BDpVe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:17:01"
+        },
+        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -47,6 +86,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:16:12"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/b82MGrge",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:17:26"
+        },
+        {
+          "source_id": "regular-红牛",
+          "source_name": "红牛|点播",
+          "provider": "hnyun",
+          "url": "https://hn.bfvvs.com/play/b68BDpVe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:17:01"
         }
       ]
     }
@@ -103,8 +164,5 @@
       "official": true
     }
   ],
-  "media_type": "documentary",
-  "source_ids": [
-    "gh72-api-360zy"
-  ]
+  "media_type": "documentary"
 }

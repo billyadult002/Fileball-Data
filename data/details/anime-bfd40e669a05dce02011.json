@@ -6,7 +6,7 @@
   "year": 2025,
   "category": "动画片",
   "section": "regular",
-  "poster": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2926295779.webp",
+  "poster": "https://hhmage.com/cover/b7a8a8671824efbc6758debeeb3b2b31.jpg",
   "overview": "人死后，轮回之前，亡魂会来到一处奇异之地——“世外”。灵守日复一日引领亡魂去投胎，直至一天，灵守小鬼遇上了不愿转世的小妹，让不懂人类情感的小鬼看到了不再一样的“世外”。 在带领小妹转世的路途上，小鬼揭示了她前世的遗憾，亦触发了难以逆转的诅咒——若小妹完全被忿恨支配，不论世外、人间，将与她一同灰飞烟灭…… 为了小妹，小鬼得到天女的允许，与武功高强的黑天踏上横跨千年的征途，纵然在路上危机四伏，他仍不惜多次舍身相救，只为了小妹能忘记过去的伤痛，并原谅自己，一身轻盈，走上轮回转世之路……",
   "actors": [
     "钟雪莹",
@@ -25,9 +25,34 @@
   "updated_at": "2026-08-05 19:58:17",
   "source_records": [
     {
+      "source_id": "imported-hhzyapi-com-source",
+      "source_vod_id": "139600",
+      "source_name": "🔥️火狐┃秒播"
+    },
+    {
+      "source_id": "imported-jyzyapi-com-source",
+      "source_vod_id": "116936",
+      "source_name": "🔰金鹰┃影视"
+    },
+    {
+      "source_id": "imported-lzizy1-com-source",
+      "source_vod_id": "150226",
+      "source_name": "🥑┃量子┃资源"
+    },
+    {
+      "source_id": "imported-www-huyaapi-com-source",
+      "source_vod_id": "114944",
+      "source_name": "🐯虎牙采集"
+    },
+    {
       "source_id": "regular-新浪",
       "source_vod_id": "169460",
       "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139600",
+      "source_name": "火狐|点播"
     },
     {
       "source_id": "regular-虎牙",
@@ -35,9 +60,9 @@
       "source_name": "虎牙|点播"
     },
     {
-      "source_id": "regular-量子",
-      "source_vod_id": "150226",
-      "source_name": "量子|点播"
+      "source_id": "regular-豪华",
+      "source_vod_id": "139600",
+      "source_name": "豪华|点播"
     }
   ],
   "episodes": [
@@ -48,24 +73,24 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
           "provider": "lzm3u8",
           "url": "https://v.lfthirtytwo.com/20260805/9256_0df4eab7/index.m3u8",
           "protocol": "hls",
           "supported": true,
-          "priority": 50,
+          "priority": 60,
           "health": "unknown",
           "updated_at": "2026-08-05 19:58:17"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
           "provider": "liangzi",
           "url": "https://v.lfthirtytwo.com/share/e82a0d322fa2653ba0ce48474cbe03a6",
           "protocol": "http",
           "supported": false,
-          "priority": 50,
+          "priority": 60,
           "health": "unknown",
           "updated_at": "2026-08-05 19:58:17"
         }
@@ -78,6 +103,17 @@
       "episode": null,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dL9vKBre/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:03"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
@@ -87,6 +123,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 20:39:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aM8JLBGe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:01"
         },
         {
           "source_id": "regular-新浪",
@@ -100,6 +147,17 @@
           "updated_at": "2026-08-04 20:35:03"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dL9vKBre",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:03"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
@@ -109,6 +167,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 20:39:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aM8JLBGe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:01"
         },
         {
           "source_id": "regular-新浪",

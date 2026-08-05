@@ -32,6 +32,41 @@
   "updated_at": "2026-08-05 23:41:51",
   "source_records": [
     {
+      "source_id": "imported-api-guangsuapi-com-source",
+      "source_vod_id": "169072",
+      "source_name": "🍁┃光速┃有广"
+    },
+    {
+      "source_id": "imported-hhzyapi-com-source",
+      "source_vod_id": "136829",
+      "source_name": "🔥️火狐┃秒播"
+    },
+    {
+      "source_id": "imported-jszyapi-com-source",
+      "source_vod_id": "110716",
+      "source_name": "🎀极速┃采集"
+    },
+    {
+      "source_id": "imported-jyzyapi-com-source",
+      "source_vod_id": "114164",
+      "source_name": "🔰金鹰┃影视"
+    },
+    {
+      "source_id": "imported-suoniapi-com-source",
+      "source_vod_id": "149580",
+      "source_name": "🐉┃索尼┃高清"
+    },
+    {
+      "source_id": "imported-suonizy-com-source",
+      "source_vod_id": "149580",
+      "source_name": "🍁┃索尼┃有广"
+    },
+    {
+      "source_id": "imported-www-huyaapi-com-source",
+      "source_vod_id": "112169",
+      "source_name": "🐯虎牙采集"
+    },
+    {
       "source_id": "regular-u酷",
       "source_vod_id": "69624",
       "source_name": "U酷|点播"
@@ -40,6 +75,26 @@
       "source_id": "regular-新浪",
       "source_vod_id": "166688",
       "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "164803",
+      "source_name": "无尽|点播"
+    },
+    {
+      "source_id": "regular-极速",
+      "source_vod_id": "110716",
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "136829",
+      "source_name": "火狐|点播"
+    },
+    {
+      "source_id": "regular-索尼",
+      "source_vod_id": "149580",
+      "source_name": "索尼|点播"
     },
     {
       "source_id": "regular-红牛",
@@ -52,24 +107,14 @@
       "source_name": "虎牙|点播"
     },
     {
+      "source_id": "regular-豪华",
+      "source_vod_id": "136829",
+      "source_name": "豪华|点播"
+    },
+    {
       "source_id": "regular-速博",
       "source_vod_id": "114709",
       "source_name": "速博|点播"
-    },
-    {
-      "source_id": "gh72-api-suoni",
-      "source_vod_id": "149580",
-      "source_name": "gh72-api-suoni"
-    },
-    {
-      "source_id": "gh72-api-jszy",
-      "source_vod_id": "110716",
-      "source_name": "gh72-api-jszy"
-    },
-    {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "139381",
-      "source_name": "gh72-api-maotai"
     }
   ],
   "episodes": [
@@ -80,10 +125,76 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dNkO3gLe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dL9Z3Oge/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202606/29/uMKH9qtHJX27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v3.ppqrrs.com/wjv3/202606/29/GNV0gUwfRV88/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aOYg3jgd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dNkO3gLe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dPNj3kza/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -124,10 +235,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dNkO3gLe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dL9Z3Oge",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aOYg3jgd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dNkO3gLe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dPNj3kza",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -166,28 +321,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202606/29/uMKH9qtHJX27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/ZpyZwcPD/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -198,10 +331,76 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/e316MgMb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/e1w6KORb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202606/30/rAMTmQc3Qm27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v7.ppqrrs.com/wjv7/202606/30/TDCRzJM1Ci92/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b4x6Nj1b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/e316MgMb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e5y7OkBe/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -242,10 +441,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/e316MgMb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/e1w6KORb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b4x6Nj1b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/e316MgMb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e5y7OkBe",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -284,28 +527,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202606/30/rAMTmQc3Qm27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/0bYSfuxr/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -316,10 +537,76 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dBBrwK2d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/azp6W25d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/02/drbiwqMEtN27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v4.ppqrrs.com/wjv4/202607/02/e0XKtaS8Wu90/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bDkqyMAa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dBBrwK2d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/eERqzNma/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -360,10 +647,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dBBrwK2d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/azp6W25d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bDkqyMAa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dBBrwK2d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/eERqzNma",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -402,28 +733,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/02/drbiwqMEtN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/wxNvCrYC/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -434,10 +743,76 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dPNj0yya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dNkOVwme/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/02/LzdR4Mpzbq27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v5.ppqrrs.com/wjv5/202607/02/66BgEHDt5L92/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aQWkYzMd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dPNj0yya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dR6lZAzd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -478,10 +853,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dPNj0yya",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dNkOVwme",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aQWkYzMd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dPNj0yya",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dR6lZAzd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -520,17 +939,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/lTZz4785/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -541,10 +949,76 @@
       "episode": 5,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/e31679Mb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/e1w659Rb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/03/enYHP5Ht3A27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v11.ppqrrs.com/wjv11/202607/03/9QVVEMy9At92/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b4x6g91b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/e31679Mb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e5y7jWBe/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -585,10 +1059,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/e31679Mb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/e1w659Rb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b4x6g91b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/e31679Mb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e5y7jWBe",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -627,17 +1145,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/fgo3O0bj/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -648,10 +1155,76 @@
       "episode": 6,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dBBPo42d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/azp7PZ5d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/06/S8f7zmnE7K27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202607/06/jgcf0wEwJS87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bDkQN4Aa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dBBPo42d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/eER0O4ma/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -692,10 +1265,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dBBPo42d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/azp7PZ5d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bDkQN4Aa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dBBPo42d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/eER0O4ma",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -734,17 +1351,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/rceUP7CZ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -755,10 +1361,76 @@
       "episode": 7,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/azp7K32d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/axk2v3Pe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/09/DQhhAEbRrq27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202607/09/c4Dy6fxpqJ87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aADMPVje/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/azp7K32d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dBBPL5od/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -799,10 +1471,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/azp7K32d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/axk2v3Pe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aADMPVje",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/azp7K32d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dBBPL5od",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -841,17 +1557,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260708/uvNLJr1f/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -862,10 +1567,76 @@
       "episode": 8,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dR6PPr0d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dPNzzpla/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/09/ub4Jevphdk27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202607/09/4Cd7fPH9wE87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eVO77y9a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dR6PPr0d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bW6QQzXa/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -906,10 +1677,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dR6PPr0d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dPNzzpla",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eVO77y9a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dR6PPr0d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bW6QQzXa",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -948,28 +1763,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/09/ub4Jevphdk27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/oNem0XaX/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -980,10 +1773,76 @@
       "episode": 9,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bqxllrDa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/bo2jj0Aa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/09/UBsC13SRBp27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v12.ppqrrs.com/wjv12/202607/09/ux0R1S8FW494/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/erkmmvBa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bqxllrDa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/av288zLa/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1024,10 +1883,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bqxllrDa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/bo2jj0Aa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/erkmmvBa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bqxllrDa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/av288zLa",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1066,28 +1969,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/09/UBsC13SRBp27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/0g2zZns0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1098,10 +1979,76 @@
       "episode": 10,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bkRr7Lxa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/egJn2E9d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/10/bperDZd8MR27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v1.ppqrrs.com/202607/10/CanARL8zTx87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/elY27gla/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bkRr7Lxa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bmZYyjpd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1142,10 +2089,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bkRr7Lxa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/egJn2E9d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/elY27gla",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bkRr7Lxa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bmZYyjpd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1184,28 +2175,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bmZYyjpd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/kzX4vdi9/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1216,10 +2185,76 @@
       "episode": 11,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bkRrwYra/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/egJnxRZd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/13/LMh33P8pkW27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v7.ppqrrs.com/wjv7/202607/13/1zNqunfWSh90/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/elY2vZ7a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bkRrwYra/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bmZY21Ed/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1260,10 +2295,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bkRrwYra",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/egJnxRZd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/elY2vZ7a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bkRrwYra",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bmZY21Ed",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1302,39 +2381,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/13/LMh33P8pkW27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bmZY21Ed/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/LStLiKjB/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1345,10 +2391,76 @@
       "episode": 12,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dJ6N769d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/eER06Rma/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/15/g4tDtd7Tum27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v8.ppqrrs.com/wjv8/202607/15/nwB7iqpNF189/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aKrL5rle/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dJ6N769d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dL9v59pe/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1389,10 +2501,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dJ6N769d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/eER06Rma",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aKrL5rle",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dJ6N769d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dL9v59pe",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1431,39 +2587,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/15/g4tDtd7Tum27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dL9v59pe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/xbAVwhl2/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1474,10 +2597,76 @@
       "episode": 13,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/e9rDO3Ya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/e73pODOe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/16/32G0qV5YnJ27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v3.ppqrrs.com/wjv3/202607/16/VKUS1sgjyY93/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e0R0OA3b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/e9rDO3Ya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/egJn67Dd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1518,10 +2707,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/e9rDO3Ya",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/e73pODOe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e0R0OA3b",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/e9rDO3Ya",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/egJn67Dd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1560,28 +2793,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/egJn67Dd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/Dorex1y7/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1592,10 +2803,76 @@
       "episode": 14,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bo2jXzBa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/bmZYNx9d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/16/kUatysQ2nv27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202607/16/Htc4CaWd4w94/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/epYkLApa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bo2jXzBa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bqxlLB0a/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1636,10 +2913,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bo2jXzBa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/bmZYNx9d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/epYkLApa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bo2jXzBa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bqxlLB0a",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1678,28 +2999,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bqxlLB0a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260718/KJGL7cof/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1710,10 +3009,76 @@
       "episode": 15,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/azp74B2d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/axk2zVPe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/18/mFNnu0cEBJ27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202607/18/Tf3dhbGLJZ89/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aADMXQje/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/azp74B2d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dBBPX1od/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1754,10 +3119,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/azp74B2d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/axk2zVPe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aADMXQje",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/azp74B2d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dBBPX1od",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1796,39 +3205,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/18/mFNnu0cEBJ27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dBBPX1od/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260724/xuPjAAt4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1839,10 +3215,76 @@
       "episode": 16,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/azp7ypyd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/axk2wkBe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/21/UmiPveXDFg27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202607/21/sfkzMpCR8W88/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aADMgDle/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/azp7ypyd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dBBPjBYd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -1883,10 +3325,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/azp7ypyd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/axk2wkBe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aADMgDle",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/azp7ypyd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dBBPjBYd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -1925,28 +3411,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dBBPjBYd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260724/8pUnlF2u/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -1957,10 +3421,76 @@
       "episode": 17,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dL9vmDre/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dJ6NkAgd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/24/79q6WN6BNX27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v4.ppqrrs.com/wjv4/202607/24/iWyRvfGpC386/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aM8JngGe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dL9vmDre/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dNkYojve/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2001,10 +3531,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dL9vmDre",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dJ6NkAgd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aM8JngGe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dL9vmDre",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dNkYojve",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2043,28 +3617,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dNkYojve/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260726/TtCsTBEs/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2075,10 +3627,76 @@
       "episode": 18,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/e73pq71e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/e5yRoE8e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/24/UtLz6gLfLD27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v2.ppqrrs.com/wjv2/202607/24/MMChqAaEJe91/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b82Mr73e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/e73pq71e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e9rDv7Da/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2119,10 +3737,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/e73pq71e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/e5yRoE8e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b82Mr73e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/e73pq71e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e9rDv7Da",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2161,28 +3823,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e9rDv7Da/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260726/sFLCIM3s/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2193,10 +3833,76 @@
       "episode": 19,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bqxlWXpa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/bo2jW9Xa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/24/0mfcSmGHFJ27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v8.ppqrrs.com/wjv8/202607/24/P2VTtZ4Nkd90/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/erkmWNpa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bqxlWXpa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/av28675a/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2237,10 +3943,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bqxlWXpa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/bo2jW9Xa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/erkmWNpa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bqxlWXpa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/av28675a",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2279,28 +4029,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/av28675a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260726/9YjQxYT1/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2311,10 +4039,76 @@
       "episode": 20,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bkRrk4Ja/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/egJnO4rd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202607/24/znCHVzSDcb27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v5.ppqrrs.com/wjv5/202607/24/21Keswm8uA88/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/elY2l4ja/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bkRrk4Ja/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bmZYmxRd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2355,10 +4149,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bkRrk4Ja",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/egJnO4rd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/elY2l4ja",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bkRrk4Ja",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bmZYmxRd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2397,39 +4235,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/24/znCHVzSDcb27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bmZYmxRd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260726/gXaw0GVn/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2440,10 +4245,76 @@
       "episode": 21,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/e1wGZnqb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/bYEyLnYb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/27/q7UDkG5eYi27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v2.ppqrrs.com/wjv2/202607/27/jM3JdbW9EB91/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b2k7ZoAd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/e1wGZnqb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e31y8ppb/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2484,10 +4355,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/e1wGZnqb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/bYEyLnYb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b2k7ZoAd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/e1wGZnqb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e31y8ppb",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2526,28 +4441,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e31y8ppb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd17.uvjtih.cn/20260803/vb51CkRA/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2558,10 +4451,76 @@
       "episode": 22,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bW6Q4lEa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dR6P90Vd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202608/01/QgTzNFLT3V27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202608/01/k89VkZtucQ90/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eXDr40ve/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bW6Q4lEa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bYEygnAb/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2602,10 +4561,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bW6Q4lEa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dR6P90Vd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eXDr40ve",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bW6Q4lEa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bYEygnAb",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2644,28 +4647,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bYEygnAb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd17.uvjtih.cn/20260803/1Wpeb74l/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2676,10 +4657,76 @@
       "episode": 23,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/bYEyO1Mb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/bW6QMYQa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202608/03/G2gzYSu7wA27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v12.ppqrrs.com/wjv12/202608/03/jaU2z2wiVy86/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eZ6zP2we/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/bYEyO1Mb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/e1wGKXVb/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2720,10 +4767,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/bYEyO1Mb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/bW6QMYQa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eZ6zP2we",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/bYEyO1Mb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e1wGKXVb",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2762,39 +4853,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202608/03/G2gzYSu7wA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 23:41:51"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e1wGKXVb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd17.uvjtih.cn/20260804/bEOZIMMO/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
         }
       ]
     },
@@ -2805,10 +4863,76 @@
       "episode": 24,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dPNznG6a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dNkYlG8e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202608/04/CYSbbtETb327/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:51"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v3.ppqrrs.com/wjv3/202608/04/PYczj7rW8696/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:40:29"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aQW6oX5d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
           "url": "https://1080p.huyall.com/play/dPNznG6a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/dR6PpXwd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2849,10 +4973,54 @@
           "updated_at": "2026-08-05 15:40:20"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dPNznG6a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dNkYlG8e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:44:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aQW6oX5d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:48:01"
+        },
+        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
           "url": "https://1080p.huyall.com/play/dPNznG6a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:45:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dR6PpXwd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
@@ -2891,12 +5059,20 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:40:20"
-        },
+        }
+      ]
+    },
+    {
+      "id": "tv-10bc7ea80db6ef506c00-e0025-e3b0c442",
+      "name": "第25集",
+      "season": null,
+      "episode": 25,
+      "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202608/04/CYSbbtETb327/video/index.m3u8",
+          "url": "https://v13.rstu6.com/202608/05/wjbajYDDSM27/video/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
@@ -2904,197 +5080,15 @@
           "updated_at": "2026-08-05 23:41:51"
         },
         {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dR6PpXwd/index.m3u8",
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202608/05/BgXEQLv7e293/video/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd17.uvjtih.cn/20260805/TcfyrE43/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 18:03:11"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0001-e3b0c442",
-      "name": "第1集",
-      "season": null,
-      "episode": 1,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dPNj3kza/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0002-e3b0c442",
-      "name": "第2集",
-      "season": null,
-      "episode": 2,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e5y7OkBe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0003-e3b0c442",
-      "name": "第3集",
-      "season": null,
-      "episode": 3,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/eERqzNma/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0004-e3b0c442",
-      "name": "第4集",
-      "season": null,
-      "episode": 4,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dR6lZAzd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0005-e3b0c442",
-      "name": "第5集",
-      "season": null,
-      "episode": 5,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/e5y7jWBe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0006-e3b0c442",
-      "name": "第6集",
-      "season": null,
-      "episode": 6,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/eER0O4ma/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0007-e3b0c442",
-      "name": "第7集",
-      "season": null,
-      "episode": 7,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/dBBPL5od/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0008-e3b0c442",
-      "name": "第8集",
-      "season": null,
-      "episode": 8,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bW6QQzXa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
-        }
-      ]
-    },
-    {
-      "id": "tv-10bc7ea80db6ef506c00-e0009-e3b0c442",
-      "name": "第9集",
-      "season": null,
-      "episode": 9,
-      "streams": [
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/av288zLa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 17:45:02"
+          "updated_at": "2026-08-05 23:40:29"
         }
       ]
     }
@@ -3154,10 +5148,5 @@
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-jszy",
-    "gh72-api-maotai",
-    "gh72-api-suoni"
-  ]
+  "media_type": "tv"
 }

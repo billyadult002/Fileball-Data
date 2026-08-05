@@ -6,19 +6,54 @@
   "year": 2026,
   "category": "篮球",
   "section": "regular",
-  "poster": "https://hongniuzyimage.com/cover/2b237668dfe76072d0689bd3c64aeb60.jpg",
+  "poster": "https://hhmage.com/cover/2b237668dfe76072d0689bd3c64aeb60.jpg",
   "overview": "暂无简介",
   "actors": [],
   "directors": [],
   "genres": [
     "篮球"
   ],
-  "updated_at": "2026-08-05 14:57:26",
+  "updated_at": "2026-08-05 15:00:01",
   "source_records": [
+    {
+      "source_id": "imported-api-guangsuapi-com-source",
+      "source_vod_id": "171884",
+      "source_name": "🍁┃光速┃有广"
+    },
+    {
+      "source_id": "imported-hhzyapi-com-source",
+      "source_vod_id": "139642",
+      "source_name": "🔥️火狐┃秒播"
+    },
+    {
+      "source_id": "imported-jszyapi-com-source",
+      "source_vod_id": "113529",
+      "source_name": "🎀极速┃采集"
+    },
+    {
+      "source_id": "imported-jyzyapi-com-source",
+      "source_vod_id": "116976",
+      "source_name": "🔰金鹰┃影视"
+    },
+    {
+      "source_id": "imported-www-huyaapi-com-source",
+      "source_vod_id": "114984",
+      "source_name": "🐯虎牙采集"
+    },
     {
       "source_id": "regular-新浪",
       "source_vod_id": "169500",
       "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-极速",
+      "source_vod_id": "113529",
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139642",
+      "source_name": "火狐|点播"
     },
     {
       "source_id": "regular-红牛",
@@ -31,14 +66,14 @@
       "source_name": "虎牙|点播"
     },
     {
+      "source_id": "regular-豪华",
+      "source_vod_id": "139642",
+      "source_name": "豪华|点播"
+    },
+    {
       "source_id": "regular-速博",
       "source_vod_id": "117521",
       "source_name": "速博|点播"
-    },
-    {
-      "source_id": "gh72-api-jszy",
-      "source_vod_id": "113529",
-      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -49,6 +84,39 @@
       "episode": null,
       "streams": [
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingm3u8",
+          "url": "https://hd.ijycnd.com/play/dR6Ppwzd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 14:56:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dPNznrya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 14:56:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eVO7wlBa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:00:01"
+        },
+        {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
           "provider": "subm3u8",
@@ -58,6 +126,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 14:57:26"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
+          "url": "https://vv.jisuzyv.com/play/bW6Qxm4a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 14:57:02"
         },
         {
           "source_id": "regular-虎牙",
@@ -82,6 +161,39 @@
           "updated_at": "2026-08-05 14:55:08"
         },
         {
+          "source_id": "imported-jyzyapi-com-source",
+          "source_name": "🔰金鹰┃影视",
+          "provider": "jinyingyun",
+          "url": "https://hd.ijycnd.com/play/dR6Ppwzd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 14:56:02"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dPNznrya",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 14:56:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eVO7wlBa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:00:01"
+        },
+        {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
           "provider": "subyun",
@@ -91,6 +203,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 14:57:26"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bW6Qxm4a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 14:57:02"
         },
         {
           "source_id": "regular-虎牙",
@@ -113,17 +236,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 14:55:08"
-        },
-        {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/bW6Qxm4a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 14:57:02"
         }
       ]
     }
@@ -177,8 +289,5 @@
       "official": true
     }
   ],
-  "media_type": "other",
-  "source_ids": [
-    "gh72-api-jszy"
-  ]
+  "media_type": "other"
 }

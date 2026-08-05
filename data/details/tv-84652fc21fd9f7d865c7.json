@@ -33,8 +33,23 @@
     "thriller",
     "crime"
   ],
-  "updated_at": "2026-08-03 16:10:35",
+  "updated_at": "2026-08-06 00:00:00",
   "source_records": [
+    {
+      "source_id": "imported-cj-ffzyapi-com-source",
+      "source_vod_id": "98823",
+      "source_name": "🍁┃非凡┃有广"
+    },
+    {
+      "source_id": "imported-ffzy1-tv-source",
+      "source_vod_id": "98823",
+      "source_name": "🥗┃非凡┃资源"
+    },
+    {
+      "source_id": "imported-taopianapi-com-source",
+      "source_vod_id": "1539702",
+      "source_name": "🕹️淘片┃采集"
+    },
     {
       "source_id": "regular-非凡",
       "source_vod_id": "98823",
@@ -49,15 +64,15 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://super.ffzy-online6.com/share/7541e187b84f18ba68cdff7c150356ee",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-08-06/15/5538963e0fae/8d3b34b7d353/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 16:10:35"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -66,6 +81,28 @@
           "url": "https://super.ffzy-online6.com/20260727/37496_7541e187/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 16:10:35"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-08-06%2F15%2F5538963e0fae%2F8d3b34b7d353%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/7541e187b84f18ba68cdff7c150356ee",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"
@@ -81,10 +118,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://super.ffzy-online6.com/share/b9275231c515f23be95a30c1d2f9b298",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260727/37497_b9275231/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"
@@ -92,10 +129,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://super.ffzy-online6.com/20260727/37497_b9275231/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/b9275231c515f23be95a30c1d2f9b298",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"
@@ -111,10 +148,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://super.ffzy-online6.com/share/bf69bbe59f06be26b96d7efa1b0f0ffc",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260727/37498_bf69bbe5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"
@@ -122,10 +159,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://super.ffzy-online6.com/20260727/37498_bf69bbe5/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/bf69bbe59f06be26b96d7efa1b0f0ffc",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"
@@ -141,10 +178,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://super.ffzy-online6.com/share/ede8a40c37d1c1b12c8225bc8c672660",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260803/37989_ede8a40c/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"
@@ -152,10 +189,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://super.ffzy-online6.com/20260803/37989_ede8a40c/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/ede8a40c37d1c1b12c8225bc8c672660",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 16:10:35"

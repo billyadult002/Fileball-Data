@@ -16,12 +16,29 @@
     "宋勋",
     "洪锡天"
   ],
-  "directors": [],
+  "directors": [
+    "李连福"
+  ],
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-08-03 12:26:06",
+  "updated_at": "2026-08-06 00:00:00",
   "source_records": [
+    {
+      "source_id": "imported-cj-ffzyapi-com-source",
+      "source_vod_id": "98196",
+      "source_name": "🍁┃非凡┃有广"
+    },
+    {
+      "source_id": "imported-ffzy1-tv-source",
+      "source_vod_id": "98196",
+      "source_name": "🥗┃非凡┃资源"
+    },
+    {
+      "source_id": "imported-taopianapi-com-source",
+      "source_vod_id": "1539141",
+      "source_name": "🕹️淘片┃采集"
+    },
     {
       "source_id": "regular-非凡",
       "source_vod_id": "98196",
@@ -36,15 +53,15 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vip.ffzy-online3.com/share/ca1c804883933ab8227beb75dece4b5b",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-07-02/24/1748e3996209/4d315397acbb/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 12:26:06"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -53,6 +70,28 @@
           "url": "https://vip.ffzy-online3.com/20260622/45608_ca1c8048/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:26:06"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-07-02%2F24%2F1748e3996209%2F4d315397acbb%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-online3.com/share/ca1c804883933ab8227beb75dece4b5b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -66,15 +105,15 @@
       "episode": 2,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/e1e32e235eee1f970470a3a6658dfdd5",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-07-07/24/1748e3996209/0a7a4e2580b4/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 12:26:06"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -83,6 +122,28 @@
           "url": "https://vod.ffzy-bofang.com/20260706/483_e1e32e23/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:26:06"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-07-07%2F24%2F1748e3996209%2F0a7a4e2580b4%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/e1e32e235eee1f970470a3a6658dfdd5",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -96,15 +157,15 @@
       "episode": 3,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/eba0dc302bcd9a273f8bbb72be3a687b",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-07-12/24/1748e3996209/24bb088b5b2d/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 12:26:06"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -113,6 +174,28 @@
           "url": "https://vod.ffzy-bofang.com/20260706/484_eba0dc30/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:26:06"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-07-12%2F24%2F1748e3996209%2F24bb088b5b2d%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/eba0dc302bcd9a273f8bbb72be3a687b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -126,15 +209,15 @@
       "episode": 4,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/fa14d4fe2f19414de3ebd9f63d5c0169",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-07-18/24/1748e3996209/444ed9541e26/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 12:26:06"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -143,6 +226,28 @@
           "url": "https://vod.ffzy-bofang.com/20260713/759_fa14d4fe/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:26:06"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-07-18%2F24%2F1748e3996209%2F444ed9541e26%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/fa14d4fe2f19414de3ebd9f63d5c0169",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -156,15 +261,15 @@
       "episode": 5,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/883e881bb4d22a7add958f2d6b052c9f",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-07-29/24/1748e3996209/e795471a7052/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 12:26:06"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -173,6 +278,28 @@
           "url": "https://vod.ffzy-bofang.com/20260720/1027_883e881b/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:26:06"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-07-29%2F24%2F1748e3996209%2Fe795471a7052%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/883e881bb4d22a7add958f2d6b052c9f",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -186,15 +313,15 @@
       "episode": 6,
       "streams": [
         {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/8e2cfdc275761edc592f73a076197c33",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpm3u8",
+          "url": "https://sd8.taopianplay1.com:43333/c56b1bc09da3/HD/2026-08-06/24/1748e3996209/e1dc0601f472/playlist.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
           "health": "unknown",
-          "updated_at": "2026-08-03 12:26:06"
+          "updated_at": "2026-08-06 00:00:00"
         },
         {
           "source_id": "regular-非凡",
@@ -203,6 +330,28 @@
           "url": "https://vod.ffzy-bofang.com/20260727/1266_8e2cfdc2/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:26:06"
+        },
+        {
+          "source_id": "imported-taopianapi-com-source",
+          "source_name": "🕹️淘片┃采集",
+          "provider": "tpiframe",
+          "url": "https://www.tpvod.com/player.html?uri=https%3A%2F%2Fsd8.taopianplay1.com%3A43333%2Fc56b1bc09da3%2FHD%2F2026-08-06%2F24%2F1748e3996209%2Fe1dc0601f472%2Fplaylist.m3u8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:00:00"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/8e2cfdc275761edc592f73a076197c33",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -218,10 +367,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/08040837089cdf46631a10aca5258e16",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260803/1532_08040837/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"
@@ -229,10 +378,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260803/1532_08040837/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/08040837089cdf46631a10aca5258e16",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:26:06"

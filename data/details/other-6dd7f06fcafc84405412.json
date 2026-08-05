@@ -19,12 +19,58 @@
   "updated_at": "2026-08-06 00:40:04",
   "source_records": [
     {
-      "source_id": "gh72-api-suoni",
+      "source_id": "imported-suoniapi-com-source",
       "source_vod_id": "152364",
-      "source_name": "gh72-api-suoni"
+      "source_name": "🐉┃索尼┃高清"
+    },
+    {
+      "source_id": "imported-suonizy-com-source",
+      "source_vod_id": "152364",
+      "source_name": "🍁┃索尼┃有广"
+    },
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "167790",
+      "source_name": "无尽|点播"
+    },
+    {
+      "source_id": "regular-索尼",
+      "source_vod_id": "152364",
+      "source_name": "索尼|点播"
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "other-6dd7f06fcafc84405412-item-0001-6bdf15a8",
+      "name": "全集",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202608/06/0MpVLJk6Rz27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:40:04"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v8.ppqrrs.com/wjv8/202608/06/jH1spNGYFd96/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:36:46"
+        }
+      ]
+    }
+  ],
   "content_mode": "vod",
   "title_zh": "她的蜜刃",
   "title_en": "tademiren",
@@ -74,8 +120,5 @@
       "official": true
     }
   ],
-  "media_type": "other",
-  "source_ids": [
-    "gh72-api-suoni"
-  ]
+  "media_type": "other"
 }

@@ -16,14 +16,24 @@
   "updated_at": "2026-08-05 19:57:03",
   "source_records": [
     {
+      "source_id": "imported-cj-ffzyapi-com-source",
+      "source_vod_id": "98912",
+      "source_name": "🍁┃非凡┃有广"
+    },
+    {
+      "source_id": "imported-ffzy1-tv-source",
+      "source_vod_id": "98912",
+      "source_name": "🥗┃非凡┃资源"
+    },
+    {
+      "source_id": "imported-lzizy1-com-source",
+      "source_vod_id": "150220",
+      "source_name": "🥑┃量子┃资源"
+    },
+    {
       "source_id": "regular-u酷",
       "source_vod_id": "71017",
       "source_name": "U酷|点播"
-    },
-    {
-      "source_id": "regular-量子",
-      "source_vod_id": "150220",
-      "source_name": "量子|点播"
     },
     {
       "source_id": "regular-非凡",
@@ -39,13 +49,13 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
           "provider": "lzm3u8",
           "url": "https://v.lfthirtytwo.com/20260805/9262_4f65c393/index.m3u8",
           "protocol": "hls",
           "supported": true,
-          "priority": 50,
+          "priority": 60,
           "health": "unknown",
           "updated_at": "2026-08-05 19:57:03"
         },
@@ -72,13 +82,13 @@
           "updated_at": "2026-08-04 17:00:09"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
+          "source_id": "imported-lzizy1-com-source",
+          "source_name": "🥑┃量子┃资源",
           "provider": "liangzi",
           "url": "https://v.lfthirtytwo.com/share/0801b20e08c3242125d512808cd74302",
           "protocol": "http",
           "supported": false,
-          "priority": 50,
+          "priority": 60,
           "health": "unknown",
           "updated_at": "2026-08-05 19:57:03"
         },

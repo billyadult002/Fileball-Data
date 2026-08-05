@@ -18,6 +18,11 @@
   "updated_at": "2026-08-05 20:12:26",
   "source_records": [
     {
+      "source_id": "imported-api-guangsuapi-com-source",
+      "source_vod_id": "171907",
+      "source_name": "🍁┃光速┃有广"
+    },
+    {
       "source_id": "regular-红牛",
       "source_vod_id": "153201",
       "source_name": "红牛|点播"
@@ -35,6 +40,17 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsm3u8",
+          "url": "https://v.gsuus.com/play/dR6Pp7Ed/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:12:02"
+        },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
@@ -56,6 +72,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 20:11:21"
+        },
+        {
+          "source_id": "imported-api-guangsuapi-com-source",
+          "source_name": "🍁┃光速┃有广",
+          "provider": "gsyun",
+          "url": "https://v.gsuus.com/play/dR6Pp7Ed",
+          "protocol": "http",
+          "supported": false,
+          "priority": 60,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:12:02"
         },
         {
           "source_id": "regular-速博",

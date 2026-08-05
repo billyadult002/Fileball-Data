@@ -19,9 +19,24 @@
   "updated_at": "2026-08-06 00:32:02",
   "source_records": [
     {
-      "source_id": "gh72-api-suoni",
+      "source_id": "imported-suoniapi-com-source",
       "source_vod_id": "152347",
-      "source_name": "gh72-api-suoni"
+      "source_name": "🐉┃索尼┃高清"
+    },
+    {
+      "source_id": "imported-suonizy-com-source",
+      "source_vod_id": "152347",
+      "source_name": "🍁┃索尼┃有广"
+    },
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "167779",
+      "source_name": "无尽|点播"
+    },
+    {
+      "source_id": "regular-索尼",
+      "source_vod_id": "152347",
+      "source_name": "索尼|点播"
     }
   ],
   "episodes": [
@@ -32,8 +47,8 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202608/06/T6rnkJCZkz27/video/index.m3u8",
           "protocol": "hls",
@@ -41,6 +56,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:32:02"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202608/06/xBERdVmKAw95/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:25:40"
         }
       ]
     }
@@ -94,8 +120,5 @@
       "official": true
     }
   ],
-  "media_type": "other",
-  "source_ids": [
-    "gh72-api-suoni"
-  ]
+  "media_type": "other"
 }

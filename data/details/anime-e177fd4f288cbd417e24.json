@@ -18,9 +18,24 @@
   "updated_at": "2026-08-06 00:29:57",
   "source_records": [
     {
-      "source_id": "gh72-api-suoni",
+      "source_id": "imported-suoniapi-com-source",
       "source_vod_id": "144179",
-      "source_name": "gh72-api-suoni"
+      "source_name": "🐉┃索尼┃高清"
+    },
+    {
+      "source_id": "imported-suonizy-com-source",
+      "source_vod_id": "144179",
+      "source_name": "🍁┃索尼┃有广"
+    },
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "159028",
+      "source_name": "无尽|点播"
+    },
+    {
+      "source_id": "regular-索尼",
+      "source_vod_id": "144179",
+      "source_name": "索尼|点播"
     }
   ],
   "episodes": [
@@ -31,8 +46,8 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202604/16/pjQg20pRCy19/video/index.m3u8",
           "protocol": "hls",
@@ -40,6 +55,107 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202604/16/h3XE8NqHUx91/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0002-e3b0c442",
+      "name": "第02集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202604/23/LuzDTywE1f24/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202604/23/HbEvDFkn9J86/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0003-e3b0c442",
+      "name": "第03集",
+      "season": null,
+      "episode": 3,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202605/07/J0hGqdLDLn19/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202605/07/hqPUdYxGZa90/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0004-e3b0c442",
+      "name": "第04集",
+      "season": null,
+      "episode": 4,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202605/07/bELtP5fPSL19/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v5.ppqrrs.com/wjv5/202605/07/6JUbJQdwRx92/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -50,8 +166,8 @@
       "episode": 5,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202605/14/Pi97dbQwfr27/video/index.m3u8",
           "protocol": "hls",
@@ -59,6 +175,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v11.ppqrrs.com/wjv11/202605/14/7UqMzZfwS086/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -69,8 +196,8 @@
       "episode": 6,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202605/21/3uefWUemL119/video/index.m3u8",
           "protocol": "hls",
@@ -78,6 +205,47 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v11.ppqrrs.com/wjv11/202605/21/YF6sUsSSPE93/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0007-e3b0c442",
+      "name": "第07集",
+      "season": null,
+      "episode": 7,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202605/28/xnjNemxVxG27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202605/28/HZ7qVkdzz289/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -88,8 +256,8 @@
       "episode": 8,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202606/04/uuEzdCtfdX27/video/index.m3u8",
           "protocol": "hls",
@@ -97,6 +265,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v2.ppqrrs.com/wjv2/202606/04/7ixrXA901W86/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -107,8 +286,8 @@
       "episode": 9,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202606/11/1c9eWsScTF24/video/index.m3u8",
           "protocol": "hls",
@@ -116,6 +295,107 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v8.ppqrrs.com/wjv8/202606/11/6aAT4bXUsF87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0010-e3b0c442",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202606/18/1vpcPH3rVK27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202606/18/7EMG8sdACA90/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0011-e3b0c442",
+      "name": "第11集",
+      "season": null,
+      "episode": 11,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202606/25/zeRfiw2uu927/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202606/25/rSqeayX21K89/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0012-e3b0c442",
+      "name": "第12集",
+      "season": null,
+      "episode": 12,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/02/PQgU3621Zr27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v8.ppqrrs.com/wjv8/202607/02/k73qjt1qQP95/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -126,8 +406,8 @@
       "episode": 13,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202607/09/G5Q7QkuUjs27/video/index.m3u8",
           "protocol": "hls",
@@ -135,6 +415,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v5.ppqrrs.com/wjv5/202607/09/bfWDQSh9ep86/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -145,8 +436,8 @@
       "episode": 14,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202607/16/pWszmgqaSv27/video/index.m3u8",
           "protocol": "hls",
@@ -154,6 +445,47 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202607/16/vHwpAu5SV986/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0015-e3b0c442",
+      "name": "第15集",
+      "season": null,
+      "episode": 15,
+      "streams": [
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202607/30/0dhe31WpGH27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v12.ppqrrs.com/wjv12/202607/23/CVWjS6KeiU88/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     },
@@ -164,8 +496,8 @@
       "episode": 16,
       "streams": [
         {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
           "provider": "snm3u8",
           "url": "https://v14.rstu6.com/202608/06/WYfA2a9DR227/video/index.m3u8",
           "protocol": "hls",
@@ -173,6 +505,36 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:29:57"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v1.ppqrrs.com/202607/30/y2eKaKX03K92/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
+        }
+      ]
+    },
+    {
+      "id": "anime-e177fd4f288cbd417e24-e0017-e3b0c442",
+      "name": "第17集",
+      "season": null,
+      "episode": 17,
+      "streams": [
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202608/06/bBcr8SNtTg95/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 00:29:36"
         }
       ]
     }
@@ -235,8 +597,5 @@
       "official": true
     }
   ],
-  "media_type": "anime",
-  "source_ids": [
-    "gh72-api-suoni"
-  ]
+  "media_type": "anime"
 }

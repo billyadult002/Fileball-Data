@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-08-05T14:37:10.728576+00:00",
+  "generated_at": "2026-08-05T18:00:15.603433+00:00",
   "fresh_upstream_fetch": false,
   "catalog": {
-    "total": 2530,
+    "total": 2847,
     "type_counts": {
-      "other": 1041,
-      "tv": 998,
-      "anime": 339,
+      "other": 1262,
+      "tv": 1066,
+      "anime": 362,
       "variety": 141,
-      "documentary": 11
+      "documentary": 16
     },
     "content_mode_counts": {
-      "vod": 2530
+      "vod": 2847
     },
     "section_counts": {
-      "regular": 2530
+      "regular": 2847
     },
     "dimensions": {
       "movie": {
         "canonical_media": 0,
-        "episode_count": 91779,
-        "stream_count": 799149,
+        "episode_count": 91792,
+        "stream_count": 799186,
         "playlist_entries": 0
       },
       "tv": {
-        "canonical_media": 998,
-        "episode_count": 67916,
-        "stream_count": 173399,
+        "canonical_media": 1066,
+        "episode_count": 77393,
+        "stream_count": 236594,
         "playlist_entries": 0
       },
       "anime": {
-        "canonical_media": 339,
-        "episode_count": 30849,
-        "stream_count": 96668,
+        "canonical_media": 362,
+        "episode_count": 31066,
+        "stream_count": 105081,
         "playlist_entries": 0
       },
       "variety": {
         "canonical_media": 141,
-        "episode_count": 16098,
-        "stream_count": 55786,
+        "episode_count": 15984,
+        "stream_count": 60546,
         "playlist_entries": 0
       },
       "documentary": {
-        "canonical_media": 11,
-        "episode_count": 48,
-        "stream_count": 90,
+        "canonical_media": 16,
+        "episode_count": 54,
+        "stream_count": 100,
         "playlist_entries": 0
       },
       "short": {
@@ -54,9 +54,9 @@
         "playlist_entries": 0
       },
       "other": {
-        "canonical_media": 1041,
-        "episode_count": 5836,
-        "stream_count": 7770,
+        "canonical_media": 1262,
+        "episode_count": 6016,
+        "stream_count": 8194,
         "playlist_entries": 0
       },
       "live": {
@@ -67,7 +67,7 @@
       },
       "manga": {
         "canonical_media": 24,
-        "episode_count": 813,
+        "episode_count": 1011,
         "stream_count": 0,
         "playlist_entries": 0
       }
@@ -794,18 +794,18 @@
   },
   "sync": {
     "mode": "incremental",
-    "started_at": "2026-08-05T14:32:31Z",
-    "finished_at": "2026-08-05T14:35:56Z",
+    "started_at": "2026-08-05T17:54:58Z",
+    "finished_at": "2026-08-05T17:59:00Z",
     "status": "partial",
-    "sources_total": 59,
-    "sources_succeeded": 32,
-    "sources_failed": 27,
-    "records_received": 4800,
-    "media_generated": 99334,
-    "episodes_generated": 212548,
-    "streams_generated": 1132884,
-    "duplicates_merged": 2293,
-    "unsupported_streams": 410723,
+    "sources_total": 88,
+    "sources_succeeded": 50,
+    "sources_failed": 38,
+    "records_received": 7620,
+    "media_generated": 99677,
+    "episodes_generated": 222327,
+    "streams_generated": 1209723,
+    "duplicates_merged": 4913,
+    "unsupported_streams": 444230,
     "outputs_changed": true,
     "failures": [
       {
@@ -849,16 +849,6 @@
         "message": "HTTP 403 from source endpoint"
       },
       {
-        "source_id": "regular-豪华",
-        "error_type": "http_403",
-        "message": "HTTP 403 from source endpoint"
-      },
-      {
-        "source_id": "regular-极速",
-        "error_type": "http_403",
-        "message": "HTTP 403 from source endpoint"
-      },
-      {
         "source_id": "regular-快车",
         "error_type": "connection",
         "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
@@ -875,11 +865,6 @@
       },
       {
         "source_id": "regular-飘零",
-        "error_type": "http_403",
-        "message": "HTTP 403 from source endpoint"
-      },
-      {
-        "source_id": "regular-火狐",
         "error_type": "http_403",
         "message": "HTTP 403 from source endpoint"
       },
@@ -942,6 +927,76 @@
         "source_id": "av-草榴资源",
         "error_type": "connection",
         "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "imported-49zy1-com-source",
+        "error_type": "invalid_response",
+        "message": "invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "source_id": "imported-api-apibdzy-com-source",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
+        "source_id": "imported-api-tiankongapi-com-source",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "imported-app-bfzyapi-com-source",
+        "error_type": "http_404",
+        "message": "HTTP 404 from source endpoint"
+      },
+      {
+        "source_id": "imported-c-icu-source",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "imported-caiji-kczyapi-com-source",
+        "error_type": "connection",
+        "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
+      },
+      {
+        "source_id": "imported-caiji-qhzyapi-com-source",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "imported-catbox-n13-club-mtv",
+        "error_type": "timeout",
+        "message": "ConnectTimeout"
+      },
+      {
+        "source_id": "imported-catbox-n13-club-source",
+        "error_type": "timeout",
+        "message": "ConnectTimeout"
+      },
+      {
+        "source_id": "imported-cjhwba-com-source",
+        "error_type": "invalid_response",
+        "message": "invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "source_id": "imported-kekezy1-com-source",
+        "error_type": "connection",
+        "message": "[Errno -2] Name or service not known"
+      },
+      {
+        "source_id": "imported-mv-wogg-link-mv",
+        "error_type": "invalid_response",
+        "message": "invalid JSON response: Expecting value: line 1 column 1 (char 0)"
+      },
+      {
+        "source_id": "imported-py-doube-eu-org-source",
+        "error_type": "http_404",
+        "message": "HTTP 404 from source endpoint"
+      },
+      {
+        "source_id": "imported-www-feisuzyapi-com-source",
+        "error_type": "connection",
+        "message": "All connection attempts failed"
       }
     ],
     "episode_regroup": {
@@ -949,8 +1004,8 @@
       "records_absorbed": 0
     },
     "carry_over": {
-      "previous_titles_read": 99267,
-      "titles_this_run_did_not_refetch": 96825,
+      "previous_titles_read": 99558,
+      "titles_this_run_did_not_refetch": 96970,
       "enabled": true
     },
     "source_pagination": [
@@ -992,6 +1047,22 @@
         "reported_pagecount": null,
         "reported_total": null,
         "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-豪华",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-极速",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
         "status": "complete"
       },
       {
@@ -1096,6 +1167,14 @@
         "reported_pagecount": null,
         "reported_total": null,
         "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-火狐",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
         "status": "complete"
       },
       {
@@ -1204,6 +1283,126 @@
       },
       {
         "source_id": "av-老色逼资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-360zy-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-api-1080zyku-com-2k",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-api-guangsuapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-cj-ffzyapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-cj-lziapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-ffzy1-tv-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-hhzyapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-ikunzyapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-jszyapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-jyzyapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-lzizy1-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-suoniapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-suonizy-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-taopianapi-com-source",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 60,
+        "status": "complete"
+      },
+      {
+        "source_id": "imported-www-huyaapi-com-source",
         "pages_requested": 2,
         "reported_pagecount": null,
         "reported_total": null,

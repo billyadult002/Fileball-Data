@@ -24,6 +24,16 @@
   "updated_at": "2026-08-05 00:14:13",
   "source_records": [
     {
+      "source_id": "imported-cj-ffzyapi-com-source",
+      "source_vod_id": "98920",
+      "source_name": "🍁┃非凡┃有广"
+    },
+    {
+      "source_id": "imported-ffzy1-tv-source",
+      "source_vod_id": "98920",
+      "source_name": "🥗┃非凡┃资源"
+    },
+    {
       "source_id": "regular-非凡",
       "source_vod_id": "98920",
       "source_name": "非凡|点播"
@@ -39,10 +49,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vip.ffzy-plays.com/share/b9898a075a88a716e033643db71261e9",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20260805/56668_b9898a07/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 00:14:13"
@@ -50,10 +60,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vip.ffzy-plays.com/20260805/56668_b9898a07/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/b9898a075a88a716e033643db71261e9",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 00:14:13"

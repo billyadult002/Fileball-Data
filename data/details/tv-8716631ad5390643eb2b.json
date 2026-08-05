@@ -25,6 +25,16 @@
   "updated_at": "2026-08-03 12:34:22",
   "source_records": [
     {
+      "source_id": "imported-cj-ffzyapi-com-source",
+      "source_vod_id": "98346",
+      "source_name": "🍁┃非凡┃有广"
+    },
+    {
+      "source_id": "imported-ffzy1-tv-source",
+      "source_vod_id": "98346",
+      "source_name": "🥗┃非凡┃资源"
+    },
+    {
       "source_id": "regular-非凡",
       "source_vod_id": "98346",
       "source_name": "非凡|点播"
@@ -32,41 +42,22 @@
   ],
   "episodes": [
     {
-      "id": "tv-8716631ad5390643eb2b-item-0001-ebaf79e9",
-      "name": "第20260627期先导片",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/757b505cfd34c64c85ca5b5690ee5293",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-03 12:34:22"
-        },
-        {
-          "source_id": "regular-非凡",
-          "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260628/201_757b505c/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-03 12:34:22"
-        }
-      ]
-    },
-    {
       "id": "tv-8716631ad5390643eb2b-item-0002-dc376d48",
       "name": "第20260627期先导加更",
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260628/200_3644a684/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:34:22"
+        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -77,14 +68,33 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
-        },
+        }
+      ]
+    },
+    {
+      "id": "tv-8716631ad5390643eb2b-item-0001-ebaf79e9",
+      "name": "第20260627期先导片",
+      "season": null,
+      "episode": null,
+      "streams": [
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260628/200_3644a684/index.m3u8",
+          "url": "https://vod.ffzy-bofang.com/20260628/201_757b505c/index.m3u8",
           "protocol": "hls",
           "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:34:22"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/757b505cfd34c64c85ca5b5690ee5293",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -100,10 +110,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/854d6fae5ee42911677c739ee1734486",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260628/202_854d6fae/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -111,10 +121,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260628/202_854d6fae/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/854d6fae5ee42911677c739ee1734486",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -130,10 +140,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/ddb30680a691d157187ee1cf9e896d03",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260704/435_ddb30680/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -141,10 +151,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260704/435_ddb30680/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/ddb30680a691d157187ee1cf9e896d03",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -160,10 +170,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/2421fcb1263b9530df88f7f002e78ea5",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260704/436_2421fcb1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -171,10 +181,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260704/436_2421fcb1/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/2421fcb1263b9530df88f7f002e78ea5",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -190,10 +200,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/fccb60fb512d13df5083790d64c4d5dd",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260704/437_fccb60fb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -201,10 +211,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260704/437_fccb60fb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/fccb60fb512d13df5083790d64c4d5dd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -220,10 +230,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/1651cf0d2f737d7adeab84d339dbabd3",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260704/438_1651cf0d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -231,10 +241,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260704/438_1651cf0d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/1651cf0d2f737d7adeab84d339dbabd3",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -250,10 +260,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/99bcfcd754a98ce89cb86f73acc04645",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260711/698_99bcfcd7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -261,10 +271,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260711/698_99bcfcd7/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/99bcfcd754a98ce89cb86f73acc04645",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -280,10 +290,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/afd4836712c5e77550897e25711e1d96",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260711/699_afd48367/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -291,10 +301,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260711/699_afd48367/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/afd4836712c5e77550897e25711e1d96",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -310,10 +320,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/bf62768ca46b6c3b5bea9515d1a1fc45",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260713/758_bf62768c/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -321,10 +331,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260713/758_bf62768c/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/bf62768ca46b6c3b5bea9515d1a1fc45",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -340,10 +350,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/b56a18e0eacdf51aa2a5306b0f533204",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260717/911_b56a18e0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -351,10 +361,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260717/911_b56a18e0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/b56a18e0eacdf51aa2a5306b0f533204",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -370,10 +380,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/6cfe0e6127fa25df2a0ef2ae1067d915",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260718/967_6cfe0e61/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -381,10 +391,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260718/967_6cfe0e61/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/6cfe0e6127fa25df2a0ef2ae1067d915",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -400,10 +410,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/8f468c873a32bb0619eaeb2050ba45d1",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260718/968_8f468c87/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -411,10 +421,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260718/968_8f468c87/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/8f468c873a32bb0619eaeb2050ba45d1",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -430,10 +440,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/995e1fda4a2b5f55ef0df50868bf2a8f",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260720/1032_995e1fda/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -441,10 +451,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260720/1032_995e1fda/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/995e1fda4a2b5f55ef0df50868bf2a8f",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -460,10 +470,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/3eb71f6293a2a31f3569e10af6552658",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260724/1170_3eb71f62/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -471,10 +481,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260724/1170_3eb71f62/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/3eb71f6293a2a31f3569e10af6552658",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -490,10 +500,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/f7cade80b7cc92b991cf4d2806d6bd78",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260725/1210_f7cade80/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -501,10 +511,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260725/1210_f7cade80/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/f7cade80b7cc92b991cf4d2806d6bd78",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -520,10 +530,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/285ab9448d2751ee57ece7f762c39095",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260725/1211_285ab944/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -531,10 +541,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260725/1211_285ab944/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/285ab9448d2751ee57ece7f762c39095",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -550,10 +560,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/fb60d411a5c5b72b2e7d3527cfc84fd0",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260727/1276_fb60d411/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -561,10 +571,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260727/1276_fb60d411/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/fb60d411a5c5b72b2e7d3527cfc84fd0",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -580,10 +590,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/b069b3415151fa7217e870017374de7c",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260731/1433_b069b341/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -591,10 +601,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260731/1433_b069b341/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/b069b3415151fa7217e870017374de7c",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -610,10 +620,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/991de292e76f74f3c285b3f6d57958d5",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260801/1469_991de292/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -621,10 +631,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260801/1469_991de292/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/991de292e76f74f3c285b3f6d57958d5",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -640,10 +650,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/42ffcf057e133f94c1b7b5cf543ef3bd",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260801/1470_42ffcf05/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -651,10 +661,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260801/1470_42ffcf05/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/42ffcf057e133f94c1b7b5cf543ef3bd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -670,10 +680,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "feifan",
-          "url": "https://vod.ffzy-bofang.com/share/17e23e50bedc63b4095e3d8204ce063b",
-          "protocol": "http",
-          "supported": false,
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260803/1539_17e23e50/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
@@ -681,10 +691,10 @@
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
-          "provider": "ffm3u8",
-          "url": "https://vod.ffzy-bofang.com/20260803/1539_17e23e50/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/17e23e50bedc63b4095e3d8204ce063b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-03 12:34:22"
