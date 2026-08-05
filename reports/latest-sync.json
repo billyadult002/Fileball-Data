@@ -1,17 +1,17 @@
 {
   "mode": "incremental",
-  "started_at": "2026-08-05T19:54:44Z",
-  "finished_at": "2026-08-05T19:58:14Z",
+  "started_at": "2026-08-05T21:32:59Z",
+  "finished_at": "2026-08-05T21:37:02Z",
   "status": "partial",
   "sources_total": 88,
-  "sources_succeeded": 50,
-  "sources_failed": 38,
-  "records_received": 7620,
-  "media_generated": 99897,
-  "episodes_generated": 222484,
-  "streams_generated": 1207724,
-  "duplicates_merged": 4911,
-  "unsupported_streams": 444223,
+  "sources_succeeded": 49,
+  "sources_failed": 39,
+  "records_received": 7420,
+  "media_generated": 99954,
+  "episodes_generated": 221110,
+  "streams_generated": 1203044,
+  "duplicates_merged": 4765,
+  "unsupported_streams": 441941,
   "outputs_changed": true,
   "failures": [
     {
@@ -130,6 +130,11 @@
       "message": "HTTP 404 from source endpoint"
     },
     {
+      "source_id": "av-奶香香",
+      "error_type": "http_500",
+      "message": "HTTP 500 from source endpoint"
+    },
+    {
       "source_id": "av-草榴资源",
       "error_type": "connection",
       "message": "[Errno -2] Name or service not known"
@@ -210,8 +215,8 @@
     "records_absorbed": 0
   },
   "carry_over": {
-    "previous_titles_read": 99681,
-    "titles_this_run_did_not_refetch": 97188,
+    "previous_titles_read": 99900,
+    "titles_this_run_did_not_refetch": 97299,
     "enabled": true
   },
   "source_pagination": [
@@ -465,14 +470,6 @@
     },
     {
       "source_id": "av-辣椒资源",
-      "pages_requested": 2,
-      "reported_pagecount": null,
-      "reported_total": null,
-      "records_received": 200,
-      "status": "complete"
-    },
-    {
-      "source_id": "av-奶香香",
       "pages_requested": 2,
       "reported_pagecount": null,
       "reported_total": null,

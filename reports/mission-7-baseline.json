@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-05T19:59:10.717118+00:00",
+  "generated_at": "2026-08-05T21:38:19.365698+00:00",
   "fresh_upstream_fetch": false,
   "catalog": {
-    "total": 2891,
+    "total": 2948,
     "type_counts": {
-      "other": 1305,
+      "other": 1362,
       "tv": 1067,
       "anime": 362,
       "variety": 141,
       "documentary": 16
     },
     "content_mode_counts": {
-      "vod": 2891
+      "vod": 2948
     },
     "section_counts": {
-      "regular": 2891
+      "regular": 2948
     },
     "dimensions": {
       "movie": {
@@ -25,14 +25,14 @@
       },
       "tv": {
         "canonical_media": 1067,
-        "episode_count": 77332,
-        "stream_count": 234374,
+        "episode_count": 75901,
+        "stream_count": 231058,
         "playlist_entries": 0
       },
       "anime": {
         "canonical_media": 362,
         "episode_count": 31066,
-        "stream_count": 105042,
+        "stream_count": 103682,
         "playlist_entries": 0
       },
       "variety": {
@@ -54,9 +54,9 @@
         "playlist_entries": 0
       },
       "other": {
-        "canonical_media": 1305,
-        "episode_count": 6234,
-        "stream_count": 8454,
+        "canonical_media": 1362,
+        "episode_count": 6291,
+        "stream_count": 8450,
         "playlist_entries": 0
       },
       "live": {
@@ -67,7 +67,7 @@
       },
       "manga": {
         "canonical_media": 24,
-        "episode_count": 945,
+        "episode_count": 1111,
         "stream_count": 0,
         "playlist_entries": 0
       }
@@ -794,18 +794,18 @@
   },
   "sync": {
     "mode": "incremental",
-    "started_at": "2026-08-05T19:54:44Z",
-    "finished_at": "2026-08-05T19:58:14Z",
+    "started_at": "2026-08-05T21:32:59Z",
+    "finished_at": "2026-08-05T21:37:02Z",
     "status": "partial",
     "sources_total": 88,
-    "sources_succeeded": 50,
-    "sources_failed": 38,
-    "records_received": 7620,
-    "media_generated": 99897,
-    "episodes_generated": 222484,
-    "streams_generated": 1207724,
-    "duplicates_merged": 4911,
-    "unsupported_streams": 444223,
+    "sources_succeeded": 49,
+    "sources_failed": 39,
+    "records_received": 7420,
+    "media_generated": 99954,
+    "episodes_generated": 221110,
+    "streams_generated": 1203044,
+    "duplicates_merged": 4765,
+    "unsupported_streams": 441941,
     "outputs_changed": true,
     "failures": [
       {
@@ -924,6 +924,11 @@
         "message": "HTTP 404 from source endpoint"
       },
       {
+        "source_id": "av-奶香香",
+        "error_type": "http_500",
+        "message": "HTTP 500 from source endpoint"
+      },
+      {
         "source_id": "av-草榴资源",
         "error_type": "connection",
         "message": "[Errno -2] Name or service not known"
@@ -1004,8 +1009,8 @@
       "records_absorbed": 0
     },
     "carry_over": {
-      "previous_titles_read": 99681,
-      "titles_this_run_did_not_refetch": 97188,
+      "previous_titles_read": 99900,
+      "titles_this_run_did_not_refetch": 97299,
       "enabled": true
     },
     "source_pagination": [
@@ -1259,14 +1264,6 @@
       },
       {
         "source_id": "av-辣椒资源",
-        "pages_requested": 2,
-        "reported_pagecount": null,
-        "reported_total": null,
-        "records_received": 200,
-        "status": "complete"
-      },
-      {
-        "source_id": "av-奶香香",
         "pages_requested": 2,
         "reported_pagecount": null,
         "reported_total": null,
