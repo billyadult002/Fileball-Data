@@ -1,64 +1,62 @@
 {
-  "generated_at": "2026-08-05T10:57:35.835849+00:00",
+  "generated_at": "2026-08-05T14:37:10.728576+00:00",
   "fresh_upstream_fetch": false,
   "catalog": {
-    "total": 7522,
+    "total": 2530,
     "type_counts": {
-      "other": 6004,
-      "tv": 948,
-      "anime": 400,
-      "variety": 140,
-      "documentary": 8,
-      "short": 22
+      "other": 1041,
+      "tv": 998,
+      "anime": 339,
+      "variety": 141,
+      "documentary": 11
     },
     "content_mode_counts": {
-      "vod": 7522
+      "vod": 2530
     },
     "section_counts": {
-      "regular": 2467,
-      "av": 5055
+      "regular": 2530
     },
     "dimensions": {
       "movie": {
         "canonical_media": 0,
-        "episode_count": 91777,
-        "stream_count": 799188,
+        "episode_count": 91779,
+        "stream_count": 799149,
         "playlist_entries": 0
       },
       "tv": {
-        "canonical_media": 948,
-        "episode_count": 65824,
-        "stream_count": 201218,
+        "canonical_media": 998,
+        "episode_count": 67916,
+        "stream_count": 173399,
         "playlist_entries": 0
       },
       "anime": {
-        "canonical_media": 400,
-        "episode_count": 30770,
-        "stream_count": 97068,
+        "canonical_media": 339,
+        "episode_count": 30849,
+        "stream_count": 96668,
         "playlist_entries": 0
       },
       "variety": {
-        "canonical_media": 140,
-        "episode_count": 16045,
-        "stream_count": 55619,
+        "canonical_media": 141,
+        "episode_count": 16098,
+        "stream_count": 55786,
         "playlist_entries": 0
       },
       "documentary": {
-        "canonical_media": 8,
-        "episode_count": 36,
-        "stream_count": 78,
+        "canonical_media": 11,
+        "episode_count": 48,
+        "stream_count": 90,
         "playlist_entries": 0
       },
       "short": {
-        "canonical_media": 22,
+        "canonical_media": 0,
         "episode_count": 22,
         "stream_count": 22,
         "playlist_entries": 0
       },
       "other": {
-        "canonical_media": 6004,
-        "episode_count": 5832,
-        "stream_count": 7845,
+        "canonical_media": 1041,
+        "episode_count": 5836,
+        "stream_count": 7770,
         "playlist_entries": 0
       },
       "live": {
@@ -69,7 +67,7 @@
       },
       "manga": {
         "canonical_media": 24,
-        "episode_count": 783,
+        "episode_count": 813,
         "stream_count": 0,
         "playlist_entries": 0
       }
@@ -796,18 +794,18 @@
   },
   "sync": {
     "mode": "incremental",
-    "started_at": "2026-08-05T10:53:01Z",
-    "finished_at": "2026-08-05T10:56:30Z",
+    "started_at": "2026-08-05T14:32:31Z",
+    "finished_at": "2026-08-05T14:35:56Z",
     "status": "partial",
     "sources_total": 59,
-    "sources_succeeded": 35,
-    "sources_failed": 24,
-    "records_received": 5400,
-    "media_generated": 99267,
-    "episodes_generated": 210306,
-    "streams_generated": 1161038,
-    "duplicates_merged": 2817,
-    "unsupported_streams": 422173,
+    "sources_succeeded": 32,
+    "sources_failed": 27,
+    "records_received": 4800,
+    "media_generated": 99334,
+    "episodes_generated": 212548,
+    "streams_generated": 1132884,
+    "duplicates_merged": 2293,
+    "unsupported_streams": 410723,
     "outputs_changed": true,
     "failures": [
       {
@@ -851,6 +849,16 @@
         "message": "HTTP 403 from source endpoint"
       },
       {
+        "source_id": "regular-豪华",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
+        "source_id": "regular-极速",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
         "source_id": "regular-快车",
         "error_type": "connection",
         "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
@@ -867,6 +875,11 @@
       },
       {
         "source_id": "regular-飘零",
+        "error_type": "http_403",
+        "message": "HTTP 403 from source endpoint"
+      },
+      {
+        "source_id": "regular-火狐",
         "error_type": "http_403",
         "message": "HTTP 403 from source endpoint"
       },
@@ -936,8 +949,8 @@
       "records_absorbed": 0
     },
     "carry_over": {
-      "previous_titles_read": 98587,
-      "titles_this_run_did_not_refetch": 96684,
+      "previous_titles_read": 99267,
+      "titles_this_run_did_not_refetch": 96825,
       "enabled": true
     },
     "source_pagination": [
@@ -979,22 +992,6 @@
         "reported_pagecount": null,
         "reported_total": null,
         "records_received": 40,
-        "status": "complete"
-      },
-      {
-        "source_id": "regular-豪华",
-        "pages_requested": 2,
-        "reported_pagecount": null,
-        "reported_total": null,
-        "records_received": 200,
-        "status": "complete"
-      },
-      {
-        "source_id": "regular-极速",
-        "pages_requested": 2,
-        "reported_pagecount": null,
-        "reported_total": null,
-        "records_received": 200,
         "status": "complete"
       },
       {
@@ -1099,14 +1096,6 @@
         "reported_pagecount": null,
         "reported_total": null,
         "records_received": 40,
-        "status": "complete"
-      },
-      {
-        "source_id": "regular-火狐",
-        "pages_requested": 2,
-        "reported_pagecount": null,
-        "reported_total": null,
-        "records_received": 200,
         "status": "complete"
       },
       {

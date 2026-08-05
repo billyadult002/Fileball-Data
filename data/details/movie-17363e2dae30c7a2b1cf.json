@@ -22,10 +22,9 @@
     "吉田光希"
   ],
   "genres": [
-    "drama",
-    "日本"
+    "drama"
   ],
-  "updated_at": "2026-08-05 17:37:00",
+  "updated_at": "2026-08-05 19:58:40",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -53,26 +52,6 @@
       "source_name": "新浪|点播"
     },
     {
-      "source_id": "regular-无尽",
-      "source_vod_id": "167756",
-      "source_name": "无尽|点播"
-    },
-    {
-      "source_id": "regular-极速",
-      "source_vod_id": "113490",
-      "source_name": "极速|点播"
-    },
-    {
-      "source_id": "regular-火狐",
-      "source_vod_id": "139602",
-      "source_name": "火狐|点播"
-    },
-    {
-      "source_id": "regular-索尼",
-      "source_vod_id": "152329",
-      "source_name": "索尼|点播"
-    },
-    {
       "source_id": "regular-红牛",
       "source_vod_id": "153140",
       "source_name": "红牛|点播"
@@ -83,14 +62,14 @@
       "source_name": "虎牙|点播"
     },
     {
-      "source_id": "regular-豪华",
-      "source_vod_id": "139602",
-      "source_name": "豪华|点播"
-    },
-    {
       "source_id": "regular-速博",
       "source_vod_id": "117482",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "150228",
+      "source_name": "量子|点播"
     },
     {
       "source_id": "regular-非凡",
@@ -110,6 +89,17 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260805/9254_4e1d1fd5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:58:40"
+        },
         {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
@@ -131,28 +121,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 17:34:50"
-        },
-        {
-          "source_id": "regular-索尼",
-          "source_name": "索尼|点播",
-          "provider": "snm3u8",
-          "url": "https://v13.rstu6.com/202608/05/SpVxABPfp827/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 14:14:06"
-        },
-        {
-          "source_id": "regular-无尽",
-          "source_name": "无尽|点播",
-          "provider": "wjm3u8",
-          "url": "https://v3.ppqrrs.com/wjv3/202608/05/GSe2p45Cry95/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 14:07:41"
         },
         {
           "source_id": "regular-360",
@@ -188,17 +156,6 @@
           "updated_at": "2026-08-04 23:33:02"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/erkmLqpa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 21:36:02"
-        },
-        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hym3u8",
@@ -208,17 +165,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 21:36:01"
-        },
-        {
-          "source_id": "regular-极速",
-          "source_name": "极速|点播",
-          "provider": "jsm3u8",
-          "url": "https://vv.jisuzyv.com/play/av28Px5a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 21:33:02"
         },
         {
           "source_id": "regular-速博",
@@ -243,6 +189,17 @@
           "updated_at": "2026-08-04 21:32:25"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/09d90af096ee93aae1cecbb338d43020",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:58:40"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukyun",
@@ -265,17 +222,6 @@
           "updated_at": "2026-08-04 23:33:02"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/erkmLqpa",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 21:36:02"
-        },
-        {
           "source_id": "regular-虎牙",
           "source_name": "虎牙|点播",
           "provider": "hyyun",
@@ -285,17 +231,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 21:36:01"
-        },
-        {
-          "source_id": "regular-极速",
-          "source_name": "极速|点播",
-          "provider": "jsyun",
-          "url": "https://vv.jisuzyv.com/play/av28Px5a",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 21:33:02"
         },
         {
           "source_id": "regular-速博",

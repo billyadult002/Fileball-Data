@@ -6,14 +6,15 @@
   "year": 2026,
   "category": "动作片",
   "section": "regular",
-  "poster": "https://www.mdzypic.com/upload/vod/20260804-1/173deb3ebe537c68e1853e46db034ae8.jpg",
+  "poster": "https://img.ukuapi88.com/upload/vod/20260805-1/186f73cb15619c53997ba7fe319c37f8.jpg",
   "overview": "前清刺客老吴隐姓埋名于药铺，却为守护单亲母女小茜和依依，被迫出手击杀黑帮一伙而暴露身份。幕后黑手向爷派杀手左轮抓住母女二人要挟并引出老吴。老吴救人不及受伤被捕，母女二人一死一伤。后药铺老板娘梅姨只身救出被囚的老吴却也中枪牺牲。两个与老吴关系最紧密的女性接连为他而死，沉痛之下他最终放弃十年隐忍，将所有悲愤化作一场怒杀——最终于惨烈搏杀后手刃宿敌左轮，并揭发幕后黑手向爷当年残害自己妻女的真相……",
   "actors": [
     "喻亢",
     "张新童",
     "董洋",
     "刘珂君",
-    "喻亢 张新童 董洋 刘珂君"
+    "喻亢 张新童 董洋 刘珂君",
+    "毛以洋"
   ],
   "directors": [
     "丰小俊",
@@ -24,7 +25,7 @@
     "martial-arts",
     "adventure"
   ],
-  "updated_at": "2026-08-05 17:36:23",
+  "updated_at": "2026-08-05 19:58:25",
   "source_records": [
     {
       "source_id": "regular-ikun",
@@ -37,24 +38,19 @@
       "source_name": "U酷|点播"
     },
     {
-      "source_id": "regular-墨斗",
-      "source_vod_id": "87471",
-      "source_name": "墨斗|点播"
-    },
-    {
       "source_id": "regular-樱花",
       "source_vod_id": "101435",
       "source_name": "樱花|点播"
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "150227",
+      "source_name": "量子|点播"
+    },
+    {
       "source_id": "regular-非凡",
       "source_vod_id": "98905",
       "source_name": "非凡|点播"
-    },
-    {
-      "source_id": "regular-魔都",
-      "source_vod_id": "87471",
-      "source_name": "魔都|点播"
     }
   ],
   "episodes": [
@@ -64,6 +60,17 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260805/9255_f9e15f51/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:58:25"
+        },
         {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
@@ -98,17 +105,6 @@
           "updated_at": "2026-08-04 12:26:53"
         },
         {
-          "source_id": "regular-墨斗",
-          "source_name": "墨斗|点播",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260804/bmAtXBEP/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 12:18:38"
-        },
-        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -118,6 +114,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 11:48:34"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/0eac690d7059a8de4b48e90f14510391",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:58:25"
         },
         {
           "source_id": "regular-u酷",
@@ -156,6 +163,10 @@
     "action": {
       "zh": "动作",
       "en": "Action"
+    },
+    "martial-arts": {
+      "zh": "武侠",
+      "en": "Martial Arts"
     }
   },
   "source_category_translations": {
@@ -166,7 +177,8 @@
     "怒杀",
     "nusha",
     "动作片",
-    "action"
+    "action",
+    "martial-arts"
   ],
   "classification_rule": "keyword_mapping",
   "classification_confidence": 0.85,

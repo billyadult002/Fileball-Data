@@ -1,12 +1,12 @@
 {
-  "id": "movie-legacy-f7d9bf4ff1d07ef8d605",
+  "id": "tv-c9ffb8a8b31ceeca2700",
   "type": "tv",
   "title": "无辣不欢第2季",
-  "original_title": "无辣不欢第2季 - 第01集",
+  "original_title": "wulabuhuandi2ji",
   "year": 2026,
-  "category": "Recovered Movies",
+  "category": "记录片",
   "section": "regular",
-  "poster": "https://ynztctv.com/upload/vod/20260706-1/81ee1f18eecff07dc41a3c504dfdb460.webp",
+  "poster": "https://www.mdzypic.com/upload/vod/20260706-1/a4ec1de0e580e72f19bbe563eb05a7ee.webp",
   "overview": "腾讯视频自制美食纪录片《无辣不欢》第二季，以辣为情绪钥匙，从个人感受延伸至社会群像，深入探寻这款当代情绪释放器如何一辣解千愁。本季我们再次出发，走遍辣域多地，用火辣风味串联市井日常与人间温情，...",
   "actors": [
     "暂无"
@@ -17,7 +17,7 @@
   "genres": [
     "documentary"
   ],
-  "updated_at": "2026-08-02T18:05:15.456635+00:00",
+  "updated_at": "2026-08-05 20:42:38",
   "source_records": [
     {
       "source_id": "gh72-api-ikun",
@@ -81,6 +81,11 @@
     },
     {
       "source_id": "regular-ikun",
+      "source_vod_id": "69379",
+      "source_name": "ikun|点播"
+    },
+    {
+      "source_id": "regular-ikun",
       "source_vod_id": "movie-legacy-04bd29f2909574f3ba1d",
       "source_name": "regular-ikun"
     },
@@ -128,25 +133,46 @@
       "source_id": "regular-ikun",
       "source_vod_id": "movie-legacy-f7d9bf4ff1d07ef8d605",
       "source_name": "regular-ikun"
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "85769",
+      "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "85769",
+      "source_name": "魔都|点播"
     }
   ],
   "episodes": [
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e001",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0001-e3b0c442",
       "name": "第01集",
       "season": null,
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260706/Vi3lPTQD/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260706/qozI57fJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -158,36 +184,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451227+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260706/qozI57fJ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451138+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e002",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0002-e3b0c442",
       "name": "第02集",
       "season": null,
       "episode": 2,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260706/FsWUjWmU/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260706/GzCHIKU0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -199,36 +225,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451235+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260706/GzCHIKU0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451147+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e003",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0003-e3b0c442",
       "name": "第03集",
       "season": null,
       "episode": 3,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260710/EYK74MJP/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260710/z9Yjl5So/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -240,36 +266,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451244+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260710/z9Yjl5So/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451155+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e004",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0004-e3b0c442",
       "name": "第04集",
       "season": null,
       "episode": 4,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260710/fc2K9bC2/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260710/PplG6Qti/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -281,36 +307,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451252+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260710/PplG6Qti/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451164+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e005",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0005-e3b0c442",
       "name": "第05集",
       "season": null,
       "episode": 5,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260716/5rYG7ZJM/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260716/vmb8JAOI/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -322,36 +348,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451265+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260716/vmb8JAOI/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451173+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e006",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0006-e3b0c442",
       "name": "第06集",
       "season": null,
       "episode": 6,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260716/AtloPHvq/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260716/AEDrRZxg/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -363,36 +389,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451274+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260716/AEDrRZxg/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451181+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e007",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0007-e3b0c442",
       "name": "第07集",
       "season": null,
       "episode": 7,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260721/HQJHUl99/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260721/Mkklk20R/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -404,36 +430,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451282+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260721/Mkklk20R/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451189+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e008",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0008-e3b0c442",
       "name": "第08集",
       "season": null,
       "episode": 8,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260728/3q2Riud3/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260728/HZnpJsGS/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -445,36 +471,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451290+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260728/HZnpJsGS/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451198+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e009",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0009-e3b0c442",
       "name": "第09集",
       "season": null,
       "episode": 9,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260728/dkmbLvIq/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260728/n4CkhyTm/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -486,36 +512,36 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451299+00:00"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260728/n4CkhyTm/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451206+00:00"
         }
       ]
     },
     {
-      "id": "movie-legacy-f7d9bf4ff1d07ef8d605-e010",
+      "id": "tv-c9ffb8a8b31ceeca2700-e0010-e3b0c442",
       "name": "第10集",
       "season": null,
       "episode": 10,
       "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260802/qGsatsRC/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 21:17:06"
+          "updated_at": "2026-08-05 20:42:38"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260802/UGCJb8Cn/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         },
         {
           "source_id": "regular-360",
@@ -527,37 +553,97 @@
           "priority": 0,
           "health": "recovered",
           "updated_at": "2026-08-02T18:05:15.451308+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tv-c9ffb8a8b31ceeca2700-e0011-e3b0c442",
+      "name": "第11集",
+      "season": null,
+      "episode": 11,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260805/2MgtGitW/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:42:38"
         },
         {
           "source_id": "regular-ikun",
-          "source_name": "regular-ikun",
-          "provider": "legacy-fastone-recovered",
-          "url": "https://bfikuncdn.com/20260802/UGCJb8Cn/index.m3u8",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260805/KLTEqArh/index.m3u8",
           "protocol": "hls",
           "supported": true,
-          "priority": 0,
-          "health": "recovered",
-          "updated_at": "2026-08-02T18:05:15.451218+00:00"
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 20:20:57"
         }
       ]
     }
   ],
   "content_mode": "vod",
-  "title_zh": "无辣不欢第2季 - 第01集",
-  "title_en": "None",
-  "aliases": [],
-  "media_type_labels": {},
-  "genre_labels": {},
-  "source_category_translations": {},
-  "search_terms": [],
-  "classification_rule": "legacy",
-  "classification_confidence": 0.0,
-  "region": "unknown",
-  "country": "unknown",
-  "language": "unknown",
-  "region_labels": {},
-  "country_labels": {},
-  "language_labels": {},
-  "title_records": [],
+  "title_zh": "无辣不欢第2季",
+  "title_en": "wulabuhuandi2ji",
+  "aliases": [
+    "无辣不欢 第2季"
+  ],
+  "media_type_labels": {
+    "zh": "电视剧",
+    "en": "TV Series"
+  },
+  "genre_labels": {
+    "documentary": {
+      "zh": "纪录",
+      "en": "Documentary"
+    }
+  },
+  "source_category_translations": {
+    "zh": "记录片",
+    "en": ""
+  },
+  "search_terms": [
+    "无辣不欢第2季",
+    "wulabuhuandi2ji",
+    "无辣不欢 第2季",
+    "记录片",
+    "documentary"
+  ],
+  "classification_rule": "record_structure",
+  "classification_confidence": 0.7,
+  "region": "mainland-china",
+  "country": "mainland-china",
+  "language": "mandarin",
+  "region_labels": {
+    "zh": "中国大陆",
+    "en": "Mainland China"
+  },
+  "country_labels": {
+    "zh": "中国大陆",
+    "en": "Mainland China"
+  },
+  "language_labels": {
+    "zh": "普通话",
+    "en": "Mandarin"
+  },
+  "title_records": [
+    {
+      "value": "无辣不欢第2季",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "wulabuhuandi2ji",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
   "media_type": "tv"
 }

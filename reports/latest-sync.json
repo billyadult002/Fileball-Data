@@ -1,17 +1,17 @@
 {
   "mode": "incremental",
-  "started_at": "2026-08-05T10:53:01Z",
-  "finished_at": "2026-08-05T10:56:30Z",
+  "started_at": "2026-08-05T14:32:31Z",
+  "finished_at": "2026-08-05T14:35:56Z",
   "status": "partial",
   "sources_total": 59,
-  "sources_succeeded": 35,
-  "sources_failed": 24,
-  "records_received": 5400,
-  "media_generated": 99267,
-  "episodes_generated": 210306,
-  "streams_generated": 1161038,
-  "duplicates_merged": 2817,
-  "unsupported_streams": 422173,
+  "sources_succeeded": 32,
+  "sources_failed": 27,
+  "records_received": 4800,
+  "media_generated": 99334,
+  "episodes_generated": 212548,
+  "streams_generated": 1132884,
+  "duplicates_merged": 2293,
+  "unsupported_streams": 410723,
   "outputs_changed": true,
   "failures": [
     {
@@ -55,6 +55,16 @@
       "message": "HTTP 403 from source endpoint"
     },
     {
+      "source_id": "regular-豪华",
+      "error_type": "http_403",
+      "message": "HTTP 403 from source endpoint"
+    },
+    {
+      "source_id": "regular-极速",
+      "error_type": "http_403",
+      "message": "HTTP 403 from source endpoint"
+    },
+    {
       "source_id": "regular-快车",
       "error_type": "connection",
       "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)"
@@ -71,6 +81,11 @@
     },
     {
       "source_id": "regular-飘零",
+      "error_type": "http_403",
+      "message": "HTTP 403 from source endpoint"
+    },
+    {
+      "source_id": "regular-火狐",
       "error_type": "http_403",
       "message": "HTTP 403 from source endpoint"
     },
@@ -140,8 +155,8 @@
     "records_absorbed": 0
   },
   "carry_over": {
-    "previous_titles_read": 98587,
-    "titles_this_run_did_not_refetch": 96684,
+    "previous_titles_read": 99267,
+    "titles_this_run_did_not_refetch": 96825,
     "enabled": true
   },
   "source_pagination": [
@@ -183,22 +198,6 @@
       "reported_pagecount": null,
       "reported_total": null,
       "records_received": 40,
-      "status": "complete"
-    },
-    {
-      "source_id": "regular-豪华",
-      "pages_requested": 2,
-      "reported_pagecount": null,
-      "reported_total": null,
-      "records_received": 200,
-      "status": "complete"
-    },
-    {
-      "source_id": "regular-极速",
-      "pages_requested": 2,
-      "reported_pagecount": null,
-      "reported_total": null,
-      "records_received": 200,
       "status": "complete"
     },
     {
@@ -303,14 +302,6 @@
       "reported_pagecount": null,
       "reported_total": null,
       "records_received": 40,
-      "status": "complete"
-    },
-    {
-      "source_id": "regular-火狐",
-      "pages_requested": 2,
-      "reported_pagecount": null,
-      "reported_total": null,
-      "records_received": 200,
       "status": "complete"
     },
     {
