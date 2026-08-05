@@ -16,7 +16,7 @@
     "短剧",
     "现代都市"
   ],
-  "updated_at": "2026-08-06 00:29:49",
+  "updated_at": "2026-08-06 02:46:45",
   "source_records": [
     {
       "source_id": "imported-suoniapi-com-source",
@@ -37,6 +37,16 @@
       "source_id": "regular-索尼",
       "source_vod_id": "152356",
       "source_name": "索尼|点播"
+    },
+    {
+      "source_id": "gh72-api-suoni",
+      "source_vod_id": "152356",
+      "source_name": "gh72-api-suoni"
+    },
+    {
+      "source_id": "gh72-api-zuid",
+      "source_vod_id": "129023",
+      "source_name": "gh72-api-zuid"
     }
   ],
   "episodes": [
@@ -67,6 +77,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 00:21:41"
+        },
+        {
+          "source_id": "gh72-api-zuid",
+          "source_name": "gh72-api-zuid",
+          "provider": "zuidam3u8",
+          "url": "https://v14.zuidazym3u8.com/yyv14/202608/06/XYertegcqA27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 02:46:45"
         }
       ]
     }
@@ -120,5 +141,9 @@
       "official": true
     }
   ],
-  "media_type": "other"
+  "media_type": "other",
+  "source_ids": [
+    "gh72-api-suoni",
+    "gh72-api-zuid"
+  ]
 }
