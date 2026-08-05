@@ -20,7 +20,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-08-05 18:30:02",
+  "updated_at": "2026-08-05 23:41:17",
   "source_records": [
     {
       "source_id": "regular-u酷",
@@ -46,6 +46,21 @@
       "source_id": "regular-速博",
       "source_vod_id": "117450",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-suoni",
+      "source_vod_id": "152227",
+      "source_name": "gh72-api-suoni"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "113459",
+      "source_name": "gh72-api-jszy"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "142484",
+      "source_name": "gh72-api-maotai"
     }
   ],
   "episodes": [
@@ -142,6 +157,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:37:32"
+        },
+        {
+          "source_id": "gh72-api-suoni",
+          "source_name": "gh72-api-suoni",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202608/04/KtyMFb3bWm27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:17"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260804/ldx0QSKO/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 18:02:29"
         }
       ]
     },
@@ -238,6 +275,66 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 15:37:32"
+        },
+        {
+          "source_id": "gh72-api-suoni",
+          "source_name": "gh72-api-suoni",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202608/04/LB3w4E5ved27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 23:41:17"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260805/1ZMaoCnG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 18:02:29"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0001-e3b0c442",
+      "name": "第1集",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dJ6Nv0Jd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 18:30:04"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0002-e3b0c442",
+      "name": "第2集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dNkYln2e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 18:30:04"
         }
       ]
     }
@@ -297,5 +394,10 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy",
+    "gh72-api-maotai",
+    "gh72-api-suoni"
+  ]
 }

@@ -69,6 +69,26 @@
       "source_id": "regular-魔都",
       "source_vod_id": "87282",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69709",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "102662",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "142321",
+      "source_name": "gh72-api-maotai"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87282",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -870,6 +890,47 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 18:26:04"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260805/WJtnc8ZQ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:41:35"
+        }
+      ]
+    },
+    {
+      "id": "tv-cd48b339fbea04f516d9-e0001-e3b0c442",
+      "name": "20260804第1期下",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260804/cN9CX4Xw/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:41:35"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260804/sVkml0br/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 17:41:35"
         }
       ]
     }
@@ -923,5 +984,11 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-maotai",
+    "gh72-api-mdzy"
+  ]
 }

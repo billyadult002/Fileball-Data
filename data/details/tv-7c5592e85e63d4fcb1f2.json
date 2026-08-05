@@ -37,6 +37,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "117532",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "113540",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -111,6 +116,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 16:04:38"
+        },
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bkRrYXKa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 16:06:03"
         }
       ]
     }
@@ -164,5 +180,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }
