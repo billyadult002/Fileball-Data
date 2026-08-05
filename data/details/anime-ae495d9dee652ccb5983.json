@@ -7,7 +7,7 @@
   "category": "日本动漫",
   "section": "regular",
   "poster": "https://ynztctv.com/upload/vod/20260706-1/a6e18523066ed7dacf7bbb167309d1e5.webp",
-  "overview": "昔々あるところに、ララという人魚のプリンセスがおりました。 海の王である父と、姉たちに愛されて、すくすくと育ちました。 ある日、ララは地上に生きる人間の王子に恋をしてしまいます。 それは人魚たちの世...",
+  "overview": "昔々あるところに、ララという人魚のプリンセスがおりました。 海の王である父と、姉たちに愛されて、すくすくと育ちました。 ある日、ララは地上に生きる人間の王子に恋をしてしまいます。 それは人魚たちの世界では許されぬ、禁じられた恋でした。 それでもララは地上へ旅立ちます。 魔女グレイスにもらった薬を飲み、人間の姿になったのです。 しかしそれは、”本当の愛”を見つけなければ、 泡となって消えてしまう禁忌の薬でした。 人魚のプリンセスでありながら、人間との愛を望んだララ。 けれど———その願いは叶わず、泡となって海へ消えてしまうのでした。 それから200年。 長い時を経て、人魚姫ララは琵琶湖に蘇る。 今度こそ“本当の愛”を見つけるために———",
   "actors": [
     "寺杣昌纪",
     "津田美波",
@@ -16,7 +16,9 @@
     "山本和臣",
     "深见梨加",
     "大野智敬",
-    "菱川花菜"
+    "菱川花菜",
+    "川石奈奈",
+    "住友七绘"
   ],
   "directors": [
     "小出卓史"
@@ -25,32 +27,17 @@
     "fantasy",
     "animation"
   ],
-  "updated_at": "2026-08-03 01:12:12",
+  "updated_at": "2026-08-02 23:53:30",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_vod_id": "69367",
-      "source_name": "gh72-api-ikun"
+      "source_name": "ikun|点播"
     },
     {
-      "source_id": "gh72-api-zuid",
-      "source_vod_id": "127598",
-      "source_name": "gh72-api-zuid"
-    },
-    {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "100909",
-      "source_name": "gh72-api-360zy"
-    },
-    {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "139006",
-      "source_name": "gh72-api-maotai"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "85719",
-      "source_name": "gh72-api-mdzy"
+      "source_id": "regular-非凡",
+      "source_vod_id": "98527",
+      "source_name": "非凡|点播"
     }
   ],
   "episodes": [
@@ -61,8 +48,8 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260706/iROt5H6Y/index.m3u8",
           "protocol": "hls",
@@ -72,26 +59,26 @@
           "updated_at": "2026-08-02 23:53:30"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260706/tHDoExph/index.m3u8",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20260706/55448_66802ad9/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 23:50:03"
+          "updated_at": "2026-08-02 23:49:46"
         },
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260706/F1jQqMHR/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/66802ad9118b9a2332fce8448f15de9b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-03 00:17:30"
+          "updated_at": "2026-08-02 23:49:46"
         }
       ]
     },
@@ -102,8 +89,8 @@
       "episode": 2,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260713/MDhSSahm/index.m3u8",
           "protocol": "hls",
@@ -113,48 +100,26 @@
           "updated_at": "2026-08-02 23:53:30"
         },
         {
-          "source_id": "gh72-api-zuid",
-          "source_name": "gh72-api-zuid",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/12/dUgUkvdePf27/video/index.m3u8",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20260712/55678_ad6bf208/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-03 01:12:12"
+          "updated_at": "2026-08-02 23:49:46"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260713/HtSzZQqC/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/ad6bf2081b803e4150ce1179a6cfec1f",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 23:50:03"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd13.uvjtih.cn/20260714/8KuADmSt/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 14:03:48"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260713/EAvhCTq4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-03 00:17:30"
+          "updated_at": "2026-08-02 23:49:46"
         }
       ]
     },
@@ -165,8 +130,8 @@
       "episode": 3,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260719/vQVCsWcd/index.m3u8",
           "protocol": "hls",
@@ -176,48 +141,26 @@
           "updated_at": "2026-08-02 23:53:30"
         },
         {
-          "source_id": "gh72-api-zuid",
-          "source_name": "gh72-api-zuid",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/19/pwftMN5M9j27/video/index.m3u8",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20260719/55980_8eaf9f32/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-03 01:12:12"
+          "updated_at": "2026-08-02 23:49:46"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260719/FpI1M931/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/8eaf9f3262c29cf2938699653cd93f48",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 23:50:03"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260721/lFvyd4Q9/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 14:03:48"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260719/xOyrKlzG/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-03 00:17:30"
+          "updated_at": "2026-08-02 23:49:46"
         }
       ]
     },
@@ -228,8 +171,8 @@
       "episode": 4,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260726/HWcGPfAF/index.m3u8",
           "protocol": "hls",
@@ -239,37 +182,26 @@
           "updated_at": "2026-08-02 23:53:30"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260726/fDKBN9e6/index.m3u8",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20260726/56279_781ca2f2/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 23:50:03"
+          "updated_at": "2026-08-02 23:49:46"
         },
         {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260802/TEdGDsU5/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/781ca2f25a6943221d58b2d748aa684f",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:03:48"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260726/BydYTMwg/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-03 00:17:30"
+          "updated_at": "2026-08-02 23:49:46"
         }
       ]
     },
@@ -280,8 +212,8 @@
       "episode": 5,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260802/KROpQjJw/index.m3u8",
           "protocol": "hls",
@@ -291,26 +223,26 @@
           "updated_at": "2026-08-02 23:53:30"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260802/vGCAVn4t/index.m3u8",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20260802/56599_1eaaa2de/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 23:50:03"
+          "updated_at": "2026-08-02 23:49:46"
         },
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260803/pr3zYUoI/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/1eaaa2de177688ac332a563fed6ded80",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-03 00:17:30"
+          "updated_at": "2026-08-02 23:49:46"
         }
       ]
     }
@@ -378,11 +310,5 @@
       "official": true
     }
   ],
-  "media_type": "anime",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-maotai",
-    "gh72-api-mdzy",
-    "gh72-api-zuid"
-  ]
+  "media_type": "anime"
 }

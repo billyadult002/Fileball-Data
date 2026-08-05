@@ -42,7 +42,7 @@
     "war",
     "drama"
   ],
-  "updated_at": "2026-08-01 18:38:29",
+  "updated_at": "2026-08-02T18:05:15.458766+00:00",
   "source_records": [
     {
       "source_id": "regular-u酷",
@@ -68,6 +68,11 @@
       "source_id": "regular-极速",
       "source_vod_id": "106640",
       "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-樱花",
+      "source_vod_id": "movie-legacy-8fc5779fbb791850a0cc",
+      "source_name": "regular-樱花"
     },
     {
       "source_id": "regular-火狐",
@@ -113,6 +118,11 @@
       "source_id": "regular-非凡",
       "source_vod_id": "97224",
       "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "movie-legacy-8fc5779fbb791850a0cc",
+      "source_name": "regular-非凡"
     }
   ],
   "episodes": [
@@ -286,6 +296,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-07-31 12:12:03"
+        },
+        {
+          "source_id": "regular-樱花",
+          "source_name": "regular-樱花",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://vod12.wgslsw.com/20260802/13N8Vv5jKW87/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451413+00:00"
         },
         {
           "source_id": "regular-量子",

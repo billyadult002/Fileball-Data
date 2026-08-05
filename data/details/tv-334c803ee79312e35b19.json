@@ -17,11 +17,11 @@
     "暂无"
   ],
   "genres": [
-    "剧情",
-    "爱情",
-    "古装"
+    "romance",
+    "drama",
+    "costume"
   ],
-  "updated_at": "2026-08-04 13:01:38",
+  "updated_at": "2026-08-04 13:20:37",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -34,11 +34,6 @@
       "source_name": "ikun|点播"
     },
     {
-      "source_id": "regular-u酷",
-      "source_vod_id": "70559",
-      "source_name": "U酷|点播"
-    },
-    {
       "source_id": "regular-墨斗",
       "source_vod_id": "86829",
       "source_name": "墨斗|点播"
@@ -47,16 +42,6 @@
       "source_id": "regular-魔都",
       "source_vod_id": "86829",
       "source_name": "魔都|点播"
-    },
-    {
-      "source_id": "gh72-api-ikun",
-      "source_vod_id": "69625",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "86829",
-      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -67,6 +52,17 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260724/XNi8kliZ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -75,7 +71,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -86,40 +82,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260724/XNi8kliZ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/UeeySEC4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/X3Em0tJEhp",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -130,6 +93,17 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260724/wz2bfpmt/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -138,7 +112,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -149,40 +123,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260724/wz2bfpmt/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/Uhh8uss4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/cSkHy0c1wW",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -193,6 +134,17 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260724/vhziLLDb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -201,7 +153,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -212,40 +164,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260724/vhziLLDb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/5KdM39EJ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/o2GuJSJ5bE",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -256,6 +175,17 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260724/Y9Zu8Qz4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -264,7 +194,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -275,40 +205,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260724/Y9Zu8Qz4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/KwnNA1UA/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/00JKNO881U",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -319,6 +216,17 @@
       "episode": 5,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260724/GbxOHPAl/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -327,7 +235,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -338,40 +246,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260724/GbxOHPAl/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/ABqXx8Vb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/ezMrddTrIA",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -382,6 +257,17 @@
       "episode": 6,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260724/CTL1Xwsx/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -390,7 +276,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -401,40 +287,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260724/CTL1Xwsx/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/vVXEaTSP/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/Ye2H1JNxQX",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -445,6 +298,17 @@
       "episode": 7,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260725/uG90Djxb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -453,7 +317,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -464,40 +328,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260725/uG90Djxb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/E2xqkZXS/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/wbhurQV8W5",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -508,6 +339,17 @@
       "episode": 8,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260725/meBeA9Tw/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -516,7 +358,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -527,40 +369,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260725/meBeA9Tw/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260725/xf1liWs6/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/x65WopkNKL",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -571,6 +380,17 @@
       "episode": 9,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260726/ZfGALFlE/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -579,7 +399,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -590,40 +410,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260726/ZfGALFlE/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260726/PFp3tLrq/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/GZILBkClyQ",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -634,6 +421,17 @@
       "episode": 10,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260726/zgXU0h9I/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -642,7 +440,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -653,40 +451,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260726/zgXU0h9I/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260726/QPoDlN3W/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/6aCTDmN40t",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -697,6 +462,17 @@
       "episode": 11,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260727/OLFIYSkp/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -705,7 +481,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -716,40 +492,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260727/OLFIYSkp/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260727/9zNjdzRZ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/3Ct4zZ0nlt",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -760,6 +503,17 @@
       "episode": 12,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260728/0KfqPK9F/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -768,7 +522,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -779,40 +533,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260728/0KfqPK9F/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260728/cvOTnCjR/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/2fEM8LUviL",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -823,6 +544,17 @@
       "episode": 13,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260729/TrJcg7Sl/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -831,7 +563,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -842,40 +574,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260729/TrJcg7Sl/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260729/CSf2FDnC/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/HngtTxzKff",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -886,6 +585,17 @@
       "episode": 14,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260730/PyPgNYgj/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -894,7 +604,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -905,40 +615,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260730/PyPgNYgj/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260730/SdETTrdb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/2KTvPdsqRH",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -949,6 +626,17 @@
       "episode": 15,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260731/SX0G2POi/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -957,7 +645,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -968,40 +656,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260731/SX0G2POi/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260731/kO20DEEd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/1hvZoEIxqS",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -1012,6 +667,17 @@
       "episode": 16,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260801/G1e8uFJP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -1020,7 +686,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -1031,40 +697,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260801/G1e8uFJP/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260801/4rkuBZ2b/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/S1yPkYQys0",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -1075,6 +708,17 @@
       "episode": 17,
       "streams": [
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260802/zdhkbXSV/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 13:20:37"
+        },
+        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
@@ -1083,7 +727,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 14:02:54"
+          "updated_at": "2026-08-04 13:01:38"
         },
         {
           "source_id": "regular-墨斗",
@@ -1094,40 +738,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:42:28"
-        },
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260802/zdhkbXSV/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:38:34"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260801/vHfwOfLK/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/Dp0DLigrVI",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -1138,30 +749,19 @@
       "episode": 18,
       "streams": [
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260801/62EyPhnY/index.m3u8",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260803/VaV0fJM8/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 13:20:37"
         },
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/MBXox8Q2pb",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260803/WRlDRc6Z/index.m3u8",
           "protocol": "hls",
@@ -1169,6 +769,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 13:01:38"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260803/UAKwdbeS/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     },
@@ -1179,30 +790,19 @@
       "episode": 19,
       "streams": [
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260801/RfV9W5xl/index.m3u8",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260804/wfufo4Lf/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 13:20:37"
         },
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/C6rh98A2Nm",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260804/21oPPHl6/index.m3u8",
           "protocol": "hls",
@@ -1210,74 +810,69 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 13:01:38"
-        }
-      ]
-    },
-    {
-      "id": "tv-334c803ee79312e35b19-e0020-e3b0c442",
-      "name": "第20集",
-      "season": null,
-      "episode": 20,
-      "streams": [
+        },
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260801/JJFZ3qeG/index.m3u8",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260804/6Wzihe7U/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/1obhZYe2Ga",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        }
-      ]
-    },
-    {
-      "id": "tv-334c803ee79312e35b19-e0021-e3b0c442",
-      "name": "第21集",
-      "season": null,
-      "episode": 21,
-      "streams": [
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260801/giSvMVTM/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/Weanw6xo8H",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-01 13:58:31"
+          "updated_at": "2026-08-04 12:54:13"
         }
       ]
     }
   ],
   "content_mode": "vod",
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-ikun",
-    "gh72-api-mdzy"
-  ]
+  "title_zh": "凤池生春",
+  "title_en": "fengchishengchun",
+  "aliases": [],
+  "media_type_labels": {
+    "zh": "电视剧",
+    "en": "TV Series"
+  },
+  "genre_labels": {},
+  "source_category_translations": {
+    "zh": "国产剧",
+    "en": ""
+  },
+  "search_terms": [
+    "凤池生春",
+    "fengchishengchun",
+    "国产剧"
+  ],
+  "classification_rule": "keyword_mapping",
+  "classification_confidence": 0.85,
+  "region": "mainland-china",
+  "country": "mainland-china",
+  "language": "mandarin",
+  "region_labels": {
+    "zh": "中国大陆",
+    "en": "Mainland China"
+  },
+  "country_labels": {
+    "zh": "中国大陆",
+    "en": "Mainland China"
+  },
+  "language_labels": {
+    "zh": "普通话",
+    "en": "Mandarin"
+  },
+  "title_records": [
+    {
+      "value": "凤池生春",
+      "language": "zh",
+      "source": "source_api",
+      "official": true
+    },
+    {
+      "value": "fengchishengchun",
+      "language": "en",
+      "source": "source_api",
+      "official": true
+    }
+  ],
+  "media_type": "tv"
 }

@@ -40,7 +40,7 @@
     "crime",
     "drama"
   ],
-  "updated_at": "2026-07-12 15:57:54",
+  "updated_at": "2026-08-02T18:05:15.461001+00:00",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -61,6 +61,11 @@
       "source_id": "regular-新浪",
       "source_vod_id": "167756",
       "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-暴风",
+      "source_vod_id": "movie-legacy-6b69b9d25baa5cf03796",
+      "source_name": "regular-暴风"
     },
     {
       "source_id": "regular-极速",
@@ -235,6 +240,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-07-11 13:18:07"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "regular-暴风",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://v.fengbao11.com/video/linlimian/287301880666/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451630+00:00"
         },
         {
           "source_id": "regular-量子",

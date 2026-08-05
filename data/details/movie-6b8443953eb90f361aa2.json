@@ -7,7 +7,7 @@
   "category": "电影解说",
   "section": "regular",
   "poster": "https://img.lzipic.com/upload/vod/20260802-1/ee6ecba1a5f9687eca8f9977102f9955.webp",
-  "overview": "围绕三位女性在航空公司的工作和生活展开，因为她们的命运导致了一些不必要的情况，最终陷入了一个谎言网络。",
+  "overview": "Recovered from an offline historical authorized playlist snapshot.",
   "actors": [
     "塔布",
     "卡琳娜·卡普尔",
@@ -26,12 +26,17 @@
     "剧情",
     "喜剧"
   ],
-  "updated_at": "2026-08-02 15:08:24",
+  "updated_at": "2026-08-02T18:05:15.457705+00:00",
   "source_records": [
     {
       "source_id": "regular-量子",
       "source_vod_id": "149493",
       "source_name": "量子|点播"
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "movie-legacy-6f666f64f421ed0d1b8a",
+      "source_name": "regular-量子"
     }
   ],
   "episodes": [
@@ -44,17 +49,6 @@
         {
           "source_id": "regular-量子",
           "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lz15uu.com/share/f27a4f23a9840cbee6ccaa3194e86ea0",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 15:08:24"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
           "provider": "lzm3u8",
           "url": "https://v.lz15uu.com/20260802/16387_6cc1956a/index.m3u8",
           "protocol": "hls",
@@ -62,10 +56,56 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 15:08:24"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lz15uu.com/share/f27a4f23a9840cbee6ccaa3194e86ea0",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 15:08:24"
+        }
+      ]
+    },
+    {
+      "id": "movie-legacy-6f666f64f421ed0d1b8a-main",
+      "name": "主片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "regular-量子",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://v.lz15uu.com/20260802/16387_6cc1956a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451324+00:00"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "",
+  "title_en": "",
+  "aliases": [],
+  "media_type_labels": {},
+  "genre_labels": {},
+  "source_category_translations": {},
+  "search_terms": [],
+  "classification_rule": "legacy",
+  "classification_confidence": 0.0,
+  "region": "unknown",
+  "country": "unknown",
+  "language": "unknown",
+  "region_labels": {},
+  "country_labels": {},
+  "language_labels": {},
+  "title_records": [],
   "media_type": "movie"
 }

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-04T20:58:01Z",
+  "source": "https://iptv-org.github.io/iptv/index.m3u",
+  "parse": {
+    "channels": 13528,
+    "rejected": 5,
+    "rejected_by_reason": {
+      "unsupported_scheme": 5
+    },
+    "epg_urls": [
+      "https://raw.githubusercontent.com/StrangeDrVN/epg/public/guide.xml.gz",
+      "https://worker-9dd4.onrender.com/guide.xml.gz"
+    ]
+  },
+  "distribution": {
+    "schemes": {
+      "https": 11016,
+      "http": 2512
+    },
+    "protocols": {
+      "hls": 13071,
+      "unknown": 310,
+      "dash": 147
+    },
+    "channels_requiring_headers": 839,
+    "top_groups": {
+      "Undefined": 3636,
+      "General": 2768,
+      "News": 920,
+      "Entertainment": 845,
+      "Religious": 748,
+      "Music": 734,
+      "Movies": 629,
+      "Sports": 479,
+      "Series": 401,
+      "Kids": 304,
+      "Education": 203,
+      "Documentary": 197
+    }
+  },
+  "client_compatibility": {
+    "streams_evaluated": 13528,
+    "clients": {
+      "fileball": {
+        "compatible": 13071,
+        "incompatible": 457,
+        "percent": 96.62,
+        "reasons": {
+          "unsupported_protocol": 457
+        }
+      },
+      "senplayer": {
+        "compatible": 13071,
+        "incompatible": 457,
+        "percent": 96.62,
+        "reasons": {
+          "unsupported_protocol": 457
+        }
+      },
+      "stremio": {
+        "compatible": 12374,
+        "incompatible": 1154,
+        "percent": 91.47,
+        "reasons": {
+          "custom_headers_unsupported": 839,
+          "unsupported_protocol": 457
+        }
+      },
+      "web": {
+        "compatible": 10348,
+        "incompatible": 3180,
+        "percent": 76.49,
+        "reasons": {
+          "custom_headers_unsupported": 839,
+          "insecure_scheme": 2512,
+          "unsupported_protocol": 457
+        }
+      }
+    }
+  },
+  "note": "Parsed and evaluated only. Ingestion is gated by Mission 7.5 live policy, which excludes Chinese television broadcasts from Fireball Live."
+}

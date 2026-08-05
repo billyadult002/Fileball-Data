@@ -24,7 +24,7 @@
   "genres": [
     "纪录片"
   ],
-  "updated_at": "2026-08-02 16:38:35",
+  "updated_at": "2026-08-02T18:05:15.460882+00:00",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -45,6 +45,11 @@
       "source_id": "regular-墨斗",
       "source_vod_id": "87405",
       "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "movie-legacy-92bb0bed0d7b97ffc6d2",
+      "source_name": "regular-墨斗"
     },
     {
       "source_id": "regular-魔都",
@@ -69,6 +74,25 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 23:30:01"
+        }
+      ]
+    },
+    {
+      "id": "movie-legacy-92bb0bed0d7b97ffc6d2-main",
+      "name": "主片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "regular-墨斗",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://play.modujx17.com/20260802/3JfrE9H4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451623+00:00"
         }
       ]
     },
@@ -115,5 +139,21 @@
     }
   ],
   "content_mode": "vod",
+  "title_zh": "",
+  "title_en": "",
+  "aliases": [],
+  "media_type_labels": {},
+  "genre_labels": {},
+  "source_category_translations": {},
+  "search_terms": [],
+  "classification_rule": "legacy",
+  "classification_confidence": 0.0,
+  "region": "unknown",
+  "country": "unknown",
+  "language": "unknown",
+  "region_labels": {},
+  "country_labels": {},
+  "language_labels": {},
+  "title_records": [],
   "media_type": "movie"
 }

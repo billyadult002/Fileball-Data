@@ -1,74 +1,75 @@
 {
-  "generated_at": "2026-08-02T18:36:52.737535+00:00",
+  "generated_at": "2026-08-05T02:07:45.800365+00:00",
   "fresh_upstream_fetch": false,
   "catalog": {
-    "total": 3481,
+    "total": 6084,
     "type_counts": {
-      "other": 2631,
-      "anime": 260,
-      "variety": 120,
-      "tv": 367,
-      "movie": 103
+      "other": 4782,
+      "tv": 773,
+      "anime": 367,
+      "variety": 144,
+      "documentary": 7,
+      "short": 11
     },
     "content_mode_counts": {
-      "vod": 3481
+      "vod": 6084
     },
     "section_counts": {
-      "av": 2273,
-      "regular": 1208
+      "regular": 2210,
+      "av": 3874
     },
     "dimensions": {
       "movie": {
-        "canonical_media": 103,
-        "episode_count": 178,
-        "stream_count": 229,
+        "canonical_media": 0,
+        "episode_count": 91852,
+        "stream_count": 799242,
         "playlist_entries": 0
       },
       "tv": {
-        "canonical_media": 367,
-        "episode_count": 1945,
-        "stream_count": 4677,
+        "canonical_media": 773,
+        "episode_count": 51341,
+        "stream_count": 151530,
         "playlist_entries": 0
       },
       "anime": {
-        "canonical_media": 260,
-        "episode_count": 1427,
-        "stream_count": 17592,
+        "canonical_media": 367,
+        "episode_count": 27750,
+        "stream_count": 116100,
         "playlist_entries": 0
       },
       "variety": {
-        "canonical_media": 120,
-        "episode_count": 7591,
-        "stream_count": 25835,
+        "canonical_media": 144,
+        "episode_count": 16146,
+        "stream_count": 54594,
         "playlist_entries": 0
       },
       "documentary": {
-        "canonical_media": 0,
-        "episode_count": 0,
-        "stream_count": 0,
+        "canonical_media": 7,
+        "episode_count": 23,
+        "stream_count": 26,
         "playlist_entries": 0
       },
       "short": {
-        "canonical_media": 0,
-        "episode_count": 0,
-        "stream_count": 0,
+        "canonical_media": 11,
+        "episode_count": 11,
+        "stream_count": 11,
         "playlist_entries": 0
       },
       "other": {
-        "canonical_media": 2631,
-        "episode_count": 490,
-        "stream_count": 697,
+        "canonical_media": 4782,
+        "episode_count": 4606,
+        "stream_count": 6355,
         "playlist_entries": 0
       },
       "live": {
-        "canonical_media": 358,
+        "canonical_media": 1344,
         "episode_count": 0,
-        "stream_count": 358,
-        "playlist_entries": 358
+        "stream_count": 1399,
+        "playlist_entries": 1399
       },
       "manga": {
-        "canonical_media": 0,
-        "episode_count": 0,
+        "canonical_media": 24,
+        "episode_count": 1199,
         "stream_count": 0,
         "playlist_entries": 0
       }
@@ -795,18 +796,18 @@
   },
   "sync": {
     "mode": "incremental",
-    "started_at": "2026-08-02T13:52:26Z",
-    "finished_at": "2026-08-02T13:53:15Z",
+    "started_at": "2026-08-05T02:02:41Z",
+    "finished_at": "2026-08-05T02:06:52Z",
     "status": "partial",
     "sources_total": 59,
     "sources_succeeded": 35,
     "sources_failed": 24,
-    "records_received": 1480,
-    "media_generated": 730,
-    "episodes_generated": 11496,
-    "streams_generated": 48878,
-    "duplicates_merged": 750,
-    "unsupported_streams": 8567,
+    "records_received": 5400,
+    "media_generated": 97868,
+    "episodes_generated": 191729,
+    "streams_generated": 1127858,
+    "duplicates_merged": 2997,
+    "unsupported_streams": 416765,
     "outputs_changed": true,
     "failures": [
       {
@@ -928,6 +929,293 @@
         "source_id": "av-草榴资源",
         "error_type": "connection",
         "message": "[Errno -2] Name or service not known"
+      }
+    ],
+    "carry_over": {
+      "previous_titles_read": 95988,
+      "titles_this_run_did_not_refetch": 95422,
+      "enabled": true
+    },
+    "source_pagination": [
+      {
+        "source_id": "regular-360",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-墨斗",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-牛牛",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-丫丫",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-u酷",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-豪华",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-极速",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-索尼",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-ikun",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-非凡",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-量子",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-暴风",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-红牛",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-闪电",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-樱花",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-虎牙",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-无尽",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-速博",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-魔都",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-最大",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 40,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-火狐",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "regular-新浪",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-森林资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-奥斯卡资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-91麻豆",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-91md",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-番号资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-鲨鱼资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-aivin",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-玉兔资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-麻豆视频",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-辣椒资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-奶香香",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-精品资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
+      },
+      {
+        "source_id": "av-老色逼资源",
+        "pages_requested": 2,
+        "reported_pagecount": null,
+        "reported_total": null,
+        "records_received": 200,
+        "status": "complete"
       }
     ]
   },

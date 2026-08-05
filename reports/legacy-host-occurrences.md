@@ -26,6 +26,9 @@
 | `reports/legacy-m3u-audit.json` | 63 | `provenance_metadata` |
 | `reports/legacy-recovery-selection.json` | 8 | `provenance_metadata` |
 | `reports/legacy-vs-current-diff.json` | 224 | `provenance_metadata` |
+| `scripts/audit_legacy_hostname.py` | 10 | `provenance_metadata` |
 | `scripts/legacy_m3u_diff.py` | 45 | `provenance_metadata` |
 | `scripts/legacy_m3u_import.py` | 21 | `provenance_metadata` |
 | `scripts/legacy_recovery_manifest.py` | 66 | `provenance_metadata` |
+| `scripts/test_no_legacy_runtime_dependency.py` | 8 | `test_fixture` |
+| `scripts/test_no_legacy_runtime_dependency.py` | 22 | `test_fixture` |

@@ -2,16 +2,15 @@
 
 {
   "policy_version": "live-policy-1",
-  "generated_at": "2026-08-05T01:51:43Z",
-  "input_records": 1739,
-  "audited_records": 1739,
-  "published_channels": 1344,
-  "published_streams": 1399,
+  "generated_at": "2026-08-02T20:23:43Z",
+  "input_records": 428,
+  "audited_records": 428,
+  "published_channels": 3,
+  "published_streams": 3,
   "by_classification": {
-    "allowed_scenery": 8,
-    "excluded_unknown_origin": 296,
-    "allowed_international": 1397,
-    "excluded_china_tv": 38
+    "excluded_china_tv": 358,
+    "allowed_scenery": 3,
+    "excluded_unknown_origin": 67
   }
 }
 

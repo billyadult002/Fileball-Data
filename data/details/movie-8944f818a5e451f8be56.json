@@ -34,9 +34,33 @@
       "source_id": "gh72-api-maotai",
       "source_vod_id": "142568",
       "source_name": "gh72-api-maotai"
+    },
+    {
+      "source_id": "regular-u酷",
+      "source_vod_id": "movie-legacy-92bc6a1e4c02ebf9dd34",
+      "source_name": "regular-u酷"
     }
   ],
   "episodes": [
+    {
+      "id": "main",
+      "name": "主片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "regular-u酷",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://ukzyvod3.ukubf5.com/20260801/snaznjmk/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451437+00:00"
+        }
+      ]
+    },
     {
       "id": "movie-8944f818a5e451f8be56-item-0001-9abc744d",
       "name": "正片",
@@ -125,9 +149,5 @@
       "official": true
     }
   ],
-  "media_type": "movie",
-  "source_ids": [
-    "gh72-api-dbzy",
-    "gh72-api-maotai"
-  ]
+  "media_type": "movie"
 }

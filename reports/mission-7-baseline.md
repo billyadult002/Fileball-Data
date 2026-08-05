@@ -1,20 +1,20 @@
 # Mission 7 baseline
 
-Generated: 2026-08-02T18:36:52.737535+00:00
+Generated: 2026-08-05T02:07:45.800365+00:00
 
 ## Canonical counts
 
 | Category | Media | Episodes | Streams | Playlist entries |
 |---|---:|---:|---:|---:|
-| movie | 103 | 178 | 229 | 0 |
-| tv | 367 | 1945 | 4677 | 0 |
-| anime | 260 | 1427 | 17592 | 0 |
-| variety | 120 | 7591 | 25835 | 0 |
-| documentary | 0 | 0 | 0 | 0 |
-| short | 0 | 0 | 0 | 0 |
-| other | 2631 | 490 | 697 | 0 |
-| live | 358 | 0 | 358 | 358 |
-| manga | 0 | 0 | 0 | 0 |
+| movie | 0 | 91852 | 799242 | 0 |
+| tv | 773 | 51341 | 151530 | 0 |
+| anime | 367 | 27750 | 116100 | 0 |
+| variety | 144 | 16146 | 54594 | 0 |
+| documentary | 7 | 23 | 26 | 0 |
+| short | 11 | 11 | 11 | 0 |
+| other | 4782 | 4606 | 6355 | 0 |
+| live | 1344 | 0 | 1399 | 1399 |
+| manga | 24 | 1199 | 0 | 0 |
 
 ## Source final states
 

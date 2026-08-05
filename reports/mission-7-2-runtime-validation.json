@@ -1,0 +1,45 @@
+{
+  "mission": "7.2",
+  "validated_at": "2026-08-02",
+  "network_controls": {
+    "https_only": true,
+    "follow_redirects": false,
+    "trust_env_proxy": false,
+    "cookies_sent": false,
+    "remote_code_executed": false,
+    "response_limit_bytes": 8388608
+  },
+  "api_validation": {
+    "approved_enabled": 10,
+    "list_shape_passed": 10,
+    "detail_shape_passed": 10,
+    "representative_stream_resolution_passed": 10,
+    "representative_protocols": ["hls"],
+    "rejected_vip_or_forbidden_sample": 1,
+    "rejected_source": "gh72-api-ffzy"
+  },
+  "live_validation": [
+    {"source_id":"gh72-live-baishi","pinned_entries":67,"parsed_entries":67,"sample_stream_resolution":1,"status":"passed"},
+    {"source_id":"gh72-live-scenery","pinned_entries":70,"parsed_entries":70,"sample_stream_resolution":1,"status":"passed"}
+  ],
+  "staging_ingestion": {
+    "sources_succeeded": 12,
+    "records_received": 897,
+    "canonical_records": 689,
+    "vod_records": 552,
+    "live_records": 137,
+    "bilingual_titles_preserved": true,
+    "categories_preserved": true,
+    "status": "passed"
+  },
+  "scheduled_equivalent_run": {
+    "status": "success",
+    "sources_total": 12,
+    "sources_succeeded": 12,
+    "run_id": "mission72-20260802T193355Z"
+  },
+  "production": {
+    "published": false,
+    "reason": "staging validation passed; scheduled observation and explicit promotion gate remain pending"
+  }
+}

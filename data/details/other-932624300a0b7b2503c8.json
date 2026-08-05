@@ -6,9 +6,11 @@
   "year": 2026,
   "category": "日韩综艺",
   "section": "regular",
-  "poster": "https://ynztctv.com/upload/vod/20260804-1/357fd489f5f3465e72398c97febb64e5.png",
-  "overview": "",
-  "actors": [],
+  "poster": "https://www.imgzy360.com:7788/upload/vod/20260804-1/b2a1a274326092f733fe4e9e11625c93.jpg",
+  "overview": "简介：一档汇聚9个国家40位顶尖卖家的全球电商国家对抗赛，选手们进行直播销售实战比拼，争夺50万美元冠军奖金。",
+  "actors": [
+    "bambam tiffany黄美英 xtheleague"
+  ],
   "directors": [],
   "genres": [
     "reality"
@@ -16,19 +18,29 @@
   "updated_at": "2026-08-04 19:39:53",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
-      "source_vod_id": "69758",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-360zy",
+      "source_id": "regular-360",
       "source_vod_id": "102932",
-      "source_name": "gh72-api-360zy"
+      "source_name": "360|点播"
     },
     {
-      "source_id": "gh72-api-mdzy",
+      "source_id": "regular-ikun",
+      "source_vod_id": "69758",
+      "source_name": "ikun|点播"
+    },
+    {
+      "source_id": "regular-墨斗",
       "source_vod_id": "87520",
-      "source_name": "gh72-api-mdzy"
+      "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "98893",
+      "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "87520",
+      "source_name": "魔都|点播"
     }
   ],
   "episodes": [
@@ -39,19 +51,19 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260804/SMjCtLTg/index.m3u8",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260804/8HSbCVlQ/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 18:59:07"
+          "updated_at": "2026-08-04 19:39:53"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260804/xRu3VKqz/index.m3u8",
           "protocol": "hls",
@@ -61,15 +73,37 @@
           "updated_at": "2026-08-04 19:05:41"
         },
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260804/8HSbCVlQ/index.m3u8",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260804/SMjCtLTg/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 19:39:53"
+          "updated_at": "2026-08-04 18:59:07"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260803/1519_5607fe88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 08:54:35"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/5607fe8879e4fd269e88387e8cb30b7e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 08:54:35"
         }
       ]
     }
@@ -82,12 +116,7 @@
     "zh": "其他",
     "en": "Other"
   },
-  "genre_labels": {
-    "reality": {
-      "zh": "真人秀",
-      "en": "Reality"
-    }
-  },
+  "genre_labels": {},
   "source_category_translations": {
     "zh": "日韩综艺",
     "en": ""
@@ -95,8 +124,7 @@
   "search_terms": [
     "X The League",
     "XTheLeague",
-    "日韩综艺",
-    "reality"
+    "日韩综艺"
   ],
   "classification_rule": "fallback",
   "classification_confidence": 0.5,
@@ -123,10 +151,5 @@
       "official": true
     }
   ],
-  "media_type": "other",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-ikun",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "other"
 }

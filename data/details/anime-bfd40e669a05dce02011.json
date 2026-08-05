@@ -6,7 +6,7 @@
   "year": 2025,
   "category": "动画片",
   "section": "regular",
-  "poster": "https://img.jisuimage.com/cover/b7a8a8671824efbc6758debeeb3b2b31.jpg",
+  "poster": "https://hhmage.com/cover/b7a8a8671824efbc6758debeeb3b2b31.jpg",
   "overview": "人死后，轮回之前，亡魂会来到一处奇异之地——“世外”。灵守日复一日引领亡魂去投胎，直至一天，灵守小鬼遇上了不愿转世的小妹，让不懂人类情感的小鬼看到了不再一样的“世外”。 在带领小妹转世的路途上，小鬼揭示了她前世的遗憾，亦触发了难以逆转的诅咒——若小妹完全被忿恨支配，不论世外、人间，将与她一同灰飞烟灭…… 为了小妹，小鬼得到天女的允许，与武功高强的黑天踏上横跨千年的征途，纵然在路上危机四伏，他仍不惜多次舍身相救，只为了小妹能忘记过去的伤痛，并原谅自己，一身轻盈，走上轮回转世之路……",
   "actors": [
     "钟雪莹",
@@ -19,12 +19,32 @@
   "genres": [
     "animation"
   ],
-  "updated_at": "2026-08-04 20:36:02",
+  "updated_at": "2026-08-04 20:39:02",
   "source_records": [
     {
-      "source_id": "gh72-api-jszy",
+      "source_id": "regular-新浪",
+      "source_vod_id": "169460",
+      "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-极速",
       "source_vod_id": "113488",
-      "source_name": "gh72-api-jszy"
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139600",
+      "source_name": "火狐|点播"
+    },
+    {
+      "source_id": "regular-虎牙",
+      "source_vod_id": "114944",
+      "source_name": "虎牙|点播"
+    },
+    {
+      "source_id": "regular-豪华",
+      "source_vod_id": "139600",
+      "source_name": "豪华|点播"
     }
   ],
   "episodes": [
@@ -35,15 +55,92 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hym3u8",
+          "url": "https://1080p.huyall.com/play/dL9vKBre/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:39:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
           "url": "https://vv.jisuzyv.com/play/dNkYM1ve/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 20:36:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aM8JLBGe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:01"
+        },
+        {
+          "source_id": "regular-新浪",
+          "source_name": "新浪|点播",
+          "provider": "xlm3u8",
+          "url": "https://play.xluuss.com/play/aKrLJExe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:35:03"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hyyun",
+          "url": "https://1080p.huyall.com/play/dL9vKBre",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:39:02"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dNkYM1ve",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:02"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aM8JLBGe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:36:01"
+        },
+        {
+          "source_id": "regular-新浪",
+          "source_name": "新浪|点播",
+          "provider": "xlyun",
+          "url": "https://play.xluuss.com/play/aKrLJExe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 20:35:03"
         }
       ]
     }
@@ -106,8 +203,5 @@
       "official": true
     }
   ],
-  "media_type": "anime",
-  "source_ids": [
-    "gh72-api-jszy"
-  ]
+  "media_type": "anime"
 }

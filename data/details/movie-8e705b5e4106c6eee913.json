@@ -37,7 +37,7 @@
     "crime",
     "drama"
   ],
-  "updated_at": "2026-08-02 13:42:30",
+  "updated_at": "2026-08-02T18:05:15.458600+00:00",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -63,6 +63,11 @@
       "source_id": "regular-极速",
       "source_vod_id": "113297",
       "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-樱花",
+      "source_vod_id": "movie-legacy-dfa85c6c2384a7f05031",
+      "source_name": "regular-樱花"
     },
     {
       "source_id": "regular-火狐",
@@ -95,6 +100,11 @@
       "source_name": "速博|点播"
     },
     {
+      "source_id": "regular-速博",
+      "source_vod_id": "movie-legacy-dfa85c6c2384a7f05031",
+      "source_name": "regular-速博"
+    },
+    {
       "source_id": "regular-闪电",
       "source_vod_id": "135045",
       "source_name": "闪电|点播"
@@ -103,6 +113,11 @@
       "source_id": "regular-非凡",
       "source_vod_id": "98882",
       "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "movie-legacy-dfa85c6c2384a7f05031",
+      "source_name": "regular-非凡"
     }
   ],
   "episodes": [
@@ -232,6 +247,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-01 18:16:09"
+        },
+        {
+          "source_id": "regular-樱花",
+          "source_name": "regular-樱花",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://vod12.wgslsw.com/20260802/PBLUWnqrDh88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451390+00:00"
         },
         {
           "source_id": "regular-速博",

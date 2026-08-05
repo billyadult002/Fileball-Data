@@ -17,7 +17,7 @@
   "genres": [
     "action"
   ],
-  "updated_at": "2026-08-02 18:16:49",
+  "updated_at": "2026-08-02T18:05:15.454695+00:00",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -25,9 +25,19 @@
       "source_name": "360|点播"
     },
     {
+      "source_id": "regular-360",
+      "source_vod_id": "movie-legacy-6ce00c427eb08373f096",
+      "source_name": "regular-360"
+    },
+    {
       "source_id": "regular-墨斗",
       "source_vod_id": "87399",
       "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-暴风",
+      "source_vod_id": "movie-legacy-6ce00c427eb08373f096",
+      "source_name": "regular-暴风"
     }
   ],
   "episodes": [
@@ -58,6 +68,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 12:40:46"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "regular-暴风",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://v.fengbao11.com/video/zongshiyewen/0756fc82eaba/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451074+00:00"
         }
       ]
     }

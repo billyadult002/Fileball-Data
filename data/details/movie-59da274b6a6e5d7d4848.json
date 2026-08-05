@@ -25,12 +25,17 @@
     "奇幻",
     "古装"
   ],
-  "updated_at": "2026-08-02 15:09:40",
+  "updated_at": "2026-08-02T18:05:15.460072+00:00",
   "source_records": [
     {
       "source_id": "regular-量子",
       "source_vod_id": "149494",
       "source_name": "量子|点播"
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "movie-legacy-e93b42e7edeec1d4e899",
+      "source_name": "regular-量子"
     }
   ],
   "episodes": [
@@ -43,17 +48,6 @@
         {
           "source_id": "regular-量子",
           "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lz15uu.com/share/4f8b5dedab6f650dbf1b2532aa11f646",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 15:09:40"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
           "provider": "lzm3u8",
           "url": "https://v.lz15uu.com/20260802/16388_19ab854e/index.m3u8",
           "protocol": "hls",
@@ -61,10 +55,56 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-02 15:09:40"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lz15uu.com/share/4f8b5dedab6f650dbf1b2532aa11f646",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-02 15:09:40"
+        }
+      ]
+    },
+    {
+      "id": "movie-legacy-e93b42e7edeec1d4e899-main",
+      "name": "主片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "regular-量子",
+          "provider": "legacy-fastone-recovered",
+          "url": "https://v.lz15uu.com/20260802/16388_19ab854e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 0,
+          "health": "recovered",
+          "updated_at": "2026-08-02T18:05:15.451539+00:00"
         }
       ]
     }
   ],
   "content_mode": "vod",
+  "title_zh": "",
+  "title_en": "",
+  "aliases": [],
+  "media_type_labels": {},
+  "genre_labels": {},
+  "source_category_translations": {},
+  "search_terms": [],
+  "classification_rule": "legacy",
+  "classification_confidence": 0.0,
+  "region": "unknown",
+  "country": "unknown",
+  "language": "unknown",
+  "region_labels": {},
+  "country_labels": {},
+  "language_labels": {},
+  "title_records": [],
   "media_type": "movie"
 }

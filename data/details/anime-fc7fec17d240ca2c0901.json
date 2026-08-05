@@ -6,7 +6,7 @@
   "year": 2014,
   "category": "动画片",
   "section": "regular",
-  "poster": "https://img.jisuimage.com/cover/ddf4d59e1bdd679742fd56a45d880a1a.jpg",
+  "poster": "https://hhmage.com/cover/ddf4d59e1bdd679742fd56a45d880a1a.jpg",
   "overview": "2014年3月27日發售的動畫「某科學的超電磁炮s」公式視覺書同捆新作的OVA動畫「重要的事情全部是在公共浴室里學到的(大事なことはぜんぶ銭汤に教わった)」。",
   "actors": [
     "佐藤利奈",
@@ -20,12 +20,32 @@
     "comedy",
     "animation"
   ],
-  "updated_at": "2026-08-04 15:33:04",
+  "updated_at": "2026-08-04 15:36:01",
   "source_records": [
     {
-      "source_id": "gh72-api-jszy",
+      "source_id": "regular-新浪",
+      "source_vod_id": "169435",
+      "source_name": "新浪|点播"
+    },
+    {
+      "source_id": "regular-极速",
       "source_vod_id": "113463",
-      "source_name": "gh72-api-jszy"
+      "source_name": "极速|点播"
+    },
+    {
+      "source_id": "regular-火狐",
+      "source_vod_id": "139576",
+      "source_name": "火狐|点播"
+    },
+    {
+      "source_id": "regular-虎牙",
+      "source_vod_id": "114919",
+      "source_name": "虎牙|点播"
+    },
+    {
+      "source_id": "regular-豪华",
+      "source_vod_id": "139576",
+      "source_name": "豪华|点播"
     }
   ],
   "episodes": [
@@ -36,15 +56,92 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-jszy",
-          "source_name": "gh72-api-jszy",
-          "provider": "jsyun",
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hym3u8",
+          "url": "https://1080p.huyall.com/play/e5yRO6ve/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:36:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/b68BPgle/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:36:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsm3u8",
           "url": "https://vv.jisuzyv.com/play/e73pQjre/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 15:33:04"
+        },
+        {
+          "source_id": "regular-新浪",
+          "source_name": "新浪|点播",
+          "provider": "xlm3u8",
+          "url": "https://play.xluuss.com/play/b4xzN5nb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:33:02"
+        },
+        {
+          "source_id": "regular-虎牙",
+          "source_name": "虎牙|点播",
+          "provider": "hyyun",
+          "url": "https://1080p.huyall.com/play/e5yRO6ve",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:36:01"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/b68BPgle",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:36:01"
+        },
+        {
+          "source_id": "regular-极速",
+          "source_name": "极速|点播",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e73pQjre",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:33:04"
+        },
+        {
+          "source_id": "regular-新浪",
+          "source_name": "新浪|点播",
+          "provider": "xlyun",
+          "url": "https://play.xluuss.com/play/b4xzN5nb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 15:33:02"
         }
       ]
     }
@@ -112,8 +209,5 @@
       "official": true
     }
   ],
-  "media_type": "anime",
-  "source_ids": [
-    "gh72-api-jszy"
-  ]
+  "media_type": "anime"
 }

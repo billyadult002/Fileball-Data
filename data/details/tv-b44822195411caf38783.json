@@ -6,10 +6,11 @@
   "year": 2026,
   "category": "大陆综艺",
   "section": "regular",
-  "poster": "https://ynztctv.com/upload/vod/20260723-1/3b21e0d4d332a4d068e19beb68e828ac.webp",
+  "poster": "https://www.imgzy360.com:7788/upload/vod/20260723-1/0719b59d80c67641682e3088d33c149e.webp",
   "overview": "新一季，新玩法，厨艺展示全新升级！厨神级的美味将持续上演，每一道都值得期待，已经盼着开宴瞬间的美味暴击了！",
   "actors": [
-    "暂无"
+    "暂无",
+    "."
   ],
   "directors": [
     "暂无"
@@ -20,19 +21,29 @@
   "updated_at": "2026-08-04 18:05:08",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
-      "source_vod_id": "69611",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "86762",
-      "source_name": "gh72-api-mdzy"
-    },
-    {
-      "source_id": "gh72-api-360zy",
+      "source_id": "regular-360",
       "source_vod_id": "102116",
-      "source_name": "gh72-api-360zy"
+      "source_name": "360|点播"
+    },
+    {
+      "source_id": "regular-ikun",
+      "source_vod_id": "69611",
+      "source_name": "ikun|点播"
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "86762",
+      "source_name": "墨斗|点播"
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "98801",
+      "source_name": "非凡|点播"
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "86762",
+      "source_name": "魔都|点播"
     }
   ],
   "episodes": [
@@ -43,30 +54,30 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260723/Yt1huSCx/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260723/Fu0WPaBZ/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260723/Yt1huSCx/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260723/ZGe4uz2u/index.m3u8",
           "protocol": "hls",
@@ -78,36 +89,96 @@
       ]
     },
     {
+      "id": "tv-b44822195411caf38783-item-0002-0e444ec1",
+      "name": "第20260724期先导片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260724/1188_c44e5038/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/c44e503833b64e9f27197a484f4257c0",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
+      "id": "tv-b44822195411caf38783-item-0001-ab3139f1",
+      "name": "第20260724期回顾",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260724/1187_4f284803/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/4f284803bd0966cc24fa8683a34afc6e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
       "id": "tv-b44822195411caf38783-item-0002-744cc779",
       "name": "第20260724期精编回顾",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260724/zUqxPeDj/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260724/FEq7ZuUw/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260724/zUqxPeDj/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260724/mLRDfALw/index.m3u8",
           "protocol": "hls",
@@ -125,30 +196,30 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260729/oxvIRsun/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260729/FTFIZgnO/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260729/oxvIRsun/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260729/pvEa8oKG/index.m3u8",
           "protocol": "hls",
@@ -156,6 +227,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 17:45:19"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260729/1354_af473271/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/af4732711661056eadbf798ba191272a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
         }
       ]
     },
@@ -166,30 +259,30 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260729/Sy4goH6T/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260729/qNydIMDL/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260729/Sy4goH6T/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260729/ZmpDUjtZ/index.m3u8",
           "protocol": "hls",
@@ -201,36 +294,66 @@
       ]
     },
     {
+      "id": "tv-b44822195411caf38783-item-0004-44f9ef12",
+      "name": "第20260729期下",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260729/1355_b8c27b7a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/b8c27b7a1c450ffdacb31483454e0b54",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
       "id": "tv-b44822195411caf38783-item-0005-d3f93bf9",
       "name": "第20260729期中",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260729/ZeJCcHtG/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260729/6odKWaSI/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260729/ZeJCcHtG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260729/nc8YiY6D/index.m3u8",
           "protocol": "hls",
@@ -248,30 +371,30 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260729/YhXMEpTu/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260729/v04WAyUB/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260729/YhXMEpTu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260729/BRXay4bK/index.m3u8",
           "protocol": "hls",
@@ -283,36 +406,66 @@
       ]
     },
     {
+      "id": "tv-b44822195411caf38783-item-0005-712ed1a5",
+      "name": "第20260730期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260730/1405_3de2334a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/3de2334a314a7a72721f1f74a6cb4cee",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
       "id": "tv-b44822195411caf38783-item-0007-4a6470b3",
       "name": "第20260730期下",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260730/Ykd9nAq0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260730/cZ8FKYAT/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260730/Ykd9nAq0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260730/XhTIeK59/index.m3u8",
           "protocol": "hls",
@@ -330,30 +483,30 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260730/6q4rJyle/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260730/Rid2Cssm/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260730/6q4rJyle/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260730/b1mD96xs/index.m3u8",
           "protocol": "hls",
@@ -365,36 +518,96 @@
       ]
     },
     {
+      "id": "tv-b44822195411caf38783-item-0006-5268da0a",
+      "name": "第20260730期纯享",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260730/1406_b7087c1f/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/b7087c1f4f89e63af8d46f3b20271153",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
+      "id": "tv-b44822195411caf38783-item-0007-dba46188",
+      "name": "第20260731期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260731/1434_7895fc13/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/7895fc13088ee37f511913bac71fa66f",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
       "id": "tv-b44822195411caf38783-item-0009-a7c58a6b",
       "name": "第20260731期加更",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260731/SVYAB3rA/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260731/R8KA8T5r/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260731/SVYAB3rA/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260731/cNXrwvDf/index.m3u8",
           "protocol": "hls",
@@ -406,36 +619,66 @@
       ]
     },
     {
+      "id": "tv-b44822195411caf38783-item-0008-83b755cd",
+      "name": "第20260801期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260801/1461_95151403/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/95151403b0db4f75bfd8da0b393af853",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
       "id": "tv-b44822195411caf38783-item-0010-67379342",
       "name": "第20260801期一饭小馆",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260801/X0ZoIQML/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260801/JTfyLdiV/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260801/X0ZoIQML/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260801/vFOEFpFP/index.m3u8",
           "protocol": "hls",
@@ -447,36 +690,66 @@
       ]
     },
     {
+      "id": "tv-b44822195411caf38783-item-0009-2ba4e07f",
+      "name": "第20260802期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260802/1504_49b8b4f9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/49b8b4f95f02e055801da3b4f58e28b7",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
       "id": "tv-b44822195411caf38783-item-0011-4a3772fd",
       "name": "第20260802期一饭家常菜",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260802/0Xk48aP0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-02 12:09:27"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
           "url": "https://play.modujx17.com/20260802/UsKxL3dQ/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-02 12:18:20"
+          "updated_at": "2026-08-04 18:05:08"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260802/0Xk48aP0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260802/kPRNU9qT/index.m3u8",
           "protocol": "hls",
@@ -488,55 +761,25 @@
       ]
     },
     {
-      "id": "tv-b44822195411caf38783-item-0012-53b8a4a8",
-      "name": "第20260803期封神陪看",
-      "season": null,
-      "episode": null,
-      "streams": [
-        {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260803/Lyw6zv9M/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 18:00:14"
-        },
-        {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260803/iVaF9lmm/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 17:45:19"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260803/yJXl80e0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 18:05:08"
-        }
-      ]
-    },
-    {
-      "id": "tv-b44822195411caf38783-item-0013-39a6f051",
+      "id": "tv-b44822195411caf38783-item-0012-39a6f051",
       "name": "第20260803期准备开饭",
       "season": null,
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260803/3Q6AywYz/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:05:08"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260803/4CRS6R23/index.m3u8",
           "protocol": "hls",
@@ -546,8 +789,8 @@
           "updated_at": "2026-08-04 18:00:14"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260803/v9IFumBv/index.m3u8",
           "protocol": "hls",
@@ -555,17 +798,107 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 17:45:19"
-        },
+        }
+      ]
+    },
+    {
+      "id": "tv-b44822195411caf38783-item-0013-53b8a4a8",
+      "name": "第20260803期封神陪看",
+      "season": null,
+      "episode": null,
+      "streams": [
         {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
           "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260803/3Q6AywYz/index.m3u8",
+          "url": "https://play.modujx17.com/20260803/yJXl80e0/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 18:05:08"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260803/Lyw6zv9M/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:00:14"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260803/iVaF9lmm/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 17:45:19"
+        }
+      ]
+    },
+    {
+      "id": "tv-b44822195411caf38783-item-0010-7d89358b",
+      "name": "第20260803期开饭",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260803/1536_b5a1fc20/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/b5a1fc2085986034e448d2ccc5bb9703",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        }
+      ]
+    },
+    {
+      "id": "tv-b44822195411caf38783-item-0011-d73bdedd",
+      "name": "第20260803期陪看",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vod.ffzy-bofang.com/20260803/1537_d1a69640/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vod.ffzy-bofang.com/share/d1a69640d53a32a9fb13e93d1c8f3104",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-03 12:29:26"
         }
       ]
     },
@@ -576,8 +909,19 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260804/WsjDWQ1B/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-04 18:05:08"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260804/FCw5eyZl/index.m3u8",
           "protocol": "hls",
@@ -587,8 +931,8 @@
           "updated_at": "2026-08-04 18:00:14"
         },
         {
-          "source_id": "gh72-api-360zy",
-          "source_name": "gh72-api-360zy",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
           "provider": "360zy",
           "url": "https://vod1.maowushi.com/20260804/5V0Loh8t/index.m3u8",
           "protocol": "hls",
@@ -596,17 +940,6 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-04 17:45:19"
-        },
-        {
-          "source_id": "gh72-api-mdzy",
-          "source_name": "gh72-api-mdzy",
-          "provider": "modum3u8",
-          "url": "https://play.modujx17.com/20260804/WsjDWQ1B/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-04 18:05:08"
         }
       ]
     }
@@ -614,19 +947,12 @@
   "content_mode": "vod",
   "title_zh": "一饭封神第二季",
   "title_en": "yifanfengshendierji",
-  "aliases": [
-    "一饭封神2"
-  ],
+  "aliases": [],
   "media_type_labels": {
     "zh": "电视剧",
     "en": "TV Series"
   },
-  "genre_labels": {
-    "reality": {
-      "zh": "真人秀",
-      "en": "Reality"
-    }
-  },
+  "genre_labels": {},
   "source_category_translations": {
     "zh": "大陆综艺",
     "en": ""
@@ -634,9 +960,7 @@
   "search_terms": [
     "一饭封神第二季",
     "yifanfengshendierji",
-    "一饭封神2",
-    "大陆综艺",
-    "reality"
+    "大陆综艺"
   ],
   "classification_rule": "record_structure",
   "classification_confidence": 0.7,
@@ -669,10 +993,5 @@
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-ikun",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "tv"
 }

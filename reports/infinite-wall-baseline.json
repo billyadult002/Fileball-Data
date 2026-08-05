@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-02",
+  "production_data_snapshot": {
+    "data_commit": "d15c9e4559aefb2e474456571edfc34ddba4eb3d",
+    "catalog_total": 3812,
+    "live_total": 495
+  },
+  "pages": [
+    {"page": "/movies", "api_total": 144, "api_first_page_count": 100, "api_second_page_count": 44, "frontend_rendered_count": 100, "hard_limits_found": ["catalogLimit default=100", "page*100 offset", "frontend current-page rendering"]},
+    {"page": "/tv", "api_total": 435, "api_first_page_count": 100, "api_second_page_count": 100, "frontend_rendered_count": 100, "hard_limits_found": ["catalogLimit default=100", "page*100 offset", "frontend current-page rendering"]},
+    {"page": "/anime", "api_total": 205, "api_first_page_count": 100, "api_second_page_count": 100, "frontend_rendered_count": 100, "hard_limits_found": ["catalogLimit default=100", "page*100 offset", "frontend current-page rendering"]},
+    {"page": "/variety", "api_total": 120, "api_first_page_count": 100, "api_second_page_count": 20, "frontend_rendered_count": 100, "hard_limits_found": ["catalogLimit default=100", "page*100 offset", "frontend current-page rendering"]},
+    {"page": "/live", "api_total": 495, "api_first_page_count": 100, "api_second_page_count": 0, "frontend_rendered_count": 100, "hard_limits_found": ["live route limit=100", "no live cursor/offset"]},
+    {"page": "/av", "api_total": 2281, "api_first_page_count": 48, "api_second_page_count": 48, "frontend_rendered_count": 48, "hard_limits_found": ["AV page uses offset pagination", "page URL state", "DOM renders loaded page only"]},
+    {"page": "/search", "api_total": null, "api_first_page_count": 60, "api_second_page_count": 0, "frontend_rendered_count": 60, "hard_limits_found": ["search fixed limit=60", "no cursor", "first page only"]}
+  ],
+  "diagnosis": [
+    "Worker catalog filtered before its existing offset slice, but had no cursor contract.",
+    "Worker search filtered and ranked before its fixed first-page slice, but did not expose offset or cursor continuation.",
+    "Web category pages used page*100 and rendered only the active page.",
+    "Web search rendered only the first 60 records.",
+    "No virtualization or lightweight card shard existed."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "mission": "7.2",
+  "registry": "sources/external/mission72-candidate-registry.json",
+  "status": "pass",
+  "enabled_sources": [
+    "gh72-api-dbzy",
+    "gh72-api-xingba",
+    "gh72-api-suoni",
+    "gh72-api-ikun",
+    "gh72-api-jszy",
+    "gh72-api-zuid",
+    "gh72-api-360zy",
+    "gh72-api-maotai",
+    "gh72-api-xxibao",
+    "gh72-api-mdzy",
+    "gh72-live-baishi",
+    "gh72-live-scenery"
+  ],
+  "staging_ingestion": "gated",
+  "canonical_reconciliation": "gated",
+  "production_publication": "withheld",
+  "scheduled_observation": "not_observed_in_local_run",
+  "rollback": "available_via_versioned_generated_outputs_and_git_history",
+  "failures": []
+}
