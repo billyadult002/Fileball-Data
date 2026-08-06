@@ -13,7 +13,7 @@
   "genres": [
     "costume"
   ],
-  "updated_at": "2026-08-05 10:51:02",
+  "updated_at": "2026-08-06 10:42:07",
   "source_records": [
     {
       "source_id": "imported-hhzyapi-com-source",
@@ -64,6 +64,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "109341",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "105347",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -16446,6 +16451,25 @@
           "updated_at": "2026-08-05 10:47:26"
         }
       ]
+    },
+    {
+      "id": "tv-8c09ee2b931255a78a3d-e0120-e3b0c442",
+      "name": "第120集",
+      "season": null,
+      "episode": 120,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/egJnRmld/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 10:42:07"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -16503,5 +16527,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

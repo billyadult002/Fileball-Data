@@ -15,15 +15,59 @@
   "genres": [
     "documentary"
   ],
-  "updated_at": "2026-08-06 00:39:37",
+  "updated_at": "2026-08-06 11:45:28",
   "source_records": [
     {
       "source_id": "gh72-api-dbzy",
       "source_vod_id": "142421",
       "source_name": "gh72-api-dbzy"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "142760",
+      "source_name": "gh72-api-maotai"
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "documentary-19a4a70d65e142249989-e0001-e3b0c442",
+      "name": "第01期",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260805/EUnkCmlq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:45:28"
+        }
+      ]
+    },
+    {
+      "id": "documentary-19a4a70d65e142249989-e0002-e3b0c442",
+      "name": "第02期",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260805/aTRRCv1x/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:45:28"
+        }
+      ]
+    }
+  ],
   "content_mode": "vod",
   "title_zh": "行星",
   "title_en": "xingxing",
@@ -79,5 +123,8 @@
       "official": true
     }
   ],
-  "media_type": "documentary"
+  "media_type": "documentary",
+  "source_ids": [
+    "gh72-api-maotai"
+  ]
 }

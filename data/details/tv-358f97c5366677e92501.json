@@ -40,7 +40,7 @@
     "drama",
     "comedy"
   ],
-  "updated_at": "2026-08-06 00:00:00",
+  "updated_at": "2026-08-06 12:50:35",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -141,6 +141,16 @@
       "source_id": "gh72-api-ikun",
       "source_vod_id": "69578",
       "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "112522",
+      "source_name": "gh72-api-jszy"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "101977",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -6596,6 +6606,36 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:27:04"
+        },
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e31yz49b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:18:02"
+        }
+      ]
+    },
+    {
+      "id": "tv-358f97c5366677e92501-e0030-e3b0c442",
+      "name": "第30集",
+      "season": null,
+      "episode": 30,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/C0SISOZX/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:50:35"
         }
       ]
     }
@@ -6651,6 +6691,8 @@
   ],
   "media_type": "tv",
   "source_ids": [
-    "gh72-api-ikun"
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-jszy"
   ]
 }

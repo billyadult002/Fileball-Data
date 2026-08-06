@@ -15,7 +15,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-08-05 12:11:44",
+  "updated_at": "2026-08-06 12:40:47",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -46,6 +46,21 @@
       "source_id": "regular-魔都",
       "source_vod_id": "87435",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69739",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "102817",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87435",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -376,6 +391,88 @@
           "updated_at": "2026-08-05 11:28:00"
         }
       ]
+    },
+    {
+      "id": "tv-6b95c25c81cfe70145d4-e0009-e3b0c442",
+      "name": "第09集",
+      "season": null,
+      "episode": 9,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/RcYqTlIp/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:40:47"
+        },
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/uMwhVHYM/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:39:16"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/AD0Cmv74/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:51:42"
+        }
+      ]
+    },
+    {
+      "id": "tv-6b95c25c81cfe70145d4-e0010-e3b0c442",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/5yKugYyZ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:40:47"
+        },
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/ga5RbrdS/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:39:16"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/QyZx0j0G/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:51:42"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -427,5 +524,10 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
+  ]
 }

@@ -23,7 +23,7 @@
     "crime",
     "drama"
   ],
-  "updated_at": "2026-08-05 00:12:02",
+  "updated_at": "2026-08-06 13:27:06",
   "source_records": [
     {
       "source_id": "imported-api-guangsuapi-com-source",
@@ -84,6 +84,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "117486",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "113494",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -410,6 +415,63 @@
           "updated_at": "2026-08-05 00:06:34"
         }
       ]
+    },
+    {
+      "id": "tv-3388bed115ff7f2a1143-e0003-e3b0c442",
+      "name": "第3集",
+      "season": null,
+      "episode": 3,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e73poXre/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:27:06"
+        }
+      ]
+    },
+    {
+      "id": "tv-3388bed115ff7f2a1143-e0004-e3b0c442",
+      "name": "第4集",
+      "season": null,
+      "episode": 4,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bkRrG7Ea/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:27:06"
+        }
+      ]
+    },
+    {
+      "id": "tv-3388bed115ff7f2a1143-e0005-e3b0c442",
+      "name": "第5集",
+      "season": null,
+      "episode": 5,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e1wGg4Pb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:27:06"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -480,5 +542,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

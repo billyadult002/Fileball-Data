@@ -45,7 +45,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-08-05 16:14:49",
+  "updated_at": "2026-08-06 13:59:02",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -96,6 +96,11 @@
       "source_id": "gh72-api-ikun",
       "source_vod_id": "67145",
       "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "89461",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -10178,6 +10183,25 @@
           "updated_at": "2026-08-05 12:50:12"
         }
       ]
+    },
+    {
+      "id": "tv-4a6358c60f21e1fb3337-e0161-e3b0c442",
+      "name": "第161集",
+      "season": null,
+      "episode": 161,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/5yTshCyJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:59:02"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -10231,6 +10255,7 @@
   ],
   "media_type": "tv",
   "source_ids": [
+    "gh72-api-360zy",
     "gh72-api-ikun"
   ]
 }

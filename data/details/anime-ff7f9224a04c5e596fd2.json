@@ -13,12 +13,17 @@
   "genres": [
     "动画"
   ],
-  "updated_at": "2026-08-01 12:45:52",
+  "updated_at": "2026-08-06 12:45:17",
   "source_records": [
     {
       "source_id": "regular-ikun",
       "source_vod_id": "51439",
       "source_name": "ikun|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "51439",
+      "source_name": "gh72-api-ikun"
     }
   ],
   "episodes": [
@@ -5474,6 +5479,25 @@
           "updated_at": "2026-08-01 12:45:52"
         }
       ]
+    },
+    {
+      "id": "anime-ff7f9224a04c5e596fd2-e0288-e3b0c442",
+      "name": "第288集",
+      "season": null,
+      "episode": 288,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/7NXhhWM5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:45:17"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -5493,5 +5517,8 @@
   "country_labels": {},
   "language_labels": {},
   "title_records": [],
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-ikun"
+  ]
 }

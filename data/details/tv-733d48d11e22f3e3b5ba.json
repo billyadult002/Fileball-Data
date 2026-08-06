@@ -17,7 +17,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-08-05 12:02:20",
+  "updated_at": "2026-08-06 12:31:51",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -48,6 +48,21 @@
       "source_id": "regular-魔都",
       "source_vod_id": "87190",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69682",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "102542",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87190",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -747,6 +762,88 @@
           "updated_at": "2026-08-05 11:42:42"
         }
       ]
+    },
+    {
+      "id": "tv-733d48d11e22f3e3b5ba-e0018-e3b0c442",
+      "name": "第18集",
+      "season": null,
+      "episode": 18,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/eYryYaD2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:31:51"
+        },
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/l2IcdlQK/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:44:40"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/bDwwebPQ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:18:46"
+        }
+      ]
+    },
+    {
+      "id": "tv-733d48d11e22f3e3b5ba-e0019-e3b0c442",
+      "name": "第19集",
+      "season": null,
+      "episode": 19,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/Zr0E7voj/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:31:51"
+        },
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/ZZGitqZR/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:44:40"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/2Ulb1NB6/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:18:46"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -798,5 +895,10 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
+  ]
 }

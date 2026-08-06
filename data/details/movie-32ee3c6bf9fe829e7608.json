@@ -28,15 +28,98 @@
     "war",
     "drama"
   ],
-  "updated_at": "2026-08-06 10:22:35",
+  "updated_at": "2026-08-06 14:11:41",
   "source_records": [
     {
       "source_id": "gh72-api-suoni",
       "source_vod_id": "152373",
       "source_name": "gh72-api-suoni"
+    },
+    {
+      "source_id": "gh72-api-dbzy",
+      "source_vod_id": "142423",
+      "source_name": "gh72-api-dbzy"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69783",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-zuid",
+      "source_vod_id": "129034",
+      "source_name": "gh72-api-zuid"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "103069",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "142762",
+      "source_name": "gh72-api-maotai"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87600",
+      "source_name": "gh72-api-mdzy"
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "movie-32ee3c6bf9fe829e7608-main",
+      "name": "主片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/7LNojXec/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:57:35"
+        },
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/nuixsNpJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:53:48"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd17.uvjtih.cn/20260806/iKf3r4pU/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:58:30"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/tMVCupNG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:11:41"
+        }
+      ]
+    }
+  ],
   "content_mode": "vod",
   "title_zh": "双枪红娘子",
   "title_en": "shuangqianghongniangzi",
@@ -102,5 +185,13 @@
       "official": true
     }
   ],
-  "media_type": "movie"
+  "media_type": "movie",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-dbzy",
+    "gh72-api-ikun",
+    "gh72-api-maotai",
+    "gh72-api-mdzy",
+    "gh72-api-zuid"
+  ]
 }

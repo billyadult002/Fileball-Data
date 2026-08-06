@@ -13,7 +13,7 @@
   "genres": [
     "fantasy"
   ],
-  "updated_at": "2026-08-04 10:32:27",
+  "updated_at": "2026-08-06 10:36:09",
   "source_records": [
     {
       "source_id": "regular-极速",
@@ -44,6 +44,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "105453",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "101455",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -18808,6 +18813,25 @@
           "updated_at": "2026-08-04 10:28:03"
         }
       ]
+    },
+    {
+      "id": "tv-52cfabc3f6f658a6659c-e0161-e3b0c442",
+      "name": "第161集",
+      "season": null,
+      "episode": 161,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bo2j35Ka/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 10:36:09"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -18865,5 +18889,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

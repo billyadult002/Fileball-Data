@@ -13,7 +13,7 @@
   "genres": [
     "costume"
   ],
-  "updated_at": "2026-08-05 10:54:04",
+  "updated_at": "2026-08-06 10:42:09",
   "source_records": [
     {
       "source_id": "imported-hhzyapi-com-source",
@@ -64,6 +64,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "107047",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "103049",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -19666,6 +19671,25 @@
           "updated_at": "2026-08-05 10:51:04"
         }
       ]
+    },
+    {
+      "id": "tv-5f35bf7751fff9f1ce38-e0141-e3b0c442",
+      "name": "第141集",
+      "season": null,
+      "episode": 141,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dPNzn3la/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 10:42:09"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -19723,5 +19747,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

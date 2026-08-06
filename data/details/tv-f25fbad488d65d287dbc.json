@@ -20,7 +20,7 @@
     "crime",
     "drama"
   ],
-  "updated_at": "2026-08-05 15:00:21",
+  "updated_at": "2026-08-06 13:07:04",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -56,6 +56,11 @@
       "source_id": "gh72-api-ikun",
       "source_vod_id": "69678",
       "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "102527",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -960,6 +965,44 @@
           "updated_at": "2026-08-05 12:56:02"
         }
       ]
+    },
+    {
+      "id": "tv-f25fbad488d65d287dbc-e0023-e3b0c442",
+      "name": "第23集",
+      "season": null,
+      "episode": 23,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/OyjHGRsg/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:07:04"
+        }
+      ]
+    },
+    {
+      "id": "tv-f25fbad488d65d287dbc-e0024-e3b0c442",
+      "name": "第24集",
+      "season": null,
+      "episode": 24,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/Ufd34ElK/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:07:04"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -1013,6 +1056,7 @@
   ],
   "media_type": "tv",
   "source_ids": [
+    "gh72-api-360zy",
     "gh72-api-ikun"
   ]
 }

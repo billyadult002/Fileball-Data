@@ -13,7 +13,7 @@
   "genres": [
     "fantasy"
   ],
-  "updated_at": "2026-08-05 10:48:07",
+  "updated_at": "2026-08-06 10:39:11",
   "source_records": [
     {
       "source_id": "imported-hhzyapi-com-source",
@@ -64,6 +64,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "116886",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "112894",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -11266,6 +11271,25 @@
           "updated_at": "2026-08-05 10:45:03"
         }
       ]
+    },
+    {
+      "id": "tv-75dd114ab346982be4fa-e0081-e3b0c442",
+      "name": "第81集",
+      "season": null,
+      "episode": 81,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e31yz5rb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 10:39:11"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -11323,5 +11347,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

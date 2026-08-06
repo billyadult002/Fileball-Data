@@ -23,7 +23,7 @@
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-08-05 14:07:59",
+  "updated_at": "2026-08-06 14:05:13",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -34,6 +34,11 @@
       "source_id": "regular-360",
       "source_vod_id": "74294",
       "source_name": "360|点播"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "74294",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -6078,6 +6083,25 @@
           "updated_at": "2026-08-05 14:07:59"
         }
       ]
+    },
+    {
+      "id": "tv-f50a1d3f056c40fc95de-item-0319-a16b9fa2",
+      "name": "第20260805期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/fPW291Ux/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:05:13"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -6138,5 +6162,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy"
+  ]
 }

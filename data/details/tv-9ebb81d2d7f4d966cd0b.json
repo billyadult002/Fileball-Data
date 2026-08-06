@@ -17,7 +17,7 @@
   "genres": [
     "comedy"
   ],
-  "updated_at": "2026-08-05 14:08:52",
+  "updated_at": "2026-08-06 13:07:39",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -53,6 +53,11 @@
       "source_id": "gh72-api-ikun",
       "source_vod_id": "68796",
       "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "97271",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -8848,6 +8853,25 @@
           "updated_at": "2026-08-05 13:11:38"
         }
       ]
+    },
+    {
+      "id": "tv-9ebb81d2d7f4d966cd0b-item-0215-a16b9fa2",
+      "name": "第20260805期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/l8h1fTP9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:07:39"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -8901,6 +8925,7 @@
   ],
   "media_type": "tv",
   "source_ids": [
+    "gh72-api-360zy",
     "gh72-api-ikun"
   ]
 }

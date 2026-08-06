@@ -16,7 +16,7 @@
     "恋爱",
     "中国动漫"
   ],
-  "updated_at": "2026-08-05 10:52:26",
+  "updated_at": "2026-08-06 10:42:13",
   "source_records": [
     {
       "source_id": "imported-hhzyapi-com-source",
@@ -67,6 +67,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "109346",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "105349",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -17429,6 +17434,25 @@
           "updated_at": "2026-08-05 10:48:02"
         }
       ]
+    },
+    {
+      "id": "tv-10e52c77c021f4076386-e0125-e3b0c442",
+      "name": "第125集",
+      "season": null,
+      "episode": 125,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bkRrYEYa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 10:42:13"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -17480,5 +17504,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

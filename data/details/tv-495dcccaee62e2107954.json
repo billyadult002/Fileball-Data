@@ -16,7 +16,7 @@
     "脑洞",
     "中国动漫"
   ],
-  "updated_at": "2026-08-05 10:54:07",
+  "updated_at": "2026-08-06 10:42:11",
   "source_records": [
     {
       "source_id": "imported-hhzyapi-com-source",
@@ -67,6 +67,11 @@
       "source_id": "regular-速博",
       "source_vod_id": "109349",
       "source_name": "速博|点播"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "105352",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -19669,6 +19674,25 @@
           "updated_at": "2026-08-05 10:52:03"
         }
       ]
+    },
+    {
+      "id": "tv-495dcccaee62e2107954-e0141-e3b0c442",
+      "name": "第141集",
+      "season": null,
+      "episode": 141,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dJ6N43ld/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 10:42:11"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -19720,5 +19744,8 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-jszy"
+  ]
 }

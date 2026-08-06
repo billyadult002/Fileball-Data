@@ -13,7 +13,7 @@
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-08-05 14:08:46",
+  "updated_at": "2026-08-06 14:09:30",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -49,6 +49,16 @@
       "source_id": "gh72-api-ikun",
       "source_vod_id": "68686",
       "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "97137",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "82847",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -3607,6 +3617,36 @@
           "updated_at": "2026-08-05 13:09:44"
         }
       ]
+    },
+    {
+      "id": "tv-c8f3d0e93ce00b65a955-item-0088-a16b9fa2",
+      "name": "第20260805期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/OmnKqF7A/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 13:06:24"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/4G0OkPzZ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:09:30"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -3660,6 +3700,8 @@
   ],
   "media_type": "tv",
   "source_ids": [
-    "gh72-api-ikun"
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
   ]
 }

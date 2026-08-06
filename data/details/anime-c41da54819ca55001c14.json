@@ -11,7 +11,7 @@
   "actors": [],
   "directors": [],
   "genres": [],
-  "updated_at": "2026-08-05 11:58:55",
+  "updated_at": "2026-08-06 11:35:09",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -22,6 +22,11 @@
       "source_id": "regular-360",
       "source_vod_id": "95722",
       "source_name": "360|点播"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "95722",
+      "source_name": "gh72-api-360zy"
     }
   ],
   "episodes": [
@@ -4356,6 +4361,25 @@
           "updated_at": "2026-08-05 11:58:55"
         }
       ]
+    },
+    {
+      "id": "anime-c41da54819ca55001c14-e0229-e3b0c442",
+      "name": "第229集",
+      "season": null,
+      "episode": 229,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/YDNm0lgN/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 11:35:09"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -4407,5 +4431,8 @@
       "official": true
     }
   ],
-  "media_type": "anime"
+  "media_type": "anime",
+  "source_ids": [
+    "gh72-api-360zy"
+  ]
 }

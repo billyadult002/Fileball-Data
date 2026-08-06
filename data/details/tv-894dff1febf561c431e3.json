@@ -41,7 +41,7 @@
     "adventure",
     "drama"
   ],
-  "updated_at": "2026-08-05 19:21:50",
+  "updated_at": "2026-08-06 14:00:19",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -87,6 +87,11 @@
       "source_id": "gh72-api-360zy",
       "source_vod_id": "102567",
       "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87206",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -1034,6 +1039,36 @@
           "updated_at": "2026-08-05 19:21:50"
         }
       ]
+    },
+    {
+      "id": "tv-894dff1febf561c431e3-e0016-e3b0c442",
+      "name": "第16集",
+      "season": null,
+      "episode": 16,
+      "streams": [
+        {
+          "source_id": "gh72-api-360zy",
+          "source_name": "gh72-api-360zy",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260806/XfOYdutO/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 12:46:56"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/10KnFxcU/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:00:19"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -1088,6 +1123,7 @@
   "media_type": "tv",
   "source_ids": [
     "gh72-api-360zy",
-    "gh72-api-ikun"
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
   ]
 }
