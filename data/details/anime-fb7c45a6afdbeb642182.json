@@ -17,7 +17,7 @@
   "genres": [
     "animation"
   ],
-  "updated_at": "2026-08-06 00:40:07",
+  "updated_at": "2026-08-06 18:33:02",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -78,6 +78,11 @@
       "source_id": "gh72-api-mdzy",
       "source_vod_id": "87597",
       "source_name": "gh72-api-mdzy"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "113612",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -584,6 +589,25 @@
           "updated_at": "2026-08-05 20:21:02"
         }
       ]
+    },
+    {
+      "id": "anime-fb7c45a6afdbeb642182-e0001-e3b0c442",
+      "name": "第1集",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bYEyjxOb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 18:33:02"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -639,6 +663,7 @@
   "source_ids": [
     "gh72-api-360zy",
     "gh72-api-ikun",
+    "gh72-api-jszy",
     "gh72-api-mdzy"
   ]
 }

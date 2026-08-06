@@ -21,7 +21,7 @@
     "reality",
     "talk-show"
   ],
-  "updated_at": "2026-08-05 17:35:18",
+  "updated_at": "2026-08-06 17:56:43",
   "source_records": [
     {
       "source_id": "imported-cj-ffzyapi-com-source",
@@ -62,6 +62,11 @@
       "source_id": "gh72-api-ikun",
       "source_vod_id": "2717",
       "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "8763",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -49006,6 +49011,36 @@
           "updated_at": "2026-08-05 14:19:17"
         }
       ]
+    },
+    {
+      "id": "tv-0e08039be87d7085bb0e-item-1114-a16b9fa2",
+      "name": "第20260805期",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/IuvLXRgq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 17:08:14"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/UjIh1P7d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 17:56:43"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -49073,6 +49108,7 @@
   ],
   "media_type": "tv",
   "source_ids": [
-    "gh72-api-ikun"
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
   ]
 }

@@ -20,7 +20,7 @@
     "mystery",
     "thriller"
   ],
-  "updated_at": "2026-08-06 13:41:18",
+  "updated_at": "2026-08-06 16:24:03",
   "source_records": [
     {
       "source_id": "gh72-api-ikun",
@@ -36,6 +36,11 @@
       "source_id": "gh72-api-mdzy",
       "source_vod_id": "87599",
       "source_name": "gh72-api-mdzy"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "113600",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -99,6 +104,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 13:41:18"
+        },
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/eER0JGka/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 16:24:03"
         }
       ]
     }
@@ -166,6 +182,8 @@
   "media_type": "movie",
   "source_ids": [
     "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-jszy",
     "gh72-api-mdzy"
   ]
 }

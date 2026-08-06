@@ -13,7 +13,7 @@
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-08-06 13:09:52",
+  "updated_at": "2026-08-06 15:16:11",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -54,6 +54,11 @@
       "source_id": "gh72-api-360zy",
       "source_vod_id": "96576",
       "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "82373",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -2123,6 +2128,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 13:09:52"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/nG2rnJOF/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 15:01:37"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/YL1A54ja/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 15:16:11"
         }
       ]
     }
@@ -2179,6 +2206,7 @@
   "media_type": "tv",
   "source_ids": [
     "gh72-api-360zy",
-    "gh72-api-ikun"
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
   ]
 }

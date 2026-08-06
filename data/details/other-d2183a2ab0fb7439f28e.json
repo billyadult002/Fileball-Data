@@ -16,15 +16,40 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-08-06 13:49:39",
+  "updated_at": "2026-08-06 14:46:41",
   "source_records": [
     {
       "source_id": "gh72-api-dbzy",
       "source_vod_id": "142427",
       "source_name": "gh72-api-dbzy"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "142766",
+      "source_name": "gh72-api-maotai"
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "other-d2183a2ab0fb7439f28e-item-0001-9b782903",
+      "name": "全集完结",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd03.uvjtih.cn/20260620/3G90Afve/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:46:41"
+        }
+      ]
+    }
+  ],
   "content_mode": "vod",
   "title_zh": "五年隐忍，一日清算",
   "title_en": "wunianyinrenyiriqingsuan",
@@ -74,5 +99,9 @@
       "official": true
     }
   ],
-  "media_type": "other"
+  "media_type": "other",
+  "source_ids": [
+    "gh72-api-dbzy",
+    "gh72-api-maotai"
+  ]
 }

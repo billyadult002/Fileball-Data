@@ -11,12 +11,27 @@
   "actors": [],
   "directors": [],
   "genres": [],
-  "updated_at": "2026-08-06 14:02:11",
+  "updated_at": "2026-08-06 17:09:03",
   "source_records": [
     {
       "source_id": "gh72-api-360zy",
       "source_vod_id": "102193",
       "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69627",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "112679",
+      "source_name": "gh72-api-jszy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "86824",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -36,6 +51,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 14:02:11"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260724/wayrmLiv/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 15:51:51"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260724/df9JIBEi/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 15:38:47"
         }
       ]
     },
@@ -55,6 +92,66 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 14:02:11"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/0dJvqo1h/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 15:51:51"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/sHx5ipro/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 15:38:47"
+        }
+      ]
+    },
+    {
+      "id": "tv-e38570383a694cd7815e-e0001-e3b0c442",
+      "name": "第1期",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dNkY632e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 17:09:03"
+        }
+      ]
+    },
+    {
+      "id": "tv-e38570383a694cd7815e-e0002-e3b0c442",
+      "name": "第2期",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dR6PZjLd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 17:09:03"
         }
       ]
     }
@@ -108,5 +205,11 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-jszy",
+    "gh72-api-mdzy"
+  ]
 }

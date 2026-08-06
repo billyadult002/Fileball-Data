@@ -49,7 +49,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-08-06 13:58:23",
+  "updated_at": "2026-08-06 17:57:01",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -105,6 +105,11 @@
       "source_id": "gh72-api-360zy",
       "source_vod_id": "89464",
       "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "74204",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -19013,6 +19018,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 13:58:23"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/mE3Jna7i/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 17:08:45"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/FnafUZix/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 17:57:01"
         }
       ]
     }
@@ -19069,6 +19096,7 @@
   "media_type": "tv",
   "source_ids": [
     "gh72-api-360zy",
-    "gh72-api-ikun"
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
   ]
 }

@@ -29,7 +29,7 @@
     "麦克思·温克勒"
   ],
   "genres": [],
-  "updated_at": "2026-08-06 14:24:57",
+  "updated_at": "2026-08-06 18:09:58",
   "source_records": [
     {
       "source_id": "gh72-api-zuid",
@@ -40,6 +40,16 @@
       "source_id": "gh72-api-360zy",
       "source_vod_id": "103074",
       "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69786",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87646",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -70,6 +80,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 14:24:57"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/CXihnbUd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:39:54"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/p5qcD3q2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 18:09:58"
         }
       ]
     },
@@ -100,6 +132,28 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-06 14:24:57"
+        },
+        {
+          "source_id": "gh72-api-ikun",
+          "source_name": "gh72-api-ikun",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260806/Sg9tqdAx/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 14:39:54"
+        },
+        {
+          "source_id": "gh72-api-mdzy",
+          "source_name": "gh72-api-mdzy",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260806/jHukNkV9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-06 18:09:58"
         }
       ]
     }
@@ -155,6 +209,8 @@
   ],
   "media_type": "tv",
   "source_ids": [
-    "gh72-api-360zy"
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy"
   ]
 }
