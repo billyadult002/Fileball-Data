@@ -138,6 +138,16 @@
       "source_id": "regular-魔都",
       "source_vod_id": "86359",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69504",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-jszy",
+      "source_vod_id": "112011",
+      "source_name": "gh72-api-jszy"
     }
   ],
   "episodes": [
@@ -1008,6 +1018,82 @@
           "updated_at": "2026-08-05 12:18:13"
         }
       ]
+    },
+    {
+      "id": "tv-cd45d7473dc38d1b968c-e0001-e3b0c442",
+      "name": "第1集",
+      "season": null,
+      "episode": 1,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/dPNz6Xla/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:51:02"
+        }
+      ]
+    },
+    {
+      "id": "tv-cd45d7473dc38d1b968c-e0002-e3b0c442",
+      "name": "第2集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/bW6QXxWa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:51:02"
+        }
+      ]
+    },
+    {
+      "id": "tv-cd45d7473dc38d1b968c-e0003-e3b0c442",
+      "name": "第3集",
+      "season": null,
+      "episode": 3,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e5yRP8Ye/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:51:02"
+        }
+      ]
+    },
+    {
+      "id": "tv-cd45d7473dc38d1b968c-e0004-e3b0c442",
+      "name": "第4集",
+      "season": null,
+      "episode": 4,
+      "streams": [
+        {
+          "source_id": "gh72-api-jszy",
+          "source_name": "gh72-api-jszy",
+          "provider": "jsyun",
+          "url": "https://vv.jisuzyv.com/play/e5yRB0Ae/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 15:51:02"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -1059,5 +1145,9 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-ikun",
+    "gh72-api-jszy"
+  ]
 }

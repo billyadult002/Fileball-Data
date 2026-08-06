@@ -17,7 +17,7 @@
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-08-05 14:59:08",
+  "updated_at": "2026-08-05 19:43:02",
   "source_records": [
     {
       "source_id": "imported-360zy-com-source",
@@ -88,6 +88,16 @@
       "source_id": "regular-魔都",
       "source_vod_id": "87208",
       "source_name": "魔都|点播"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69684",
+      "source_name": "gh72-api-ikun"
+    },
+    {
+      "source_id": "gh72-api-maotai",
+      "source_vod_id": "141871",
+      "source_name": "gh72-api-maotai"
     }
   ],
   "episodes": [
@@ -195,6 +205,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:35:09"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260730/REHsfQ8C/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:43:02"
         }
       ]
     },
@@ -302,6 +323,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:35:09"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260730/jLngVqcU/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:43:02"
         }
       ]
     },
@@ -409,6 +441,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:35:09"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260805/IT1LFx0O/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:43:02"
         }
       ]
     },
@@ -516,6 +559,17 @@
           "priority": 50,
           "health": "unknown",
           "updated_at": "2026-08-05 12:35:09"
+        },
+        {
+          "source_id": "gh72-api-maotai",
+          "source_name": "gh72-api-maotai",
+          "provider": "mtm3u8",
+          "url": "https://vodcnd16.uvjtih.cn/20260805/ACeuvzGV/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-05 19:43:02"
         }
       ]
     }
@@ -563,5 +617,9 @@
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-ikun",
+    "gh72-api-maotai"
+  ]
 }
