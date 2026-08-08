@@ -11,5 +11,12 @@
   "shard_paths": [
     "data/catalog/anime/page-0001.json"
   ],
-  "catalog_contract": "2.3"
+  "catalog_contract": "2.4",
+  "sort_indexes": {
+    "updated_at:desc": "data/catalog/anime/by-updated_at-desc/index.json",
+    "title:asc": "data/catalog/anime/by-title-asc/index.json",
+    "year:desc": "data/catalog/anime/by-year-desc/index.json",
+    "rating:desc": "data/catalog/anime/by-rating-desc/index.json",
+    "popularity:desc": "data/catalog/anime/by-popularity-desc/index.json"
+  }
 }

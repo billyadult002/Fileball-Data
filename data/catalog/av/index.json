@@ -21,5 +21,12 @@
     "data/catalog/av/page-0010.json",
     "data/catalog/av/page-0011.json"
   ],
-  "catalog_contract": "2.3"
+  "catalog_contract": "2.4",
+  "sort_indexes": {
+    "updated_at:desc": "data/catalog/av/by-updated_at-desc/index.json",
+    "title:asc": "data/catalog/av/by-title-asc/index.json",
+    "year:desc": "data/catalog/av/by-year-desc/index.json",
+    "rating:desc": "data/catalog/av/by-rating-desc/index.json",
+    "popularity:desc": "data/catalog/av/by-popularity-desc/index.json"
+  }
 }

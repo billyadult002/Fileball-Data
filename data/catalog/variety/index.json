@@ -11,5 +11,12 @@
   "shard_paths": [
     "data/catalog/variety/page-0001.json"
   ],
-  "catalog_contract": "2.3"
+  "catalog_contract": "2.4",
+  "sort_indexes": {
+    "updated_at:desc": "data/catalog/variety/by-updated_at-desc/index.json",
+    "title:asc": "data/catalog/variety/by-title-asc/index.json",
+    "year:desc": "data/catalog/variety/by-year-desc/index.json",
+    "rating:desc": "data/catalog/variety/by-rating-desc/index.json",
+    "popularity:desc": "data/catalog/variety/by-popularity-desc/index.json"
+  }
 }

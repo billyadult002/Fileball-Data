@@ -13,5 +13,12 @@
     "data/catalog/tv/page-0002.json",
     "data/catalog/tv/page-0003.json"
   ],
-  "catalog_contract": "2.3"
+  "catalog_contract": "2.4",
+  "sort_indexes": {
+    "updated_at:desc": "data/catalog/tv/by-updated_at-desc/index.json",
+    "title:asc": "data/catalog/tv/by-title-asc/index.json",
+    "year:desc": "data/catalog/tv/by-year-desc/index.json",
+    "rating:desc": "data/catalog/tv/by-rating-desc/index.json",
+    "popularity:desc": "data/catalog/tv/by-popularity-desc/index.json"
+  }
 }

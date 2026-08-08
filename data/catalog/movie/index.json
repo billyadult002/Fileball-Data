@@ -194,5 +194,12 @@
     "data/catalog/movie/page-0184.json"
   ],
   "data_commit": "pending-public-commit",
-  "catalog_contract": "2.3"
+  "catalog_contract": "2.4",
+  "sort_indexes": {
+    "updated_at:desc": "data/catalog/movie/by-updated_at-desc/index.json",
+    "title:asc": "data/catalog/movie/by-title-asc/index.json",
+    "year:desc": "data/catalog/movie/by-year-desc/index.json",
+    "rating:desc": "data/catalog/movie/by-rating-desc/index.json",
+    "popularity:desc": "data/catalog/movie/by-popularity-desc/index.json"
+  }
 }
