@@ -6,17 +6,40 @@
   "year": 2026,
   "category": "泰剧",
   "section": "regular",
-  "poster": "https://ok.zuidapic.com/upload/vod/20260806-1/d2a28bfccbbb7064e5a1f2039dcf1574.jpg",
+  "poster": "https://snzypic.vip/upload/vod/20260806-1/1811b4bb03d0af1384ca193f4767a43f.jpg",
   "overview": "暂无剧情简介",
   "actors": [],
   "directors": [],
-  "genres": [],
-  "updated_at": "2026-08-06 14:30:50",
+  "genres": [
+    "泰国",
+    "泰剧"
+  ],
+  "updated_at": "2026-08-13 00:24:31",
   "source_records": [
+    {
+      "source_id": "gh72-api-suoni",
+      "source_vod_id": "152377",
+      "source_name": "gh72-api-suoni"
+    },
+    {
+      "source_id": "gh72-api-ikun",
+      "source_vod_id": "69789",
+      "source_name": "gh72-api-ikun"
+    },
     {
       "source_id": "gh72-api-zuid",
       "source_vod_id": "129038",
       "source_name": "gh72-api-zuid"
+    },
+    {
+      "source_id": "gh72-api-360zy",
+      "source_vod_id": "103077",
+      "source_name": "gh72-api-360zy"
+    },
+    {
+      "source_id": "gh72-api-mdzy",
+      "source_vod_id": "87660",
+      "source_name": "gh72-api-mdzy"
     }
   ],
   "episodes": [
@@ -27,15 +50,52 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-zuid",
-          "source_name": "gh72-api-zuid",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/06/dMT0BxXspr27/video/index.m3u8",
+          "source_id": "gh72-api-suoni",
+          "source_name": "gh72-api-suoni",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202608/06/dMT0BxXspr27/video/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-06 14:30:50"
+          "updated_at": "2026-08-12 23:22:44",
+          "source_item_id": "152377",
+          "canonical_source_id": "",
+          "source_title": "新男友",
+          "original_title": "xinnanyou",
+          "localized_titles": {
+            "zh": "新男友",
+            "en": "xinnanyou"
+          },
+          "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-c193d52b24236becab0e-e0002-e3b0c442",
+      "name": "第02集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "gh72-api-suoni",
+          "source_name": "gh72-api-suoni",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202608/12/D9UtyXU0hv27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-08-12 23:22:44",
+          "source_item_id": "152377",
+          "canonical_source_id": "",
+          "source_title": "新男友",
+          "original_title": "xinnanyou",
+          "localized_titles": {
+            "zh": "新男友",
+            "en": "xinnanyou"
+          },
+          "language": "泰语"
         }
       ]
     }
@@ -43,7 +103,9 @@
   "content_mode": "vod",
   "title_zh": "新男友",
   "title_en": "xinnanyou",
-  "aliases": [],
+  "aliases": [
+    "แฟนใหม่ ใกล้ฉัน"
+  ],
   "media_type_labels": {
     "zh": "电视剧",
     "en": "TV Series"
@@ -56,6 +118,7 @@
   "search_terms": [
     "新男友",
     "xinnanyou",
+    "แฟนใหม่ ใกล้ฉัน",
     "泰剧"
   ],
   "classification_rule": "keyword_mapping",
@@ -75,16 +138,29 @@
   "title_records": [
     {
       "value": "新男友",
+      "source_title": "新男友",
       "language": "zh",
       "source": "source_api",
+      "source_id": "gh72-api-suoni",
+      "source_item_id": "152377",
       "official": true
     },
     {
       "value": "xinnanyou",
+      "source_title": "新男友",
       "language": "en",
       "source": "source_api",
+      "source_id": "gh72-api-suoni",
+      "source_item_id": "152377",
       "official": true
     }
   ],
-  "media_type": "tv"
+  "media_type": "tv",
+  "source_ids": [
+    "gh72-api-360zy",
+    "gh72-api-ikun",
+    "gh72-api-mdzy",
+    "gh72-api-suoni",
+    "gh72-api-zuid"
+  ]
 }
