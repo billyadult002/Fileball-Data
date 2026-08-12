@@ -1,7 +1,7 @@
 # Mission 7.2 production contribution
 
 - mission: 7.3
-- generated_at: 2026-08-12T16:57:15Z
+- generated_at: 2026-08-12T17:25:41Z
 - frozen_source_ids: ['addon-aiostreams', 'addon-archive-org', 'addon-catalogs-plus', 'addon-comet', 'addon-dcbi', 'addon-global-catalogs', 'addon-mediafusion', 'addon-opensubtitles-v3', 'addon-peerflix', 'addon-streaming-catalogs', 'addon-stremio-addons-net', 'addon-thepiratebay', 'addon-tmdb', 'addon-torrentsdb', 'addon-watchhub', 'gh72-api-360zy', 'gh72-api-dbzy', 'gh72-api-ikun', 'gh72-api-jszy', 'gh72-api-maotai', 'gh72-api-mdzy', 'gh72-api-suoni', 'gh72-api-xingba', 'gh72-api-xxibao', 'gh72-api-zuid', 'gh72-live-scenery']
 - raw_records: 2890
 - canonical_staging_records: 689
@@ -14,11 +14,11 @@
 - new_live_channels_added: 0
 - duplicates_merged: 2819
 - records_rejected_at_production_merge: 1
-- classification: {'Other': 290, 'TV Series': 1295, 'Documentary': 5, 'Anime': 61, 'AV': 18, 'Movies': 869}
+- classification: {'Other': 293, 'TV Series': 1295, 'Documentary': 5, 'Anime': 61, 'AV': 15, 'Movies': 869}
 - live_classification: {'TV channels': 0, 'scenery channels': 0, 'regional channels': 0, 'other live': 0}
 - failures: {}
 - production_catalog_before: 3481
-- production_catalog_after: 5415
+- production_catalog_after: 5515
 - rejection_policy_preserved: True
 - publication_gate: qualified
 - rollback: {'previous_public_data_commit': '977d28a5bc706d767f412d229e06ad83413dcc08', 'previous_worker_version': '1.1.0', 'previous_worker_data_commit': '977d28a5bc706d767f412d229e06ad83413dcc08', 'previous_catalog_contract': '2.1', 'previous_pages_deployment': 'not available from configured GitHub/Cloudflare evidence', 'rollback_verified': False}
