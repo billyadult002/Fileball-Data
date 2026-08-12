@@ -1,6 +1,6 @@
 {
   "mission": "7.3",
-  "generated_at": "2026-08-12T17:25:41Z",
+  "generated_at": "2026-08-12T23:11:54Z",
   "frozen_source_ids": [
     "addon-aiostreams",
     "addon-archive-org",
@@ -29,27 +29,27 @@
     "gh72-api-zuid",
     "gh72-live-scenery"
   ],
-  "raw_records": 2890,
+  "raw_records": 2891,
   "canonical_staging_records": 689,
   "vod_staging_records": 552,
   "live_staging_records": 137,
-  "new_canonical_media_added": 0,
-  "existing_canonical_media_enriched": 2819,
+  "new_canonical_media_added": 105,
+  "existing_canonical_media_enriched": 2782,
   "new_episodes_added": 0,
-  "new_streams_added": 2976,
-  "new_live_channels_added": 0,
-  "duplicates_merged": 2819,
-  "records_rejected_at_production_merge": 1,
+  "new_streams_added": 3056,
+  "new_live_channels_added": 67,
+  "duplicates_merged": 2782,
+  "records_rejected_at_production_merge": -66,
   "classification": {
     "Other": 293,
-    "TV Series": 1295,
+    "TV Series": 1300,
     "Documentary": 5,
-    "Anime": 61,
+    "Anime": 60,
     "AV": 15,
-    "Movies": 869
+    "Movies": 868
   },
   "live_classification": {
-    "TV channels": 0,
+    "TV channels": 67,
     "scenery channels": 0,
     "regional channels": 0,
     "other live": 0
@@ -88,7 +88,7 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 1072,
+      "streams_added": 1073,
       "final_status": "healthy"
     },
     {
@@ -97,7 +97,7 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 244,
+      "streams_added": 253,
       "final_status": "healthy"
     },
     {
@@ -106,7 +106,7 @@
       "normalized_records": 20,
       "canonical_additions": 0,
       "merged_records": 20,
-      "streams_added": 15,
+      "streams_added": 16,
       "final_status": "healthy"
     },
     {
@@ -115,7 +115,7 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 834,
+      "streams_added": 835,
       "final_status": "healthy"
     },
     {
@@ -142,33 +142,33 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 445,
+      "streams_added": 446,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-live-scenery",
-      "raw_records": 0,
-      "normalized_records": 0,
-      "canonical_additions": 0,
+      "raw_records": 67,
+      "normalized_records": 67,
+      "canonical_additions": 67,
       "merged_records": 0,
-      "streams_added": 0,
+      "streams_added": 67,
       "final_status": "healthy"
     },
     {
       "source_id": "addon-streaming-catalogs",
       "raw_records": 926,
       "normalized_records": 926,
-      "canonical_additions": 0,
-      "merged_records": 926,
+      "canonical_additions": 2,
+      "merged_records": 924,
       "streams_added": 0,
       "final_status": "healthy"
     },
     {
       "source_id": "addon-global-catalogs",
-      "raw_records": 824,
-      "normalized_records": 824,
-      "canonical_additions": 0,
-      "merged_records": 824,
+      "raw_records": 825,
+      "normalized_records": 825,
+      "canonical_additions": 9,
+      "merged_records": 816,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -185,8 +185,8 @@
       "source_id": "addon-thepiratebay",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 0,
-      "merged_records": 100,
+      "canonical_additions": 27,
+      "merged_records": 73,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -292,7 +292,7 @@
   ],
   "failures": {},
   "production_catalog_before": 3481,
-  "production_catalog_after": 5515,
+  "production_catalog_after": 5553,
   "rejection_policy_preserved": true,
   "publication_gate": "qualified",
   "rollback": {
