@@ -2,7 +2,7 @@
 
 {
   "policy_version": "live-policy-1",
-  "generated_at": "2026-08-13T04:18:06Z",
+  "generated_at": "2026-08-13T05:35:18Z",
   "input_records": 3080,
   "audited_records": 3080,
   "published_channels": 1344,
