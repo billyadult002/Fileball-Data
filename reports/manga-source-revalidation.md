@@ -4,11 +4,11 @@
   "mission": "7.5",
   "source_id": "external-mangadex-org",
   "endpoint": "https://api.mangadex.org",
-  "checked_at": "2026-08-13T12:32:45.938857+00:00",
+  "checked_at": "2026-08-13T13:56:48.049302+00:00",
   "status": "enabled_external_reader",
   "blocker": null,
   "catalog_records": 24,
-  "chapter_records": 735,
+  "chapter_records": 1177,
   "catalog_written": true
 }
 
