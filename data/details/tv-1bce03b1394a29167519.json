@@ -33,17 +33,12 @@
     "action",
     "fantasy"
   ],
-  "updated_at": "2026-08-06 17:10:12",
+  "updated_at": "2026-08-13 17:14:03",
   "source_records": [
     {
       "source_id": "gh72-api-suoni",
       "source_vod_id": "151424",
       "source_name": "gh72-api-suoni"
-    },
-    {
-      "source_id": "gh72-api-zuid",
-      "source_vod_id": "128470",
-      "source_name": "gh72-api-zuid"
     }
   ],
   "episodes": [
@@ -52,88 +47,47 @@
       "name": "第01集",
       "season": null,
       "episode": 1,
-      "streams": [
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/23/edLyets8yc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-06 16:20:49"
-        },
-        {
-          "source_id": "gh72-api-zuid",
-          "source_name": "gh72-api-zuid",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/23/edLyets8yc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-06 17:10:12"
-        }
-      ]
+      "streams": []
     },
     {
       "id": "tv-1bce03b1394a29167519-e0002-e3b0c442",
       "name": "第02集",
       "season": null,
       "episode": 2,
-      "streams": [
-        {
-          "source_id": "gh72-api-suoni",
-          "source_name": "gh72-api-suoni",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202607/30/NNuNbjPeUw27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-06 16:20:49"
-        },
-        {
-          "source_id": "gh72-api-zuid",
-          "source_name": "gh72-api-zuid",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/30/NNuNbjPeUw27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-06 17:10:12"
-        }
-      ]
+      "streams": []
     },
     {
       "id": "tv-1bce03b1394a29167519-e0003-e3b0c442",
       "name": "第03集",
       "season": null,
       "episode": 3,
+      "streams": []
+    },
+    {
+      "id": "tv-1bce03b1394a29167519-e0004-e3b0c442",
+      "name": "第04集",
+      "season": null,
+      "episode": 4,
       "streams": [
         {
           "source_id": "gh72-api-suoni",
           "source_name": "gh72-api-suoni",
           "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202608/06/7NieSkVuUu27/video/index.m3u8",
+          "url": "https://v14.rstu6.com/202608/13/72jza4tFeq27/video/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-06 16:20:49"
-        },
-        {
-          "source_id": "gh72-api-zuid",
-          "source_name": "gh72-api-zuid",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/06/7NieSkVuUu27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-06 17:10:12"
+          "updated_at": "2026-08-13 17:14:03",
+          "source_item_id": "151424",
+          "canonical_source_id": "",
+          "source_title": "星际迷航：奇异新世界 第四季",
+          "original_title": "xingjimihangqiyixinshijiedisiji",
+          "localized_titles": {
+            "zh": "星际迷航：奇异新世界 第四季",
+            "en": "xingjimihangqiyixinshijiedisiji"
+          },
+          "language": "unknown"
         }
       ]
     }
@@ -190,19 +144,22 @@
   "title_records": [
     {
       "value": "星际迷航：奇异新世界 第四季",
+      "source_title": "星际迷航：奇异新世界 第四季",
       "language": "zh",
       "source": "source_api",
+      "source_id": "gh72-api-suoni",
+      "source_item_id": "151424",
       "official": true
     },
     {
       "value": "xingjimihangqiyixinshijiedisiji",
+      "source_title": "星际迷航：奇异新世界 第四季",
       "language": "en",
       "source": "source_api",
+      "source_id": "gh72-api-suoni",
+      "source_item_id": "151424",
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-zuid"
-  ]
+  "media_type": "tv"
 }
