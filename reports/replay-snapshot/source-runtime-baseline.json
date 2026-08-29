@@ -1,0 +1,105 @@
+{
+  "commit": "e1e6e92d06894336ca96bc99dae35c051dc442f3",
+  "counts": {
+    "canonical_catalog_items": 100354,
+    "canonical_sources": 4386,
+    "catalog_item_source_links": 518597,
+    "provider_source_links": 11670,
+    "providers": 145,
+    "raw_child_sources": 11670,
+    "stream_live_items": 0
+  },
+  "evidence": "read-only Wrangler D1 queries; no writes performed",
+  "failure_classes": {
+    "canonical_sources": {
+      "active": 2231,
+      "unsupported_runtime": 2155
+    },
+    "imported_sources": {
+      "authorized": 144,
+      "not_authorized": 1
+    },
+    "provider_source_links": {
+      "active": 2570,
+      "stale": 1001,
+      "unsupported_runtime": 8099
+    },
+    "provider_source_links_by_original_type": {
+      "kodi_addon:stale": 1,
+      "kodi_addon:unsupported_runtime": 266,
+      "live_playlist:active": 423,
+      "live_playlist:stale": 52,
+      "spider_site:stale": 50,
+      "spider_site:unsupported_runtime": 7833,
+      "stremio_catalog:active": 937,
+      "stremio_catalog:stale": 897,
+      "vod_api:active": 1210,
+      "vod_api:stale": 1
+    },
+    "providers": {
+      "kodi_addon": 2,
+      "stremio_addon": 45,
+      "tvbox_json": 90,
+      "tvbox_m3u": 7,
+      "vod_url": 1
+    }
+  },
+  "generated_at": "2026-08-11T12:43:13Z",
+  "local_migrations": [
+    "0001_auth.sql",
+    "0002_access_management.sql",
+    "0003_xtream_credentials.sql",
+    "0004_av_password.sql",
+    "0005_manga_password.sql",
+    "0006_imported_sources.sql",
+    "0007_password_resets.sql",
+    "0008_imported_sources_extracted.sql",
+    "0009_subtitles.sql",
+    "0010_create_downloads.sql",
+    "0011_content_collections.sql",
+    "0012_performance_monitoring.sql",
+    "0013_universal_provider_sources.sql",
+    "0014_canonical_catalog_sources.sql",
+    "0015_reindex_session_link.sql",
+    "0016_provider_scan_cursor.sql",
+    "0017_emby_member_credentials.sql",
+    "0018_source_runtime_platform.sql",
+    "0019_source_runtime_playback_observability.sql"
+  ],
+  "migration_name_delta": [],
+  "mode": "production-read-only",
+  "production": {
+    "database": "fireball-auth",
+    "environment": "production",
+    "web": "https://media.hengmao.org",
+    "worker": "https://v8.hengmao.org"
+  },
+  "remote_migrations": [
+    "0001_auth.sql",
+    "0002_access_management.sql",
+    "0003_xtream_credentials.sql",
+    "0004_av_password.sql",
+    "0005_manga_password.sql",
+    "0006_imported_sources.sql",
+    "0007_password_resets.sql",
+    "0008_imported_sources_extracted.sql",
+    "0009_subtitles.sql",
+    "0010_create_downloads.sql",
+    "0011_content_collections.sql",
+    "0012_performance_monitoring.sql",
+    "0013_universal_provider_sources.sql",
+    "0014_canonical_catalog_sources.sql",
+    "0015_reindex_session_link.sql",
+    "0016_provider_scan_cursor.sql",
+    "0017_emby_member_credentials.sql",
+    "0017_emby_memberships.sql",
+    "0018_emby_gateway_identity.sql",
+    "0018_source_runtime_platform.sql",
+    "0019_emby_gateway_sessions.sql",
+    "0019_source_runtime_playback_observability.sql",
+    "0020_emby_member_credentials.sql",
+    "0021_emby_member_credentials_lifecycle.sql"
+  ],
+  "schema_version": "source-runtime-production-evidence-1",
+  "status": "BASELINE_CAPTURED"
+}

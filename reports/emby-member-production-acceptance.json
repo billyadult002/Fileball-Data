@@ -1,0 +1,170 @@
+{
+  "mission": "Emby Production Deploy, Five-Member Acceptance & Final Gate Closure",
+  "baseline_commit": "a4c361a6f",
+  "generated_at": "2026-08-10T21:45:00Z",
+  "status": "HOLD",
+  "blocker": {
+    "code": "PRODUCTION_ADMIN_CREDENTIAL_OR_SESSION_REQUIRED",
+    "evidence": [
+      "GET /admin/emby/members without a session returned 401 UNAUTHORIZED.",
+      "Production D1 contains one admin account but no retrievable plaintext password.",
+      "No production owner/admin browser session or secure credential was available to this run.",
+      "Only 4 existing Emby members were present; the required 5 new test members could not be created through the Admin API without bypassing the audited workflow."
+    ],
+    "single_required_external_action": "Provide or authorize a secure production owner/admin login session for the acceptance run; do not send the password in source, reports, chat, or command history."
+  },
+  "deployment": {
+    "migration": {
+      "database": "fireball-auth",
+      "database_id": "1bf03bee-501d-4465-8217-4da9aa911818",
+      "pending_before": ["0021_emby_member_credentials_lifecycle.sql"],
+      "first_apply": "PASS",
+      "repeat_list": "PASS - No migrations to apply",
+      "schema_tables_verified": ["emby_audit_events", "emby_members", "emby_stream_leases"],
+      "users_count_after": 4,
+      "emby_members_count_after": 4,
+      "audit_events_count_after": 0
+    },
+    "worker": {
+      "environment": "production",
+      "name": "fileball-api",
+      "deployment_id": "ad397412-cf65-4e72-a438-e392d8533b54",
+      "previous_deployment_id": "4e010204-1a38-41a3-afe8-03f3e3a35e64",
+      "version_endpoint": "https://v8.hengmao.org/api/v1/version",
+      "version_endpoint_web_commit": "a4c361a6f",
+      "emby_service_platform": "WITHHOLD_GO"
+    },
+    "pages": {
+      "project": "fireball",
+      "production_deployment_id": "fb16530a-de67-443b-b754-9f2a8c65f95e",
+      "production_preview_url": "https://fb16530a.fireball-b4q.pages.dev",
+      "custom_domain": "https://media.hengmao.org/admin/emby",
+      "custom_domain_bundle": {
+        "javascript": "assets/index-Cep-8wbN.js",
+        "css": "assets/index-DCwb2cXy.css"
+      },
+      "bundle_matches_baseline_build": true
+    },
+    "gateway": {
+      "status": "gateway_deploy_not_required",
+      "reason": "No emby-gateway source path changed between 858590569 and a4c361a6f; the member lifecycle API and migration are owned by the main Worker.",
+      "health_verified": true,
+      "version_verified": true,
+      "ready_verified": true
+    }
+  },
+  "production_probes": {
+    "worker_version": "PASS",
+    "admin_route_requires_session": "PASS",
+    "emby_host_tls": "PASS - https://emby.hengmao.org responds over HTTPS",
+    "gateway_health": "PASS",
+    "gateway_version": "PASS",
+    "gateway_ready": "PASS",
+    "static_admin_bundle_contains_create_reset_copy_devices_sessions_archive": "PASS",
+    "static_admin_bundle_contains_expand_collapse_controls": "PASS",
+    "unauthenticated_emby_login_rejected": "PASS - negative probe only; no password was persisted",
+    "production_member_workflow": "BLOCKED - owner/admin session unavailable"
+  },
+  "production_counts_snapshot": {
+    "total_members": 4,
+    "active_members": 4,
+    "disabled_members": 0,
+    "expired_members": 0,
+    "active_device_tokens": 1,
+    "active_sessions": 53
+  },
+  "five_member_matrix": [],
+  "credential_receipt_tests": {
+    "create_receipt_fields": "NOT_RUN",
+    "one_time_password_visibility": "NOT_RUN",
+    "password_memory_cleanup": "NOT_RUN_IN_PRODUCTION",
+    "copy_with_password_only_during_receipt": "NOT_RUN",
+    "normal_copy_without_password": "NOT_RUN_IN_PRODUCTION",
+    "no_plaintext_password_in_report_or_token": "PASS"
+  },
+  "lifecycle_tests": {
+    "username_rename_preserves_user_id_history": "NOT_RUN",
+    "password_reset_invalidates_old_password": "NOT_RUN",
+    "expiry_edit_and_renew": "NOT_RUN",
+    "role_and_library_policy_enforcement": "NOT_RUN",
+    "remote_download_transcode_enforcement": "NOT_RUN",
+    "device_limit_and_revoke": "NOT_RUN",
+    "concurrency_limit": "NOT_RUN",
+    "session_termination": "NOT_RUN",
+    "audit_records": "NOT_RUN - production audit count remains 0"
+  },
+  "ui_tests": {
+    "recent_two_expanded": "AUTOMATED_ONLY",
+    "older_members_collapsed": "AUTOMATED_ONLY",
+    "new_member_ordering": "AUTOMATED_ONLY",
+    "single_expand_collapse": "AUTOMATED_ONLY",
+    "expand_all_collapse_all": "AUTOMATED_ONLY",
+    "refresh_does_not_leak_password": "AUTOMATED_ONLY"
+  },
+  "automated_verification": {
+    "worker_typecheck": "PASS",
+    "worker_tests": "372 passed",
+    "web_typecheck": "PASS",
+    "web_tests": "94 passed",
+    "web_lint": "PASS",
+    "web_production_build": "PASS",
+    "migration_sqlite_validation": "PASS",
+    "git_diff_check": "PASS on baseline deployment worktree",
+    "npm_audit_note": "web dependency tree reported existing audit findings; no dependency changes were made"
+  },
+  "secret_scan": {
+    "plaintext_passwords_in_report": false,
+    "production_tokens_in_report": false,
+    "passwords_written_to_local_storage_session_storage_indexeddb_or_analytics": "NOT_OBSERVED_IN_STATIC_CODE; PRODUCTION_BROWSER TEST BLOCKED"
+  },
+  "machine_gate": {
+    "emby_member_credentials_gate": {
+      "migration_production": true,
+      "worker_deployed": true,
+      "pages_deployed": true,
+      "gateway_synced_or_not_required": true,
+      "create_username": false,
+      "one_time_password": false,
+      "host": true,
+      "port_443": true,
+      "expiry": false,
+      "role_permissions": false,
+      "library_permissions": false,
+      "admin_edit_username": false,
+      "admin_reset_password": false,
+      "password_never_retrievable": false,
+      "copy_connection_info": false,
+      "device_limits": false,
+      "concurrency_limits": false,
+      "enable_disable": false,
+      "renew_expiry": false,
+      "device_management": false,
+      "session_management": false,
+      "audit_trail": false,
+      "latest_two_expanded": true,
+      "older_members_collapsed": true,
+      "expand_all_collapse_all": true,
+      "production_synced": false,
+      "tests": true
+    },
+    "status": "HOLD"
+  },
+  "platform_gate": {
+    "emby_service_platform": "WITHHOLD_GO",
+    "member_management_gate": "HOLD",
+    "movies_library_adapter": false,
+    "tv_library_adapter": false,
+    "stream_library_adapter": false,
+    "playback_info_media_sources": false,
+    "real_media_bytes": false,
+    "automatic_fallback": false,
+    "client_matrix": false,
+    "final_total_audit": false
+  },
+  "safety": {
+    "current_dirty_worktree_overwritten": false,
+    "deployment_source": "detached clean worktree at a4c361a6f",
+    "unrelated_local_files_staged_or_modified": false,
+    "plaintext_credentials_archived": false
+  }
+}

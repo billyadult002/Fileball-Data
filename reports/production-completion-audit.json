@@ -1,0 +1,239 @@
+{
+  "schema_version": "production-completion-audit-2",
+  "generated_at": "2026-08-09T00:01:18.189709+00:00",
+  "release_commit_parent": "79e01299f50b75ea699f00e28f2b3ab11ff4cf63",
+  "go_status": "GO",
+  "infrastructure": {
+    "run_capacity": "512M",
+    "journald_enospc": false,
+    "journald": {
+      "storage": "persistent",
+      "runtime_max_use": "16M",
+      "runtime_keep_free": "64M"
+    },
+    "dnf_makecache_timer": "disabled",
+    "oracle_reboot_1": "pass",
+    "oracle_reboot_2": "pass",
+    "dracut_shutdown": "pass",
+    "dracut_shutdown_service": {
+      "restore_target": "/run/initramfs",
+      "old_run_capacity": "100M",
+      "uek_initramfs_approx_size": "101M",
+      "root_cause": "ENOSPC during shutdown restore",
+      "normal_reboot_validation": "pass"
+    },
+    "ssh_stable": true,
+    "ssh_post_reboot_logins": 3,
+    "services_recovered": true,
+    "checkpoint_preserved": true
+  },
+  "security": {
+    "valid_request": 202,
+    "invalid_signature": 401,
+    "expired_request": 401,
+    "replay_request": 401,
+    "missing_auth": 401
+  },
+  "production_baseline": {
+    "providers_total": 117,
+    "raw_child_sources": 11060,
+    "canonical_sources": 3077,
+    "provider_links_reindex": 9029,
+    "provider_links_registry_all_statuses": 9151,
+    "canonical_catalog_items": 100354,
+    "catalog_item_sources": 518597,
+    "movies": 91766,
+    "tv": 1213,
+    "live": 1344,
+    "direct_streams": 1399,
+    "streams": 1222328,
+    "search_total": 102382
+  },
+  "provider_accounting": {
+    "schema_version": "final-reindex-audit-1",
+    "generated_at": "2026-08-09T00:01:18.189709+00:00",
+    "provider_canary_job": "job-19744388-b27f-4afe-bc60-35fc8f88ce93",
+    "global_reindex_job": "job-139a9b2c-04c3-402c-98c2-82678ce7a4d6",
+    "providers_total": 117,
+    "providers_success": 117,
+    "providers_failed": 0,
+    "raw_child_sources": 11060,
+    "normalized_sources": 9029,
+    "provider_links": 9029,
+    "historical_stale_links": 386,
+    "unsupported": 7703,
+    "failed_child_entries": 107,
+    "accounted": 11060,
+    "unaccounted": 0,
+    "pre_fingerprint": "d7cc60d22433ad5849acfaba24771b32c6f0b79d687fd7a30ffae6996caf93aa",
+    "post_fingerprint": "d7cc60d22433ad5849acfaba24771b32c6f0b79d687fd7a30ffae6996caf93aa",
+    "canonical_growth": 0,
+    "provider_link_growth": 0,
+    "reindex_idempotent": true,
+    "live_registry_snapshot": {
+      "providers_total": 117,
+      "canonical_sources": 3077,
+      "provider_source_links_all_statuses": 9151
+    }
+  },
+  "playback": {
+    "report": "reports/production-playback-acceptance.json",
+    "tvbox_tests": 3,
+    "tvbox_pass": 3,
+    "stremio_tests": 2,
+    "stremio_pass": 2,
+    "stremio": {
+      "catalog": "pass",
+      "stream": "pass",
+      "media_bytes": "pass"
+    },
+    "direct_stream_tests": 12,
+    "direct_stream_pass": 5,
+    "direct_stream_failure_classes": {
+      "network_timeout": 2,
+      "upstream_dead": 3,
+      "geo_blocked": 2
+    },
+    "kodi_tests": 266,
+    "kodi_safe_pass": true,
+    "kodi_unsupported_runtime": 266,
+    "kodi": {
+      "providers": 2,
+      "child_sources": 266,
+      "import": "pass",
+      "discovery": "pass",
+      "accounting": "pass",
+      "playback": "unsupported_runtime",
+      "policy": "No arbitrary Python, JavaScript, binary add-on, or downloaded executable code was run."
+    },
+    "multi_source_movie": "pass",
+    "multi_source_tv": "pass",
+    "fallback_mode": "automatic",
+    "fallback_result": "pass",
+    "fallback_evidence": "bad primary source -> automatic fallback -> playable secondary source"
+  },
+  "catalog_build_2": {
+    "report": "reports/catalog-build-2-audit.json",
+    "pre_items": 100354,
+    "post_items": 100354,
+    "pre_links": 518597,
+    "post_links": 518597,
+    "item_delta": 0,
+    "link_delta": 0,
+    "duplicate_identity_growth": 0,
+    "duplicate_relationship_growth": 0,
+    "sample_audit": {
+      "random_count": 100,
+      "random_snapshot_exact_match": false,
+      "random_snapshot_note": "Pre/post hashes represent independently selected random sets and are not a rowwise comparator.",
+      "high_source_count_count": 25,
+      "high_source_count_exact_match": true
+    },
+    "catalog_idempotent": true
+  },
+  "final_reindex": {
+    "report": "reports/final-reindex-audit.json",
+    "providers_total": 117,
+    "providers_success": 117,
+    "providers_failed": 0,
+    "raw_child_sources": 11060,
+    "provider_links": 9029,
+    "unaccounted": 0,
+    "canonical_growth": 0,
+    "provider_link_growth": 0,
+    "fingerprint_stable": true,
+    "reindex_idempotent": true
+  },
+  "product_regression": {
+    "movies": {
+      "latest": 91755,
+      "rating": 91755,
+      "popularity": 91755,
+      "year": 91755,
+      "title": 91755,
+      "same_eligible_dataset": true
+    },
+    "tv": {
+      "latest": 1072,
+      "rating": 1072,
+      "popularity": 1072,
+      "year": 1072,
+      "title": 1072,
+      "same_eligible_dataset": true,
+      "pagination": "pass"
+    },
+    "year_desc_max": 2026,
+    "stream_count": 1399,
+    "search_known_title": "pass",
+    "search_worker_1102": "resolved",
+    "source_browser": {
+      "clickable": true,
+      "detail": "pass",
+      "native_categories": "pass",
+      "pagination": "page 1 to page 2 of 266 pass"
+    },
+    "auto_detect": {
+      "detect": "pass",
+      "preview_confidence": 0.98,
+      "approve": "pass",
+      "canonical_source_reused": "src-b67eee86635553841ebbf50d",
+      "canonical_source_count_delta": 0,
+      "test_provider_removed_after_acceptance": true
+    },
+    "resource_entries": {
+      "website_vod": true,
+      "auto_detect": true,
+      "kodi": true,
+      "tvbox": true,
+      "stremio": true,
+      "m3u": true
+    }
+  },
+  "tests": {
+    "python": {
+      "collected": 353,
+      "passed": 346,
+      "skipped": 7
+    },
+    "worker": {
+      "passed": 354,
+      "typecheck": "pass"
+    },
+    "web": {
+      "passed": 76,
+      "typecheck": "pass",
+      "build": "pass",
+      "lint": "pass"
+    },
+    "git_diff_check": "pass"
+  },
+  "deployment": {
+    "production_commit": "b23184c0e2b9540300707da9f4b375f26eb8eac9",
+    "worker_version_id": "808ddd1a-d3b1-4382-a7de-b4b59c857d84",
+    "pages_deployment": "e5187494.fireball-b4q.pages.dev",
+    "custom_domain": "media.hengmao.org",
+    "custom_domain_asset": "assets/index-DiKNIUl7.js",
+    "data_commit": "56ab536ee9478005298bfd059f61b13dee587ab7"
+  },
+  "go_gate": {
+    "oracle_reboot": true,
+    "ssh_stable": true,
+    "services_recovered": true,
+    "security": true,
+    "provider_accounting": true,
+    "tvbox_playback": true,
+    "stremio_playback": true,
+    "direct_stream_playback": true,
+    "kodi_safe_acceptance": true,
+    "multi_source_movie": true,
+    "multi_source_tv": true,
+    "fallback_or_switching": true,
+    "catalog_build_2": true,
+    "catalog_idempotency": true,
+    "final_reindex": true,
+    "reindex_idempotency": true,
+    "product_regression": true,
+    "tests": true,
+    "audit_committed": true
+  }
+}

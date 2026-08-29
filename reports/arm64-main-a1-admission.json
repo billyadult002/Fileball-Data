@@ -1,0 +1,104 @@
+{
+  "mission": "Fireball ARM64 Main Publication and A1 Zero-Cost Admission Closure",
+  "generated_at": "2026-08-14T16:17:39Z",
+  "repository": "billyadult002/Fileball",
+  "publication": {
+    "pr_number": 1,
+    "pr_url": "https://github.com/billyadult002/Fileball/pull/1",
+    "pr_state": "MERGED",
+    "pr_base_branch": "main",
+    "pr_base_sha_before_merge": "eb6e5ada118daf02a9b5f1ac767c15afe8a241f3",
+    "reviewed_head_sha": "2e86a4944d77d79096b3cd8e28958f2062c7b1d3",
+    "merged_main_sha": "a1d67729cd8e6c2d62c829201e6bfd6c53f8b36b",
+    "merged_at": "2026-08-14T01:56:14Z",
+    "merge_method": "normal GitHub pull-request merge",
+    "scope": [
+      ".github/workflows/oracle-runner-bootstrap.yml",
+      ".github/workflows/external-sync.yml",
+      ".github/workflows/source-runtime-self-hosted.yml",
+      "tests/test_workflow_arch_support.py"
+    ],
+    "arm64_workflow_support_published": true,
+    "remote_main_fetched": true,
+    "remote_workflow_verification": true,
+    "x86_64_behavior_preserved": true,
+    "amd64_mapping": "not separately mapped; workflows use canonical uname x86_64",
+    "aarch64_behavior_present": true,
+    "arm64_behavior_present": true,
+    "unsupported_architecture_fails_closed": true,
+    "python_asset_selector": "{arch}-install_only.tar.gz",
+    "curl_retry_hardening_preserved": [
+      "--retry 5",
+      "--retry-delay 3",
+      "--retry-all-errors"
+    ],
+    "external_sync_concurrency_preserved": "fireball-external-sync with cancel-in-progress false",
+    "cadence_preserved": "external-sync cron 37 */2 * * *",
+    "e2_runner_preserved_for_rollback": true,
+    "external_adapter_sync_data_correctness_preserved": true
+  },
+  "validation": {
+    "remote_main_yaml_parse": "PASS",
+    "architecture_regression_tests": {
+      "status": "PASS",
+      "passed": 27,
+      "coverage": [
+        "x86_64",
+        "aarch64",
+        "arm64",
+        "riscv64 unsupported",
+        "ppc64le unsupported",
+        "i686 unsupported",
+        "empty unsupported",
+        "retry flag regression guard"
+      ]
+    },
+    "full_python_suite": {
+      "status": "PASS",
+      "passed": 436,
+      "skipped": 7,
+      "collected": 443
+    },
+    "merged_main_diff_check": "PASS",
+    "working_tree_diff_check": "PASS",
+    "secret_scanners": {
+      "gitleaks": "unavailable",
+      "trufflehog": "unavailable",
+      "detect-secrets": "unavailable",
+      "claim": "not run and not claimed as passed"
+    }
+  },
+  "a1_admission": {
+    "phase_started_after_arm64_publication": true,
+    "billing_context": "PAYG/upgraded as indicated by mission context; current Console evidence unavailable in this execution context",
+    "shape": null,
+    "ocpus": null,
+    "memory_gb": null,
+    "availability_domain": null,
+    "always_free_eligible": null,
+    "estimated_incremental_cost": null,
+    "a1_zero_cost_verified": false,
+    "blocker": "The authenticated Oracle Console Chrome session is not attachable from the available coding-agent tools; no current Create Instance pricing/eligibility evidence can be inspected.",
+    "instance_created": false,
+    "spending_limits_changed": false,
+    "billing_plan_changed": false,
+    "blue_green_runner_provisioning": "not started",
+    "arm64_dependency_compatibility": false
+  },
+  "independent_gates": {
+    "authenticated_source_acceptance": "BLOCKED_AUTH_CONTEXT",
+    "source_runtime_platform": "WITHHOLD_GO",
+    "kodi_runtime_execution_verified": false,
+    "media_bytes_verified": false,
+    "full_reindex_apply": false,
+    "bulk_runtime_state_update": false
+  },
+  "credential_handling": {
+    "cookies_exported": false,
+    "bearer_tokens_exported": false,
+    "passwords_persisted": false,
+    "refresh_tokens_persisted": false,
+    "browser_local_storage_credentials_persisted": false,
+    "billing_credentials_recorded": false
+  }
+}

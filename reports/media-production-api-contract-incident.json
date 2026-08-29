@@ -1,0 +1,158 @@
+{
+  "incident": "Fireball Production API Contract Recovery and media.hengmao.org Service Restoration",
+  "generated_at": "2026-08-12T00:49:08Z",
+  "status": "WITHHOLD_AUTHENTICATED_SMOKE",
+  "detection": {
+    "reported_symptom": "media.hengmao.org pages displayed 暂时无法加载 / 服务返回的数据格式无效",
+    "reproduced_at": "2026-08-11/12 production probe",
+    "first_failing_contract": {
+      "host": "https://media.hengmao.org",
+      "status": 200,
+      "content_type": "text/html",
+      "body_shape": "SPA HTML document",
+      "request_id": null,
+      "affected_paths": [
+        "/auth/session",
+        "/api/v1/latest",
+        "/api/v1/catalog",
+        "/api/v1/search",
+        "/api/v1/sources",
+        "/admin/providers",
+        "/admin/emby/configs"
+      ]
+    },
+    "frontend_decoder_failure": "The JSON client attempted response.json() against index.html; the repaired decoder now reports ApiContractError(non-JSON) with status/content-type/request-id instead of masking the failure as a generic schema error."
+  },
+  "latest_custom_domain_replay": [
+    {"endpoint":"/api/v1/version","method":"GET","status":200,"content_type":"application/json; charset=utf-8","request_id":"858d1744-3b06-43ef-b9b7-2dafb0f97e3d","body_shape":"object{auth_schema,catalog_contract,data_commit,live_policy_version,manga_schema,manga_schema_version,metadata_schema,mission72_batch_version,mission72_registry_hash,search_schema,service,web_commit}","compatibility":"pass"},
+    {"endpoint":"/auth/session","method":"GET","status":401,"content_type":"application/json","request_id":"25a108ce-d8f0-42f9-a8ef-1db2e3df5734","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/api/v1/latest?limit=1&section=regular","method":"GET","status":401,"content_type":"application/json","request_id":"4dfb246d-03a2-4456-91b4-bcd98e1fccd2","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/api/v1/catalog?limit=1&section=regular&type=movie","method":"GET","status":401,"content_type":"application/json","request_id":"ed0d45fc-bc27-439d-9917-98d9372503e2","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/api/v1/catalog?limit=1&section=regular&type=tv","method":"GET","status":401,"content_type":"application/json","request_id":"68e053be-575a-4234-ba80-b21caf542afa","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/api/v1/search?q=test&limit=1&section=regular","method":"GET","status":401,"content_type":"application/json","request_id":"cfc27171-7735-48e6-94ef-6fa3eecc73d8","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/api/v1/sources","method":"GET","status":401,"content_type":"application/json","request_id":"e9ab3dab-a47a-473e-a041-621ebef02cdd","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/api/v1/sources/external-example","method":"GET","status":401,"content_type":"application/json","request_id":"61b81506-6c55-4f3d-947e-77d5dad40f5d","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/admin/providers/dashboard","method":"GET","status":401,"content_type":"application/json","request_id":"4f1edf89-f929-4186-adcc-8a782650a1f3","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"},
+    {"endpoint":"/admin/emby/configs","method":"GET","status":401,"content_type":"application/json","request_id":"38524359-8d94-48df-891d-79dd97f70771","body_shape":"object{error}","compatibility":"protected-route-error-contract-pass"}
+  ],
+  "route_compatibility_matrix": [
+    {"surface": "bootstrap", "route": "/api/v1/version", "expected": "JSON object with service, worker_version, worker_commit, web_commit, catalog_contract", "before": "200 text/html SPA", "after": "200 application/json; charset=utf-8", "pass": true},
+    {"surface": "auth/session", "route": "/auth/session", "expected": "JSON {user}", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "home", "route": "/api/v1/latest", "expected": "JSON {items,pagination,generated_at}", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "movies", "route": "/api/v1/catalog?type=movie", "expected": "JSON catalog envelope", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "tv", "route": "/api/v1/catalog?type=tv", "expected": "JSON catalog envelope", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "stream/search", "route": "/api/v1/search", "expected": "JSON catalog envelope", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "sources", "route": "/api/v1/sources", "expected": "JSON {count,sources}", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "source_detail", "route": "/api/v1/sources/{id}", "expected": "JSON source object", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "admin", "route": "/admin/providers/dashboard", "expected": "JSON admin dashboard", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true},
+    {"surface": "emby_admin", "route": "/admin/emby/configs", "expected": "JSON native Emby management response", "before": "200 text/html SPA", "after_without_session": "401 application/json {error}", "pass": true}
+  ],
+  "contract_owners": {
+    "version": {"frontend_decoder": "production_api_contract_smoke.py/version shape", "worker_handler": "router.ts /api/v1/version"},
+    "session": {"frontend_decoder": "web/src/api/client.ts frontendResponseSchemas.session", "worker_handler": "auth-service.ts session"},
+    "catalog": {"frontend_decoder": "web/src/api/client.ts frontendResponseSchemas.catalog", "worker_handler": "router.ts catalog/latest/search dispatch"},
+    "detail": {"frontend_decoder": "web/src/api/client.ts frontendResponseSchemas.detail", "worker_handler": "router.ts media detail dispatch"},
+    "streams": {"frontend_decoder": "web/src/api/client.ts frontendResponseSchemas.streams", "worker_handler": "router.ts media streams dispatch"},
+    "sources": {"frontend_decoder": "web/src/components/ContentBrowser.tsx response type", "worker_handler": "sources.ts sourceList/sourceDetail"},
+    "admin": {"frontend_decoder": "web/src/main.tsx admin response types", "worker_handler": "admin-routes.ts/provider-admin.ts"},
+    "emby_admin": {"frontend_decoder": "web/src/components/EmbyManagement.tsx response handling", "worker_handler": "emby-management.ts"}
+  },
+  "root_cause": {
+    "classification": "asset_fallback_shadowed_api",
+    "evidence": [
+      "worker/src/index.ts served env.ASSETS.fetch(request) for every GET on media.hengmao.org before calling route().",
+      "The deployed API route therefore returned the SPA index.html with HTTP 200 and text/html for API paths.",
+      "The behavior was introduced by b7ff4e26c88fe0876c1fa88ece9d93ac83136e8 (2026-08-05 21:29:06 -0400), predating the Source Runtime canary commits.",
+      "Production /api/v1/version reported web_commit 852b3a6762bac2378b794c92ca03cc05346df195 and catalog_contract 2.4; no evidence shows a Source Runtime serializer changed the shared catalog envelope."
+    ],
+    "first_bad_logical_change": "b7ff4e26c88fe0876c1fa88ece9d93ac83136e8",
+    "first_bad_cloudflare_deployment": "not determinable from available deployment metadata; current pre-fix version was 848ff9cd-5705-4751-bdfe-1854067efe7c",
+    "not_source_runtime_canary_causality": true
+  },
+  "remediation": {
+    "worker_change": "Route known API/protocol paths before SPA asset fallback; retain SPA fallback only for web application routes.",
+    "frontend_change": "Use shared response decoders in regression tests, send an explicit contract header, and preserve sanitized non-JSON/schema diagnostics.",
+    "compatibility_identity": "Expose worker_commit, web_commit, worker_version, catalog_contract and X-Fireball-* version headers.",
+    "reindex_apply": false,
+    "destructive_reconciliation": false
+  },
+  "versions": {
+    "before_worker_cloudflare_version": "848ff9cd-5705-4751-bdfe-1854067efe7c",
+    "before_worker_commit_identity": "not exposed",
+    "before_web_commit": "852b3a6762bac2378b794c92ca03cc05346df195",
+    "after_deployment_version": "42e1fd6f-400f-46e3-b1e7-ad7611262d66",
+    "after_deployment_source_sha": "6137cacf64ba56c41ebac90fecb1bf68064b5ed9",
+    "after_worker_contract_sha": "56254b469a26292dc1c827868c176c81d3ac41b6",
+    "after_worker_version": "1.1.0",
+    "after_web_commit": "852b3a6762bac2378b794c92ca03cc05346df195",
+    "after_catalog_contract": "2.4"
+  },
+  "production_verification": {
+    "media_html": {"status": 200, "content_type": "text/html", "pass": true},
+    "media_api_version": {"status": 200, "content_type": "application/json; charset=utf-8", "pass": true},
+    "v8_api_version": {"status": 200, "content_type": "application/json; charset=utf-8", "pass": true},
+    "unauthenticated_error_contract": {"status": 401, "content_type": "application/json", "error_code": "UNAUTHORIZED", "pass": true},
+    "authenticated_surface_smoke": {"pass": false, "status": "BLOCKED_AUTH_SESSION", "reason": "Controlled Playwright profile was checked in-memory and both v8/media auth/session returned 401 JSON. No FIREBALL session/admin variables or approved test credentials were available. The production bootstrap helper requires AUTH_BOOTSTRAP_SECRET, which is not present and is intentionally deleted after bootstrap; no credential or unrelated response dump was read.", "browser_profile_checked": true, "browser_profile_authenticated": false, "normal_login_path_available": false, "approved_bootstrap_path_available": false, "session_material_persisted": false},
+    "production_smoke_command": "python3 scripts/production_api_contract_smoke.py --base-url https://v8.hengmao.org --web-url https://media.hengmao.org",
+    "production_smoke_result": "public routing/version PASS; authenticated bootstrap and dependent surfaces BLOCKED_AUTH_SESSION after controlled browser/profile and approved-path audit",
+    "request_ids": ["bd859f43-7274-4d63-bb46-6a3582c4bfff", "27ca13bc-276e-4156-880f-557f84476472", "6a8c776c-df2b-4745-b6d9-8ea2768eb4c6"]
+  },
+  "regression_protection": {
+    "worker_tests": "371 passed",
+    "worker_typecheck": true,
+    "web_contract_tests": "19 passed focused; 80 passed full suite",
+    "web_typecheck": true,
+    "web_build": true,
+    "web_lint": true,
+    "python_tests": "all passed",
+    "production_smoke_script": true,
+    "git_diff_check": true
+  },
+  "source_runtime_canary_safety": {
+    "rolling_fixture_count": 20,
+    "recent_fixture_count": 20,
+    "fixtures_preserved": true,
+    "raw_secret_leak_detected": false,
+    "shared_response_envelope_changed_by_canary": false,
+    "scheduled_refresh_bounded": true,
+    "reindex_apply_executed": false,
+    "source_runtime_platform": "WITHHOLD_GO"
+  },
+  "incident_gate": {
+    "media_home": true,
+    "auth_bootstrap": false,
+    "movies": false,
+    "tv": false,
+    "stream": false,
+    "sources": false,
+    "source_detail": false,
+    "search": false,
+    "admin": false,
+    "emby_admin": false,
+    "api_contract_tests": true,
+    "frontend_worker_compatibility": true,
+    "production_smoke": false,
+    "no_secret_leak": true,
+    "incident_audit_archived": true,
+    "status": "WITHHOLD_AUTHENTICATED_SMOKE"
+  },
+  "ephemeral_injection_attempt": {
+    "checked_at": "2026-08-12T00:49:08Z",
+    "fireball_session_cookie_present": false,
+    "fireball_admin_session_cookie_present": false,
+    "smoke_started": false,
+    "session_unset_after_check": true,
+    "missing_mechanism": "No operator-provided ephemeral session or approved production login secret was injected into the execution environment."
+  },
+  "authentication_path_audit": {
+    "priority_1_controlled_browser_profile": {"checked": true, "result": "no authenticated session"},
+    "priority_2_normal_fireball_login": {"checked": true, "result": "no approved test/admin account available to the execution environment"},
+    "priority_3_internal_bootstrap": {"checked": true, "result": "requires absent AUTH_BOOTSTRAP_SECRET and production bootstrap is intentionally disabled after initial setup"},
+    "credential_disclosure_required": true
+  },
+  "remaining_blockers": [
+    "Run the authenticated production bootstrap and all dependent surface checks with an authorized session.",
+    "Do not change AUTH_REQUIRED or bypass authorization to manufacture a PASS.",
+    "SOURCE_RUNTIME_PLATFORM remains WITHHOLD_GO pending its independent reindex APPLY, idempotency, media bytes, runtime sandbox, and title-audit gates."
+  ]
+}

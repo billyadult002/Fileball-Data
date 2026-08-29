@@ -1,0 +1,31 @@
+{
+  "commit": "f40bead8f0420f4263d7ea53a672df92c2f6f410",
+  "generated_at": "2026-08-11T11:07:51Z",
+  "github_hosted_minutes_required": false,
+  "job_id": "platform-evidence",
+  "note": "Runner identity is PASS only when the protected workflow reports the actual github-runner UID and hardened systemd/runtime separation.",
+  "repository_runner_registered": true,
+  "runner_labels": [
+    "self-hosted",
+    "linux",
+    "x64",
+    "fireball",
+    "oracle",
+    "production-canary",
+    "runtime-dedicated"
+  ],
+  "runner_name": "free-vm-20260808-fireball-runtime",
+  "runner_user": "github-runner",
+  "runtime_user": "fireball",
+  "security": {
+    "dedicated_user": true,
+    "fork_pr_trigger": false,
+    "isolated_workdir": true,
+    "non_root_required": true,
+    "production_runtime_user_separate": true,
+    "secrets_persisted": false,
+    "systemd_hardened": true
+  },
+  "status": "PASS",
+  "workflow_run_id": "31484268741"
+}

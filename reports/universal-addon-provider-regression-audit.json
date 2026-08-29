@@ -1,0 +1,5665 @@
+{
+  "schema_version": "universal-addon-provider-regression-audit-2",
+  "generated_at": "2026-08-09T14:09:28.866005+00:00",
+  "scope": "read-only production D1 snapshots; third-party executable runtimes were not executed",
+  "baseline_raw_child_declarations": 10688,
+  "totals": {
+    "canonical_created": 921,
+    "canonical_reused": 1367,
+    "duplicate_declaration": 1960,
+    "unsupported_runtime": 6803,
+    "invalid_declaration": 0,
+    "upstream_failure": 0,
+    "processing_failure": 0,
+    "non_media_explicit": 0,
+    "providers_total": 117,
+    "raw_child_declarations": 11051,
+    "accounted_child_declarations": 11051,
+    "unaccounted": 0,
+    "silent_drop_count": 0,
+    "upstream_declaration_delta_added": 1356
+  },
+  "stremio": {
+    "addons_total": 45,
+    "addons_with_vod_capability": 45,
+    "catalogs_enumerated": 862,
+    "resources_enumerated": 2545
+  },
+  "hdhub_logical_children": 5,
+  "hdhub_verified": true,
+  "conservation_rule": "raw_child_declarations equals the sum of eight mutually exclusive declaration classifications",
+  "machine_gate": {
+    "all_providers_inventoried": true,
+    "all_child_declarations_accounted": true,
+    "unaccounted_zero": true,
+    "silent_drop_zero": true,
+    "processing_failures_zero": true,
+    "hdhub_five_logical_children_verified": true,
+    "stremio_capabilities_preserved": true
+  },
+  "providers": [
+    {
+      "provider_id": "stremio-1785901164186-85y5aph",
+      "provider_name": "TPB 4K Porn",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 38,
+      "canonical_created": 38,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 38,
+      "resources": {
+        "catalog": 38,
+        "meta": 38,
+        "stream": 38
+      },
+      "logical_children": {
+        "catalog": 35,
+        "resource": 3
+      },
+      "declared_types": {
+        "Porn": 38,
+        "hentai": 38,
+        "series": 38
+      },
+      "capabilities": {
+        "av": 9,
+        "tv": 32
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:15:45.747Z",
+        "finished_at": "2026-08-09T13:16:00.031Z",
+        "discovered": 38,
+        "created": 38,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901342633-ba29uh9",
+      "provider_name": "MediaFusion | ElfHosted",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 7,
+      "canonical_created": 7,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 7,
+      "resources": {
+        "catalog": 7,
+        "meta": 7,
+        "stream": 7
+      },
+      "logical_children": {
+        "implicit_catalog_capability": 4,
+        "resource": 3
+      },
+      "declared_types": {
+        "events": 7,
+        "movie": 7,
+        "series": 7,
+        "tv": 7
+      },
+      "capabilities": {
+        "movies": 4,
+        "tv": 6
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:00.667Z",
+        "finished_at": "2026-08-09T13:16:02.134Z",
+        "discovered": 7,
+        "created": 7,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901377560-5wcg7wc",
+      "provider_name": "Streaming Catalogs",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 11,
+      "canonical_created": 11,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 11,
+      "resources": {
+        "catalog": 11
+      },
+      "logical_children": {
+        "catalog": 10,
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 11,
+        "series": 11
+      },
+      "capabilities": {
+        "movies": 6,
+        "tv": 6
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:02.189Z",
+        "finished_at": "2026-08-09T13:16:04.006Z",
+        "discovered": 11,
+        "created": 11,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901555716-8wwbgni",
+      "provider_name": "AIOStreams | ElfHosted",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 1
+      },
+      "declared_types": {},
+      "capabilities": {
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:04.718Z",
+        "finished_at": "2026-08-09T13:16:05.357Z",
+        "discovered": 1,
+        "created": 0,
+        "deduplicated": 1,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901623266-yrv4e5g",
+      "provider_name": "The Movie Database Addon",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 14,
+      "canonical_created": 14,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 14,
+      "resources": {
+        "catalog": 14,
+        "meta": 14
+      },
+      "logical_children": {
+        "catalog": 12,
+        "resource": 2
+      },
+      "declared_types": {
+        "movie": 14,
+        "series": 14
+      },
+      "capabilities": {
+        "movies": 8,
+        "tv": 8
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:05.414Z",
+        "finished_at": "2026-08-09T13:16:07.606Z",
+        "discovered": 14,
+        "created": 14,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901646900-q7obiue",
+      "provider_name": "Streailer | ElfHosted",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "stream": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:08.344Z",
+        "finished_at": "2026-08-09T13:16:08.890Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901677386-kv6i2zw",
+      "provider_name": "HdHub",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 5,
+      "canonical_created": 5,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 5,
+      "resources": {
+        "catalog": 5,
+        "stream": 5
+      },
+      "logical_children": {
+        "implicit_catalog_capability": 3,
+        "resource": 2
+      },
+      "declared_types": {
+        "HdHub": 5,
+        "movie": 5,
+        "series": 5
+      },
+      "capabilities": {
+        "movies": 3,
+        "tv": 4
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:08.947Z",
+        "finished_at": "2026-08-09T13:16:09.911Z",
+        "discovered": 5,
+        "created": 5,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901696863-26urr4j",
+      "provider_name": "Porn Tube",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 4,
+      "canonical_created": 4,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 4,
+      "resources": {
+        "catalog": 4,
+        "meta": 4,
+        "stream": 4
+      },
+      "logical_children": {
+        "catalog": 1,
+        "resource": 3
+      },
+      "declared_types": {
+        "movie": 4
+      },
+      "capabilities": {
+        "movies": 4
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:09.960Z",
+        "finished_at": "2026-08-09T13:16:10.947Z",
+        "discovered": 4,
+        "created": 4,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901749790-cwuhr8p",
+      "provider_name": "Comet | ElfHosted",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "stream": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "anime": 1,
+        "movie": 1,
+        "other": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:11.633Z",
+        "finished_at": "2026-08-09T13:16:12.217Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901772985-ig2he3y",
+      "provider_name": "MediaFusion | ElfHosted",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 7,
+      "canonical_created": 0,
+      "canonical_reused": 7,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 7,
+      "resources": {
+        "catalog": 7,
+        "meta": 7,
+        "stream": 7
+      },
+      "logical_children": {
+        "implicit_catalog_capability": 4,
+        "resource": 3
+      },
+      "declared_types": {
+        "events": 7,
+        "movie": 7,
+        "series": 7,
+        "tv": 7
+      },
+      "capabilities": {
+        "movies": 4,
+        "tv": 6
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:12.281Z",
+        "finished_at": "2026-08-09T13:16:13.374Z",
+        "discovered": 7,
+        "created": 0,
+        "deduplicated": 7,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901791105-1vrnpk4",
+      "provider_name": "Streaming Catalogs",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 11,
+      "canonical_created": 0,
+      "canonical_reused": 11,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 11,
+      "resources": {
+        "catalog": 11
+      },
+      "logical_children": {
+        "catalog": 10,
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 11,
+        "series": 11
+      },
+      "capabilities": {
+        "movies": 6,
+        "tv": 6
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:13.434Z",
+        "finished_at": "2026-08-09T13:16:15.408Z",
+        "discovered": 11,
+        "created": 0,
+        "deduplicated": 11,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901808428-zo42o5o",
+      "provider_name": "AIOStreams | ElfHosted",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 1
+      },
+      "declared_types": {},
+      "capabilities": {
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:16.040Z",
+        "finished_at": "2026-08-09T13:16:16.597Z",
+        "discovered": 1,
+        "created": 0,
+        "deduplicated": 1,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901898650-orxu3vj",
+      "provider_name": "TOP Streaming",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 4,
+      "canonical_created": 4,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 4,
+      "resources": {
+        "catalog": 4,
+        "meta": 4
+      },
+      "logical_children": {
+        "catalog": 2,
+        "resource": 2
+      },
+      "declared_types": {
+        "movie": 4,
+        "series": 4
+      },
+      "capabilities": {
+        "movies": 3,
+        "tv": 3
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:16.654Z",
+        "finished_at": "2026-08-09T13:16:17.713Z",
+        "discovered": 4,
+        "created": 4,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901919441-yryyaqg",
+      "provider_name": "stremio-addons.net",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "addon_catalog": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "channel": 1,
+        "movie": 1,
+        "series": 1,
+        "tv": 1
+      },
+      "capabilities": {
+        "live": 1,
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:17.782Z",
+        "finished_at": "2026-08-09T13:16:20.744Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785901941453-fdl5aob",
+      "provider_name": "TorrentsDB",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "stream": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "anime": 1,
+        "movie": 1,
+        "other": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:21.462Z",
+        "finished_at": "2026-08-09T13:16:22.127Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902029092-3a73prj",
+      "provider_name": "Peerflix",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "stream": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:22.188Z",
+        "finished_at": "2026-08-09T13:16:22.921Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902061642-qtc3qxy",
+      "provider_name": "SubSense",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "subtitles": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1,
+        "subtitles": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:22.978Z",
+        "finished_at": "2026-08-09T13:16:38.575Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 1,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902110794-b2efw47",
+      "provider_name": "SubSense",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "subtitles": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1,
+        "subtitles": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:29.862Z",
+        "finished_at": "2026-08-09T13:16:37.956Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902144070-dvoei9e",
+      "provider_name": "FENIXFLIX",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 6,
+      "canonical_created": 6,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 6,
+      "resources": {
+        "catalog": 6,
+        "stream": 6
+      },
+      "logical_children": {
+        "catalog": 4,
+        "resource": 2
+      },
+      "declared_types": {
+        "movie": 6,
+        "series": 6
+      },
+      "capabilities": {
+        "movies": 4,
+        "tv": 4
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:38.019Z",
+        "finished_at": "2026-08-09T13:16:39.037Z",
+        "discovered": 6,
+        "created": 6,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902192144-3gwuow4",
+      "provider_name": "TPB 4K Porn",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 630,
+      "canonical_created": 630,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 630,
+      "resources": {
+        "catalog": 630,
+        "meta": 630,
+        "stream": 630
+      },
+      "logical_children": {
+        "catalog": 627,
+        "resource": 3
+      },
+      "declared_types": {
+        "Porn": 630,
+        "hentai": 630,
+        "series": 630
+      },
+      "capabilities": {
+        "av": 3,
+        "movies": 16,
+        "tv": 614
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:16:39.092Z",
+        "finished_at": "2026-08-09T13:29:57.792Z",
+        "discovered": 630,
+        "created": 549,
+        "deduplicated": 2811,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902219524-4blnj3c",
+      "provider_name": "OnlyPorn",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 9,
+      "canonical_created": 9,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 9,
+      "resources": {
+        "catalog": 9,
+        "meta": 9,
+        "stream": 9
+      },
+      "logical_children": {
+        "catalog": 6,
+        "resource": 3
+      },
+      "declared_types": {
+        "movie": 9
+      },
+      "capabilities": {
+        "movies": 9
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:29:58.999Z",
+        "finished_at": "2026-08-09T13:30:06.122Z",
+        "discovered": 9,
+        "created": 9,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902236534-i9z95c0",
+      "provider_name": "Streaming Catalogs Plus",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 48,
+      "canonical_created": 48,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 48,
+      "resources": {
+        "catalog": 48,
+        "meta": 48
+      },
+      "logical_children": {
+        "catalog": 46,
+        "resource": 2
+      },
+      "declared_types": {
+        "movie": 48,
+        "series": 48
+      },
+      "capabilities": {
+        "movies": 24,
+        "tv": 26
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:07.440Z",
+        "finished_at": "2026-08-09T13:30:12.678Z",
+        "discovered": 48,
+        "created": 48,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902285592-vz8q91i",
+      "provider_name": "ThePirateBay Catalog",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 8,
+      "canonical_created": 8,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 8,
+      "resources": {
+        "catalog": 8,
+        "meta": 8,
+        "stream": 8
+      },
+      "logical_children": {
+        "catalog": 5,
+        "resource": 3
+      },
+      "declared_types": {
+        "movie": 8,
+        "series": 8
+      },
+      "capabilities": {
+        "movies": 5,
+        "tv": 6
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:12.725Z",
+        "finished_at": "2026-08-09T13:30:13.739Z",
+        "discovered": 8,
+        "created": 8,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902561633-8e7ol0m",
+      "provider_name": "Flix-Streams",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 7,
+      "canonical_created": 7,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 7,
+      "resources": {
+        "catalog": 7,
+        "meta": 7,
+        "stream": 7
+      },
+      "logical_children": {
+        "implicit_catalog_capability": 4,
+        "resource": 3
+      },
+      "declared_types": {
+        "anime": 7,
+        "movie": 7,
+        "series": 7,
+        "tv": 7
+      },
+      "capabilities": {
+        "anime": 4,
+        "movies": 4,
+        "tv": 5
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:13.790Z",
+        "finished_at": "2026-08-09T13:30:14.877Z",
+        "discovered": 7,
+        "created": 7,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902585967-uk2cbxo",
+      "provider_name": "xxxClub",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 9,
+      "canonical_created": 9,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 9,
+      "resources": {
+        "catalog": 9,
+        "meta": 9,
+        "stream": 9
+      },
+      "logical_children": {
+        "catalog": 6,
+        "resource": 3
+      },
+      "declared_types": {
+        "movie": 9
+      },
+      "capabilities": {
+        "movies": 9
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:16.251Z",
+        "finished_at": "2026-08-09T13:30:17.533Z",
+        "discovered": 9,
+        "created": 9,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902769526-5gdwzme",
+      "provider_name": "HentaiStream",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 9,
+      "canonical_created": 9,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 9,
+      "resources": {
+        "catalog": 9,
+        "meta": 9,
+        "stream": 9
+      },
+      "logical_children": {
+        "catalog": 6,
+        "resource": 3
+      },
+      "declared_types": {
+        "hentai": 9,
+        "series": 9
+      },
+      "capabilities": {
+        "av": 9,
+        "tv": 3
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:17.583Z",
+        "finished_at": "2026-08-09T13:30:18.781Z",
+        "discovered": 9,
+        "created": 9,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902802401-fzv1z4o",
+      "provider_name": "MSubtitles",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "subtitles": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:18.836Z",
+        "finished_at": "2026-08-09T13:30:19.841Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902838689-8l7n6xf",
+      "provider_name": "OpenSubtitles v3",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "subtitles": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:21.103Z",
+        "finished_at": "2026-08-09T13:30:21.492Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785902953185-4z1qlq1",
+      "provider_name": "Bharat Binge",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 11,
+      "canonical_created": 11,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 11,
+      "resources": {
+        "catalog": 11,
+        "meta": 11
+      },
+      "logical_children": {
+        "catalog": 9,
+        "resource": 2
+      },
+      "declared_types": {
+        "movie": 11,
+        "series": 11
+      },
+      "capabilities": {
+        "movies": 7,
+        "tv": 6
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:21.538Z",
+        "finished_at": "2026-08-09T13:30:22.832Z",
+        "discovered": 11,
+        "created": 11,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903134645-o0i7x5x",
+      "provider_name": "JavPie",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 9,
+      "canonical_created": 9,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 9,
+      "resources": {
+        "catalog": 9,
+        "meta": 9,
+        "stream": 9,
+        "subtitles": 9
+      },
+      "logical_children": {
+        "catalog": 5,
+        "resource": 4
+      },
+      "declared_types": {
+        "jav": 9
+      },
+      "capabilities": {
+        "tv": 9
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:22.879Z",
+        "finished_at": "2026-08-09T13:30:24.090Z",
+        "discovered": 9,
+        "created": 9,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903183080-143ea8u",
+      "provider_name": "Strelingo - Dual Language Subtitles (ENG+CHI)",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "subtitles": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:25.382Z",
+        "finished_at": "2026-08-09T13:30:26.041Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903250813-91a1pqw",
+      "provider_name": "🎥 Archive.org",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "stream": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1
+      },
+      "capabilities": {
+        "movies": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:26.094Z",
+        "finished_at": "2026-08-09T13:30:27.148Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903309957-5eewf6v",
+      "provider_name": "Filtorrent",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 4,
+      "canonical_created": 4,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 4,
+      "resources": {
+        "catalog": 4,
+        "stream": 4
+      },
+      "logical_children": {
+        "catalog": 2,
+        "resource": 2
+      },
+      "declared_types": {
+        "movie": 4,
+        "series": 4
+      },
+      "capabilities": {
+        "movies": 3,
+        "tv": 3
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:27.194Z",
+        "finished_at": "2026-08-09T13:30:27.970Z",
+        "discovered": 4,
+        "created": 4,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903370843-u15lo3s",
+      "provider_name": "Flix-Streams Free",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 5,
+      "canonical_created": 5,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 5,
+      "resources": {
+        "catalog": 5,
+        "meta": 5,
+        "stream": 5
+      },
+      "logical_children": {
+        "catalog": 2,
+        "resource": 3
+      },
+      "declared_types": {
+        "movie": 5,
+        "series": 5,
+        "tv": 5
+      },
+      "capabilities": {
+        "live": 2,
+        "movies": 3,
+        "tv": 5
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:29.341Z",
+        "finished_at": "2026-08-09T13:30:30.463Z",
+        "discovered": 5,
+        "created": 5,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903398431-xlnkfp8",
+      "provider_name": "WatchHub",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 1,
+      "canonical_created": 1,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {
+        "stream": 1
+      },
+      "logical_children": {
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 1,
+        "series": 1
+      },
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:30.516Z",
+        "finished_at": "2026-08-09T13:30:30.890Z",
+        "discovered": 1,
+        "created": 1,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903495496-y41ssep",
+      "provider_name": "One Pace Premium | P2P",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 5,
+      "canonical_created": 5,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 5,
+      "resources": {
+        "catalog": 5,
+        "meta": 5,
+        "stream": 5,
+        "subtitles": 5
+      },
+      "logical_children": {
+        "catalog": 1,
+        "resource": 4
+      },
+      "declared_types": {
+        "anime": 5,
+        "movie": 5,
+        "series": 5
+      },
+      "capabilities": {
+        "anime": 5,
+        "movies": 4,
+        "tv": 5
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:30.936Z",
+        "finished_at": "2026-08-09T13:30:32.007Z",
+        "discovered": 5,
+        "created": 5,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903631751-0zte999",
+      "provider_name": "Global Catalogs",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 57,
+      "canonical_created": 57,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 57,
+      "resources": {
+        "catalog": 57
+      },
+      "logical_children": {
+        "catalog": 56,
+        "resource": 1
+      },
+      "declared_types": {
+        "movie": 57,
+        "series": 57
+      },
+      "capabilities": {
+        "movies": 25,
+        "tv": 33
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:33.284Z",
+        "finished_at": "2026-08-09T13:30:38.618Z",
+        "discovered": 57,
+        "created": 57,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785903734658-9uujl0n",
+      "provider_name": "DCBI Addon",
+      "provider_type": "stremio_addon",
+      "format": "stremio",
+      "raw_declarations": 5,
+      "canonical_created": 5,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 5,
+      "resources": {
+        "catalog": 5,
+        "meta": 5,
+        "stream": 5
+      },
+      "logical_children": {
+        "catalog": 2,
+        "resource": 3
+      },
+      "declared_types": {
+        "anime": 5,
+        "movie": 5,
+        "series": 5
+      },
+      "capabilities": {
+        "anime": 1,
+        "movies": 4,
+        "tv": 4
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:38.665Z",
+        "finished_at": "2026-08-09T13:30:39.446Z",
+        "discovered": 5,
+        "created": 5,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785927315168-0apqflc",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 643,
+      "canonical_created": 0,
+      "canonical_reused": 91,
+      "duplicates": 204,
+      "unsupported": 348,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 22
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 643
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 52,
+        "av": 28,
+        "live": 47,
+        "movies": 525,
+        "tv": 521
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:30:39.498Z",
+        "finished_at": "2026-08-09T13:32:03.577Z",
+        "discovered": 643,
+        "created": 0,
+        "deduplicated": 643,
+        "unsupported": 543,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785927338346-ohxyq3d",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 561,
+      "canonical_created": 0,
+      "canonical_reused": 91,
+      "duplicates": 122,
+      "unsupported": 348,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 23
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 561
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 48,
+        "av": 28,
+        "live": 42,
+        "movies": 452,
+        "tv": 448
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:32:04.937Z",
+        "finished_at": "2026-08-09T13:33:12.781Z",
+        "discovered": 561,
+        "created": 0,
+        "deduplicated": 561,
+        "unsupported": 463,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785927405422-zohz1lr",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 878,
+      "canonical_created": 2,
+      "canonical_reused": 63,
+      "duplicates": 277,
+      "unsupported": 536,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 24
+      },
+      "upstream_declaration_delta_added": 3,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 878
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 76,
+        "live": 60,
+        "movies": 758,
+        "tv": 745
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:33:14.069Z",
+        "finished_at": "2026-08-09T13:35:05.328Z",
+        "discovered": 878,
+        "created": 2,
+        "deduplicated": 876,
+        "unsupported": 787,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785927411375-plwyri7",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 848,
+      "canonical_created": 0,
+      "canonical_reused": 65,
+      "duplicates": 247,
+      "unsupported": 536,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 25
+      },
+      "upstream_declaration_delta_added": 3,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 848
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 72,
+        "live": 58,
+        "movies": 733,
+        "tv": 720
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:35:06.649Z",
+        "finished_at": "2026-08-09T13:36:41.452Z",
+        "discovered": 848,
+        "created": 0,
+        "deduplicated": 848,
+        "unsupported": 762,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785927482795-l2a9bm3",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 878,
+      "canonical_created": 0,
+      "canonical_reused": 65,
+      "duplicates": 277,
+      "unsupported": 536,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 24
+      },
+      "upstream_declaration_delta_added": 140,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 878
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 76,
+        "live": 60,
+        "movies": 758,
+        "tv": 745
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:36:42.808Z",
+        "finished_at": "2026-08-09T13:40:50.153Z",
+        "discovered": 878,
+        "created": 0,
+        "deduplicated": 878,
+        "unsupported": 787,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "tvbox-m3u-1785927489739-7wpenjo",
+      "provider_name": "TVBox M3U (0 groups)",
+      "provider_type": "tvbox_m3u",
+      "format": "tvbox",
+      "raw_declarations": 774,
+      "canonical_created": 0,
+      "canonical_reused": 63,
+      "duplicates": 214,
+      "unsupported": 497,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 26
+      },
+      "upstream_declaration_delta_added": 209,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 774
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 70,
+        "live": 54,
+        "movies": 665,
+        "tv": 653
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:40:51.552Z",
+        "finished_at": "2026-08-09T13:42:27.525Z",
+        "discovered": 774,
+        "created": 0,
+        "deduplicated": 874,
+        "unsupported": 788,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785927503947-6grjb3b",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 806,
+      "canonical_created": 0,
+      "canonical_reused": 64,
+      "duplicates": 274,
+      "unsupported": 468,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 25
+      },
+      "upstream_declaration_delta_added": 3,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 806
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 73,
+        "live": 59,
+        "movies": 690,
+        "tv": 677
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:42:28.914Z",
+        "finished_at": "2026-08-09T13:44:03.069Z",
+        "discovered": 806,
+        "created": 0,
+        "deduplicated": 806,
+        "unsupported": 716,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "tvbox-m3u-1785927592005-cs78fit",
+      "provider_name": "TVBox M3U (0 groups)",
+      "provider_type": "tvbox_m3u",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 1
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:44:04.363Z",
+        "finished_at": "2026-08-09T13:44:04.825Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "stremio-1785928949191-3jf3d7a",
+      "provider_name": "Stremio Addon",
+      "provider_type": "stremio_addon",
+      "format": "tvbox",
+      "raw_declarations": 369,
+      "canonical_created": 0,
+      "canonical_reused": 66,
+      "duplicates": 13,
+      "unsupported": 290,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 18
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 369
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 32,
+        "live": 27,
+        "movies": 322,
+        "tv": 313
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:44:04.878Z",
+        "finished_at": "2026-08-09T13:45:19.484Z",
+        "discovered": 369,
+        "created": 0,
+        "deduplicated": 369,
+        "unsupported": 302,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941341232-1ox8aa7",
+      "provider_name": "💖豆瓣排行💖",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 30,
+      "canonical_created": 0,
+      "canonical_reused": 5,
+      "duplicates": 0,
+      "unsupported": 25,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 30
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 4,
+        "live": 2,
+        "movies": 25,
+        "tv": 25
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:20.793Z",
+        "finished_at": "2026-08-09T13:45:26.432Z",
+        "discovered": 30,
+        "created": 0,
+        "deduplicated": 30,
+        "unsupported": 25,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941365198-mwyl1zs",
+      "provider_name": "360",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 13,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 12,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 13
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 1,
+        "movies": 12,
+        "tv": 11
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:26.486Z",
+        "finished_at": "2026-08-09T13:45:29.766Z",
+        "discovered": 13,
+        "created": 0,
+        "deduplicated": 13,
+        "unsupported": 12,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941390938-m73ay8s",
+      "provider_name": "修复原创  厂长，新增无限线路(8月3更新)",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 44,
+      "canonical_created": 0,
+      "canonical_reused": 7,
+      "duplicates": 0,
+      "unsupported": 37,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 44
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 2,
+        "live": 9,
+        "movies": 33,
+        "tv": 33
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:29.822Z",
+        "finished_at": "2026-08-09T13:45:34.352Z",
+        "discovered": 44,
+        "created": 0,
+        "deduplicated": 44,
+        "unsupported": 37,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941410752-1n3rhqs",
+      "provider_name": "豆瓣 • 首页",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 84,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 84,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 84
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 4,
+        "live": 2,
+        "movies": 78,
+        "tv": 78
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:35.748Z",
+        "finished_at": "2026-08-09T13:45:44.030Z",
+        "discovered": 84,
+        "created": 0,
+        "deduplicated": 84,
+        "unsupported": 84,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941472299-md4agr4",
+      "provider_name": "🐮【王二小放牛娃】🐮",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 82,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 80,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 82
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 4,
+        "live": 5,
+        "movies": 73,
+        "tv": 73
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:44.082Z",
+        "finished_at": "2026-08-09T13:45:52.460Z",
+        "discovered": 82,
+        "created": 0,
+        "deduplicated": 82,
+        "unsupported": 80,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941490699-3o1n2ti",
+      "provider_name": "👒┃豆瓣┃推荐┃❤驸马影视 随心观影❤",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 46,
+      "canonical_created": 0,
+      "canonical_reused": 3,
+      "duplicates": 0,
+      "unsupported": 43,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 46
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 4,
+        "movies": 39,
+        "tv": 38
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:52.509Z",
+        "finished_at": "2026-08-09T13:45:57.387Z",
+        "discovered": 46,
+        "created": 0,
+        "deduplicated": 46,
+        "unsupported": 43,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941513351-jowkuub",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:45:58.853Z",
+        "finished_at": "2026-08-09T13:46:07.417Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941557268-9364q95",
+      "provider_name": "🐮【王二小放牛娃】🐮",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 62,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 60,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 62
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 5,
+        "movies": 57,
+        "tv": 57
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:46:07.476Z",
+        "finished_at": "2026-08-09T13:46:13.332Z",
+        "discovered": 62,
+        "created": 0,
+        "deduplicated": 62,
+        "unsupported": 60,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785941574095-1zw5gzw",
+      "provider_name": "🥐豆瓣┃推荐",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 56,
+      "canonical_created": 0,
+      "canonical_reused": 19,
+      "duplicates": 0,
+      "unsupported": 37,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 1
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 56
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 13,
+        "live": 1,
+        "movies": 46,
+        "tv": 41
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:46:13.382Z",
+        "finished_at": "2026-08-09T13:46:19.896Z",
+        "discovered": 56,
+        "created": 0,
+        "deduplicated": 56,
+        "unsupported": 37,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785984602344-r7h4iex",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:46:21.490Z",
+        "finished_at": "2026-08-09T13:46:29.803Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785985215547-irq0tcv",
+      "provider_name": "免费分享",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 54,
+      "canonical_created": 0,
+      "canonical_reused": 25,
+      "duplicates": 0,
+      "unsupported": 29,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 1
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 54
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 8,
+        "live": 9,
+        "movies": 37,
+        "tv": 36
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:46:29.852Z",
+        "finished_at": "2026-08-09T13:46:38.183Z",
+        "discovered": 54,
+        "created": 0,
+        "deduplicated": 54,
+        "unsupported": 29,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785985259741-j2l8g6m",
+      "provider_name": "📛公众号:挺好分享",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 279,
+      "canonical_created": 0,
+      "canonical_reused": 70,
+      "duplicates": 48,
+      "unsupported": 161,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 38
+      },
+      "upstream_declaration_delta_added": 19,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 279
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 22,
+        "live": 28,
+        "movies": 229,
+        "tv": 225
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:46:38.239Z",
+        "finished_at": "2026-08-09T13:47:18.490Z",
+        "discovered": 279,
+        "created": 0,
+        "deduplicated": 279,
+        "unsupported": 208,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785985425218-ti1ybuw",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:20.061Z",
+        "finished_at": "2026-08-09T13:47:28.564Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785985501052-e3l4zyj",
+      "provider_name": "🌕️┆片单┆精选",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 72,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 71,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 72
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 1,
+        "movies": 68,
+        "tv": 68
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:28.612Z",
+        "finished_at": "2026-08-09T13:47:36.135Z",
+        "discovered": 72,
+        "created": 0,
+        "deduplicated": 72,
+        "unsupported": 71,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1785985523291-bxgfhdh",
+      "provider_name": "🌕️┆片单┆精选",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 72,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 71,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 72
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 1,
+        "movies": 68,
+        "tv": 68
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:36.193Z",
+        "finished_at": "2026-08-09T13:47:43.863Z",
+        "discovered": 72,
+        "created": 0,
+        "deduplicated": 72,
+        "unsupported": 71,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151525218-rphuroj",
+      "provider_name": "📢龙马精神、金戈铁马、骏马迎春、马行千里！",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 9,
+      "canonical_created": 1,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 7,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 9
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 2,
+        "movies": 7,
+        "tv": 7
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:45.461Z",
+        "finished_at": "2026-08-09T13:47:48.506Z",
+        "discovered": 9,
+        "created": 1,
+        "deduplicated": 8,
+        "unsupported": 7,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151603917-tu7ipey",
+      "provider_name": "360",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 13,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 12,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 13
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 1,
+        "movies": 12,
+        "tv": 11
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:48.560Z",
+        "finished_at": "2026-08-09T13:47:50.720Z",
+        "discovered": 13,
+        "created": 0,
+        "deduplicated": 13,
+        "unsupported": 12,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151683487-l48be04",
+      "provider_name": "酷云77",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 23,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 23,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 23
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 23,
+        "tv": 23
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:50.775Z",
+        "finished_at": "2026-08-09T13:47:53.229Z",
+        "discovered": 23,
+        "created": 0,
+        "deduplicated": 23,
+        "unsupported": 23,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151693044-7yaju7f",
+      "provider_name": "豆瓣推荐",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 43,
+      "canonical_created": 0,
+      "canonical_reused": 7,
+      "duplicates": 0,
+      "unsupported": 36,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 43
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 5,
+        "live": 5,
+        "movies": 35,
+        "tv": 33
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:53.285Z",
+        "finished_at": "2026-08-09T13:47:57.628Z",
+        "discovered": 43,
+        "created": 0,
+        "deduplicated": 43,
+        "unsupported": 36,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151766725-g2dcgms",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:47:57.675Z",
+        "finished_at": "2026-08-09T13:48:06.002Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151834694-dskgy1l",
+      "provider_name": "💘360(SP)",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 29,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 27,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 29
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 29,
+        "tv": 26
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:48:07.618Z",
+        "finished_at": "2026-08-09T13:48:10.817Z",
+        "discovered": 29,
+        "created": 0,
+        "deduplicated": 29,
+        "unsupported": 27,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786151846323-myakomk",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:48:10.871Z",
+        "finished_at": "2026-08-09T13:48:19.527Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786152042628-qsrykeb",
+      "provider_name": "📢仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 9,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 7,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 9
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 2,
+        "movies": 7,
+        "tv": 7
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:48:19.583Z",
+        "finished_at": "2026-08-09T13:48:22.435Z",
+        "discovered": 9,
+        "created": 0,
+        "deduplicated": 9,
+        "unsupported": 7,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786153881178-bl8h62s",
+      "provider_name": "💕祝您观影愉快！",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 193,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 24,
+      "unsupported": 154,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 9
+      },
+      "upstream_declaration_delta_added": 1,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 193
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 15,
+        "movies": 175,
+        "tv": 172
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:48:22.494Z",
+        "finished_at": "2026-08-09T13:48:43.705Z",
+        "discovered": 193,
+        "created": 0,
+        "deduplicated": 193,
+        "unsupported": 177,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786153900806-gorsk7o",
+      "provider_name": "💕祝您观影愉快！",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 193,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 24,
+      "unsupported": 154,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 9
+      },
+      "upstream_declaration_delta_added": 1,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 193
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 15,
+        "movies": 175,
+        "tv": 172
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:48:43.760Z",
+        "finished_at": "2026-08-09T13:49:53.017Z",
+        "discovered": 193,
+        "created": 0,
+        "deduplicated": 193,
+        "unsupported": 177,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154046185-0xfabfl",
+      "provider_name": "🌕️┆片单┆精选",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 72,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 71,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 72
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 1,
+        "movies": 68,
+        "tv": 68
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:49:54.356Z",
+        "finished_at": "2026-08-09T13:50:01.278Z",
+        "discovered": 72,
+        "created": 0,
+        "deduplicated": 72,
+        "unsupported": 71,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154199490-mwgo6m8",
+      "provider_name": "🧊公众号: 九月小小屋",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:50:01.458Z",
+        "finished_at": "2026-08-09T13:50:01.679Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154849024-e98c8lr",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:50:01.725Z",
+        "finished_at": "2026-08-09T13:50:10.398Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154864575-ugomno9",
+      "provider_name": "免费分享",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 54,
+      "canonical_created": 0,
+      "canonical_reused": 25,
+      "duplicates": 0,
+      "unsupported": 29,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 1
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 54
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 8,
+        "live": 9,
+        "movies": 37,
+        "tv": 36
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:50:10.444Z",
+        "finished_at": "2026-08-09T13:50:19.439Z",
+        "discovered": 54,
+        "created": 0,
+        "deduplicated": 54,
+        "unsupported": 29,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154899412-maunf2u",
+      "provider_name": "📛公众号:挺好分享",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 278,
+      "canonical_created": 0,
+      "canonical_reused": 70,
+      "duplicates": 48,
+      "unsupported": 160,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 38
+      },
+      "upstream_declaration_delta_added": 19,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 278
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 22,
+        "live": 28,
+        "movies": 228,
+        "tv": 224
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:50:19.485Z",
+        "finished_at": "2026-08-09T13:52:11.950Z",
+        "discovered": 278,
+        "created": 0,
+        "deduplicated": 278,
+        "unsupported": 207,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154939362-r8g5du4",
+      "provider_name": "🔍聚玩盒子-本接口免费-🈲贩卖",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:13.250Z",
+        "finished_at": "2026-08-09T13:52:13.457Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786154978217-xj7ys28",
+      "provider_name": "🥰豆瓣┃[导航]",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:13.500Z",
+        "finished_at": "2026-08-09T13:52:13.708Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155013043-td4iriy",
+      "provider_name": "🐮【王二小放牛娃】🐮",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 84,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 82,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 84
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 5,
+        "live": 5,
+        "movies": 74,
+        "tv": 74
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:13.753Z",
+        "finished_at": "2026-08-09T13:52:21.893Z",
+        "discovered": 84,
+        "created": 0,
+        "deduplicated": 84,
+        "unsupported": 82,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155061279-s3mr78n",
+      "provider_name": "🐮【王二小放牛娃】🐮",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 84,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 82,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 84
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 5,
+        "live": 5,
+        "movies": 74,
+        "tv": 74
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:21.941Z",
+        "finished_at": "2026-08-09T13:52:29.699Z",
+        "discovered": 84,
+        "created": 0,
+        "deduplicated": 84,
+        "unsupported": 82,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155632055-adbczsf",
+      "provider_name": "360",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 13,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 12,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 13
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 1,
+        "movies": 12,
+        "tv": 11
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:29.746Z",
+        "finished_at": "2026-08-09T13:52:31.975Z",
+        "discovered": 13,
+        "created": 0,
+        "deduplicated": 13,
+        "unsupported": 12,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155705147-dvrvfu1",
+      "provider_name": "七七",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 9,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 9,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 9
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 8,
+        "tv": 9
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:33.225Z",
+        "finished_at": "2026-08-09T13:52:34.612Z",
+        "discovered": 9,
+        "created": 0,
+        "deduplicated": 9,
+        "unsupported": 9,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155918806-0kbul2z",
+      "provider_name": "🅰️公众号【非凡小小】",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 44,
+      "canonical_created": 0,
+      "canonical_reused": 6,
+      "duplicates": 0,
+      "unsupported": 38,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 44
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 4,
+        "live": 2,
+        "movies": 38,
+        "tv": 38
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:34.658Z",
+        "finished_at": "2026-08-09T13:52:38.839Z",
+        "discovered": 44,
+        "created": 0,
+        "deduplicated": 44,
+        "unsupported": 38,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155935606-c799ab7",
+      "provider_name": "💖豆瓣排行💖",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 30,
+      "canonical_created": 0,
+      "canonical_reused": 5,
+      "duplicates": 0,
+      "unsupported": 25,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 30
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 4,
+        "live": 2,
+        "movies": 25,
+        "tv": 25
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:38.889Z",
+        "finished_at": "2026-08-09T13:52:44.123Z",
+        "discovered": 30,
+        "created": 0,
+        "deduplicated": 30,
+        "unsupported": 25,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155956303-o7f6jct",
+      "provider_name": "路飞豆瓣|lf_search",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 113,
+      "canonical_created": 1,
+      "canonical_reused": 36,
+      "duplicates": 0,
+      "unsupported": 76,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 1
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 113
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 7,
+        "live": 15,
+        "movies": 95,
+        "tv": 94
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:44.173Z",
+        "finished_at": "2026-08-09T13:52:56.021Z",
+        "discovered": 113,
+        "created": 1,
+        "deduplicated": 112,
+        "unsupported": 76,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786155970948-yztukn2",
+      "provider_name": "💘360(SP)",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 29,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 27,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 29
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 29,
+        "tv": 26
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:52:57.564Z",
+        "finished_at": "2026-08-09T13:53:00.297Z",
+        "discovered": 29,
+        "created": 0,
+        "deduplicated": 29,
+        "unsupported": 27,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786156002051-j0lsh4s",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:53:00.344Z",
+        "finished_at": "2026-08-09T13:53:08.710Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786158907107-jiegfr8",
+      "provider_name": "👒┃豆瓣┃推荐┃❤驸马影视 随心观影❤",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 46,
+      "canonical_created": 0,
+      "canonical_reused": 3,
+      "duplicates": 0,
+      "unsupported": 43,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 46
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 3,
+        "live": 4,
+        "movies": 39,
+        "tv": 38
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:53:08.759Z",
+        "finished_at": "2026-08-09T13:53:13.354Z",
+        "discovered": 46,
+        "created": 0,
+        "deduplicated": 46,
+        "unsupported": 43,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786158955582-mplec3y",
+      "provider_name": "📢免费仅限测试用，如有收费,直接找退款！",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 9,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 7,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 9
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 2,
+        "movies": 7,
+        "tv": 7
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:53:13.403Z",
+        "finished_at": "2026-08-09T13:53:16.396Z",
+        "discovered": 9,
+        "created": 0,
+        "deduplicated": 9,
+        "unsupported": 7,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786158998052-sn05vkp",
+      "provider_name": "🧊公众号: 九月小小屋",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:53:16.456Z",
+        "finished_at": "2026-08-09T13:53:16.677Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786159376399-8othrd3",
+      "provider_name": "📛公众号:挺好分享",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 278,
+      "canonical_created": 0,
+      "canonical_reused": 70,
+      "duplicates": 48,
+      "unsupported": 160,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 38
+      },
+      "upstream_declaration_delta_added": 19,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 278
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 22,
+        "live": 28,
+        "movies": 228,
+        "tv": 224
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:53:17.989Z",
+        "finished_at": "2026-08-09T13:54:04.557Z",
+        "discovered": 278,
+        "created": 0,
+        "deduplicated": 278,
+        "unsupported": 207,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786159410084-jo3cmgl",
+      "provider_name": "🔍聚玩盒子-本接口免费-🈲贩卖",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 198,
+      "canonical_created": 0,
+      "canonical_reused": 42,
+      "duplicates": 10,
+      "unsupported": 146,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 13
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 198
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 30,
+        "live": 20,
+        "movies": 153,
+        "tv": 144
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:05.926Z",
+        "finished_at": "2026-08-09T13:54:29.064Z",
+        "discovered": 198,
+        "created": 0,
+        "deduplicated": 198,
+        "unsupported": 155,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786159424652-khpyc5y",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:30.451Z",
+        "finished_at": "2026-08-09T13:54:37.977Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160331607-7ogezgs",
+      "provider_name": "360|点播",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:38.024Z",
+        "finished_at": "2026-08-09T13:54:38.252Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160474561-u2ph63b",
+      "provider_name": "海外看",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:38.302Z",
+        "finished_at": "2026-08-09T13:54:38.528Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160508033-a4i93yc",
+      "provider_name": "GithubSteveWatch+18地址JSON.json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:38.577Z",
+        "finished_at": "2026-08-09T13:54:38.810Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160519865-0oaixju",
+      "provider_name": "Max DOV.json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:38.859Z",
+        "finished_at": "2026-08-09T13:54:39.089Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160535929-oodjbr3",
+      "provider_name": "scorpio.json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:40.411Z",
+        "finished_at": "2026-08-09T13:54:40.622Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160544629-az8v5cr",
+      "provider_name": "SteveWatch源地址分享.json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:40.669Z",
+        "finished_at": "2026-08-09T13:54:40.883Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160564839-fmybl01",
+      "provider_name": "vod.json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:40.929Z",
+        "finished_at": "2026-08-09T13:54:41.153Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160577178-3i1ijri",
+      "provider_name": "XPTV(精).json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:41.199Z",
+        "finished_at": "2026-08-09T13:54:41.542Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160585200-65mkufg",
+      "provider_name": "分享资源.json",
+      "provider_type": "tvbox_json",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:41.590Z",
+        "finished_at": "2026-08-09T13:54:41.809Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160869400-md19g3v",
+      "provider_name": "🔞 91 | 珍惜",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 47,
+      "canonical_created": 0,
+      "canonical_reused": 44,
+      "duplicates": 0,
+      "unsupported": 3,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 47
+      },
+      "declared_types": {},
+      "capabilities": {
+        "av": 10,
+        "live": 2,
+        "movies": 35,
+        "tv": 35
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:43.264Z",
+        "finished_at": "2026-08-09T13:54:47.650Z",
+        "discovered": 47,
+        "created": 0,
+        "deduplicated": 47,
+        "unsupported": 3,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786160894009-rxb70xu",
+      "provider_name": "🌕┃豆瓣┃推荐",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 61,
+      "canonical_created": 0,
+      "canonical_reused": 46,
+      "duplicates": 0,
+      "unsupported": 15,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 61
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 6,
+        "av": 5,
+        "live": 5,
+        "movies": 49,
+        "tv": 44
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:47.696Z",
+        "finished_at": "2026-08-09T13:54:52.766Z",
+        "discovered": 61,
+        "created": 0,
+        "deduplicated": 61,
+        "unsupported": 15,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161095178-har0kzy",
+      "provider_name": "Adult18.m3u",
+      "provider_type": "tvbox_m3u",
+      "format": "unknown",
+      "raw_declarations": 0,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {},
+      "declared_types": {},
+      "capabilities": {},
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:52.817Z",
+        "finished_at": "2026-08-09T13:54:53.056Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 0,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161170976-pkaa78l",
+      "provider_name": "🌕┃豆瓣┃推荐",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 61,
+      "canonical_created": 0,
+      "canonical_reused": 46,
+      "duplicates": 0,
+      "unsupported": 15,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 61
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 6,
+        "av": 5,
+        "live": 5,
+        "movies": 49,
+        "tv": 44
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:53.108Z",
+        "finished_at": "2026-08-09T13:54:58.346Z",
+        "discovered": 61,
+        "created": 0,
+        "deduplicated": 61,
+        "unsupported": 15,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161217073-kpazvmm",
+      "provider_name": "🐮【王二小放牛娃】🐮",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 62,
+      "canonical_created": 0,
+      "canonical_reused": 2,
+      "duplicates": 0,
+      "unsupported": 60,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 62
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 5,
+        "movies": 57,
+        "tv": 57
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:54:58.393Z",
+        "finished_at": "2026-08-09T13:55:04.218Z",
+        "discovered": 62,
+        "created": 0,
+        "deduplicated": 62,
+        "unsupported": 60,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161227102-1zuvwte",
+      "provider_name": "豆瓣推荐",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 43,
+      "canonical_created": 0,
+      "canonical_reused": 7,
+      "duplicates": 0,
+      "unsupported": 36,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 43
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 5,
+        "live": 5,
+        "movies": 35,
+        "tv": 33
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:05.602Z",
+        "finished_at": "2026-08-09T13:55:09.116Z",
+        "discovered": 43,
+        "created": 0,
+        "deduplicated": 43,
+        "unsupported": 36,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161236041-9857sh3",
+      "provider_name": "360",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 13,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 12,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 13
+      },
+      "declared_types": {},
+      "capabilities": {
+        "live": 1,
+        "movies": 12,
+        "tv": 11
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:09.162Z",
+        "finished_at": "2026-08-09T13:55:11.902Z",
+        "discovered": 13,
+        "created": 0,
+        "deduplicated": 13,
+        "unsupported": 12,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161270565-top7wrf",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:11.948Z",
+        "finished_at": "2026-08-09T13:55:19.096Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786161532834-0nxsq5k",
+      "provider_name": "🌕┃豆瓣┃热播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 89,
+      "canonical_created": 0,
+      "canonical_reused": 15,
+      "duplicates": 0,
+      "unsupported": 74,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {
+        "invalid_declaration": 2
+      },
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 89
+      },
+      "declared_types": {},
+      "capabilities": {
+        "anime": 15,
+        "live": 6,
+        "movies": 72,
+        "tv": 69
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:19.143Z",
+        "finished_at": "2026-08-09T13:55:26.424Z",
+        "discovered": 89,
+        "created": 0,
+        "deduplicated": 89,
+        "unsupported": 74,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786162616409-duzvp1x",
+      "provider_name": "360|点播",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 35,
+      "canonical_created": 0,
+      "canonical_reused": 35,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 35
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 35,
+        "tv": 35
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:26.471Z",
+        "finished_at": "2026-08-09T13:55:29.694Z",
+        "discovered": 35,
+        "created": 0,
+        "deduplicated": 35,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786184104058-aclhwxu",
+      "provider_name": "Moovie 影牛",
+      "provider_type": "tvbox_json",
+      "format": "tvbox",
+      "raw_declarations": 1,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 1
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:31.098Z",
+        "finished_at": "2026-08-09T13:55:32.143Z",
+        "discovered": 1,
+        "created": 0,
+        "deduplicated": 1,
+        "unsupported": 0,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786186859240-8gy4sdq",
+      "provider_name": "Kodi Official YouTube 7.4.3 Production Canary",
+      "provider_type": "kodi_addon",
+      "format": "kodi",
+      "raw_declarations": 1,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 0,
+      "unsupported": 1,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 1,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 1
+      },
+      "declared_types": {},
+      "capabilities": {
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:32.187Z",
+        "finished_at": "2026-08-09T13:55:33.576Z",
+        "discovered": 1,
+        "created": 0,
+        "deduplicated": 1,
+        "unsupported": 1,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786194800524-h9ne9xk",
+      "provider_name": "Kodi Omega Repository Gzip Acceptance",
+      "provider_type": "kodi_addon",
+      "format": "kodi",
+      "raw_declarations": 395,
+      "canonical_created": 0,
+      "canonical_reused": 0,
+      "duplicates": 130,
+      "unsupported": 265,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 395
+      },
+      "declared_types": {},
+      "capabilities": {
+        "av": 1,
+        "live": 19,
+        "movies": 4,
+        "tv": 375
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:55:33.625Z",
+        "finished_at": "2026-08-09T13:56:53.922Z",
+        "discovered": 0,
+        "created": 0,
+        "deduplicated": 395,
+        "unsupported": 395,
+        "failed": 0
+      }
+    },
+    {
+      "provider_id": "src-1786206904981-lw6yziv",
+      "provider_name": "maccms (1 child sources)",
+      "provider_type": "vod_url",
+      "format": "maccms",
+      "raw_declarations": 1,
+      "canonical_created": 0,
+      "canonical_reused": 1,
+      "duplicates": 0,
+      "unsupported": 0,
+      "invalid": 0,
+      "upstream_failures": 0,
+      "processing_failures": 0,
+      "non_media": 0,
+      "unaccounted": 0,
+      "silent_drop_count": 0,
+      "missing_external_keys": [],
+      "explicit_rejections": {},
+      "upstream_declaration_delta_added": 0,
+      "resources": {},
+      "logical_children": {
+        "declared_child": 1
+      },
+      "declared_types": {},
+      "capabilities": {
+        "movies": 1,
+        "tv": 1
+      },
+      "catalog_link_evidence": {
+        "canonical_sources": 0,
+        "item_source_links": 0,
+        "playable_links": 0,
+        "streams": 0
+      },
+      "scan": {
+        "status": "success",
+        "started_at": "2026-08-09T13:56:55.519Z",
+        "finished_at": "2026-08-09T13:56:56.280Z",
+        "discovered": 1,
+        "created": 0,
+        "deduplicated": 1,
+        "unsupported": 0,
+        "failed": 0
+      }
+    }
+  ],
+  "first_run_counts": {
+    "canonical_sources": 3998,
+    "provider_links": 10153,
+    "canonical_catalog_items": 100354,
+    "catalog_item_sources": 518597
+  },
+  "second_run_counts": null,
+  "second_run_deltas": null,
+  "status": "IN_PROGRESS_SECOND_FULL_REINDEX",
+  "withhold_go_reason": "Second identical production reindex is still running; its idempotency, catalog build #2, forced family regressions and final test gate are not yet evidenced."
+}

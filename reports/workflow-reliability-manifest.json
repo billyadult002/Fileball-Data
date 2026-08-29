@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "repository": "billyadult002/Fileball",
+  "reviewed_branch": "main",
+  "canonical_oracle_labels": [
+    "self-hosted",
+    "linux",
+    "fireball",
+    "oracle",
+    "production-canary",
+    "runtime-dedicated"
+  ],
+  "runner": "free-vm-20260808-fireball-runtime",
+  "workflows": [
+    {
+      "file": "deploy-pages.yml",
+      "name": "Deploy Fireball Web",
+      "production_critical": true,
+      "category": "cloudflare-pages-deployment",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [
+        "CLOUDFLARE_PAGES_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "downstream_systems": [
+        "Cloudflare Pages"
+      ],
+      "status": "FIXED",
+      "rationale": "Web deployment must not depend on hosted billing admission.",
+      "concurrency_group": "fireball-deploy-pages"
+    },
+    {
+      "file": "deploy-worker.yml",
+      "name": "Deploy Fireball Worker",
+      "production_critical": true,
+      "category": "cloudflare-worker-deployment",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID",
+        "RESEND_API_KEY",
+        "RESET_MAIL_FROM"
+      ],
+      "downstream_systems": [
+        "Cloudflare Worker",
+        "D1"
+      ],
+      "status": "FIXED",
+      "rationale": "Worker deployment and migrations must execute on the approved zero-cost runner with explicit authentication gates.",
+      "concurrency_group": "fireball-deploy-worker"
+    },
+    {
+      "file": "external-discovery.yml",
+      "name": "External discovery inventory",
+      "production_critical": true,
+      "category": "source-discovery",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [],
+      "downstream_systems": [
+        "technical source inventory",
+        "registry review"
+      ],
+      "status": "FIXED",
+      "rationale": "Discovery is bounded and read-only; migrate away from hosted admission failure.",
+      "concurrency_group": null
+    },
+    {
+      "file": "external-health.yml",
+      "name": "External source health",
+      "production_critical": true,
+      "category": "provider-health",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [],
+      "downstream_systems": [
+        "external registry health report"
+      ],
+      "status": "FIXED",
+      "rationale": "Read-only health test currently fails before a runner is allocated and is safe on Oracle.",
+      "concurrency_group": null
+    },
+    {
+      "file": "external-reconcile.yml",
+      "name": "External source reconcile",
+      "production_critical": true,
+      "category": "registry-reconcile",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [],
+      "downstream_systems": [
+        "source registry",
+        "safe public projection"
+      ],
+      "status": "FIXED",
+      "rationale": "Already targets Oracle; add shared serialization and classified summary evidence.",
+      "concurrency_group": "fireball-external-reconcile"
+    },
+    {
+      "file": "external-source-health.yml",
+      "name": "External source registry health",
+      "production_critical": true,
+      "category": "registry-health",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [],
+      "downstream_systems": [
+        "source registry",
+        "adapter preflight"
+      ],
+      "status": "FIXED",
+      "rationale": "Recent failures were zero-step hosted admission rejection; health validation is safe on Oracle.",
+      "concurrency_group": null
+    },
+    {
+      "file": "external-sync.yml",
+      "name": "External adapter sync",
+      "production_critical": true,
+      "category": "production-data-publication",
+      "expected_runner": "oracle",
+      "safe_to_migrate": false,
+      "production_mutation": true,
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY"
+      ],
+      "downstream_systems": [
+        "Fileball-Data",
+        "stream projections",
+        "checkpoints"
+      ],
+      "status": "PASS",
+      "rationale": "Two real Oracle runs already proved publication and idempotency; retain its hardening and add shared production serialization policy.",
+      "concurrency_group": "fireball-external-sync"
+    },
+    {
+      "file": "full-catalog-ingestion.yml",
+      "name": "Full catalog ingestion and classification audit",
+      "production_critical": true,
+      "category": "catalog-generation",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [],
+      "downstream_systems": [
+        "repository catalog",
+        "classification reports"
+      ],
+      "status": "FIXED",
+      "rationale": "Large catalog ingestion is production-affecting and cannot rely on hosted billing admission.",
+      "concurrency_group": "fireball-full-catalog-ingestion"
+    },
+    {
+      "file": "mission72-federation.yml",
+      "name": "Mission 7.3 scheduled production federation",
+      "production_critical": true,
+      "category": "production-data-publication",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "downstream_systems": [
+        "Fileball-Data",
+        "Cloudflare Worker",
+        "Mission 7.4 ledger"
+      ],
+      "status": "FIXED",
+      "rationale": "Federation is a production writer and must share the single-runner data serialization gate.",
+      "concurrency_group": "fireball-mission72-federation"
+    },
+    {
+      "file": "mission75-content-sync.yml",
+      "name": "Mission 7.5 content policy sync",
+      "production_critical": true,
+      "category": "production-data-publication",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY"
+      ],
+      "downstream_systems": [
+        "Fileball-Data live catalog",
+        "Manga catalog"
+      ],
+      "status": "FIXED",
+      "rationale": "Publishes policy-filtered production data and must serialize with other data writers.",
+      "concurrency_group": "fireball-mission75-content-sync"
+    },
+    {
+      "file": "oracle-runner-bootstrap.yml",
+      "name": "Oracle dedicated runner bootstrap",
+      "production_critical": false,
+      "category": "runner/infrastructure",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [
+        "ORACLE_RUNNER_REG_TOKEN"
+      ],
+      "downstream_systems": [
+        "Oracle free-vm-20260808",
+        "GitHub Actions runner registration"
+      ],
+      "status": "PASS",
+      "rationale": "Registers and hardens the dedicated github-runner user on the Oracle host. workflow_dispatch only, so no fork pull request can reach it; it touches the runner host rather than production data.",
+      "concurrency_group": null
+    },
+    {
+      "file": "oracle-a1-migration-canary.yml",
+      "name": "Oracle A1 migration canary",
+      "production_critical": false,
+      "category": "runner/migration-canary",
+      "expected_runner": "a1-migration-canary",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY"
+      ],
+      "downstream_systems": [
+        "Oracle A1 migration runner",
+        "read-only production sync evidence"
+      ],
+      "status": "READY_NOT_PROVISIONED",
+      "rationale": "Manual dispatch targets migration labels only; the opt-in production clone never publishes and cannot replace the E2 rollback runner.",
+      "concurrency_group": null
+    },
+    {
+      "file": "performance-test.yml",
+      "name": "Performance Testing",
+      "production_critical": false,
+      "category": "validation",
+      "expected_runner": "github-hosted-oracle-or-external",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [],
+      "downstream_systems": [
+        "web build",
+        "synthetic performance reports"
+      ],
+      "status": "BLOCKED_EXTERNAL",
+      "rationale": "Non-production performance jobs are hosted-runner dependent; migration is optional and browser/tool capacity must be proven separately.",
+      "concurrency_group": null
+    },
+    {
+      "file": "release.yml",
+      "name": "Automated Release",
+      "production_critical": true,
+      "category": "release/deployment",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [
+        "WRANGLER_API_TOKEN",
+        "GITHUB_TOKEN"
+      ],
+      "downstream_systems": [
+        "GitHub Releases",
+        "Cloudflare Worker",
+        "production web"
+      ],
+      "status": "FIXED",
+      "rationale": "Release and production deployment must not depend on blocked hosted admission; deployment failures must remain fail-closed.",
+      "concurrency_group": "fireball-release"
+    },
+    {
+      "file": "security-scan.yml",
+      "name": "Security Scanning",
+      "production_critical": false,
+      "category": "security-validation",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [
+        "SONAR_TOKEN"
+      ],
+      "downstream_systems": [
+        "GitHub security events",
+        "SBOM artifacts"
+      ],
+      "status": "FIXED",
+      "rationale": "All configured jobs are Linux-compatible; move them off hosted admission and classify optional Sonar as skipped.",
+      "concurrency_group": null
+    },
+    {
+      "file": "source-runtime-self-hosted.yml",
+      "name": "Source Runtime Platform (Oracle self-hosted)",
+      "production_critical": true,
+      "category": "source-runtime/verification",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "downstream_systems": [
+        "Cloudflare Worker (read-only)",
+        "production source runtime audits"
+      ],
+      "status": "PASS",
+      "rationale": "Runs the source runtime detector, replay and audit suite on the runtime-dedicated runner. workflow_dispatch only; reads production through the authenticated control plane and writes audits, not catalog data.",
+      "concurrency_group": null
+    },
+    {
+      "file": "test-suite.yml",
+      "name": "Test Suite",
+      "production_critical": false,
+      "category": "repository-validation",
+      "expected_runner": "mixed",
+      "safe_to_migrate": false,
+      "production_mutation": false,
+      "required_secrets": [
+        "PLAYWRIGHT_TEST_BASE_URL"
+      ],
+      "downstream_systems": [
+        "CI checks",
+        "coverage artifacts"
+      ],
+      "status": "BLOCKED_EXTERNAL",
+      "rationale": "Linux jobs are portable but the matrix intentionally includes macOS compatibility coverage; keep that OS-specific requirement explicit.",
+      "concurrency_group": null
+    },
+    {
+      "file": "update-data.yml",
+      "name": "Update Fireball data",
+      "production_critical": true,
+      "category": "scheduled-data-refresh",
+      "expected_runner": "oracle",
+      "safe_to_migrate": true,
+      "production_mutation": true,
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "downstream_systems": [
+        "Fileball-Data",
+        "catalog playlists",
+        "source projections"
+      ],
+      "status": "FIXED",
+      "rationale": "Primary scheduled data writer; remove hosted billing dependency and serialize with all other production writers.",
+      "concurrency_group": "fireball-update-data"
+    },
+    {
+      "file": "visual-regression.yml",
+      "name": "Visual Regression Testing",
+      "production_critical": false,
+      "category": "web-validation",
+      "expected_runner": "github-hosted-oracle-or-external",
+      "safe_to_migrate": true,
+      "production_mutation": false,
+      "required_secrets": [],
+      "downstream_systems": [
+        "visual artifacts"
+      ],
+      "status": "BLOCKED_EXTERNAL",
+      "rationale": "Browser installation is compatible with Linux but capacity validation is separate from production automation closure.",
+      "concurrency_group": null
+    }
+  ],
+  "serialization_policy": {
+    "contract": "per-workflow-concurrency-groups",
+    "rationale": "The production host has exactly one self-hosted runner, so production-mutating jobs are physically serialized. GitHub keeps only one pending run per concurrency group; a shared group silently cancels a pending run from an unrelated workflow, which previously dropped real scheduled runs. Each production-mutation workflow declares its own concurrency group here, and validate_workflow_reliability.py fails closed when a workflow's concurrency.group drifts from this declaration.",
+    "enforcement": "validate_workflow_reliability.py compares every production_mutation workflow's concurrency.group to its manifest-declared concurrency_group; mismatch or missing declaration is a violation."
+  }
+}

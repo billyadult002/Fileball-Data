@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-08-11T11:20:00Z",
+  "status": "WITHHOLD_GO",
+  "implemented_slice": [
+    "universal_input_detection_contract",
+    "source_runtime_abi_types",
+    "capability_registry_contract",
+    "playback_variant_instruction",
+    "playback_error_taxonomy",
+    "four_level_fallback_model",
+    "m3u_metadata_preservation",
+    "runtime_fingerprint_policy",
+    "runtime_execution_policy",
+    "additive_observability_schema"
+  ],
+  "offline_tests": {
+    "detector_fixtures": 6,
+    "compatibility": {
+      "total": 6,
+      "recognized": 5,
+      "unknown": 1,
+      "parse_failed": 1,
+      "runtime_required": 1,
+      "imported": 3,
+      "children_accounted": 4,
+      "diagnostics_complete": true,
+      "known_formats_recognized_100": true,
+      "generated_at": "2026-08-11T11:20:00Z",
+      "scope": "offline detector contract fixtures",
+      "corpus_status": "production_corpus_not_available",
+      "target_fixture_matrix": {
+        "tvbox": 100,
+        "maccms": 100,
+        "stremio": 100,
+        "m3u": 100,
+        "spider": 50,
+        "kodi": 50,
+        "generic_unknown": 50
+      },
+      "fixture_count": 6,
+      "known_format_gate": false,
+      "note": "The offline slice is passing its contract tests; production known-format=100% is withheld until the required de-identified corpus is archived and scanned."
+    }
+  },
+  "production_evidence": {
+    "authenticated_baseline": {
+      "status": "captured",
+      "providers": 145,
+      "provider_source_links": 11670,
+      "canonical_sources": 4386,
+      "canonical_catalog_items": 100354,
+      "catalog_item_source_links": 518597,
+      "remote_migrations_current": true
+    },
+    "production_corpus": {
+      "status": "captured",
+      "total": 1000,
+      "production_count": 1000,
+      "synthetic_count": 0,
+      "raw_payload_replay_count": 0,
+      "known_format_replay_gate": "WITHHOLD_GO"
+    },
+    "self_hosted_ci": {
+      "workflow_run_id": "31484268741",
+      "sha": "f40bead8f0420f4263d7ea53a672df92c2f6f410",
+      "status": "PASS",
+      "runner_user": "github-runner"
+    },
+    "database_migrations": {
+      "status": "APPLIED",
+      "migrations": ["0017_emby_member_credentials.sql", "0018_source_runtime_platform.sql", "0019_source_runtime_playback_observability.sql"],
+      "production_deployment_version": "54ed031f-aa84-427e-a2f9-ee5ed7155609"
+    },
+    "full_reindex": "dry_run_pass_apply_not_run",
+    "playback_canary": "not_run",
+    "deployment": {
+      "status": "verified_health",
+      "worker_version_id": "54ed031f-aa84-427e-a2f9-ee5ed7155609",
+      "health": "https://v8.hengmao.org/health/public"
+    }
+  },
+  "source_runtime_platform_gate": {
+    "universal_input_detection": false,
+    "known_json_formats_supported": false,
+    "extensionless_resource_detection": false,
+    "link_resolution": false,
+    "precise_diagnostics": false,
+    "source_runtime_abi": false,
+    "capability_registry": false,
+    "native_runtime_classification": false,
+    "quickjs_runtime": false,
+    "trusted_runtime_executor": false,
+    "unknown_runtime_user_approval": false,
+    "runtime_approval_policy": false,
+    "runtime_fingerprint_reapproval": false,
+    "source_native_browser": false,
+    "source_detail_no_redirect": false,
+    "source_native_metadata": false,
+    "child_source_accounting": false,
+    "provider_first_source_assumptions_zero": false,
+    "canonical_identity_stability": false,
+    "catalog_source_completeness": false,
+    "playback_variant_completeness": false,
+    "playback_variants": false,
+    "playback_instruction": false,
+    "multi_level_fallback": false,
+    "playback_error_taxonomy": false,
+    "m3u_live_semantics": false,
+    "epg": false,
+    "multi_url_live": false,
+    "headers_preserved": false,
+    "network_profiles": false,
+    "federated_search": false,
+    "tvbox_real_playback": false,
+    "stremio_real_playback": false,
+    "maccms_real_playback": false,
+    "live_real_playback": false,
+    "trusted_runtime_real_playback": false,
+    "stream_native_title_correctness": false,
+    "full_reindex_unaccounted_zero": false,
+    "emby_uses_unified_playback_model": false,
+    "security_sandbox": false,
+    "canonical_source_stability": false,
+    "tests": false,
+    "production_audits_archived": false
+  },
+  "failure_policy": "Any false hard gate keeps SOURCE_RUNTIME_PLATFORM WITHHOLD_GO; no manual override is permitted."
+}

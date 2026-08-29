@@ -1,0 +1,102 @@
+{
+  "schema_version": "oracle-resource-budget-1",
+  "measured_at": "2026-08-12T20:30:00Z",
+  "host": "free-vm-20260808",
+  "instance": {
+    "shape": "VM.Standard.E2.1.Micro",
+    "always_free": true,
+    "oci_reported_memory_gb": 1.0,
+    "oci_reported_ocpus": 1.0,
+    "os": "Oracle Linux Server 9.8",
+    "kernel": "6.12.0-204.92.4.4.3.el9uek.x86_64",
+    "nproc": 2
+  },
+  "memory": {
+    "total_mb": 498,
+    "available_mb": 201,
+    "swap_total_mb": 945,
+    "swap_used_mb": 536,
+    "note": "CORRECTED 2026-08-13: the shape advertises 1 GB and the OS does see ~946 MB when the crashkernel reservation is absent. The 498 MB reading came from crashkernel=1G-64G:448M reserving 448 MB on that boot, not from the shape being half-sized. Swap pressure at rest was nonetheless real and is not explained away by this correction.",
+    "total_mb_as_measured_2026_08_12": 498,
+    "total_mb_unreserved_boot": 946,
+    "total_mb_note": "total_mb below reflects the crashkernel-reserved boot measured on 2026-08-12. See the top-level 'correction' block."
+  },
+  "resident_services": [
+    {
+      "unit": "fireball-control.service",
+      "current_mb": 3,
+      "peak_mb": 33,
+      "memory_max_mb": 192
+    },
+    {
+      "unit": "fireball-github-runner.service",
+      "current_mb": 194,
+      "peak_mb": 308,
+      "memory_max_mb": 700
+    },
+    {
+      "unit": "fireball-provider.service",
+      "current_mb": 3,
+      "peak_mb": 40,
+      "memory_max_mb": 384
+    },
+    {
+      "unit": "fireball-reindex.service",
+      "current_mb": 8,
+      "peak_mb": 40,
+      "memory_max_mb": 384
+    }
+  ],
+  "findings": [
+    {
+      "id": "limits-oversubscribed",
+      "severity": "medium",
+      "detail": "MemoryMax across the four resident units sums to 1660 MB. Against the 946 MB unreserved boot that is 1.75x oversubscribed (the original 3.3x figure was computed against the 498 MB crashkernel-reserved boot). The direction of the finding is unchanged: each limit is individually satisfiable, so none fires first, and the kernel OOM killer or swap thrashing still arrives before any cgroup boundary. Urgency is materially lower.",
+      "revised_2026_08_13": true
+    },
+    {
+      "id": "headroom-exhausted-at-rest",
+      "severity": "medium",
+      "detail": "Observed peaks sum to 421 MB. Against the 946 MB unreserved boot that is 45% of RAM, not the 85% originally computed against 498 MB, with the runner alone peaking at 308 MB during a job. Co-scheduling a JVM, QuickJS or a Kodi Python runtime alongside CI remains inadvisable on 1 OCPU, but the headroom argument is no longer as absolute as stated.",
+      "revised_2026_08_13": true
+    },
+    {
+      "id": "swap-dependent",
+      "severity": "medium",
+      "detail": "536 MB of 945 MB swap is in use at rest on a 1 OCPU host. Work that touches swapped pages pays disk latency on a shared vCPU, so wall-clock measurements taken here are not comparable to a non-swapping host."
+    }
+  ],
+  "budget": {
+    "reserved_for_os_mb": 80,
+    "ci_window_mb": 380,
+    "sandbox_window_mb": 380,
+    "concurrency": 1,
+    "rule": "Exactly one window is active at a time. The CI and sandbox windows share the same envelope because the host cannot hold both; this is the time-sharing requirement in docs/source-runtime-mission-plan.md section 2, and these numbers replace the estimates in it.",
+    "revised_note": "Budget figures below were derived against 498 MB and should be recomputed against 946 MB before being treated as binding."
+  },
+  "required_actions": [
+    "Lower each unit's MemoryMax so the sum fits within total_mb, otherwise the limits are decorative.",
+    "Gate the CI and sandbox windows with a mutual-exclusion lock before any M5 executor runs.",
+    "Re-measure per-task peaks (pytest, tsc -b, vite build, CodeQL, JVM) inside their window once the lock exists; the figures here are resident-service baselines, not per-task peaks."
+  ],
+  "correction": {
+    "corrected_at": "2026-08-13T22:20:00Z",
+    "supersedes": "the conclusion that this host is inherently a ~498 MB instance",
+    "summary": "The 498 MB figure recorded on 2026-08-12 was real for that boot but is NOT the hardware reality. The kernel command line carries crashkernel=1G-64G:448M. When that reservation applies MemTotal is 498 MB; when it does not, MemTotal is 946 MB. The difference is exactly the 448 MB reservation (946 - 448 = 498).",
+    "evidence": {
+      "reserved_boot_memtotal_kb": 510852,
+      "reserved_boot_memtotal_mb": 498,
+      "unreserved_boot_memtotal_kb": 968836,
+      "unreserved_boot_memtotal_mb": 946,
+      "delta_mb": 448,
+      "kernel_cmdline_arg": "crashkernel=1G-64G:448M,64G-:512M",
+      "unreserved_boot_kexec_crash_size": 0,
+      "unreserved_boot_kdump_state": "disabled",
+      "observed_reserved_boot": "2026-08-12",
+      "observed_unreserved_boot": "2026-08-13 after controlled reboot"
+    },
+    "remediation": "grubby --update-kernel=ALL --args=\"crashkernel=no\" applied 2026-08-13 to all 3 installed kernels, and /etc/default/grub updated so future kernel installs inherit it. Verified next-boot args before reboot; pending one controlled reboot to take effect.",
+    "not_a_sole_cause": "Crashkernel reservation is a major evidenced contributor to the historical memory pressure, not the sole cause. A full external-sync on the 946 MB boot still reached a minimum of 146 MB available with a 526 MB swap peak. Workload and swap pressure remain real and must still be governed.",
+    "impact_on_this_report": "All ratios below that were derived against 498 MB have been recomputed against 946 MB. The raw per-unit measurements are unchanged - they were measured correctly."
+  }
+}

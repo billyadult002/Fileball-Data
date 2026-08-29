@@ -1,0 +1,1908 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-12T18:52:21.076612Z",
+  "repository": "billyadult002/Fileball",
+  "reviewed_branch": "main",
+  "canonical_oracle_labels": [
+    "self-hosted",
+    "linux",
+    "fireball",
+    "oracle",
+    "production-canary",
+    "runtime-dedicated"
+  ],
+  "workflow_count": 16,
+  "production_critical_count": 12,
+  "inventory": [
+    {
+      "name": "Deploy Fireball Web",
+      "file": ".github/workflows/deploy-pages.yml",
+      "triggers": [
+        "push",
+        "workflow_dispatch"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main"
+          ],
+          "paths": [
+            "web/**",
+            ".github/workflows/deploy-pages.yml"
+          ]
+        },
+        "workflow_dispatch": null
+      },
+      "jobs": [
+        {
+          "job_id": "verify-build-deploy",
+          "name": "verify-build-deploy",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "run",
+            "run",
+            "run",
+            "run",
+            "Deploy Cloudflare Pages",
+            "Write classified Pages summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "cloudflare-pages-deployment",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "CLOUDFLARE_PAGES_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "Cloudflare Pages"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Deploy Fireball Worker",
+      "file": ".github/workflows/deploy-worker.yml",
+      "triggers": [
+        "push",
+        "workflow_dispatch"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main"
+          ],
+          "paths": [
+            "worker/**",
+            "web/**",
+            ".github/workflows/deploy-worker.yml"
+          ]
+        },
+        "workflow_dispatch": {
+          "inputs": {
+            "environment": {
+              "description": "Cloudflare environment",
+              "required": true,
+              "default": "staging",
+              "type": "choice",
+              "options": [
+                "staging",
+                "production"
+              ]
+            }
+          }
+        }
+      },
+      "jobs": [
+        {
+          "job_id": "verify",
+          "name": "verify",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "run",
+            "run",
+            "run",
+            "Write classified verification summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "deploy",
+          "name": "deploy",
+          "needs": "verify",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "run",
+            "Build web client into Worker assets",
+            "Verify Cloudflare authentication",
+            "Apply D1 migrations",
+            "Publish Worker secrets",
+            "Deploy Worker",
+            "Write classified Worker deployment summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "cloudflare-worker-deployment",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID",
+        "RESEND_API_KEY",
+        "RESET_MAIL_FROM"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "Cloudflare Worker",
+        "D1"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "External discovery inventory",
+      "file": ".github/workflows/external-discovery.yml",
+      "triggers": [
+        "workflow_dispatch",
+        "schedule"
+      ],
+      "trigger_config": {
+        "workflow_dispatch": null,
+        "schedule": [
+          {
+            "cron": "17 3 * * 1"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "inventory",
+          "name": "inventory",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Set up Python",
+            "Run bounded discovery",
+            "Verify complete, fail-closed inventory",
+            "Write classified discovery summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "source-discovery",
+      "expected_runner": "oracle",
+      "required_secrets": [],
+      "production_mutation": false,
+      "downstream_systems": [
+        "technical source inventory",
+        "registry review"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "External source health",
+      "file": ".github/workflows/external-health.yml",
+      "triggers": [
+        "workflow_dispatch",
+        "schedule"
+      ],
+      "trigger_config": {
+        "workflow_dispatch": null,
+        "schedule": [
+          {
+            "cron": "7 */2 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "validate",
+          "name": "validate",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-python@v5",
+            "run",
+            "Validate health report",
+            "Write classified health summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "provider-health",
+      "expected_runner": "oracle",
+      "required_secrets": [],
+      "production_mutation": false,
+      "downstream_systems": [
+        "external registry health report"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "External source reconcile",
+      "file": ".github/workflows/external-reconcile.yml",
+      "triggers": [
+        "workflow_dispatch",
+        "schedule"
+      ],
+      "trigger_config": {
+        "workflow_dispatch": null,
+        "schedule": [
+          {
+            "cron": "47 */6 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "reconcile",
+          "name": "reconcile",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Reconcile registry, inventory, and safe public projection",
+            "Write classified reconcile summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "registry-reconcile",
+      "expected_runner": "oracle",
+      "required_secrets": [],
+      "production_mutation": true,
+      "downstream_systems": [
+        "source registry",
+        "safe public projection"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "External source registry health",
+      "file": ".github/workflows/external-source-health.yml",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "trigger_config": {
+        "schedule": [
+          {
+            "cron": "17 */2 * * *"
+          },
+          {
+            "cron": "31 */6 * * *"
+          },
+          {
+            "cron": "47 */12 * * *"
+          }
+        ],
+        "workflow_dispatch": null
+      },
+      "jobs": [
+        {
+          "job_id": "validate-registry",
+          "name": "validate-registry",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-python@v5",
+            "Install audit validator dependencies",
+            "Validate repository workflow policy",
+            "Validate 100-source fail-closed registry",
+            "Write classified health summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "registry-health",
+      "expected_runner": "oracle",
+      "required_secrets": [],
+      "production_mutation": false,
+      "downstream_systems": [
+        "source registry",
+        "adapter preflight"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "External adapter sync",
+      "file": ".github/workflows/external-sync.yml",
+      "triggers": [
+        "workflow_dispatch",
+        "schedule"
+      ],
+      "trigger_config": {
+        "workflow_dispatch": null,
+        "schedule": [
+          {
+            "cron": "37 */2 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "fail-closed-sync",
+          "name": "fail-closed-sync",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 45,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Bootstrap supported Python runtime",
+            "Verify approved runner and preflight configuration",
+            "Install bounded sync dependencies",
+            "Run controlled adapter cohort",
+            "Discover approved adapters and build execution matrix",
+            "Clone current production data baseline",
+            "Capture production freshness baseline",
+            "Apply one bounded adapter sync to production data",
+            "Repeat unchanged sync and prove idempotency",
+            "Publish synchronized public data and checkpoint",
+            "Write concise sync summary",
+            "Upload sync evidence"
+          ],
+          "exit_steps": [
+            "Bootstrap supported Python runtime",
+            "Verify approved runner and preflight configuration",
+            "Clone current production data baseline"
+          ],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "production-data-publication",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "Fileball-Data",
+        "stream projections",
+        "checkpoints"
+      ],
+      "manifest_status": "PASS",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Full catalog ingestion and classification audit",
+      "file": ".github/workflows/full-catalog-ingestion.yml",
+      "triggers": [
+        "workflow_dispatch",
+        "schedule"
+      ],
+      "trigger_config": {
+        "workflow_dispatch": {
+          "inputs": {
+            "mode": {
+              "description": "Ingestion mode",
+              "required": true,
+              "default": "full",
+              "type": "choice",
+              "options": [
+                "inventory",
+                "full",
+                "reconcile",
+                "audit"
+              ]
+            }
+          }
+        },
+        "schedule": [
+          {
+            "cron": "23 2 * * 0"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "full-catalog",
+          "name": "full-catalog",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 360,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-python@v5",
+            "run",
+            "Run all resumable source batches",
+            "Generate classification audit",
+            "Generate Mission 7 baseline and metadata coverage",
+            "Finalize source statuses",
+            "Publish qualified catalog",
+            "Validate reports before publication",
+            "Write classified catalog summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "catalog-generation",
+      "expected_runner": "oracle",
+      "required_secrets": [],
+      "production_mutation": true,
+      "downstream_systems": [
+        "repository catalog",
+        "classification reports"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Mission 7.3 scheduled production federation",
+      "file": ".github/workflows/mission72-federation.yml",
+      "triggers": [
+        "workflow_dispatch",
+        "schedule"
+      ],
+      "trigger_config": {
+        "workflow_dispatch": null,
+        "schedule": [
+          {
+            "cron": "0 */2 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "pinned-static-audit",
+          "name": "pinned-static-audit",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 60,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-python@v5",
+            "Install Fireball federation dependencies",
+            "Fetch only pinned repository snapshots",
+            "Rebuild non-executing inventory and risk report",
+            "Enforce fail-closed registry gate",
+            "Test pure parsers and factory",
+            "Initialize durable federation cycle",
+            "Run bounded staging reconciliation",
+            "Clone current public catalog",
+            "Merge qualified batch with production baseline",
+            "Publish public-safe data and capture commit",
+            "Deploy Worker against published data",
+            "Record Worker deployment phase",
+            "Verify publication convergence and write evidence ledger",
+            "Record production publication evidence",
+            "Record failed federation cycle",
+            "Build federation operations dashboard",
+            "Upload federation evidence ledger",
+            "Write classified federation summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "production-data-publication",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "Fileball-Data",
+        "Cloudflare Worker",
+        "Mission 7.4 ledger"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Mission 7.5 content policy sync",
+      "file": ".github/workflows/mission75-content-sync.yml",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "trigger_config": {
+        "schedule": [
+          {
+            "cron": "0 */2 * * *"
+          }
+        ],
+        "workflow_dispatch": null
+      },
+      "jobs": [
+        {
+          "job_id": "sync",
+          "name": "sync",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 45,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-python@v5",
+            "run",
+            "Validate Mission 7.5 policy registry",
+            "Fetch only the pinned scenery snapshot",
+            "Fetch the pinned public channel playlist",
+            "Rebuild Live with China-TV exclusion",
+            "Revalidate real MangaDex adapter",
+            "Run validators",
+            "Refuse a shrunk publication",
+            "Publish safe data snapshot",
+            "Write classified content-sync summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "production-data-publication",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "Fileball-Data live catalog",
+        "Manga catalog"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Performance Testing",
+      "file": ".github/workflows/performance-test.yml",
+      "triggers": [
+        "push",
+        "pull_request",
+        "schedule"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "worker/**",
+            "web/**",
+            ".github/workflows/performance-test.yml"
+          ]
+        },
+        "pull_request": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "worker/**",
+            "web/**"
+          ]
+        },
+        "schedule": [
+          {
+            "cron": "0 3 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "bundle-analysis",
+          "name": "Bundle Size Analysis",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 20,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install web dependencies",
+            "Build web application",
+            "Analyze bundle size",
+            "Archive bundle artifacts"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "lighthouse-audit",
+          "name": "Lighthouse Performance Audit",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install web dependencies",
+            "Build web application",
+            "Start dev server",
+            "Wait for server",
+            "Run Lighthouse audit",
+            "Archive Lighthouse report"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "api-benchmark",
+          "name": "API Performance Benchmark",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 25,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install worker dependencies",
+            "Build worker",
+            "Run API benchmarks",
+            "Upload benchmark results"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "load-test-setup",
+          "name": "Load Test Configuration",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "Create k6 load test script",
+            "Archive load test scripts"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "performance-summary",
+          "name": "Performance Summary",
+          "needs": [
+            "bundle-analysis"
+          ],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Generate performance report",
+            "Comment on PR"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        }
+      ],
+      "production_critical": false,
+      "category": "validation",
+      "expected_runner": "github-hosted-oracle-or-external",
+      "required_secrets": [],
+      "production_mutation": false,
+      "downstream_systems": [
+        "web build",
+        "synthetic performance reports"
+      ],
+      "manifest_status": "BLOCKED_EXTERNAL",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Automated Release",
+      "file": ".github/workflows/release.yml",
+      "triggers": [
+        "push",
+        "workflow_dispatch"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main"
+          ],
+          "paths": [
+            "worker/**",
+            "web/**",
+            "CHANGELOG.md",
+            "package.json"
+          ]
+        },
+        "workflow_dispatch": {
+          "inputs": {
+            "release_type": {
+              "description": "Release type",
+              "required": true,
+              "default": "patch",
+              "type": "choice",
+              "options": [
+                "patch",
+                "minor",
+                "major"
+              ]
+            }
+          }
+        }
+      },
+      "jobs": [
+        {
+          "job_id": "check-ready",
+          "name": "Check Release Readiness",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install worker dependencies",
+            "Install web dependencies",
+            "Check release readiness",
+            "Verify tests pass",
+            "Write readiness summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "generate-changelog",
+          "name": "Generate Changelog",
+          "needs": "check-ready",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Generate changelog",
+            "Write changelog summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "create-release",
+          "name": "Create GitHub Release",
+          "needs": [
+            "check-ready",
+            "generate-changelog"
+          ],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Build release artifacts",
+            "Create release tag",
+            "Create GitHub Release",
+            "Write release creation summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "deploy-production",
+          "name": "Deploy to Production",
+          "needs": "create-release",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Build applications",
+            "Deploy Worker to Production",
+            "Deploy Web to Production",
+            "Post-deployment verification"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "notify-release",
+          "name": "Notify Release",
+          "needs": [
+            "create-release",
+            "deploy-production"
+          ],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Send release notification",
+            "Comment on related PRs",
+            "Write classified release summary"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "release/deployment",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "WRANGLER_API_TOKEN",
+        "GITHUB_TOKEN"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "GitHub Releases",
+        "Cloudflare Worker",
+        "production web"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Security Scanning",
+      "file": ".github/workflows/security-scan.yml",
+      "triggers": [
+        "push",
+        "pull_request",
+        "schedule"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "worker/**",
+            "web/**",
+            "package*.json",
+            ".github/workflows/security-scan.yml"
+          ]
+        },
+        "pull_request": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "worker/**",
+            "web/**",
+            "package*.json"
+          ]
+        },
+        "schedule": [
+          {
+            "cron": "0 2 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "dependency-check",
+          "name": "Dependency Vulnerability Scan",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Run npm audit",
+            "Generate SBOM",
+            "Archive SBOM"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "sast-scan",
+          "name": "SAST with SonarQube Community",
+          "needs": "dependency-check",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install worker dependencies",
+            "Install web dependencies",
+            "Run SonarQube Scanner (Community)",
+            "Skip SonarQube (Token not configured)"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "secret-detection",
+          "name": "Secret Scanning",
+          "needs": "sast-scan",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "Run TruffleHog Secret Scan",
+            "Run gitleaks Secret Scan"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "codeql-analysis",
+          "name": "CodeQL Analysis",
+          "needs": "secret-detection",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 30,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "Initialize CodeQL",
+            "Autobuild",
+            "Perform CodeQL Analysis"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "type-safety",
+          "name": "Type Safety Check",
+          "needs": "codeql-analysis",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Run TypeScript compiler"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "eslint-scan",
+          "name": "ESLint Analysis",
+          "needs": "type-safety",
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 15,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Run ESLint",
+            "Archive ESLint report"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "security-summary",
+          "name": "Security Summary",
+          "needs": [
+            "dependency-check",
+            "sast-scan",
+            "secret-detection",
+            "codeql-analysis",
+            "type-safety",
+            "eslint-scan"
+          ],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Generate security report",
+            "Comment on PR"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": false,
+      "category": "security-validation",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "SONAR_TOKEN"
+      ],
+      "production_mutation": false,
+      "downstream_systems": [
+        "GitHub security events",
+        "SBOM artifacts"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Test Suite",
+      "file": ".github/workflows/test-suite.yml",
+      "triggers": [
+        "push",
+        "pull_request",
+        "schedule"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "worker/src/**",
+            "worker/tests/**",
+            "web/src/**",
+            "e2e/**",
+            ".github/workflows/test-suite.yml",
+            "playwright.config.ts",
+            "package.json"
+          ]
+        },
+        "pull_request": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "worker/src/**",
+            "worker/tests/**",
+            "web/src/**",
+            "e2e/**",
+            ".github/workflows/test-suite.yml",
+            "playwright.config.ts",
+            "package.json"
+          ]
+        },
+        "schedule": [
+          {
+            "cron": "0 4 * * *"
+          }
+        ]
+      },
+      "jobs": [
+        {
+          "job_id": "unit-tests",
+          "name": "Unit Tests",
+          "needs": [],
+          "runner_labels": [
+            "${{ matrix.os }}"
+          ],
+          "timeout_minutes": 20,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Run TypeScript compiler",
+            "Run unit tests with coverage",
+            "Check coverage thresholds",
+            "Upload coverage reports to Codecov",
+            "Archive test results"
+          ],
+          "exit_steps": [],
+          "hosted_runner": false
+        },
+        {
+          "job_id": "e2e-tests",
+          "name": "E2E Tests - ${{ matrix.browser }}",
+          "needs": "unit-tests",
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 40,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Install Playwright browsers",
+            "Build web application",
+            "Run E2E tests on ${{ matrix.browser }}",
+            "Archive Playwright report"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "coverage-report",
+          "name": "Coverage Report",
+          "needs": "unit-tests",
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Download coverage artifacts",
+            "Process coverage data",
+            "Generate coverage summary",
+            "Comment on PR with coverage"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "quality-gate",
+          "name": "Quality Gate",
+          "needs": [
+            "unit-tests",
+            "e2e-tests",
+            "coverage-report"
+          ],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Evaluate test results",
+            "Generate quality report",
+            "Create status check"
+          ],
+          "exit_steps": [
+            "Evaluate test results"
+          ],
+          "hosted_runner": true
+        }
+      ],
+      "production_critical": false,
+      "category": "repository-validation",
+      "expected_runner": "mixed",
+      "required_secrets": [
+        "PLAYWRIGHT_TEST_BASE_URL"
+      ],
+      "production_mutation": false,
+      "downstream_systems": [
+        "CI checks",
+        "coverage artifacts"
+      ],
+      "manifest_status": "BLOCKED_EXTERNAL",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Update Fireball data",
+      "file": ".github/workflows/update-data.yml",
+      "triggers": [
+        "schedule",
+        "workflow_dispatch"
+      ],
+      "trigger_config": {
+        "schedule": [
+          {
+            "cron": "17 */2 * * *"
+          },
+          {
+            "cron": "43 7 * * *"
+          }
+        ],
+        "workflow_dispatch": {
+          "inputs": {
+            "mode": {
+              "description": "Sync mode",
+              "required": false,
+              "default": "incremental",
+              "type": "choice",
+              "options": [
+                "incremental",
+                "full"
+              ]
+            }
+          }
+        }
+      },
+      "jobs": [
+        {
+          "job_id": "update",
+          "name": "update",
+          "needs": [],
+          "runner_labels": [
+            "self-hosted",
+            "linux",
+            "fireball",
+            "oracle",
+            "production-canary",
+            "runtime-dedicated"
+          ],
+          "timeout_minutes": 60,
+          "summary_present": true,
+          "steps": [
+            "Check out repository",
+            "Set up Python",
+            "Install dependencies",
+            "Run tests",
+            "Select synchronization mode",
+            "Fetch the published catalog as the carry-over baseline",
+            "Optional: Export administrator-approved sources",
+            "Validate registry prerequisite",
+            "Synchronize sources",
+            "Preserve the views this job does not produce",
+            "Rebuild movie shards and canonical playlists",
+            "Assert playlist invariants",
+            "Validate generated JSON",
+            "Generate Mission 7 audits",
+            "Validate generated M3U files",
+            "Refuse a shrunk publication",
+            "Commit changed generated files",
+            "Publish public client data",
+            "Write classified data-refresh summary"
+          ],
+          "exit_steps": [
+            "Commit changed generated files"
+          ],
+          "hosted_runner": false
+        }
+      ],
+      "production_critical": true,
+      "category": "scheduled-data-refresh",
+      "expected_runner": "oracle",
+      "required_secrets": [
+        "FILEBALL_DATA_DEPLOY_KEY",
+        "CLOUDFLARE_API_TOKEN",
+        "CLOUDFLARE_ACCOUNT_ID"
+      ],
+      "production_mutation": true,
+      "downstream_systems": [
+        "Fileball-Data",
+        "catalog playlists",
+        "source projections"
+      ],
+      "manifest_status": "FIXED",
+      "violations": [],
+      "warnings": []
+    },
+    {
+      "name": "Visual Regression Testing",
+      "file": ".github/workflows/visual-regression.yml",
+      "triggers": [
+        "push",
+        "pull_request"
+      ],
+      "trigger_config": {
+        "push": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "web/src/**",
+            "playwright.config.ts",
+            ".github/workflows/visual-regression.yml"
+          ]
+        },
+        "pull_request": {
+          "branches": [
+            "main",
+            "develop"
+          ],
+          "paths": [
+            "web/src/**",
+            "playwright.config.ts"
+          ]
+        }
+      },
+      "jobs": [
+        {
+          "job_id": "visual-regression",
+          "name": "Visual Regression Tests",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 45,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Install Playwright browsers",
+            "Build web application",
+            "Start dev server",
+            "Wait for server",
+            "Run visual tests",
+            "Compare screenshots",
+            "Archive Playwright report",
+            "Archive screenshots"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "cross-browser-visual",
+          "name": "Cross-Browser Visual Tests",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 60,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Install Playwright browsers",
+            "Build web application",
+            "Start dev server",
+            "Wait for server",
+            "Run E2E tests on ${{ matrix.browser }}",
+            "Archive browser-specific results"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "responsive-design",
+          "name": "Responsive Design Tests",
+          "needs": [],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 45,
+          "summary_present": false,
+          "steps": [
+            "actions/checkout@v4",
+            "actions/setup-node@v4",
+            "Install dependencies",
+            "Install Playwright browsers",
+            "Build web application",
+            "Start dev server",
+            "Wait for server",
+            "Run responsive design tests",
+            "Archive responsive screenshots"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        },
+        {
+          "job_id": "visual-summary",
+          "name": "Visual Testing Summary",
+          "needs": [
+            "visual-regression",
+            "cross-browser-visual"
+          ],
+          "runner_labels": [
+            "ubuntu-latest"
+          ],
+          "timeout_minutes": 10,
+          "summary_present": true,
+          "steps": [
+            "actions/checkout@v4",
+            "Generate visual report",
+            "Comment on PR"
+          ],
+          "exit_steps": [],
+          "hosted_runner": true
+        }
+      ],
+      "production_critical": false,
+      "category": "web-validation",
+      "expected_runner": "github-hosted-oracle-or-external",
+      "required_secrets": [],
+      "production_mutation": false,
+      "downstream_systems": [
+        "visual artifacts"
+      ],
+      "manifest_status": "BLOCKED_EXTERNAL",
+      "violations": [],
+      "warnings": []
+    }
+  ],
+  "global_violations": [],
+  "violations": [],
+  "warnings": [],
+  "execution_history": [
+    {
+      "workflow": "deploy-pages.yml",
+      "run_id": 31407616758,
+      "job_id": 93517656151,
+      "commit": "a4c361a6",
+      "event": "push",
+      "result": "failure",
+      "duration_seconds": 11,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Pages deployment never started"
+    },
+    {
+      "workflow": "deploy-worker.yml",
+      "run_id": 31407616805,
+      "job_id": 93517656269,
+      "commit": "a4c361a6",
+      "event": "push",
+      "result": "failure",
+      "duration_seconds": 3,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Worker verification never started; deploy skipped"
+    },
+    {
+      "workflow": "external-discovery.yml",
+      "run_id": 31357142477,
+      "job_id": 93358841239,
+      "commit": "85859056",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 3,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Discovery inventory did not run"
+    },
+    {
+      "workflow": "external-health.yml",
+      "run_id": 31620893285,
+      "job_id": 94195171814,
+      "commit": "ec16fbd9",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 3,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Health test did not run"
+    },
+    {
+      "workflow": "external-reconcile.yml",
+      "run_id": 31605148114,
+      "job_id": 94142070641,
+      "commit": "58fe6751",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 4,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Registry reconcile did not run"
+    },
+    {
+      "workflow": "external-source-health.yml",
+      "run_id": 31621395850,
+      "job_id": 94196848719,
+      "commit": "ec16fbd9",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 4,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "100-source registry health did not run"
+    },
+    {
+      "workflow": "external-sync.yml",
+      "run_id": 31623432417,
+      "job_id": 94203681628,
+      "commit": "ec16fbd9",
+      "event": "schedule",
+      "result": "cancelled",
+      "duration_seconds": 2790,
+      "runner": "free-vm-20260808-fireball-runtime",
+      "classification": "TIMEOUT_OR_HANG",
+      "failed_steps": [
+        "Repeat unchanged sync and prove idempotency"
+      ],
+      "impact": "First pass completed locally; no publication; not counted against the two proven runs"
+    },
+    {
+      "workflow": "full-catalog-ingestion.yml",
+      "run_id": 31293456657,
+      "job_id": 93194632858,
+      "commit": "06f47b4c",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 2,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Catalog ingestion did not run"
+    },
+    {
+      "workflow": "mission72-federation.yml",
+      "run_id": 31620010836,
+      "job_id": 94192173932,
+      "commit": "ec16fbd9",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 3,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Federation publication did not run"
+    },
+    {
+      "workflow": "mission75-content-sync.yml",
+      "run_id": 31620491261,
+      "job_id": 94193816970,
+      "commit": "ec16fbd9",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 3,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Content policy publication did not run"
+    },
+    {
+      "workflow": "performance-test.yml",
+      "run_id": 31564238013,
+      "job_id": 94012692904,
+      "commit": "f3bf0b4f",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 2,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Non-production performance jobs did not run"
+    },
+    {
+      "workflow": "release.yml",
+      "run_id": 31407616768,
+      "job_id": 93517655641,
+      "commit": "a4c361a6",
+      "event": "push",
+      "result": "failure",
+      "duration_seconds": 2,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Release readiness did not run"
+    },
+    {
+      "workflow": "security-scan.yml",
+      "run_id": 31628835415,
+      "job_id": null,
+      "commit": "9054dc52",
+      "event": "push",
+      "result": "failure",
+      "duration_seconds": 0,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "No job record or log was created; hosted admission/configuration failure unresolved at observation time"
+    },
+    {
+      "workflow": "test-suite.yml",
+      "run_id": 31567400752,
+      "job_id": 94021970701,
+      "commit": "f3bf0b4f",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 10,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Ubuntu and macOS matrix admissions failed; no test steps ran"
+    },
+    {
+      "workflow": "update-data.yml",
+      "run_id": 31621247379,
+      "job_id": 94196355556,
+      "commit": "ec16fbd9",
+      "event": "schedule",
+      "result": "failure",
+      "duration_seconds": 3,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Scheduled data refresh did not run"
+    },
+    {
+      "workflow": "visual-regression.yml",
+      "run_id": 31407616799,
+      "job_id": 93517655712,
+      "commit": "a4c361a6",
+      "event": "push",
+      "result": "failure",
+      "duration_seconds": 11,
+      "runner": null,
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "failed_steps": [],
+      "impact": "Browser validation did not run"
+    }
+  ],
+  "successful_production_evidence": [
+    {
+      "workflow": "external-sync.yml",
+      "run_id": 31618360770,
+      "job_id": 94186681485,
+      "commit": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+      "runner": "free-vm-20260808-fireball-runtime",
+      "result": "success",
+      "production_commit": "951edde47685133e0e284d7093d1f793cc340a0e",
+      "duplicate_growth_zero": true
+    },
+    {
+      "workflow": "external-sync.yml",
+      "run_id": 31620843723,
+      "job_id": 94195026311,
+      "commit": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+      "runner": "free-vm-20260808-fireball-runtime",
+      "result": "success",
+      "production_commit": "1b16b965c15b69a54b7a6f31f82b992af01bbd77",
+      "second_run_idempotent": true,
+      "duplicate_growth_zero": true
+    }
+  ],
+  "failure_classifications": [
+    {
+      "classification": "WORKFLOW_ADMISSION_REJECTED",
+      "scope": "pre-repair main history",
+      "root_cause": "GitHub-hosted runner admission was rejected before allocation under the account billing/spending restriction",
+      "action": "migrate safe production Linux jobs to canonical Oracle labels; retain OS-specific jobs as explicit external blockers"
+    },
+    {
+      "classification": "TIMEOUT_OR_HANG",
+      "scope": "scheduled external-sync run 31623432417",
+      "root_cause": "45-minute timeout during repeat pass; no publication",
+      "action": "archive as incomplete; manual runs 31618360770 and 31620843723 remain authoritative"
+    }
+  ],
+  "runner_observation": {
+    "name": "free-vm-20260808-fireball-runtime",
+    "status": "online",
+    "busy": false,
+    "labels": [
+      "self-hosted",
+      "Linux",
+      "X64",
+      "fireball",
+      "oracle",
+      "production-canary",
+      "runtime-dedicated"
+    ],
+    "canonical_workflow_labels_match": true
+  },
+  "gates": {
+    "workflow_inventory_complete": true,
+    "production_workflows_identified": true,
+    "runner_labels_valid": true,
+    "immediate_fail_fast_audited": true,
+    "secret_config_dependencies_audited": true,
+    "concurrency_audited": true,
+    "timeouts_audited": true,
+    "actions_summaries_present": true,
+    "publication_fail_closed_preserved": true,
+    "workflow_regression_tests": true,
+    "recent_failures_classified": true,
+    "github_hosted_billing_dependencies_removed": true,
+    "oracle_runner_execution_verified": true,
+    "large_corpus_memory_paths_audited": true,
+    "data_idempotency_gates_present": true,
+    "production_workflow_matrix_executed": false,
+    "zero_unexplained_critical_failures": false,
+    "workflow_audit_archived": true
+  },
+  "static_status": "PASS",
+  "status": "WITHHOLD"
+}

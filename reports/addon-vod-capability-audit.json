@@ -1,0 +1,105 @@
+{
+  "schema_version": "addon-vod-capability-audit-1",
+  "generated_at": "2026-08-09T12:59:11.525075+00:00",
+  "production_entry": "https://media.hengmao.org",
+  "github_commit": "7fa58b459",
+  "worker_version_id": "1f330dcb-7276-4091-9fda-cd8854b70152",
+  "pages_deployment": "https://88a5a7aa.fireball-b4q.pages.dev",
+  "av_navigation": {
+    "visible_without_local_opt_in": true,
+    "protected_gate": true,
+    "result": "pass"
+  },
+  "universal_vod": {
+    "submitted_url_host": "moovie.c2v2.com",
+    "detect_status": 200,
+    "detected_type": "maccms",
+    "confidence": 0.98,
+    "child_sources": 1,
+    "categories": [
+      "movies",
+      "tv"
+    ],
+    "native_categories": [
+      "电影",
+      "电视剧",
+      "综艺",
+      "动漫"
+    ],
+    "catalog_items_on_first_page": 50,
+    "resolved_title": "痴迷2025",
+    "resolved_playable_streams": 1,
+    "classification": "automatic",
+    "result": "pass"
+  },
+  "stremio": {
+    "manifest_status": 200,
+    "resources": [
+      "catalog",
+      "meta",
+      "stream"
+    ],
+    "movie_catalog_status": 200,
+    "movie_catalog_items": 100,
+    "movie_catalog_source": "movie_shards",
+    "movie_meta_status": 200,
+    "movie_stream_status": 200,
+    "movie_stream_count": 2,
+    "series_catalog_status": 200,
+    "series_catalog_items": 100,
+    "series_meta_status": 200,
+    "series_episode_count": 1859,
+    "series_stream_status": 200,
+    "series_stream_count": 1,
+    "tokenized_manifest_status": 200,
+    "result": "pass"
+  },
+  "kodi": {
+    "repository_zip_status": 200,
+    "repository_zip_bytes": 474,
+    "plugin_zip_status": 200,
+    "plugin_zip_bytes": 8565,
+    "repository_probes_passed": 12,
+    "repository_probes_total": 12,
+    "addons_xml_bytes": 1563,
+    "gzip_matches_xml": true,
+    "md5_matches_xml": true,
+    "plugin_python_compile": true,
+    "tokenized_catalog_status": 200,
+    "tokenized_media_status": 200,
+    "tokenized_source_count": 2,
+    "tokenized_stream_count": 2,
+    "temporary_device_token_revoked": true,
+    "revoked_token_status": 401,
+    "physical_kodi_runtime": "not_present_on_validation_host",
+    "result": "pass"
+  },
+  "upstream_media_probe": {
+    "fireball_resolution": "pass",
+    "sample_manifest_result": "upstream_tls_chain_failure",
+    "classification": "upstream_dead_or_tls",
+    "fireball_failure": false
+  },
+  "machine_gate": {
+    "media_entry_current": true,
+    "av_entry": true,
+    "vod_auto_detection": true,
+    "vod_auto_classification": true,
+    "vod_native_browse": true,
+    "vod_stream_resolution": true,
+    "stremio_catalog": true,
+    "stremio_stream_resolution": true,
+    "kodi_repository": true,
+    "kodi_plugin_package": true,
+    "tokenized_client_api": true,
+    "temporary_credentials_revoked": true
+  },
+  "status": "PASS",
+  "associated_universal_regression_audit": {
+    "path": "reports/universal-addon-provider-regression-audit.json",
+    "generated_at": "2026-08-09T13:19:00+00:00",
+    "scope": "full provider/add-on/child-source declaration matrix",
+    "status": "IN_PROGRESS_REINDEX",
+    "machine_gate": "WITHHOLD_GO until every child declaration is reconciled after the active production reindex completes"
+  }
+}

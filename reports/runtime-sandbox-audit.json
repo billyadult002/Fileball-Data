@@ -1,0 +1,34 @@
+{
+  "families": {
+    "java_jar": {
+      "passed": 0,
+      "total": 0
+    },
+    "kodi_python": {
+      "passed": 0,
+      "total": 0
+    },
+    "quickjs": {
+      "passed": 0,
+      "total": 0
+    }
+  },
+  "generated_at": "2026-08-11T02:11:28Z",
+  "host": {
+    "arch": "arm64",
+    "os": "Darwin"
+  },
+  "reason": "approved runtime manifest is incomplete or sandbox verification failed",
+  "results": [],
+  "schema_version": "runtime-sandbox-audit-1",
+  "security": {
+    "bounded_memory": true,
+    "bounded_output": true,
+    "bounded_timeout": true,
+    "fingerprint_enforced": true,
+    "network_bridge_only": true,
+    "process_group_kill": true,
+    "secrets_isolated": true
+  },
+  "status": "WITHHOLD_GO"
+}

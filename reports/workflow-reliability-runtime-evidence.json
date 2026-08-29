@@ -1,0 +1,47 @@
+{
+  "observed_at": "2026-08-12T19:15:00Z",
+  "repository": "billyadult002/Fileball",
+  "source": "authenticated GitHub Actions API",
+  "runner_observation": {
+    "name": "free-vm-20260808-fireball-runtime",
+    "status": "online",
+    "busy": false,
+    "labels": ["self-hosted", "Linux", "X64", "fireball", "oracle", "production-canary", "runtime-dedicated"],
+    "canonical_workflow_labels_match": true
+  },
+  "classification_policy": {
+    "WORKFLOW_ADMISSION_REJECTED": "Run completed in approximately 0-10 seconds with no runner name, no checkout, zero executed steps, or no job record; hosted billing/admission is the observed failure class.",
+    "RUNNER_LABEL_MISMATCH": "Requested labels cannot match the registered production runner.",
+    "RUNNER_HOST_OFFLINE": "A self-hosted job was allocated or queued while the Oracle runner was unavailable.",
+    "PRODUCTION_AUTH_UNAVAILABLE": "A workflow reached execution but lacked its required production credential.",
+    "TIMEOUT_OR_HANG": "A real runner execution exceeded its bounded timeout or became unresponsive.",
+    "PASS": "A real runner execution completed its required logic and evidence gates."
+  },
+  "recent_execution_matrix": [
+    {"workflow":"deploy-pages.yml","run_id":31407616758,"job_id":93517656151,"commit":"a4c361a6","event":"push","result":"failure","duration_seconds":11,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Pages deployment never started"},
+    {"workflow":"deploy-worker.yml","run_id":31407616805,"job_id":93517656269,"commit":"a4c361a6","event":"push","result":"failure","duration_seconds":3,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Worker verification never started; deploy skipped"},
+    {"workflow":"external-discovery.yml","run_id":31357142477,"job_id":93358841239,"commit":"85859056","event":"schedule","result":"failure","duration_seconds":3,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Discovery inventory did not run"},
+    {"workflow":"external-health.yml","run_id":31620893285,"job_id":94195171814,"commit":"ec16fbd9","event":"schedule","result":"failure","duration_seconds":3,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Health test did not run"},
+    {"workflow":"external-reconcile.yml","run_id":31605148114,"job_id":94142070641,"commit":"58fe6751","event":"schedule","result":"failure","duration_seconds":4,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Registry reconcile did not run"},
+    {"workflow":"external-source-health.yml","run_id":31621395850,"job_id":94196848719,"commit":"ec16fbd9","event":"schedule","result":"failure","duration_seconds":4,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"100-source registry health did not run"},
+    {"workflow":"external-sync.yml","run_id":31623432417,"job_id":94203681628,"commit":"ec16fbd9","event":"schedule","result":"cancelled","duration_seconds":2790,"runner":"free-vm-20260808-fireball-runtime","classification":"TIMEOUT_OR_HANG","failed_steps":["Repeat unchanged sync and prove idempotency"],"impact":"First pass completed locally; no publication; not counted against the two proven runs"},
+    {"workflow":"full-catalog-ingestion.yml","run_id":31293456657,"job_id":93194632858,"commit":"06f47b4c","event":"schedule","result":"failure","duration_seconds":2,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Catalog ingestion did not run"},
+    {"workflow":"mission72-federation.yml","run_id":31620010836,"job_id":94192173932,"commit":"ec16fbd9","event":"schedule","result":"failure","duration_seconds":3,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Federation publication did not run"},
+    {"workflow":"mission75-content-sync.yml","run_id":31620491261,"job_id":94193816970,"commit":"ec16fbd9","event":"schedule","result":"failure","duration_seconds":3,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Content policy publication did not run"},
+    {"workflow":"performance-test.yml","run_id":31564238013,"job_id":94012692904,"commit":"f3bf0b4f","event":"schedule","result":"failure","duration_seconds":2,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Non-production performance jobs did not run"},
+    {"workflow":"release.yml","run_id":31407616768,"job_id":93517655641,"commit":"a4c361a6","event":"push","result":"failure","duration_seconds":2,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Release readiness did not run"},
+    {"workflow":"security-scan.yml","run_id":31628835415,"job_id":null,"commit":"9054dc52","event":"push","result":"failure","duration_seconds":0,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"No job record or log was created; hosted admission/configuration failure unresolved at observation time"},
+    {"workflow":"test-suite.yml","run_id":31567400752,"job_id":94021970701,"commit":"f3bf0b4f","event":"schedule","result":"failure","duration_seconds":10,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Ubuntu and macOS matrix admissions failed; no test steps ran"},
+    {"workflow":"update-data.yml","run_id":31621247379,"job_id":94196355556,"commit":"ec16fbd9","event":"schedule","result":"failure","duration_seconds":3,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Scheduled data refresh did not run"},
+    {"workflow":"visual-regression.yml","run_id":31407616799,"job_id":93517655712,"commit":"a4c361a6","event":"push","result":"failure","duration_seconds":11,"runner":null,"classification":"WORKFLOW_ADMISSION_REJECTED","failed_steps":[],"impact":"Browser validation did not run"}
+  ],
+  "successful_production_evidence": [
+    {"workflow":"external-sync.yml","run_id":31618360770,"job_id":94186681485,"commit":"ec16fbd904188bc16d50fe38894e9bfcdb6b71a8","runner":"free-vm-20260808-fireball-runtime","result":"success","production_commit":"951edde47685133e0e284d7093d1f793cc340a0e","duplicate_growth_zero":true},
+    {"workflow":"external-sync.yml","run_id":31620843723,"job_id":94195026311,"commit":"ec16fbd904188bc16d50fe38894e9bfcdb6b71a8","runner":"free-vm-20260808-fireball-runtime","result":"success","production_commit":"1b16b965c15b69a54b7a6f31f82b992af01bbd77","second_run_idempotent":true,"duplicate_growth_zero":true}
+  ],
+  "zero_step_admission_failures": 14,
+  "unresolved_runtime_failures": [
+    {"classification":"WORKFLOW_ADMISSION_REJECTED","scope":"pre-repair main history","root_cause":"GitHub-hosted runner admission was rejected before allocation under the account billing/spending restriction","action":"migrate safe production Linux jobs to canonical Oracle labels; retain OS-specific jobs as explicit external blockers"},
+    {"classification":"TIMEOUT_OR_HANG","scope":"scheduled external-sync run 31623432417","root_cause":"45-minute timeout during repeat pass; no publication","action":"archive as incomplete; manual runs 31618360770 and 31620843723 remain authoritative"}
+  ]
+}

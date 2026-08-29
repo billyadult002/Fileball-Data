@@ -1,0 +1,351 @@
+{
+  "mission": "FIREBALL K2.3 Corrective Deployment, Browser Reacceptance, and Cold-Path Final Closure",
+  "updated_at_utc": "2026-08-29T13:40:00Z",
+  "production_before": {
+    "sha": "e6bfcc347",
+    "full_sha": "e6bfcc347546800c6c0d89b56b7e67d7f5c71a7a",
+    "build_time": "2026-08-28T13:50:58.419Z",
+    "environment": "production",
+    "rollback_target": "57489aee3"
+  },
+  "corrective_source": {
+    "sha": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+    "files": [
+      {
+        "path": "web/src/main.tsx",
+        "reason": "page-fatal errors are limited to queries with no authoritative pages"
+      },
+      {
+        "path": "web/src/search-state.test.tsx",
+        "reason": "test-only real Search harness and deterministic React Query matrix"
+      }
+    ],
+    "search_state_module": "absent",
+    "worker_validation_test": "untouched",
+    "unrelated_workspace_state": "preserved"
+  },
+  "deterministic_matrix": {
+    "initial_success": "PASS",
+    "authoritative_initial_failure": "PASS",
+    "later_same_query_failure_after_render": "PASS",
+    "pagination_failure_preserves_results": "PASS",
+    "query_key_wrong_data_protection": "PASS",
+    "expected_abort_not_page_fatal": "PASS",
+    "production_equivalent_sequence": "initial pages rendered then later failure state evaluated; component now preserves pages and exposes retry state",
+    "pre_correction_behavior": "result.error unconditionally rendered page-level ErrorBox after pages existed",
+    "corrected_behavior": "result.error is page-fatal only when pages are absent"
+  },
+  "validation": {
+    "frontend_focused": "5/5 PASS",
+    "frontend_suite": "112/112 PASS",
+    "frontend_typecheck": "PASS",
+    "frontend_build": "PASS",
+    "frontend_lint": "PASS with six pre-existing generated-coverage warnings",
+    "worker_focused": "14/14 PASS",
+    "worker_suite": "476/476 PASS",
+    "worker_typecheck": "PASS",
+    "diff_check": "PASS"
+  },
+  "deployment": {
+    "authoritative_workflow_run": 33181550063,
+    "head_sha": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+    "verify": "PASS",
+    "deploy": "FAIL",
+    "failure_phase": "Cloudflare auth preflight",
+    "failure_class": "INVALID_ACCESS_TOKEN",
+    "cloudflare_error_code": 9109,
+    "production_mutation_started": false,
+    "production_sha_after": "e6bfcc347",
+    "replacement_run_created": false,
+    "reason": "terminal credential failure; no competing deployment was created"
+  },
+  "browser": {
+    "original_reproduction": {
+      "query": "奥德赛",
+      "initial_results": true,
+      "final_state": "暂时无法加载 / Failed to fetch"
+    },
+    "repeat_reproduction": {
+      "query": "奥德赛",
+      "initial_results": true,
+      "final_state": "暂时无法加载 / Failed to fetch"
+    },
+    "corrective_reacceptance": "not run because corrective source was not deployed",
+    "safe_browser_bridge": false,
+    "chrome_restart": false,
+    "profile_copy": false,
+    "authentication_material_accessed": false
+  },
+  "cold_path": {
+    "indexed_hit": "not re-run against corrective source",
+    "stale_index_fallthrough": "local PASS; production corrective retest blocked",
+    "movie_shard": "local PASS; production corrective retest blocked",
+    "canonical_fallback": "local PASS; production corrective retest blocked",
+    "genuine_no_match": "prior production Worker JSON 200 evidence",
+    "malformed_cursor": "local PASS; production corrective retest blocked",
+    "catalog_stage_continuation": "local PASS; production corrective retest blocked",
+    "shard_stage_continuation": "local PASS; production corrective retest blocked",
+    "independent_cold_stability": "not proven"
+  },
+  "security_and_nonimpact": {
+    "anonymous_search": "401 UNAUTHORIZED",
+    "credentials_exposed": false,
+    "authentication_weakened": false,
+    "production_data_changed": false,
+    "unrelated_routes_changed": false,
+    "paid_resource_added": false,
+    "rollback_executed": false
+  },
+  "external_blocker": {
+    "type": "Cloudflare credential",
+    "workflow_run": 33181550063,
+    "error": "Invalid access token",
+    "code": 9109,
+    "manual_action": "Update the existing GitHub CLOUDFLARE_API_TOKEN with a valid least-privilege token; never paste it into chat",
+    "no_secret_value_recorded": true
+  },
+  "independent_checker": {
+    "result": "HOLD",
+    "reasons": [
+      "corrective source did not deploy",
+      "production browser reacceptance against corrective source is unavailable",
+      "independent cold matrix against corrective source is incomplete"
+    ]
+  },
+  "verdict": "HOLD_K2.3_IN_PROGRESS_AWAITING_AUTHORITATIVE_PHASE_EVIDENCE",
+  "k23_replacement_deployment": {
+    "secret_metadata": {
+      "name": "CLOUDFLARE_API_TOKEN",
+      "scope": "production",
+      "updated_at": "2026-08-28T16:12:17Z",
+      "value_exposed": false
+    },
+    "failed_run": {
+      "id": 33181550063,
+      "conclusion": "failure",
+      "phase": "deploy",
+      "error_code": "9109",
+      "mutation": "none"
+    },
+    "replacement_run": {
+      "id": 33193763484,
+      "sha": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+      "environment": "production",
+      "verify": "success",
+      "deploy": "success",
+      "conclusion": "success",
+      "build_time": "2026-08-28T17:21:10.639Z",
+      "frontend_asset": "assets/index-CNx1WmoP.js",
+      "token_value_exposed": false
+    }
+  },
+  "final_status": "HOLD_K2.3_IN_PROGRESS_AWAITING_AUTHORITATIVE_PHASE_EVIDENCE",
+  "k23_final_deployment": {
+    "run_id": 33193763484,
+    "sha": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+    "environment": "production",
+    "verify": "success",
+    "cloudflare_preflight": "success",
+    "asset_upload": "success",
+    "deploy": "success",
+    "conclusion": "success",
+    "build_time": "2026-08-28T17:21:10.639Z",
+    "superseded_sha": "e6bfcc347",
+    "rollback_target": "e6bfcc347",
+    "token_value_exposed": false,
+    "frontend_asset": "assets/index-CNx1WmoP.js",
+    "runtime_readback": {
+      "v8": "71966ac4f",
+      "media": "71966ac4f"
+    },
+    "anonymous_search": "401_UNAUTHORIZED",
+    "independent_cold_samples": "not_completed",
+    "authenticated_browser_reacceptance": "not_completed"
+  },
+  "k23_freshness_closure": {
+    "baseline_source": "GitHub workflow records and public data repository metadata",
+    "deployment": {
+      "sha": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+      "run_id": 33193763484,
+      "build_time": "2026-08-28T17:21:10.639Z",
+      "runtime": "71966ac4f"
+    },
+    "freshness_observation": {
+      "published_data_repo_head": "a6d1e515500c21d0db15a7458a2a69016e7de470",
+      "last_successful_update_data_workflow": {
+        "run_id": 31736987962,
+        "started_at": "2026-08-13T21:36:09Z",
+        "finished_at": "2026-08-13T22:04:37Z",
+        "published_commit": "8dd044202dbc58ee96adc5d6140dc2273daf3875",
+        "status": "success",
+        "evidence": "direct workflow log"
+      },
+      "latest_update_data_workflow_failure": {
+        "run_id": 32195066670,
+        "started_at": "2026-08-18T22:57:23Z",
+        "status": "failure",
+        "cause": "not available from retained API log archive"
+      },
+      "external_sync_latest_retained": {
+        "run_id": 32212161701,
+        "status": "cancelled",
+        "timestamp": "2026-08-19T03:26:43Z"
+      },
+      "source_sync_age_at_observation": "multiple days",
+      "freshness_root_cause": "PROVEN_SCHEDULER_OR_WORKFLOW_CONTINUITY_FAILURE_NOT_YET_UNIQUELY_CLASSIFIED",
+      "no_change_checkpoint": "not established",
+      "dataset_index_manifest_convergence": "not established"
+    },
+    "required_gates": {
+      "durable_zero_touch_ingestion": "not proven",
+      "automatic_retry_and_missed_run_recovery": "not proven",
+      "atomic_publication": "not proven",
+      "freshness_contract_readback": "not available",
+      "production_freshness_acceptance": "not completed",
+      "independent_cold_matrix": "not completed",
+      "final_browser_detail_and_empty_state": "not completed"
+    },
+    "classification": "ENVIRONMENT_BLOCKER_OR_UNRESOLVED_PRODUCTION_DATA_PIPELINE"
+  },
+  "post_august13_provenance": {
+    "window": {
+      "from": "2026-08-13T00:00:00Z",
+      "to": "2026-08-28T23:59:59Z"
+    },
+    "application_baseline": {
+      "sha": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+      "production_run": 33193763484
+    },
+    "fileball_data": {
+      "head": "a6d1e515500c21d0db15a7458a2a69016e7de470",
+      "head_parent": "8dd044202dbc58ee96adc5d6140dc2273daf3875",
+      "head_message": "chore: apply mission 7.5 live policy and manga sync",
+      "head_time": "2026-08-13T22:18:06Z",
+      "head_changed_files": [
+        "data/live.json",
+        "data/manga/catalog.json",
+        "output/live.m3u",
+        "reports/live-china-exclusion-audit.json",
+        "reports/live-china-exclusion-audit.md",
+        "reports/manga-source-revalidation.json",
+        "reports/manga-source-revalidation.md"
+      ]
+    },
+    "as_of_20260829": "Fileball-Data head unchanged at a6d1e515; no authoritative complete publication since baseline"
+  },
+  "executor_continuity": {
+    "mission_execution_identity": "K2.3-FILEBALL-EXECUTION-20260828",
+    "contract": "One durable logical execution subject across every executor transition; executor replacement is a change of implementation, never a new Mission/PASS/authority/Evidence chain.",
+    "successor_verification_requirement": "Verify checkpoint digest, canonical repo/worktree, app identity 71966ac4f, workflow authority (update-data only), publication authority, retained workspace ownership, unresolved gates, and Closure Controller state before acting.",
+    "fail_closed_rule": "Any event not mappable to the durable execution-subject chain fails closed before source mutation, workflow enablement, synchronization, publication, rollback, or FINAL PASS.",
+    "authority_map": {
+      "canonical_repo": "billyadult002/Fileball",
+      "data_repo": "billyadult002/Fileball-Data",
+      "canonical_workflow": "update-data.yml (sole full sync + publication authority; restored from disabled_manually)",
+      "disabled_preserved": [
+        "external-sync.yml",
+        "mission72-federation.yml",
+        "mission75-content-sync.yml"
+      ],
+      "runner": "free-vm-20260808-fireball-runtime",
+      "production_app_source": "71966ac4f5713b3ee8b93e3890943a95fce72827",
+      "deployment_run": 33193763484,
+      "build_time": "2026-08-28T17:21:10.639Z"
+    }
+  },
+  "workflow_policy_recovery": {
+    "root_cause": "Validator required global concurrency group fireball-production-serialized while 9 production workflows (via edd39afe6, Aug 12) used per-workflow groups; drift predated Aug 13 baseline; plus source-runtime-self-hosted.yml platform-evidence job missing summary.",
+    "correction_commit": "d5c259d47",
+    "validation": "validate_workflow_reliability violations=0 exit 0; full pytest PASS; policy gate + 100-source registry gate both success in post-correction CI run"
+  },
+  "runner_sync_recovery": {
+    "run_33196080850_root_cause": "Global OOM / pre-OOM resource starvation on free-vm-20260808 (946MB RAM); historic OOM kills of sync python processes; OCI metrics 92.3% memory ~90s after sync start; host wedged, runner offline.",
+    "correction": "Added 3GB swap (4GB total; commit ceiling ~1.9GB->~4.9GB); instance soft-reset via SOFTRESET; runner restored online.",
+    "run_33202780099_boundary": {
+      "run": 33202780099,
+      "sha": "71966ac4f",
+      "mode": "incremental",
+      "started_at": "2026-08-28T19:11:52Z",
+      "ended_at": "2026-08-28T20:13:01Z",
+      "conclusion": "cancelled",
+      "failed_stage": "Synchronize sources (step 11)",
+      "evidence": "60-minute job-level timeout; post-job steps completed success => runner healthy; not memory.",
+      "classification": "NEW_FAILURE (job execution timeout)"
+    },
+    "timeout_correction": {
+      "commit": "f04989f7a",
+      "change": "update-data.yml update job timeout-minutes 60 -> 120"
+    }
+  },
+  "replacement_sync_in_progress": {
+    "run": 33207442123,
+    "sha": "f04989f7a",
+    "mode": "incremental",
+    "dispatched_at": "2026-08-28T20:15:21Z",
+    "authority": "sole update-data workflow",
+    "terminal": {
+      "conclusion": "cancelled",
+      "stage": "Synchronize sources",
+      "started_at": "2026-08-28T20:21:08Z",
+      "cancelled_at": "2026-08-28T22:15:42Z",
+      "elapsed_seconds": 6874,
+      "classification": "120-minute job timeout; process alive; zero stdout is expected updater.main behavior (report printed only at completion)",
+      "publication": "none, data head unchanged"
+    }
+  },
+  "authority_chronology": {
+    "two_pass_requirement": "One authoritative replacement sync runs at a time; second pass after verified publication",
+    "notes": "external-sync.yml, mission72-federation.yml, mission75-content-sync.yml disabled (2026-08-19T03:42:2XZ same action); update-data restored as sole canonical authority"
+  },
+  "multi_agent_provenance": {
+    "classification": "executor transitions are implementation changes under one Mission Execution Identity; no executor transition caused workflow disablement or runner interruption based on directly correlated evidence",
+    "not_inferred_from": "writing style, branch names, commit wording, report format, missing logs, tool choice, temporal proximity"
+  },
+  "phase_evidence_checkpoint_instrumentation": {
+    "instrumentation_commits": [
+      {
+        "commit": "48db4a0c8",
+        "note": "file-based per-phase checkpoints + load_previous every-1000 progress; pinned SHA for replacement run 33254707401"
+      },
+      {
+        "commit": "b50b08ef8",
+        "note": "stdout emission (GitHub log archive durability), per-phase elapsed, throughput, publication workflow markers, periodic Stremio progress; pushed HEAD"
+      }
+    ],
+    "sole_replacement_run": {
+      "id": 33254707401,
+      "sha": "48db4a0c8",
+      "status": "pending",
+      "note": "remains the sole replacement; no competing run created",
+      "instrumentation": "file-based checkpoints (48db4a0c8)"
+    },
+    "blocking_run": {
+      "id": 33247840510,
+      "sha": "83b3b978",
+      "status": "in_progress",
+      "step": "Synchronize sources",
+      "expected_unwind": "2026-08-29T14:26Z (240-min timeout)",
+      "note": "pre-checkpoint SHA; no recoverable phase evidence expected"
+    },
+    "host": {
+      "user_ssh": "opc@40.233.126.63",
+      "runner_service_user": "github-runner",
+      "workspace_mode": "0700",
+      "workspace_evidence_recovery": "readable via github-runner account",
+      "memory_state": "946Mi total, ~64Mi free + 1.5Gi swap free",
+      "note": "workspace 0700 so opc cannot read checkpoint file; requires github-runner access"
+    }
+  },
+  "phase_evidence_pending": {
+    "blocking_run": "33247840510 no checkpoint output",
+    "next_authoritative": "33254707401 at SHA 48db4a0c8 to emit the first recoverable phase-level evidence"
+  },
+  "interim_verdict": "K2.3_IN_PROGRESS_AWAITING_AUTHORITATIVE_PHASE_EVIDENCE",
+  "evidence_file_reconstruction_notice": {
+    "incident": "file transiently truncated to 0 bytes by a mis-issued evidence write; immediately reconstructed",
+    "reconstructed": true,
+    "reconstruction_source": "session read of file at turn start (readable prefix) + verified facts from the durable Mission Execution Identity records; sub-objects whose full prior content extended beyond the readable window were restored where verifiable and marked HOLD where not re-confirmed",
+    "caveat": "critical path facts (app identity 71966ac4f, deployment run 33193763484, data head a6d1e515, last complete sync 31736987962, runner OOM/timeout classes) are directly verified; only sequencing detail that was never re-confirmed is left conservatively marked",
+    "recommended": true
+  }
+}

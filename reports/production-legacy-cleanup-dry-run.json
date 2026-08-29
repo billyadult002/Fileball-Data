@@ -1,0 +1,52 @@
+{
+  "schema_version": "production-legacy-cleanup-dry-run-1",
+  "captured_at": "2026-08-08T12:52:00Z",
+  "status": "WITHHOLD_GO",
+  "scope": "Fireball Mission universal provider migration",
+  "production": {
+    "api": "https://v8.hengmao.org",
+    "web": "https://media.hengmao.org",
+    "data_commit": "ae5c061998a21c89022f7c62ae289146d5aaca06",
+    "catalog_contract": "2.4"
+  },
+  "observed_counts": {
+    "providers": 115,
+    "imported_sources": 115,
+    "canonical_sources": 2752,
+    "provider_source_links": 8885,
+    "canonical_catalog_items": 0,
+    "catalog_item_sources": 0
+  },
+  "proposed_deletions": [],
+  "legacy_cleanup": {
+    "executed": false,
+    "reason": "Canonical catalog projection and playback acceptance are not complete; retain all legacy/provider data.",
+    "required_before_execution": [
+      "Populate and verify canonical_catalog_items and catalog_item_sources.",
+      "Verify authorized-client playback and rollback evidence.",
+      "Re-run duplicate/orphan and source replacement audits.",
+      "Obtain a separate operator approval for destructive cleanup."
+    ]
+  },
+  "reindex": {
+    "latest_successful_session": "reindex-afd6fc6b-2ec8-4a72-b632-34ce110fcc53",
+    "providers_total": 115,
+    "providers_scanned": 115,
+    "providers_failed": 0,
+    "sources_discovered": 10269,
+    "sources_created": 52,
+    "sources_updated": 10218,
+    "sources_deduplicated": 10218,
+    "sources_unsupported": 6274,
+    "sources_failed": 0
+  },
+  "evidence": {
+    "d1_read_rows_written": 0,
+    "sort_totals": {
+      "movie_regular": 91755,
+      "tv_regular": 1072
+    },
+    "search_total": 102382,
+    "kodi_canary": "official YouTube 7.4.3 ZIP imported as pending_review"
+  }
+}

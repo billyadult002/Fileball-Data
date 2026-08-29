@@ -1,0 +1,52 @@
+{
+  "clusters": {
+    "origin_changed_or_invalid": {
+      "classification": "unverifiable_current_origin",
+      "count": 43,
+      "sample_ids": [
+        "production-import-97f35d52b1950264",
+        "production-import-7faa8a9f7bcc8d16",
+        "production-import-419fd8f8d9e8c595",
+        "production-import-874c93e7c830df1b",
+        "production-import-d222b7e36b66f910",
+        "production-import-0cda3e00ec0436d4",
+        "production-import-e9772a5793840498",
+        "production-import-0853c44a30358ae3",
+        "production-import-49f5d26d7babdb16",
+        "production-import-6a6aa5df0ad74bf0",
+        "production-import-f0adbd5ac4f678af",
+        "production-import-6276e732a38c2c39",
+        "production-import-81e917c28278e5cc",
+        "production-import-fd19108c29fa9a67",
+        "production-import-d5d55bd0b9ac0845",
+        "production-import-52b78c0289c7f1a1",
+        "production-import-702d0825fdbe9a32",
+        "production-import-c463247bfceb22ac",
+        "production-import-13b7ae81275642ee",
+        "production-import-dfa7e715943b906e"
+      ],
+      "signatures": {
+        "kodi_addon->unknown:invalid_json": 1,
+        "m3u->tvbox_warehouse:none": 1,
+        "m3u->unknown:invalid_json": 1,
+        "maccms_http_api->http_xml:none": 1,
+        "maccms_http_api->unknown:invalid_json": 9,
+        "spider->unknown:invalid_json": 1,
+        "stremio_manifest->tvbox_warehouse:none": 7,
+        "tvbox_config->unknown:invalid_json": 22
+      }
+    }
+  },
+  "denominator_policy": {
+    "historical_known_format_accuracy": "not_measurable",
+    "replacement_known_format_accuracy": "replacement replay known-format matches / replacement replay known-format samples",
+    "replayable_valid_known_format_accuracy": "valid recognized current payloads / replayable valid known payloads; origin_changed_or_invalid excluded",
+    "rolling_known_format_accuracy": "rolling recognized known payloads / rolling known payloads; no synthetic fixtures included"
+  },
+  "failure_total": 43,
+  "generated_at": "2026-08-12T00:16:46Z",
+  "replacement_total": 210,
+  "replayable_valid_known_format_accuracy": 1.0,
+  "schema_version": "replacement-replay-failure-audit-1",
+  "status": "WITHHOLD_GO"
+}

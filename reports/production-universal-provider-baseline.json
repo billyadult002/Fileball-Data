@@ -1,0 +1,886 @@
+{
+  "schema_version": "universal-provider-production-baseline-1",
+  "captured_at": "2026-08-08T10:50:00.151566+00:00",
+  "production": {
+    "worker": "fileball-api",
+    "custom_api": "https://v8.hengmao.org",
+    "web": "https://media.hengmao.org",
+    "d1": "fireball-auth"
+  },
+  "rollback": {
+    "d1_time_travel_bookmark": "captured_out_of_band",
+    "worker_latest_deployment": {
+      "id": "7a59b46c-95a2-4476-a12d-d3a85c814436",
+      "source": "wrangler",
+      "strategy": "percentage",
+      "annotations": {
+        "workers/triggered_by": "secret"
+      },
+      "versions": [
+        {
+          "version_id": "464bf32f-f41f-4ff4-9819-080586d75094",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-08-06T14:47:48.189849Z"
+    },
+    "public_data_commit": "74bc4dbc0b1f834209037d1abcf487618783f714"
+  },
+  "providers": {
+    "provider_count": 114,
+    "tvbox_count": 69,
+    "stremio_count": 45,
+    "kodi_count": 0,
+    "other_count": 0,
+    "authorized_count": 113,
+    "extracted_count": 67
+  },
+  "per_provider": [
+    {
+      "id": "stremio-1785901164186-85y5aph",
+      "type": "stremio_addon",
+      "name": "TPB 4K Porn",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901342633-ba29uh9",
+      "type": "stremio_addon",
+      "name": "MediaFusion | ElfHosted",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901377560-5wcg7wc",
+      "type": "stremio_addon",
+      "name": "Streaming Catalogs",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901555716-8wwbgni",
+      "type": "stremio_addon",
+      "name": "AIOStreams | ElfHosted",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901623266-yrv4e5g",
+      "type": "stremio_addon",
+      "name": "The Movie Database Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901646900-q7obiue",
+      "type": "stremio_addon",
+      "name": "Streailer | ElfHosted",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901677386-kv6i2zw",
+      "type": "stremio_addon",
+      "name": "HdHub",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901696863-26urr4j",
+      "type": "stremio_addon",
+      "name": "Porn Tube",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901749790-cwuhr8p",
+      "type": "stremio_addon",
+      "name": "Comet | ElfHosted",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901772985-ig2he3y",
+      "type": "stremio_addon",
+      "name": "MediaFusion | ElfHosted",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901791105-1vrnpk4",
+      "type": "stremio_addon",
+      "name": "Streaming Catalogs",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901808428-zo42o5o",
+      "type": "stremio_addon",
+      "name": "AIOStreams | ElfHosted",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901898650-orxu3vj",
+      "type": "stremio_addon",
+      "name": "TOP Streaming",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901919441-yryyaqg",
+      "type": "stremio_addon",
+      "name": "stremio-addons.net",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785901941453-fdl5aob",
+      "type": "stremio_addon",
+      "name": "TorrentsDB",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902029092-3a73prj",
+      "type": "stremio_addon",
+      "name": "Peerflix",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902061642-qtc3qxy",
+      "type": "stremio_addon",
+      "name": "SubSense",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902110794-b2efw47",
+      "type": "stremio_addon",
+      "name": "SubSense",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902144070-dvoei9e",
+      "type": "stremio_addon",
+      "name": "FENIXFLIX",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902192144-3gwuow4",
+      "type": "stremio_addon",
+      "name": "TPB 4K Porn",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902219524-4blnj3c",
+      "type": "stremio_addon",
+      "name": "OnlyPorn",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902236534-i9z95c0",
+      "type": "stremio_addon",
+      "name": "Streaming Catalogs Plus",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902285592-vz8q91i",
+      "type": "stremio_addon",
+      "name": "ThePirateBay Catalog",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902561633-8e7ol0m",
+      "type": "stremio_addon",
+      "name": "Flix-Streams",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902585967-uk2cbxo",
+      "type": "stremio_addon",
+      "name": "xxxClub",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902769526-5gdwzme",
+      "type": "stremio_addon",
+      "name": "HentaiStream",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902802401-fzv1z4o",
+      "type": "stremio_addon",
+      "name": "MSubtitles",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902838689-8l7n6xf",
+      "type": "stremio_addon",
+      "name": "OpenSubtitles v3",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785902953185-4z1qlq1",
+      "type": "stremio_addon",
+      "name": "Bharat Binge",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903134645-o0i7x5x",
+      "type": "stremio_addon",
+      "name": "JavPie",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903183080-143ea8u",
+      "type": "stremio_addon",
+      "name": "Strelingo - Dual Language Subtitles (ENG+CHI)",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903250813-91a1pqw",
+      "type": "stremio_addon",
+      "name": "🎥 Archive.org",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903309957-5eewf6v",
+      "type": "stremio_addon",
+      "name": "Filtorrent",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903370843-u15lo3s",
+      "type": "stremio_addon",
+      "name": "Flix-Streams Free",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903398431-xlnkfp8",
+      "type": "stremio_addon",
+      "name": "WatchHub",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903495496-y41ssep",
+      "type": "stremio_addon",
+      "name": "One Pace Premium | P2P",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903631751-0zte999",
+      "type": "stremio_addon",
+      "name": "Global Catalogs",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785903734658-9uujl0n",
+      "type": "stremio_addon",
+      "name": "DCBI Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785927315168-0apqflc",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785927338346-ohxyq3d",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785927405422-zohz1lr",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785927411375-plwyri7",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785927482795-l2a9bm3",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "tvbox-m3u-1785927489739-7wpenjo",
+      "type": "tvbox_m3u",
+      "name": "TVBox M3U (0 groups)",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785927503947-6grjb3b",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "tvbox-m3u-1785927592005-cs78fit",
+      "type": "tvbox_m3u",
+      "name": "TVBox M3U (0 groups)",
+      "authorization_status": "not_authorized",
+      "child_sources": null
+    },
+    {
+      "id": "stremio-1785928949191-3jf3d7a",
+      "type": "stremio_addon",
+      "name": "Stremio Addon",
+      "authorization_status": "authorized",
+      "child_sources": null
+    },
+    {
+      "id": "src-1785941341232-1ox8aa7",
+      "type": "tvbox_json",
+      "name": "💖豆瓣排行💖",
+      "authorization_status": "authorized",
+      "child_sources": 30
+    },
+    {
+      "id": "src-1785941365198-mwyl1zs",
+      "type": "tvbox_json",
+      "name": "360",
+      "authorization_status": "authorized",
+      "child_sources": 13
+    },
+    {
+      "id": "src-1785941390938-m73ay8s",
+      "type": "tvbox_json",
+      "name": "修复原创  厂长，新增无限线路(8月3更新)",
+      "authorization_status": "authorized",
+      "child_sources": 44
+    },
+    {
+      "id": "src-1785941410752-1n3rhqs",
+      "type": "tvbox_json",
+      "name": "豆瓣 • 首页",
+      "authorization_status": "authorized",
+      "child_sources": 84
+    },
+    {
+      "id": "src-1785941472299-md4agr4",
+      "type": "tvbox_json",
+      "name": "🐮【王二小放牛娃】🐮",
+      "authorization_status": "authorized",
+      "child_sources": 82
+    },
+    {
+      "id": "src-1785941490699-3o1n2ti",
+      "type": "tvbox_json",
+      "name": "👒┃豆瓣┃推荐┃❤驸马影视 随心观影❤",
+      "authorization_status": "authorized",
+      "child_sources": 46
+    },
+    {
+      "id": "src-1785941513351-jowkuub",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1785941557268-9364q95",
+      "type": "tvbox_json",
+      "name": "🐮【王二小放牛娃】🐮",
+      "authorization_status": "authorized",
+      "child_sources": 62
+    },
+    {
+      "id": "src-1785941574095-1zw5gzw",
+      "type": "tvbox_json",
+      "name": "🥐豆瓣┃推荐",
+      "authorization_status": "authorized",
+      "child_sources": 56
+    },
+    {
+      "id": "src-1785984602344-r7h4iex",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1785985215547-irq0tcv",
+      "type": "tvbox_json",
+      "name": "免费分享",
+      "authorization_status": "authorized",
+      "child_sources": 54
+    },
+    {
+      "id": "src-1785985259741-j2l8g6m",
+      "type": "tvbox_json",
+      "name": "📛公众号:挺好分享",
+      "authorization_status": "authorized",
+      "child_sources": 111
+    },
+    {
+      "id": "src-1785985425218-ti1ybuw",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1785985501052-e3l4zyj",
+      "type": "tvbox_json",
+      "name": "🌕️┆片单┆精选",
+      "authorization_status": "authorized",
+      "child_sources": 72
+    },
+    {
+      "id": "src-1785985523291-bxgfhdh",
+      "type": "tvbox_json",
+      "name": "🌕️┆片单┆精选",
+      "authorization_status": "authorized",
+      "child_sources": 72
+    },
+    {
+      "id": "src-1786151525218-rphuroj",
+      "type": "tvbox_json",
+      "name": "📢龙马精神、金戈铁马、骏马迎春、马行千里！",
+      "authorization_status": "authorized",
+      "child_sources": 9
+    },
+    {
+      "id": "src-1786151603917-tu7ipey",
+      "type": "tvbox_json",
+      "name": "360",
+      "authorization_status": "authorized",
+      "child_sources": 13
+    },
+    {
+      "id": "src-1786151683487-l48be04",
+      "type": "tvbox_json",
+      "name": "酷云77",
+      "authorization_status": "authorized",
+      "child_sources": 23
+    },
+    {
+      "id": "src-1786151693044-7yaju7f",
+      "type": "tvbox_json",
+      "name": "豆瓣推荐",
+      "authorization_status": "authorized",
+      "child_sources": 43
+    },
+    {
+      "id": "src-1786151766725-g2dcgms",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786151834694-dskgy1l",
+      "type": "tvbox_json",
+      "name": "💘360(SP)",
+      "authorization_status": "authorized",
+      "child_sources": 29
+    },
+    {
+      "id": "src-1786151846323-myakomk",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786152042628-qsrykeb",
+      "type": "tvbox_json",
+      "name": "📢仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
+      "authorization_status": "authorized",
+      "child_sources": 9
+    },
+    {
+      "id": "src-1786153881178-bl8h62s",
+      "type": "tvbox_json",
+      "name": "💕祝您观影愉快！",
+      "authorization_status": "authorized",
+      "child_sources": 79
+    },
+    {
+      "id": "src-1786153900806-gorsk7o",
+      "type": "tvbox_json",
+      "name": "💕祝您观影愉快！",
+      "authorization_status": "authorized",
+      "child_sources": 79
+    },
+    {
+      "id": "src-1786154046185-0xfabfl",
+      "type": "tvbox_json",
+      "name": "🌕️┆片单┆精选",
+      "authorization_status": "authorized",
+      "child_sources": 72
+    },
+    {
+      "id": "src-1786154199490-mwgo6m8",
+      "type": "tvbox_json",
+      "name": "🧊公众号: 九月小小屋",
+      "authorization_status": "authorized",
+      "child_sources": 88
+    },
+    {
+      "id": "src-1786154849024-e98c8lr",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786154864575-ugomno9",
+      "type": "tvbox_json",
+      "name": "免费分享",
+      "authorization_status": "authorized",
+      "child_sources": 54
+    },
+    {
+      "id": "src-1786154899412-maunf2u",
+      "type": "tvbox_json",
+      "name": "📛公众号:挺好分享",
+      "authorization_status": "authorized",
+      "child_sources": 45
+    },
+    {
+      "id": "src-1786154939362-r8g5du4",
+      "type": "tvbox_json",
+      "name": "🔍聚玩盒子-本接口免费-🈲贩卖",
+      "authorization_status": "authorized",
+      "child_sources": 41
+    },
+    {
+      "id": "src-1786154978217-xj7ys28",
+      "type": "tvbox_json",
+      "name": "🥰豆瓣┃[导航]",
+      "authorization_status": "authorized",
+      "child_sources": 69
+    },
+    {
+      "id": "src-1786155013043-td4iriy",
+      "type": "tvbox_json",
+      "name": "🐮【王二小放牛娃】🐮",
+      "authorization_status": "authorized",
+      "child_sources": 84
+    },
+    {
+      "id": "src-1786155061279-s3mr78n",
+      "type": "tvbox_json",
+      "name": "🐮【王二小放牛娃】🐮",
+      "authorization_status": "authorized",
+      "child_sources": 84
+    },
+    {
+      "id": "src-1786155632055-adbczsf",
+      "type": "tvbox_json",
+      "name": "360",
+      "authorization_status": "authorized",
+      "child_sources": 13
+    },
+    {
+      "id": "src-1786155705147-dvrvfu1",
+      "type": "tvbox_json",
+      "name": "七七",
+      "authorization_status": "authorized",
+      "child_sources": 9
+    },
+    {
+      "id": "src-1786155918806-0kbul2z",
+      "type": "tvbox_json",
+      "name": "🅰️公众号【非凡小小】",
+      "authorization_status": "authorized",
+      "child_sources": 44
+    },
+    {
+      "id": "src-1786155935606-c799ab7",
+      "type": "tvbox_json",
+      "name": "💖豆瓣排行💖",
+      "authorization_status": "authorized",
+      "child_sources": 30
+    },
+    {
+      "id": "src-1786155956303-o7f6jct",
+      "type": "tvbox_json",
+      "name": "路飞豆瓣|lf_search",
+      "authorization_status": "authorized",
+      "child_sources": 113
+    },
+    {
+      "id": "src-1786155970948-yztukn2",
+      "type": "tvbox_json",
+      "name": "💘360(SP)",
+      "authorization_status": "authorized",
+      "child_sources": 29
+    },
+    {
+      "id": "src-1786156002051-j0lsh4s",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786158907107-jiegfr8",
+      "type": "tvbox_json",
+      "name": "👒┃豆瓣┃推荐┃❤驸马影视 随心观影❤",
+      "authorization_status": "authorized",
+      "child_sources": 46
+    },
+    {
+      "id": "src-1786158955582-mplec3y",
+      "type": "tvbox_json",
+      "name": "📢免费仅限测试用，如有收费,直接找退款！",
+      "authorization_status": "authorized",
+      "child_sources": 9
+    },
+    {
+      "id": "src-1786158998052-sn05vkp",
+      "type": "tvbox_json",
+      "name": "🧊公众号: 九月小小屋",
+      "authorization_status": "authorized",
+      "child_sources": 88
+    },
+    {
+      "id": "src-1786159376399-8othrd3",
+      "type": "tvbox_json",
+      "name": "📛公众号:挺好分享",
+      "authorization_status": "authorized",
+      "child_sources": 44
+    },
+    {
+      "id": "src-1786159410084-jo3cmgl",
+      "type": "tvbox_json",
+      "name": "🔍聚玩盒子-本接口免费-🈲贩卖",
+      "authorization_status": "authorized",
+      "child_sources": 52
+    },
+    {
+      "id": "src-1786159424652-khpyc5y",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786160331607-7ogezgs",
+      "type": "tvbox_json",
+      "name": "360|点播",
+      "authorization_status": "authorized",
+      "child_sources": 100
+    },
+    {
+      "id": "src-1786160474561-u2ph63b",
+      "type": "tvbox_json",
+      "name": "海外看",
+      "authorization_status": "authorized",
+      "child_sources": 39
+    },
+    {
+      "id": "src-1786160508033-a4i93yc",
+      "type": "tvbox_json",
+      "name": "GithubSteveWatch+18地址JSON.json",
+      "authorization_status": "authorized",
+      "child_sources": 58
+    },
+    {
+      "id": "src-1786160519865-0oaixju",
+      "type": "tvbox_json",
+      "name": "Max DOV.json",
+      "authorization_status": "authorized",
+      "child_sources": 285
+    },
+    {
+      "id": "src-1786160535929-oodjbr3",
+      "type": "tvbox_json",
+      "name": "scorpio.json",
+      "authorization_status": "authorized",
+      "child_sources": 285
+    },
+    {
+      "id": "src-1786160544629-az8v5cr",
+      "type": "tvbox_json",
+      "name": "SteveWatch源地址分享.json",
+      "authorization_status": "authorized",
+      "child_sources": 285
+    },
+    {
+      "id": "src-1786160564839-fmybl01",
+      "type": "tvbox_json",
+      "name": "vod.json",
+      "authorization_status": "authorized",
+      "child_sources": 34
+    },
+    {
+      "id": "src-1786160577178-3i1ijri",
+      "type": "tvbox_json",
+      "name": "XPTV(精).json",
+      "authorization_status": "authorized",
+      "child_sources": 8
+    },
+    {
+      "id": "src-1786160585200-65mkufg",
+      "type": "tvbox_json",
+      "name": "分享资源.json",
+      "authorization_status": "authorized",
+      "child_sources": 286
+    },
+    {
+      "id": "src-1786160869400-md19g3v",
+      "type": "tvbox_json",
+      "name": "🔞 91 | 珍惜",
+      "authorization_status": "authorized",
+      "child_sources": 47
+    },
+    {
+      "id": "src-1786160894009-rxb70xu",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃推荐",
+      "authorization_status": "authorized",
+      "child_sources": 61
+    },
+    {
+      "id": "src-1786161095178-har0kzy",
+      "type": "tvbox_m3u",
+      "name": "Adult18.m3u",
+      "authorization_status": "authorized",
+      "child_sources": 1
+    },
+    {
+      "id": "src-1786161170976-pkaa78l",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃推荐",
+      "authorization_status": "authorized",
+      "child_sources": 61
+    },
+    {
+      "id": "src-1786161217073-kpazvmm",
+      "type": "tvbox_json",
+      "name": "🐮【王二小放牛娃】🐮",
+      "authorization_status": "authorized",
+      "child_sources": 62
+    },
+    {
+      "id": "src-1786161227102-1zuvwte",
+      "type": "tvbox_json",
+      "name": "豆瓣推荐",
+      "authorization_status": "authorized",
+      "child_sources": 43
+    },
+    {
+      "id": "src-1786161236041-9857sh3",
+      "type": "tvbox_json",
+      "name": "360",
+      "authorization_status": "authorized",
+      "child_sources": 13
+    },
+    {
+      "id": "src-1786161270565-top7wrf",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786161532834-0nxsq5k",
+      "type": "tvbox_json",
+      "name": "🌕┃豆瓣┃热播",
+      "authorization_status": "authorized",
+      "child_sources": 89
+    },
+    {
+      "id": "src-1786162616409-duzvp1x",
+      "type": "tvbox_json",
+      "name": "360|点播",
+      "authorization_status": "authorized",
+      "child_sources": 35
+    },
+    {
+      "id": "src-1786184104058-aclhwxu",
+      "type": "tvbox_json",
+      "name": "Moovie 影牛",
+      "authorization_status": "authorized",
+      "child_sources": 1
+    }
+  ],
+  "legacy_source_health_count": 0,
+  "catalog_views": {
+    "movie": {
+      "total": 91755,
+      "playable_total": 91687,
+      "generated_at": "2026-08-05T23:21:18Z",
+      "catalog_contract": "2.3"
+    },
+    "tv": {
+      "total": 1072,
+      "playable_total": 1072,
+      "generated_at": "2026-08-05T23:21:18Z",
+      "catalog_contract": "2.3"
+    },
+    "anime": {
+      "total": 430,
+      "playable_total": 428,
+      "generated_at": "2026-08-05T23:21:18Z",
+      "catalog_contract": "2.3"
+    },
+    "variety": {
+      "total": 141,
+      "playable_total": 141,
+      "generated_at": "2026-08-05T23:21:18Z",
+      "catalog_contract": "2.3"
+    },
+    "av": {
+      "total": 5246,
+      "playable_total": 5244,
+      "generated_at": "2026-08-05T23:21:18Z",
+      "catalog_contract": "2.3"
+    },
+    "commentary": {
+      "error": "HTTP exit 56"
+    },
+    "documentary": {
+      "error": "HTTP exit 56"
+    },
+    "other": {
+      "error": "HTTP exit 56"
+    }
+  },
+  "live_count": 1344,
+  "latest_count": 3000,
+  "notes": [
+    "No legacy rows were deleted.",
+    "Authenticated sort totals were not available before migration; public shard totals are the dataset baseline."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "catalog-build-2-audit-1",
+  "generated_at": "2026-08-09T00:01:18.189709+00:00",
+  "production_pipeline": "scripts/build_canonical_catalog_sql.py",
+  "data_commit": "56ab536ee9478005298bfd059f61b13dee587ab7",
+  "bounded_execution": {
+    "source_files": 1,
+    "catalog_batches": 34,
+    "all_batches_passed": true,
+    "completed_at": "2026-08-08T23:27:19Z"
+  },
+  "pre": {
+    "canonical_catalog_items": 100354,
+    "catalog_item_sources": 518597,
+    "movies": 91766,
+    "tv": 1213,
+    "playable_links": 471676,
+    "stream_count_sum": 1222328
+  },
+  "post": {
+    "canonical_catalog_items": 100354,
+    "catalog_item_sources": 518597,
+    "movies": 91766,
+    "tv": 1213,
+    "playable_links": 471676,
+    "stream_count_sum": 1222328
+  },
+  "delta": {
+    "items": 0,
+    "links": 0
+  },
+  "duplicate_identity_groups": 0,
+  "duplicate_relationship_groups": 0,
+  "invalid_item_metadata": 0,
+  "invalid_source_json": 0,
+  "sample_audit": {
+    "random_count": 100,
+    "pre_hash": "2062e5d2343317102441fc2484d8816fa6b31e86ea1e175ee239174826a96a56",
+    "post_hash": "8736aacae0bbc0f36510096519c860bfd946a693980e7a07794238449923b625",
+    "exact_match": false
+  },
+  "high_source_count_audit": {
+    "count": 25,
+    "pre_hash": "510ff8a7b375e3ccd737d37d6879f5998dc1c85f7eacf92e148d67215468a9a5",
+    "post_hash": "510ff8a7b375e3ccd737d37d6879f5998dc1c85f7eacf92e148d67215468a9a5",
+    "exact_match": true
+  },
+  "catalog_idempotent": true
+}

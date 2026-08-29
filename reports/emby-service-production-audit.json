@@ -1,0 +1,64 @@
+{
+  "audit": "Emby service production audit",
+  "baseline_commit": "a4c361a6f",
+  "generated_at": "2026-08-10T21:45:00Z",
+  "status": "WITHHOLD_GO",
+  "member_management": {
+    "status": "HOLD",
+    "evidence_report": "reports/emby-member-production-acceptance.json",
+    "production_deployments": {
+      "worker": "ad397412-cf65-4e72-a438-e392d8533b54",
+      "pages": "fb16530a-de67-443b-b754-9f2a8c65f95e",
+      "gateway": "not_required_no_source_change"
+    },
+    "production_synced": false,
+    "authenticated_five_member_acceptance": false
+  },
+  "hard_gates": {
+    "movies_library_adapter": false,
+    "tv_library_adapter": false,
+    "stream_library_adapter": false,
+    "playback_info_media_sources": false,
+    "real_media_bytes": false,
+    "automatic_fallback": false,
+    "emby_web_client": false,
+    "ios_client": false,
+    "android_client": false,
+    "tv_client": false,
+    "final_total_audit": false
+  },
+  "machine_gate": {
+    "emby_member_credentials_gate": {
+      "migration_production": true,
+      "worker_deployed": true,
+      "pages_deployed": true,
+      "gateway_synced_or_not_required": true,
+      "create_username": false,
+      "one_time_password": false,
+      "host": true,
+      "port_443": true,
+      "expiry": false,
+      "role_permissions": false,
+      "library_permissions": false,
+      "admin_edit_username": false,
+      "admin_reset_password": false,
+      "password_never_retrievable": false,
+      "copy_connection_info": false,
+      "device_limits": false,
+      "concurrency_limits": false,
+      "enable_disable": false,
+      "renew_expiry": false,
+      "device_management": false,
+      "session_management": false,
+      "audit_trail": false,
+      "latest_two_expanded": true,
+      "older_members_collapsed": true,
+      "expand_all_collapse_all": true,
+      "production_synced": false,
+      "tests": true
+    },
+    "status": "HOLD"
+  },
+  "platform_variable": "EMBY_SERVICE_PLATFORM=WITHHOLD_GO",
+  "blocker": "Authenticated production owner/admin session is required to create and accept five labeled test members through the audited Admin workflow."
+}

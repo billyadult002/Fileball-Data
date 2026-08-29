@@ -1,0 +1,38 @@
+{
+  "commit": "e1e6e92d06894336ca96bc99dae35c051dc442f3",
+  "corpus": {
+    "fixture_file": "reports/replay-snapshot/source-runtime-production-corpus.jsonl",
+    "production_child_link_count": 855,
+    "production_count": 145,
+    "secrets_removed": true,
+    "synthetic_count": 0,
+    "total_fixture_count": 1000
+  },
+  "generated_at": "2026-08-11T12:43:13Z",
+  "known_json_parse_failures": null,
+  "native_sources_misclassified_unsupported": null,
+  "note": "Production fixtures are de-identified evidence inputs. Failure clusters are from authenticated source/link metadata; raw detector replay and media probes remain separate gates.",
+  "production_failure_clusters": {
+    "fetch_failed": null,
+    "known_declared_provider_families": {
+      "kodi_addon": 2,
+      "stremio_addon": 45,
+      "tvbox_json": 90,
+      "tvbox_m3u": 7,
+      "vod_url": 1
+    },
+    "link_parse_failed": null,
+    "redirect": null,
+    "runtime": null,
+    "schema": null,
+    "unknown_json": null,
+    "unsupported_runtime": {
+      "kodi_addon:unsupported_runtime": 266,
+      "spider_site:unsupported_runtime": 7833
+    }
+  },
+  "production_scan": "metadata_clustered_detector_scan_pending",
+  "silent_link_parse_failures": null,
+  "status": "WITHHOLD_GO",
+  "synthetic_count": 0
+}

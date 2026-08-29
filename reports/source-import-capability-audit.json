@@ -1,0 +1,157 @@
+{
+  "schema_version": "source-import-capability-audit-1",
+  "generated_at": "2026-08-13T20:19:30Z",
+  "status": "WITHHOLD_GO",
+  "production_mutation": false,
+  "full_reindex_apply": false,
+  "reviewed_deployment": {
+    "reviewed_worker_deployed": true,
+    "source_commit": "13b8cd8e4cde2b3bf96a348ed88578373fd23c0f",
+    "worker_version": "1.1.0",
+    "worker_runtime_identity": "13b8cd8e4",
+    "cloudflare_version_id": "08ae8e3a-a146-4ecd-97c9-4378b04b3c04",
+    "deployment_timestamp": "2026-08-13T20:18:49.624Z",
+    "deployment_message": "Reviewed native VOD and JSONC source acceptance 13b8cd8e4",
+    "identity_endpoint": "https://v8.hengmao.org/api/v1/version",
+    "identity_http_status": 200,
+    "identity_verified_at": "2026-08-13T20:18:59Z",
+    "identity_response_worker_commit": "13b8cd8e4",
+    "identity_response_worker_version": "1.1.0",
+    "migration_result": "no migrations to apply",
+    "deployment_path": "npx wrangler@4.120.0 d1 migrations apply followed by npx wrangler@4.120.0 deploy --env production"
+  },
+  "families": {
+    "kodi": {
+      "kodi_detected": true,
+      "kodi_metadata_parsed": true,
+      "kodi_runtime_descriptor": true,
+      "kodi_trust_policy_preserved": true,
+      "kodi_source_detail": true,
+      "kodi_runtime_execution_verified": false
+    },
+    "link": {
+      "link_probe": true,
+      "redirect_resolution": true,
+      "schema_detection": true,
+      "nested_child_enumeration": true,
+      "unknown_schema_explicit": true,
+      "link_import_accounting_zero_unexplained": true
+    },
+    "vod": {
+      "vod_categories": true,
+      "vod_pagination": true,
+      "vod_movie_detail": true,
+      "vod_tv_detail": true,
+      "vod_episode_import": true,
+      "vod_playback_lines": true,
+      "vod_playback_variants": true,
+      "vod_canonical_linking": true,
+      "vod_source_native_metadata_preserved": true,
+      "vod_production_import_verified": false
+    }
+  },
+  "validation": {
+    "python_tests": "PASS",
+    "worker_tests": "PASS (39 files / 378 tests)",
+    "worker_typecheck": "PASS",
+    "web_tests": "PASS (7 files / 80 tests)",
+    "web_typecheck": "PASS",
+    "web_build": "PASS",
+    "web_lint": "PASS (repository ESLint config emits only its existing empty-config warning)",
+    "python_compile_checks": "PASS for mission-owned/updater/runtime audit paths; full scripts compile is blocked by pre-existing unrelated scripts/mission72_production_merge.py syntax error",
+    "git_diff_check": "PASS for reviewed commit 13b8cd8e4",
+    "secret_scan": "LIMITED: gitleaks, trufflehog, and detect-secrets unavailable; repository static high-signal pattern scan found no match and no unavailable tool is claimed as passed"
+  },
+  "production_evidence": {
+    "source_selection": {
+      "vod": {
+        "import_id": "src-1786206904981-lw6yziv",
+        "host": "moovie.c2v2.com",
+        "path": "/api/vod",
+        "status": 200,
+        "content_type": "application/json",
+        "response_bytes": 22181,
+        "detected_family": "maccms",
+        "detected_protocol": "maccms",
+        "detected_runtime": "native",
+        "detected_trust": "native",
+        "records": 50,
+        "categories": 4,
+        "page": 1,
+        "page_count": 1,
+        "total": 50,
+        "extracted_children": 1,
+        "accounting": {"discovered": 1, "accepted": 1, "rejected": 0, "unexplained": 0}
+      },
+      "multi_child_link": {
+        "import_id": "src-1786373894096-i2cf5ra",
+        "host": "cdn.jsdelivr.net",
+        "path": "/gh/liu673cn/box@main/m.json",
+        "status": 200,
+        "content_type": "application/json",
+        "response_bytes": 57874,
+        "detected_family": "tvbox",
+        "detected_protocol": "http_json",
+        "detected_runtime": "java_jar",
+        "detected_trust": "awaiting_user_approval",
+        "worker_child_count": 232,
+        "python_child_count": 232,
+        "extracted_children": 230,
+        "rejected_children": 7,
+        "accounting": {"discovered": 237, "accepted": 230, "rejected": 7, "unexplained": 0}
+      }
+    },
+    "worker_python_parity": true,
+    "production_add_resource_preview": "BLOCKED_AUTH_CONTEXT",
+    "production_add_resource_import": "NOT_RUN",
+    "production_source_detail": "NOT_VERIFIED",
+    "production_catalog_projection": "NOT_RUN",
+    "production_catalog_readback": {"vod_catalog_links": 0, "playback_variants": 0},
+    "production_origin_fixture_persisted": false,
+    "media_bytes_verified": false,
+    "authenticated_context": {
+      "authenticated_admin_context": false,
+      "session_verification": "GET /auth/session returned HTTP 401 in the terminal context",
+      "admin_permission_verified": false,
+      "browser_session_available_to_tools": false,
+      "credential_persistence": false,
+      "reason": "The authorized Chrome/Fireball session is not exposed to the available browser or terminal tools; no cookie, bearer token, password, refresh token, or local-storage credential was exported or persisted."
+    },
+    "d1_read_only_before_acceptance": {
+      "vod": {"authorization_status": "authorized", "provider_type": "vod_url", "child_links": 1, "catalog_links": 0, "playback_variants": 0},
+      "multi_child_link": {"authorization_status": "authorized", "provider_type": "tvbox_json", "child_links": 89, "catalog_links": 0, "playback_variants": 0},
+      "replay_fixture_table": {"total": 21, "add_resource_preview": 0, "add_resource_import": 0, "latest": "2026-08-13T20:15:49.050Z"},
+      "writes": 0
+    },
+    "blocker": "Production deployment and identity verification succeeded, but controlled authenticated Add Resource preview/import and catalog read-back cannot be executed from this tool context without access to the already-authorized Chrome/Fireball session. No 401 response is used as acceptance evidence."
+  },
+  "acceptance_gates": {
+    "reviewed_worker_deployed": true,
+    "production_worker_identity_verified": true,
+    "authenticated_admin_context": false,
+    "production_vod_preview": false,
+    "production_multi_child_preview": false,
+    "production_add_resource_import": false,
+    "production_origin_fixture_persisted": false,
+    "python_worker_replay_parity": false,
+    "zero_first_source_truncation": true,
+    "zero_unexplained_import_accounting": true,
+    "catalog_projection_preview": false,
+    "vod_movie_readback": false,
+    "vod_tv_readback": false,
+    "vod_playback_variants": false,
+    "source_native_metadata_preserved": true,
+    "kodi_runtime_execution_verified": false,
+    "media_bytes_verified": false,
+    "SOURCE_RUNTIME_PLATFORM": "WITHHOLD_GO"
+  },
+  "reconciliation": {
+    "mode": "READ_ONLY_PROPOSAL",
+    "apply_executed": false,
+    "history_rewritten": false,
+    "provider_mailbox_mutated": false,
+    "bulk_runtime_state_update": false,
+    "legacy_source_relationship_deleted": false,
+    "broad_canonical_identity_rewrite": false
+  }
+}

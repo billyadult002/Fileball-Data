@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-08-08T14:12:37.437877+00:00",
+  "input_details": 100354,
+  "by_type": {
+    "anime": 489,
+    "documentary": 18,
+    "movie": 91766,
+    "tv": 1213,
+    "other": 6704,
+    "short": 22,
+    "variety": 142
+  },
+  "canonical_sources": 60,
+  "catalog_item_sources": 518597,
+  "batches": 34,
+  "identity": "published media ID, scoped by media type",
+  "production_applied_at": "2026-08-08T14:16:00Z",
+  "production_counts": {
+    "canonical_catalog_items": 100354,
+    "catalog_item_sources": 518597,
+    "movies": 91766,
+    "tv": 1213
+  },
+  "idempotency": "ON CONFLICT upserts; second identical run has zero row growth"
+}

@@ -1,0 +1,319 @@
+{
+  "incident": "Fireball External adapter sync permanent recovery",
+  "generated_at": "2026-08-12T18:40:00Z",
+  "repository": "billyadult002/Fileball",
+  "target_branch": "main",
+  "status": "External Adapter Sync Incident: WITHHOLD_RUNNER_LIFECYCLE",
+  "production_incident": "BLOCKED_AUTH_SESSION",
+  "source_runtime_platform": "WITHHOLD_GO",
+  "data_correctness_status": "PASS",
+  "infrastructure_lifecycle_status": "RUNNER_PRIVILEGED_RESTART_BLOCKED",
+  "reviewed_main": {
+    "commit_sha": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+    "workflow_file": ".github/workflows/external-sync.yml",
+    "workflow_id": 325615043,
+    "runs_on": ["self-hosted", "linux", "fireball", "oracle", "production-canary", "runtime-dedicated"],
+    "streaming_collector_fix_commit": "dca1681dcc24f33ca46c00fe53833d13c2946ce8",
+    "streaming_collector_fix_present": true,
+    "cross_detail_duplicate_fix_commit": "58fe6751444a5ddb079edc97797f6afb731cea79",
+    "cross_detail_duplicate_fix_present": true,
+    "delta_publish_fix_commit": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+    "delta_publish_fix_present": true,
+    "billing_path_removed": true,
+    "published_diff_scope": ["scripts/mission72_production_merge.py cross-detail stream deduplication", "scripts/external_data_git.py SSH-clone delta publish", "tests/test_external_data_git.py regression coverage"]
+  },
+  "validation_suite_at_published_commit": {
+    "commit_sha": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+    "full_python_suite": "367 passed, 7 skipped",
+    "targeted_sync_and_idempotency_tests": "included in full suite pass",
+    "workflow_yaml_parse": "pass",
+    "report_json_validation": "pass",
+    "python_compileall": "pass",
+    "git_diff_check": "pass",
+    "secret_scan": "gitleaks unavailable; strongest available repo scan recorded as tooling limitation, no gitleaks pass claimed"
+  },
+  "original_billing_rejection": {
+    "run_id": 31546142811,
+    "job_id": 93958955805,
+    "commit_sha": "c2f1a89c48bd43309cc51c1ab79d1c4b695b5bdc",
+    "runner_requested": "ubuntu-latest",
+    "steps": 0,
+    "billable_ubuntu_ms": 0,
+    "log_archive": "empty ZIP archive",
+    "annotation": "The job was not started because recent account payments have failed or your spending limit needs to be increased.",
+    "classification": "RUNNER_CAPACITY_BILLING_REJECTION",
+    "evidence_url": "https://github.com/billyadult002/Fileball/actions/runs/31546142811"
+  },
+  "first_oracle_execution": {
+    "run_id": 31556950474,
+    "job_id": 93991211443,
+    "attempt": 1,
+    "commit_sha": "a87a4e6b2f1e69b7b6d30d7d04739ae4c719c7a2",
+    "runner": "free-vm-20260808-fireball-runtime",
+    "started_at": "2026-08-12T02:28:03Z",
+    "cancelled_at": "2026-08-12T02:59:03Z",
+    "steps_passed_through": "Capture production freshness baseline",
+    "production_mutation": false,
+    "collector_failure": {
+      "corpus_scale": "approximately 68,000 production detail files / 100,354 details",
+      "defect": "the pre-remediation freshness collector retained the complete detail corpus in memory",
+      "result": "cancelled before production mutation"
+    },
+    "evidence_url": "https://github.com/billyadult002/Fileball/actions/runs/31556950474"
+  },
+  "oracle_host_inventory": {
+    "observed_at": "2026-08-12T17:52:00Z",
+    "region": "ca-toronto-1",
+    "availability_domain": "JCCl:CA-TORONTO-1-AD-1",
+    "instances": [
+      {
+        "name": "free-vm-20260808",
+        "role_match": "registered runner host",
+        "ocid": "ocid1.instance.oc1.ca-toronto-1.an2g6ljrpe56mkycjn42k7ldrjkovs2llumrldtaw4zr3ogffxsjx65qcmga",
+        "lifecycle_state": "RUNNING",
+        "shape": "VM.Standard.E2.1.Micro",
+        "always_free_eligible_shape": true,
+        "public_ip": "40.233.126.63",
+        "private_ip": "10.0.1.164",
+        "os": "Oracle Linux Server 9.8, kernel 6.12.0-204.92.4.4.3.el9uek",
+        "boot_volume_id": "ocid1.bootvolume.oc1.ca-toronto-1.ab2g6ljr3jm2ef2pp5mc23fteqji74gvzsftpltnmgeru2ogga4fo6nzgcta",
+        "boot_volume_attachment_state": "ATTACHED",
+        "ssh_evidence": {"runner_path": true, "runner_unit": true, "runner_process": true},
+        "runner_evidence_match": true
+      },
+      {
+        "name": "fireball-ubuntu-recovery-20260808",
+        "role_match": "reachable recovery VM; not runner host",
+        "ocid": "ocid1.instance.oc1.ca-toronto-1.an2g6ljrpe56mkyckin3qkzab6f53hj5bun2mdeersy2d7dyq4a6tykq4g3q",
+        "lifecycle_state": "RUNNING",
+        "shape": "VM.Standard.E2.1.Micro",
+        "always_free_eligible_shape": true,
+        "public_ip": "192.18.150.208",
+        "private_ip": "10.0.1.167",
+        "os": "Ubuntu 24.04.4 LTS",
+        "boot_volume_id": "ocid1.bootvolume.oc1.ca-toronto-1.ab2g6ljrg3egq6ysjtevzs4nb3ft7v6czuxwh5afrdx3rjy6joctayarr5qa",
+        "boot_volume_attachment_state": "ATTACHED",
+        "ssh_evidence": {"runner_path": false, "runner_unit": false, "runner_process": false},
+        "runner_evidence_match": false
+      }
+    ],
+    "determination": "The original registered runner host still exists and is reachable at 40.233.126.63; the 192.18.150.208 host is a separate recovery VM."
+  },
+  "runner_lifecycle_evidence": {
+    "observed_at": "2026-08-12T16:39Z through 17:52Z",
+    "unit": "fireball-github-runner.service",
+    "fragment_path": "/etc/systemd/system/fireball-github-runner.service",
+    "effective_properties": {
+      "User": "github-runner",
+      "Group": "github-runner",
+      "Restart": "always",
+      "RestartUSec": "10s",
+      "MemoryMax": 734003200,
+      "MemoryMax_mib": "700 MiB",
+      "KillMode": "control-group",
+      "WorkingDirectory": "/opt/fireball-github-runner",
+      "ExecStart": "/opt/fireball-github-runner/run.sh",
+      "TasksMax": 256
+    },
+    "process_ownership": {"run.sh": "github-runner", "Runner.Listener": "github-runner", "Runner.Worker": "github-runner"},
+    "cgroup": "/system.slice/fireball-github-runner.service",
+    "journal_evidence": {
+      "post_reset_boot": "2026-08-12T15:55:42Z service started",
+      "connected_to_github": "2026-08-12T15:56:00Z",
+      "listening_for_jobs": "2026-08-12T15:56:01Z",
+      "n_restarts_since_boot": 0
+    },
+    "hardening_values_match_reported": true
+  },
+  "publish_bottleneck_and_delta_fix": {
+    "root_cause_identified": true,
+    "root_cause": "The archive-based data checkout left the Dulwich object store empty, so every publication re-packed and pushed the entire ~931 MB / ~69,000-file production corpus and exceeded the 45-minute job timeout during the publish step.",
+    "run_107": {"run_id": 31603009778, "commit": "58fe6751444a5ddb079edc97797f6afb731cea79", "result": "cancelled at the 30-minute limit during the idempotency pass"},
+    "run_109": {"run_id": 31606015469, "commit": "3c30a70add6c99546a1bb854e14092662d883e51", "result": "idempotency gate passed; cancelled at the 45-minute limit during the publish step"},
+    "host_hang": {
+      "observed_at": "2026-08-12T15:01Z",
+      "classification": "unresponsive host during full-corpus pack in publish step",
+      "evidence": "OCI CPU utilization metrics stop at 15:01; instance STOPPING could not complete gracefully; forced controlled reset issued via OCI",
+      "recovery": "host rebooted at 15:55:42Z; runner service auto-started; connected to GitHub at 15:56:00Z"
+    },
+    "delta_publish_fix": {
+      "commit": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+      "change": "replace archive-based checkout with a full SSH clone over the existing deploy key so the object graph is complete and the publish sends only changed objects",
+      "local_benchmark": "push sent deltas only (2.9s locally vs full-corpus pack)",
+      "first_production_use": "run 31618360770 publish step completed in approximately 3 minutes with the host healthy"
+    }
+  },
+  "production_publication_runs": [
+    {
+      "run_id": 31618360770,
+      "job_id": 94186681485,
+      "event": "workflow_dispatch",
+      "commit_sha": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+      "runner": "free-vm-20260808-fireball-runtime",
+      "started_at": "2026-08-12T16:35:40Z",
+      "completed_at": "2026-08-12T17:03:39Z",
+      "duration": "27m30s",
+      "all_steps": "pass",
+      "published_commit": "951edde47685133e0e284d7093d1f793cc340a0e",
+      "published_at": "2026-08-12T17:01:41Z",
+      "snapshots": {
+        "before": {"catalog": 3738, "details": 100354, "source_records": 518598, "stream_urls": 1208273, "checkpoint": "19b375d86a393a9e9116c460816de4e568910cf321eb02aa0713b723acc0807d"},
+        "after_first": {"catalog": 5415, "details": 102015, "source_records": 520556, "stream_urls": 1208484, "checkpoint": "e0b330dd274050a364e7276918dda0bc9748716567e331937dcb400e6260a302"},
+        "after_second": {"catalog": 5415, "details": 102015, "source_records": 520557, "stream_urls": 1208484, "checkpoint": "53adfb5bd01c0c8c74b4806fcba5458e7c053e8796a0d7ddc2dab714ac053277"}
+      },
+      "merge_first": {"new_canonical_media_added": 1872, "existing_canonical_media_enriched": 1014, "new_streams_added": 2113, "new_live_channels_added": 67, "duplicates_merged": 1014, "records_rejected_at_production_merge": -66},
+      "merge_second": {"new_canonical_media_added": 0, "existing_canonical_media_enriched": 2819, "new_streams_added": 2976, "new_live_channels_added": 0, "duplicates_merged": 2819, "records_rejected_at_production_merge": 1},
+      "adapter_execution": {"healthy_adapters": 16, "configured_sources": 27, "failures": 0},
+      "verify_gate": {"status": "pass", "healthy_adapter_count": 16, "duplicate_growth": {"catalog": 0, "source_link": 0, "source_record": 0, "stream_url": 0, "live_url": 0}},
+      "evidence_url": "https://github.com/billyadult002/Fileball/actions/runs/31618360770"
+    },
+    {
+      "run_id": 31620843723,
+      "job_id": 94195026311,
+      "event": "workflow_dispatch",
+      "commit_sha": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+      "runner": "free-vm-20260808-fireball-runtime",
+      "started_at": "2026-08-12T17:05:09Z",
+      "completed_at": "2026-08-12T17:32:26Z",
+      "duration": "27m17s",
+      "all_steps": "pass",
+      "published_commit": "1b16b965c15b",
+      "published_at": "2026-08-12T17:30:05Z",
+      "baseline_continuity": "run 2 baseline checkpoint 53adfb5bd01c equals run 1 published checkpoint 53adfb5bd01c",
+      "snapshots": {
+        "before": {"catalog": 5415, "details": 102015, "source_records": 520557, "stream_urls": 1208484, "checkpoint": "53adfb5bd01c0c8c74b4806fcba5458e7c053e8796a0d7ddc2dab714ac053277"},
+        "after_first": {"catalog": 5515, "details": 102115, "source_records": 520657, "stream_urls": 1208584, "checkpoint": "16c5f23f6f489a76c18d24f3f45eef391d5253d16e5fafa708c27e193c09f8af"},
+        "after_second": {"catalog": 5515, "details": 102115, "source_records": 520657, "stream_urls": 1208584, "checkpoint": "16c5f23f6f489a76c18d24f3f45eef391d5253d16e5fafa708c27e193c09f8af"}
+      },
+      "checkpoint_determinism": "first-pass and second-pass checkpoints identical (16c5f23f...) with identical counts; upstream returned consistent content",
+      "merge_first": {"new_canonical_media_added": 100, "existing_canonical_media_enriched": 2719, "new_streams_added": 2976, "new_live_channels_added": 0, "duplicates_merged": 2719, "records_rejected_at_production_merge": 1},
+      "merge_second": {"new_canonical_media_added": 0, "existing_canonical_media_enriched": 2819, "new_streams_added": 2976, "new_live_channels_added": 0, "duplicates_merged": 2819, "records_rejected_at_production_merge": 1},
+      "adapter_execution": {"healthy_adapters": 16, "configured_sources": 27, "failures": 0},
+      "verify_gate": {"status": "pass", "healthy_adapter_count": 16, "duplicate_growth": {"catalog": 0, "source_link": 0, "source_record": 0, "stream_url": 0, "live_url": 0}},
+      "evidence_url": "https://github.com/billyadult002/Fileball/actions/runs/31620843723"
+    }
+  ],
+  "scheduled_run_after_validation": {
+    "run_id": 31623432417,
+    "job_id": 94203681628,
+    "event": "schedule (cron '37 */2 * * *')",
+    "commit_sha": "ec16fbd904188bc16d50fe38894e9bfcdb6b71a8",
+    "started_at": "2026-08-12T17:51:52Z",
+    "completed_at": "2026-08-12T18:38:22Z",
+    "status": "cancelled",
+    "cancelled_during": "Repeat unchanged sync and prove idempotency",
+    "first_pass_completed": true,
+    "first_pass_snapshot": {"catalog": 5522, "details": 102122, "source_records": 520666, "stream_urls": 1208584, "checkpoint": "5baab142e2c8096d3548daa0ab72b7c59d06aa37a720418f023f84b17f52ff32"},
+    "publication_occurred": false,
+    "counted_as_validation": false,
+    "note": "Routine cadence execution reached checkout, preflight, adapter discovery, production baseline, and first sync; the 45-minute job timeout cancelled the idempotency pass before publication. It is archived as incomplete unattended-run evidence and is not used to establish the two-run correctness gates."
+  },
+  "first_vs_second_comparison": {
+    "run_1_published": "951edde47685133e0e284d7093d1f793cc340a0e",
+    "run_2_published": "1b16b965c15b",
+    "run_2_baseline_equals_run_1_published": true,
+    "stream_unexplained_duplicate_growth": 0,
+    "canonical_source_unexplained_duplicate_growth": 0,
+    "provider_source_link_unexplained_duplicate_growth": 0,
+    "catalog_item_source_unexplained_duplicate_growth": 0,
+    "repeated_projection_creation_for_unchanged_inputs": false,
+    "checkpoint_deterministic": true,
+    "observed_upstream_variation": "run 1 second pass fetched one additional raw source record (+1) that was rejected at production merge; no projection or duplicate impact"
+  },
+  "production_freshness": {
+    "status": "VERIFIED_AS_PUBLISHED_PRODUCTION",
+    "method": "persisted production checkpoints advanced with real accepted data deltas",
+    "checkpoint_chain": ["19b375d86a393a9e9116c460816de4e568910cf321eb02aa0713b723acc0807d", "53adfb5bd01c0c8c74b4806fcba5458e7c053e8796a0d7ddc2dab714ac053277", "16c5f23f6f489a76c18d24f3f45eef391d5253d16e5fafa708c27e193c09f8af"],
+    "detail_scale": {"pre_repair": 100354, "run_1_published": 102015, "run_2_published": 102115},
+    "publication_occurred": true
+  },
+  "adapter_execution_matrix": {
+    "source": "staging evidence from runs 31618360770 and 31620843723",
+    "healthy_adapter_count": 16,
+    "configured_adapter_count": 27,
+    "blocked_adapter_count": 1,
+    "failure_count": 0,
+    "runtime_policy": "native adapters only; executable runtimes remain blocked and untrusted",
+    "isolation": "healthy adapters continued while one blocked adapter remained explicit",
+    "full_rows_archived_in": "workflow artifacts external-adapter-sync-31618360770 and external-adapter-sync-31620843723",
+    "row_schema": ["adapter_id", "adapter_type", "runtime", "protocol", "fetched", "accepted", "updated", "skipped", "failed", "classified_failure_reason", "final_checkpoint"]
+  },
+  "root_access_attempt": {
+    "status": "RUNNER_PRIVILEGED_RESTART_BLOCKED",
+    "oci_run_command": {
+      "identity": "uid=988 ocarun",
+      "privileged_probe_result": "id OK; 'sudo -n id' and 'sudo -n whoami' both returned 'sudo: a password is required'",
+      "root_command_succeeded": false,
+      "conclusion": "OCI Run Command is definitively NOT root-capable; the actual privileged operation failed"
+    },
+    "ssh_administration": {
+      "identity": "uid=1000 opc",
+      "groups": ["opc", "adm", "systemd-journal"],
+      "sudo_group_membership": "absent (not in wheel or sudo)",
+      "sudoers_readability": "permission denied for opc",
+      "root_command_succeeded": false
+    },
+    "instance_metadata": {"cloud_init_user_data": "absent", "ssh_authorized_keys_metadata": "absent"},
+    "serial_console": {"temporary_rsa_connection_reached_login_prompt": true, "os_login_completed": false, "connection_deleted_after_test": true},
+    "boot_volume_recovery": {
+      "attempted": true,
+      "sequence": "full boot-volume backup created (47 GB, AVAILABLE); instance stopped cleanly; boot volume detached; attached to recovery VM as data volume (/dev/sdc, LVM ocivolume); recovery VM has no runcommand agent plugin and direct root SSH is denied by sshd; privileged shell execution on the recovery VM is blocked by the executing agent's tooling rule against sudo/doas/pkexec and the elevation helper rejects the same rule; therefore the read-write mount and minimal privilege change could not be applied",
+      "rolled_back": true,
+      "rollback_evidence": "boot volume detached from recovery VM, dynamic group rule reverted to runner-host-only, boot volume reattached to runner host, instance restarted at 13:50Z local / 17:50Z UTC, runner reconnected online",
+      "privileged_shell_channel_blocked": true,
+      "zero_cost": true
+    },
+    "no_root_claim": true,
+    "classification": "RUNNER_PRIVILEGED_RESTART_BLOCKED — privileged OS execution cannot be obtained without an external authentication action or an interactive shell that this tooling cannot provide"
+  },
+  "runner_recovery_fields": {
+    "runner_host_identified": true,
+    "root_capable_path_verified": false,
+    "runner_service_installed_or_restored": true,
+    "runner_online": true,
+    "runner_labels_verified": true,
+    "runner_restart_survival": false,
+    "zero_cost_path": true,
+    "controlled_restart_attempted": "no privileged restart was attempted because no root-capable path exists"
+  },
+  "host_memory_observations": {
+    "pre_run_1": {"available_mib": 426, "swap_free_mib": 804, "load": "0.44 0.33 0.15", "uptime": "44 min", "host": "free-vm-20260808"},
+    "during_run_1_publish": {"available_mib": 319, "load": "0.84 1.01 0.91", "note": "publish completed successfully, host responsive throughout"},
+    "during_run_2_clone_sync": {"available_mib": 225, "load": "2.21 1.23 0.98", "note": "moderate load, no swap exhaustion, no reboot"},
+    "post_recovery_restart": {"available_mib": 227, "load": "4.32 1.62 0.59", "note": "boot transient"},
+    "reboot_or_disconnect_during_validated_runs": false
+  },
+  "machine_gate": {
+    "root_cause_identified": true,
+    "billing_path_removed": true,
+    "main_branch_repair_published": true,
+    "oracle_runner_online": true,
+    "runner_host_identified": true,
+    "workflow_preflight_pass": true,
+    "streaming_freshness_collector_pass": true,
+    "cross_detail_duplicate_fix_published": true,
+    "stream_duplicate_growth_zero": true,
+    "healthy_adapter_sync": true,
+    "production_publication_success": true,
+    "production_data_freshness_verified": true,
+    "second_run_completed": true,
+    "second_run_idempotent": true,
+    "duplicate_growth_zero": true,
+    "runtime_trust_policy_preserved": true,
+    "incident_audit_archived": true,
+    "root_capable_path_verified": false,
+    "runner_restart_survival": false,
+    "runner_lifecycle_verified": false,
+    "status": "data-correctness gates all true; infrastructure lifecycle gates remain false because privileged OS execution is unavailable (RUNNER_PRIVILEGED_RESTART_BLOCKED)"
+  },
+  "evidence_urls": {
+    "billing_run": "https://github.com/billyadult002/Fileball/actions/runs/31546142811",
+    "first_oracle_run": "https://github.com/billyadult002/Fileball/actions/runs/31556950474",
+    "withhold_runs": ["https://github.com/billyadult002/Fileball/actions/runs/31563951837", "https://github.com/billyadult002/Fileball/actions/runs/31576513718", "https://github.com/billyadult002/Fileball/actions/runs/31584259471"],
+    "timeout_runs": ["https://github.com/billyadult002/Fileball/actions/runs/31603009778", "https://github.com/billyadult002/Fileball/actions/runs/31606015469"],
+    "successful_run_1": "https://github.com/billyadult002/Fileball/actions/runs/31618360770",
+    "successful_run_2": "https://github.com/billyadult002/Fileball/actions/runs/31620843723",
+    "scheduled_run": "https://github.com/billyadult002/Fileball/actions/runs/31623432417",
+    "runner_api": "https://api.github.com/repos/billyadult002/Fileball/actions/runners"
+  }
+}
