@@ -1,6 +1,6 @@
 {
   "mission": "7.3",
-  "generated_at": "2026-09-06T16:28:27Z",
+  "generated_at": "2026-09-06T20:12:35Z",
   "frozen_source_ids": [
     "addon-catalogs-plus",
     "addon-dcbi",
@@ -20,22 +20,22 @@
     "gh72-api-zuid",
     "gh72-live-scenery"
   ],
-  "raw_records": 2874,
+  "raw_records": 2872,
   "canonical_staging_records": 689,
   "vod_staging_records": 552,
   "live_staging_records": 137,
-  "new_canonical_media_added": 27,
-  "existing_canonical_media_enriched": 2775,
+  "new_canonical_media_added": 139,
+  "existing_canonical_media_enriched": 2661,
   "new_episodes_added": 0,
-  "new_streams_added": 6009,
+  "new_streams_added": 5665,
   "new_live_channels_added": 0,
-  "duplicates_merged": 2775,
+  "duplicates_merged": 2661,
   "records_rejected_at_production_merge": 2,
   "classification": {
-    "Other": 340,
-    "TV Series": 1203,
-    "Anime": 114,
-    "AV": 11,
+    "Other": 358,
+    "TV Series": 1178,
+    "Anime": 106,
+    "AV": 25,
     "Movies": 877
   },
   "live_classification": {
@@ -58,8 +58,8 @@
       "source_id": "gh72-api-xingba",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 0,
-      "merged_records": 100,
+      "canonical_additions": 100,
+      "merged_records": 0,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -67,9 +67,9 @@
       "source_id": "gh72-api-suoni",
       "raw_records": 20,
       "normalized_records": 20,
-      "canonical_additions": 2,
-      "merged_records": 18,
-      "streams_added": 109,
+      "canonical_additions": 19,
+      "merged_records": 1,
+      "streams_added": 10,
       "final_status": "healthy"
     },
     {
@@ -85,9 +85,9 @@
       "source_id": "gh72-api-jszy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 0,
-      "merged_records": 100,
-      "streams_added": 308,
+      "canonical_additions": 1,
+      "merged_records": 99,
+      "streams_added": 336,
       "final_status": "healthy"
     },
     {
@@ -96,7 +96,7 @@
       "normalized_records": 20,
       "canonical_additions": 0,
       "merged_records": 20,
-      "streams_added": 290,
+      "streams_added": 16,
       "final_status": "healthy"
     },
     {
@@ -132,7 +132,7 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 562,
+      "streams_added": 563,
       "final_status": "healthy"
     },
     {
@@ -148,17 +148,17 @@
       "source_id": "addon-streaming-catalogs",
       "raw_records": 919,
       "normalized_records": 918,
-      "canonical_additions": 20,
-      "merged_records": 898,
+      "canonical_additions": 0,
+      "merged_records": 918,
       "streams_added": 0,
       "final_status": "healthy"
     },
     {
       "source_id": "addon-global-catalogs",
-      "raw_records": 819,
-      "normalized_records": 819,
-      "canonical_additions": 1,
-      "merged_records": 818,
+      "raw_records": 817,
+      "normalized_records": 817,
+      "canonical_additions": 9,
+      "merged_records": 808,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -175,8 +175,8 @@
       "source_id": "addon-thepiratebay",
       "raw_records": 100,
       "normalized_records": 99,
-      "canonical_additions": 4,
-      "merged_records": 95,
+      "canonical_additions": 10,
+      "merged_records": 89,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -197,14 +197,14 @@
       "merged_records": 0,
       "streams_added": 0,
       "final_status": "stale_lkg",
-      "error": "ConnectError: All connection attempts failed"
+      "error": "RuntimeError: redirect rejected by source allowlist policy"
     }
   ],
   "failures": {
-    "addon-catalogs-plus": "ConnectError: All connection attempts failed"
+    "addon-catalogs-plus": "RuntimeError: redirect rejected by source allowlist policy"
   },
   "production_catalog_before": 3481,
-  "production_catalog_after": 7322,
+  "production_catalog_after": 7461,
   "rejection_policy_preserved": true,
   "publication_gate": "qualified",
   "rollback": {
