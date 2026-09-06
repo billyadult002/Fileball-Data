@@ -1,7 +1,13 @@
 {
   "mission": "7.3",
-  "generated_at": "2026-08-02T19:54:21Z",
+  "generated_at": "2026-09-06T13:53:06Z",
   "frozen_source_ids": [
+    "addon-catalogs-plus",
+    "addon-dcbi",
+    "addon-global-catalogs",
+    "addon-streaming-catalogs",
+    "addon-thepiratebay",
+    "addon-tmdb",
     "gh72-api-360zy",
     "gh72-api-dbzy",
     "gh72-api-ikun",
@@ -12,30 +18,29 @@
     "gh72-api-xingba",
     "gh72-api-xxibao",
     "gh72-api-zuid",
-    "gh72-live-baishi",
     "gh72-live-scenery"
   ],
-  "raw_records": 897,
+  "raw_records": 2875,
   "canonical_staging_records": 689,
   "vod_staging_records": 552,
   "live_staging_records": 137,
-  "new_canonical_media_added": 468,
-  "existing_canonical_media_enriched": 429,
+  "new_canonical_media_added": 2243,
+  "existing_canonical_media_enriched": 628,
   "new_episodes_added": 0,
-  "new_streams_added": 3757,
-  "new_live_channels_added": 137,
-  "duplicates_merged": 429,
-  "records_rejected_at_production_merge": -137,
+  "new_streams_added": 4857,
+  "new_live_channels_added": 67,
+  "duplicates_merged": 628,
+  "records_rejected_at_production_merge": -66,
   "classification": {
-    "Other": 254,
-    "TV Series": 317,
-    "Movies": 62,
-    "Anime": 115,
-    "AV": 8,
-    "Documentary": 4
+    "Other": 310,
+    "TV Series": 1249,
+    "Anime": 96,
+    "Documentary": 3,
+    "AV": 11,
+    "Movies": 877
   },
   "live_classification": {
-    "TV channels": 137,
+    "TV channels": 67,
     "scenery channels": 0,
     "regional channels": 0,
     "other live": 0
@@ -45,9 +50,9 @@
       "source_id": "gh72-api-dbzy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 94,
-      "merged_records": 6,
-      "streams_added": 49,
+      "canonical_additions": 88,
+      "merged_records": 12,
+      "streams_added": 130,
       "final_status": "healthy"
     },
     {
@@ -63,54 +68,54 @@
       "source_id": "gh72-api-suoni",
       "raw_records": 20,
       "normalized_records": 20,
-      "canonical_additions": 19,
-      "merged_records": 1,
-      "streams_added": 0,
+      "canonical_additions": 6,
+      "merged_records": 14,
+      "streams_added": 102,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-ikun",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 29,
-      "merged_records": 71,
-      "streams_added": 773,
+      "canonical_additions": 23,
+      "merged_records": 77,
+      "streams_added": 894,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-jszy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 15,
-      "merged_records": 85,
-      "streams_added": 286,
+      "canonical_additions": 74,
+      "merged_records": 26,
+      "streams_added": 315,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-zuid",
       "raw_records": 20,
       "normalized_records": 20,
-      "canonical_additions": 7,
-      "merged_records": 13,
-      "streams_added": 17,
+      "canonical_additions": 2,
+      "merged_records": 18,
+      "streams_added": 308,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-360zy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 3,
-      "merged_records": 97,
-      "streams_added": 593,
+      "canonical_additions": 52,
+      "merged_records": 48,
+      "streams_added": 1097,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-maotai",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 40,
-      "merged_records": 60,
-      "streams_added": 1329,
+      "canonical_additions": 32,
+      "merged_records": 68,
+      "streams_added": 1345,
       "final_status": "healthy"
     },
     {
@@ -126,13 +131,13 @@
       "source_id": "gh72-api-mdzy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 4,
-      "merged_records": 96,
-      "streams_added": 573,
+      "canonical_additions": 40,
+      "merged_records": 60,
+      "streams_added": 599,
       "final_status": "healthy"
     },
     {
-      "source_id": "gh72-live-baishi",
+      "source_id": "gh72-live-scenery",
       "raw_records": 67,
       "normalized_records": 67,
       "canonical_additions": 67,
@@ -141,17 +146,63 @@
       "final_status": "healthy"
     },
     {
-      "source_id": "gh72-live-scenery",
-      "raw_records": 70,
-      "normalized_records": 70,
-      "canonical_additions": 70,
+      "source_id": "addon-streaming-catalogs",
+      "raw_records": 920,
+      "normalized_records": 920,
+      "canonical_additions": 699,
+      "merged_records": 221,
+      "streams_added": 0,
+      "final_status": "healthy"
+    },
+    {
+      "source_id": "addon-global-catalogs",
+      "raw_records": 819,
+      "normalized_records": 819,
+      "canonical_additions": 778,
+      "merged_records": 41,
+      "streams_added": 0,
+      "final_status": "healthy"
+    },
+    {
+      "source_id": "addon-tmdb",
+      "raw_records": 106,
+      "normalized_records": 106,
+      "canonical_additions": 97,
+      "merged_records": 9,
+      "streams_added": 0,
+      "final_status": "healthy"
+    },
+    {
+      "source_id": "addon-thepiratebay",
+      "raw_records": 100,
+      "normalized_records": 99,
+      "canonical_additions": 99,
       "merged_records": 0,
-      "streams_added": 70,
+      "streams_added": 0,
+      "final_status": "healthy"
+    },
+    {
+      "source_id": "addon-dcbi",
+      "raw_records": 100,
+      "normalized_records": 100,
+      "canonical_additions": 66,
+      "merged_records": 34,
+      "streams_added": 0,
+      "final_status": "healthy"
+    },
+    {
+      "source_id": "addon-catalogs-plus",
+      "raw_records": 0,
+      "normalized_records": 0,
+      "canonical_additions": 0,
+      "merged_records": 0,
+      "streams_added": 0,
       "final_status": "healthy"
     }
   ],
+  "failures": {},
   "production_catalog_before": 3481,
-  "production_catalog_after": 3812,
+  "production_catalog_after": 7249,
   "rejection_policy_preserved": true,
   "publication_gate": "qualified",
   "rollback": {
@@ -161,6 +212,5 @@
     "previous_catalog_contract": "2.1",
     "previous_pages_deployment": "not available from configured GitHub/Cloudflare evidence",
     "rollback_verified": false
-  },
-  "failures": {}
+  }
 }
