@@ -1,6 +1,6 @@
 {
   "mission": "7.3",
-  "generated_at": "2026-09-07T14:27:16Z",
+  "generated_at": "2026-09-07T17:34:15Z",
   "frozen_source_ids": [
     "addon-catalogs-plus",
     "addon-dcbi",
@@ -24,20 +24,20 @@
   "canonical_staging_records": 689,
   "vod_staging_records": 552,
   "live_staging_records": 137,
-  "new_canonical_media_added": 69,
-  "existing_canonical_media_enriched": 2723,
+  "new_canonical_media_added": 155,
+  "existing_canonical_media_enriched": 2638,
   "new_episodes_added": 0,
-  "new_streams_added": 10308,
+  "new_streams_added": 10502,
   "new_live_channels_added": 0,
-  "duplicates_merged": 2723,
-  "records_rejected_at_production_merge": 2,
+  "duplicates_merged": 2638,
+  "records_rejected_at_production_merge": 1,
   "classification": {
-    "Other": 275,
-    "TV Series": 1253,
-    "Anime": 102,
-    "AV": 27,
-    "Documentary": 5,
-    "Movies": 867
+    "Other": 286,
+    "Movies": 868,
+    "TV Series": 1239,
+    "Anime": 113,
+    "AV": 21,
+    "Documentary": 6
   },
   "live_classification": {
     "TV channels": 0,
@@ -50,17 +50,17 @@
       "source_id": "gh72-api-dbzy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 25,
-      "merged_records": 75,
-      "streams_added": 65,
+      "canonical_additions": 8,
+      "merged_records": 92,
+      "streams_added": 70,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-xingba",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 0,
-      "merged_records": 100,
+      "canonical_additions": 100,
+      "merged_records": 0,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -68,36 +68,36 @@
       "source_id": "gh72-api-suoni",
       "raw_records": 20,
       "normalized_records": 20,
-      "canonical_additions": 7,
-      "merged_records": 13,
-      "streams_added": 278,
+      "canonical_additions": 17,
+      "merged_records": 3,
+      "streams_added": 4,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-ikun",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 5,
-      "merged_records": 95,
-      "streams_added": 2135,
+      "canonical_additions": 0,
+      "merged_records": 100,
+      "streams_added": 2142,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-jszy",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 4,
-      "merged_records": 96,
-      "streams_added": 2433,
+      "canonical_additions": 2,
+      "merged_records": 98,
+      "streams_added": 2511,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-zuid",
       "raw_records": 20,
       "normalized_records": 20,
-      "canonical_additions": 0,
-      "merged_records": 20,
-      "streams_added": 335,
+      "canonical_additions": 1,
+      "merged_records": 19,
+      "streams_added": 544,
       "final_status": "healthy"
     },
     {
@@ -106,16 +106,16 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 2810,
+      "streams_added": 2863,
       "final_status": "healthy"
     },
     {
       "source_id": "gh72-api-maotai",
       "raw_records": 100,
       "normalized_records": 100,
-      "canonical_additions": 13,
-      "merged_records": 87,
-      "streams_added": 1525,
+      "canonical_additions": 2,
+      "merged_records": 98,
+      "streams_added": 1552,
       "final_status": "healthy"
     },
     {
@@ -133,7 +133,7 @@
       "normalized_records": 100,
       "canonical_additions": 0,
       "merged_records": 100,
-      "streams_added": 727,
+      "streams_added": 816,
       "final_status": "healthy"
     },
     {
@@ -147,19 +147,19 @@
     },
     {
       "source_id": "addon-streaming-catalogs",
-      "raw_records": 918,
-      "normalized_records": 917,
-      "canonical_additions": 12,
-      "merged_records": 905,
+      "raw_records": 920,
+      "normalized_records": 920,
+      "canonical_additions": 10,
+      "merged_records": 910,
       "streams_added": 0,
       "final_status": "healthy"
     },
     {
       "source_id": "addon-global-catalogs",
-      "raw_records": 811,
-      "normalized_records": 811,
-      "canonical_additions": 1,
-      "merged_records": 810,
+      "raw_records": 809,
+      "normalized_records": 809,
+      "canonical_additions": 5,
+      "merged_records": 804,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -176,8 +176,8 @@
       "source_id": "addon-thepiratebay",
       "raw_records": 100,
       "normalized_records": 99,
-      "canonical_additions": 2,
-      "merged_records": 97,
+      "canonical_additions": 10,
+      "merged_records": 89,
       "streams_added": 0,
       "final_status": "healthy"
     },
@@ -205,7 +205,7 @@
     "addon-catalogs-plus": "RuntimeError: redirect rejected by source allowlist policy"
   },
   "production_catalog_before": 3481,
-  "production_catalog_after": 7999,
+  "production_catalog_after": 8154,
   "rejection_policy_preserved": true,
   "publication_gate": "qualified",
   "rollback": {
