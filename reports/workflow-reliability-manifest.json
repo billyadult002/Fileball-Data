@@ -369,6 +369,23 @@
       "status": "BLOCKED_EXTERNAL",
       "rationale": "Browser installation is compatible with Linux but capacity validation is separate from production automation closure.",
       "concurrency_group": null
+    },
+    {
+      "file": "freshness-monitor.yml",
+      "name": "Fireball freshness monitor",
+      "production_critical": false,
+      "category": "freshness-observation-and-recovery",
+      "expected_runner": "github-hosted",
+      "safe_to_migrate": false,
+      "production_mutation": false,
+      "required_secrets": [],
+      "downstream_systems": [
+        "GitHub Actions",
+        "Fileball-Data readback"
+      ],
+      "status": "FIXED",
+      "rationale": "Observe freshness continuously and hand recovery only to the canonical update-data workflow; never publish directly.",
+      "concurrency_group": "fireball-freshness-monitor"
     }
   ],
   "serialization_policy": {

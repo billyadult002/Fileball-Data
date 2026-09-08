@@ -11,54 +11,68 @@
   "actors": [],
   "directors": [],
   "genres": [],
-  "updated_at": "2026-08-12 18:03:30",
+  "updated_at": "2026-09-08 18:06:23",
   "source_records": [
-    {
-      "source_id": "imported-360zy-com-source",
-      "source_vod_id": "100039",
-      "source_name": "🍚玛丽┃秒播",
-      "metadata": {}
-    },
-    {
-      "source_id": "imported-ikunzyapi-com-source",
-      "source_vod_id": "69160",
-      "source_name": "🥣爱坤┃影视",
-      "metadata": {}
-    },
     {
       "source_id": "regular-360",
       "source_vod_id": "100039",
       "source_name": "360|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 100039,
+        "vod_name": "深夜怪谈会6",
+        "type_name": "日韩综艺",
+        "vod_year": "2026",
+        "vod_area": "韩国",
+        "vod_lang": "韩语",
+        "vod_pic": "https://www.imgzy360.com:7788/upload/vod/20260624-1/efaaab3c16f5270aa0bff1c9bb293004.jpg"
+      }
     },
     {
       "source_id": "regular-ikun",
       "source_vod_id": "69160",
       "source_name": "ikun|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 69160,
+        "vod_name": "深夜怪谈会6",
+        "type_name": "日韩综艺",
+        "vod_year": "2026",
+        "vod_area": "韩国",
+        "vod_lang": "韩语",
+        "vod_pic": "https://ynztctv.com/upload/vod/20260624-1/3bcdf4d879151d8c008dbaadd99890fa.png"
+      }
     },
     {
       "source_id": "regular-墨斗",
       "source_vod_id": "85060",
       "source_name": "墨斗|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 85060,
+        "vod_name": "深夜怪谈会6",
+        "type_name": "日韩综艺",
+        "vod_year": "2026",
+        "vod_area": "韩国",
+        "vod_lang": "韩语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260624-1/1d78e95705444f5ebf40001e6858540f.png"
+      }
     },
     {
       "source_id": "regular-魔都",
       "source_vod_id": "85060",
       "source_name": "魔都|点播",
-      "metadata": {}
-    },
-    {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "137663",
-      "source_name": "gh72-api-maotai",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 85060,
+        "vod_name": "深夜怪谈会6",
+        "type_name": "日韩综艺",
+        "vod_year": "2026",
+        "vod_area": "韩国",
+        "vod_lang": "韩语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260624-1/1d78e95705444f5ebf40001e6858540f.png"
+      }
     }
   ],
   "episodes": [
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0001-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0001-6b86b273",
       "name": "第01集",
       "season": null,
       "episode": 1,
@@ -72,13 +86,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -89,13 +106,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -106,35 +126,21 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260624/z8R8CwYO/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0002-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0002-d4735e3a",
       "name": "第02集",
       "season": null,
       "episode": 2,
@@ -148,13 +154,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -165,13 +174,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -182,35 +194,21 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260630/y1ySPPSJ/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0003-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0003-4e074085",
       "name": "第03集",
       "season": null,
       "episode": 3,
@@ -224,13 +222,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -241,13 +242,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -258,35 +262,21 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd03.uvjtih.cn/20260707/Q5sV6gZ0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0004-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0004-4b227777",
       "name": "第04集",
       "season": null,
       "episode": 4,
@@ -300,13 +290,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -317,13 +310,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -334,35 +330,21 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260716/NNkq4XXn/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0005-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0005-ef2d127d",
       "name": "第05集",
       "season": null,
       "episode": 5,
@@ -376,13 +358,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -393,13 +378,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -410,35 +398,21 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260723/4fir9VEr/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0006-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0006-e7f6c011",
       "name": "第06集",
       "season": null,
       "episode": 6,
@@ -452,13 +426,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -469,13 +446,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -486,35 +466,21 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260729/b5GxEdB9/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0007-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0007-7902699b",
       "name": "第07集",
       "season": null,
       "episode": 7,
@@ -528,13 +494,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 01:06:20",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-360",
@@ -545,13 +514,16 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:51:36",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         },
         {
           "source_id": "regular-ikun",
@@ -562,39 +534,358 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-04 23:38:42",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
-        {
-          "source_id": "gh72-api-maotai",
-          "source_name": "gh72-api-maotai",
-          "provider": "mtm3u8",
-          "url": "https://vodcnd16.uvjtih.cn/20260805/LbEItcSU/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 19:45:56",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
         }
       ]
     },
     {
-      "id": "tv-1983fe3420ef2e5dfe28-e0008-e3b0c442",
+      "id": "tv-1983fe3420ef2e5dfe28-e0008-2c624232",
       "name": "第08集",
       "season": null,
       "episode": 8,
-      "streams": []
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260811/RFZffs02/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260811/of84uqEI/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260811/mGkJAWrf/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        }
+      ]
+    },
+    {
+      "id": "tv-1983fe3420ef2e5dfe28-e0009-19581e27",
+      "name": "第09集",
+      "season": null,
+      "episode": 9,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260819/XkWBMn41/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260818/0iq3wPP2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260818/avEQJBny/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        }
+      ]
+    },
+    {
+      "id": "tv-1983fe3420ef2e5dfe28-e0010-4a44dc15",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260825/Tlh1JgPX/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260825/K70GoUUG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260825/1UALFO2F/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        }
+      ]
+    },
+    {
+      "id": "tv-1983fe3420ef2e5dfe28-e0011-4fc82b26",
+      "name": "第11集",
+      "season": null,
+      "episode": 11,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260901/niODxkkA/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260901/N7EwBkh7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260901/WGxCvHPP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        }
+      ]
+    },
+    {
+      "id": "tv-1983fe3420ef2e5dfe28-e0012-6b51d431",
+      "name": "第12集",
+      "season": null,
+      "episode": 12,
+      "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260908/XoyGkf2Y/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 18:06:23",
+          "source_item_id": "85060",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260908/HzyiRHDW/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:52:23",
+          "source_item_id": "100039",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/Zslm9d0v/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 17:41:06",
+          "source_item_id": "69160",
+          "canonical_source_id": "",
+          "source_title": "深夜怪谈会6",
+          "original_title": "shenyeguaitanhui6",
+          "localized_titles": {
+            "zh": "深夜怪谈会6",
+            "en": "shenyeguaitanhui6"
+          },
+          "language": "韩语"
+        }
+      ]
     }
   ],
   "content_mode": "vod",
@@ -635,14 +926,74 @@
   "title_records": [
     {
       "value": "深夜怪谈会6",
+      "source_title": "深夜怪谈会6",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-360",
+      "source_item_id": "100039",
       "official": true
     },
     {
       "value": "shenyeguaitanhui6",
+      "source_title": "深夜怪谈会6",
       "language": "en",
       "source": "source_api",
+      "source_id": "regular-360",
+      "source_item_id": "100039",
+      "official": true
+    },
+    {
+      "value": "深夜怪谈会6",
+      "source_title": "深夜怪谈会6",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "85060",
+      "official": true
+    },
+    {
+      "value": "shenyeguaitanhui6",
+      "source_title": "深夜怪谈会6",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "85060",
+      "official": true
+    },
+    {
+      "value": "深夜怪谈会6",
+      "source_title": "深夜怪谈会6",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-ikun",
+      "source_item_id": "69160",
+      "official": true
+    },
+    {
+      "value": "shenyeguaitanhui6",
+      "source_title": "深夜怪谈会6",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-ikun",
+      "source_item_id": "69160",
+      "official": true
+    },
+    {
+      "value": "深夜怪谈会6",
+      "source_title": "深夜怪谈会6",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "85060",
+      "official": true
+    },
+    {
+      "value": "shenyeguaitanhui6",
+      "source_title": "深夜怪谈会6",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "85060",
       "official": true
     }
   ],

@@ -24,32 +24,22 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-07 15:57:31",
+  "updated_at": "2026-09-06 20:55:15",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_vod_id": "70115",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "105142",
-      "source_name": "gh72-api-360zy"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "89223",
-      "source_name": "gh72-api-mdzy"
-    },
-    {
-      "source_id": "gh72-api-dbzy",
-      "source_vod_id": "148363",
-      "source_name": "gh72-api-dbzy"
-    },
-    {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "148699",
-      "source_name": "gh72-api-maotai"
+      "source_name": "ikun|点播",
+      "metadata": {
+        "vod_id": 70115,
+        "vod_name": "未来2026",
+        "type_name": "剧情片",
+        "vod_year": "2026",
+        "vod_area": "日本",
+        "vod_lang": "日语",
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260906-1/5265a4fcd242af842fc78c956adb9efb.webp",
+        "vod_class": "剧情"
+      }
     }
   ],
   "episodes": [
@@ -60,8 +50,8 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260906/rg9UkjzL/index.m3u8",
           "protocol": "hls",
@@ -132,7 +122,7 @@
       "source_title": "未来2026",
       "language": "zh",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70115",
       "official": true
     },
@@ -141,17 +131,10 @@
       "source_title": "未来2026",
       "language": "en",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70115",
       "official": true
     }
   ],
-  "media_type": "movie",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-dbzy",
-    "gh72-api-ikun",
-    "gh72-api-maotai",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "movie"
 }

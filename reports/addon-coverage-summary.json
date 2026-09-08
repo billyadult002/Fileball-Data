@@ -1,0 +1,798 @@
+{
+  "baseline_source": "prior persisted addon coverage reports",
+  "families": {
+    "kodi": {
+      "accounted_items": 396,
+      "after_coverage": 0.328283,
+      "before_coverage": 0.3283,
+      "compatibility_inventory": {
+        "all_resources_classified": true,
+        "capabilities": {
+          "browser_executed": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "encrypted_player_endpoint": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "javascript_rendered": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "json_api": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "playlist_generator": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "redirect_chain": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "rss_xml": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "static_html": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "tokenized_api": {
+            "supported": 0,
+            "total": 2,
+            "unsupported": 2
+          }
+        },
+        "runtime_requirements": {
+          "java_jar": 2
+        },
+        "schema_version": "universal-capability-inventory-1",
+        "total_resources": 2
+      },
+      "coverage": 0.328283,
+      "coverage_delta": -1.7e-05,
+      "declared_items": 396,
+      "drop_classifications": {
+        "adapter_transformation": 0,
+        "generation_visibility": 0,
+        "invalid_metadata": 0,
+        "missing_stream_source": 0,
+        "other": 0,
+        "parser_failure": 0,
+        "provider_filtering": 0,
+        "unsupported_runtime": 266
+      },
+      "dropped_items": 266,
+      "evidence_scope": "persisted sanitized provider audit; no executable addon runtime was run",
+      "family": "kodi",
+      "generated_at": "2026-09-08T12:19:28.081600+00:00",
+      "loss_distribution_ranked": [
+        {
+          "category": "unsupported_runtime",
+          "contribution_percentage": 100.0,
+          "count": 266
+        },
+        {
+          "category": "adapter_transformation",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "generation_visibility",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "invalid_metadata",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "missing_stream_source",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "other",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "parser_failure",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "provider_filtering",
+          "contribution_percentage": 0.0,
+          "count": 0
+        }
+      ],
+      "loss_percentage": 67.1717,
+      "provider_count": 2,
+      "provider_ids": [
+        "src-1786186859240-8gy4sdq",
+        "src-1786194800524-h9ne9xk"
+      ],
+      "published_or_reused_items": 130,
+      "remediation_status": "not_proven",
+      "root_cause_categories": [
+        "unsupported_runtime",
+        "parser_failure",
+        "invalid_metadata",
+        "missing_stream_source",
+        "provider_filtering",
+        "generation_visibility",
+        "adapter_transformation",
+        "other"
+      ],
+      "schema_version": "addon-coverage-2",
+      "source": "reports/universal-addon-provider-regression-audit.json",
+      "status": "CLASSIFIED_LOSS"
+    },
+    "link": {
+      "accounted_items": 11051,
+      "after_coverage": 0.3844,
+      "before_coverage": 0.3844,
+      "compatibility_inventory": {
+        "all_resources_classified": true,
+        "capabilities": {
+          "browser_executed": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "encrypted_player_endpoint": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "javascript_rendered": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "json_api": {
+            "supported": 1,
+            "total": 1,
+            "unsupported": 0
+          },
+          "playlist_generator": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "redirect_chain": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "rss_xml": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "static_html": {
+            "supported": 0,
+            "total": 55,
+            "unsupported": 55
+          },
+          "tokenized_api": {
+            "supported": 0,
+            "total": 61,
+            "unsupported": 61
+          }
+        },
+        "runtime_requirements": {
+          "java_jar": 61,
+          "native": 56
+        },
+        "schema_version": "universal-capability-inventory-1",
+        "total_resources": 117
+      },
+      "coverage": 0.3844,
+      "coverage_delta": 0.0,
+      "declared_items": 11051,
+      "drop_classifications": {
+        "adapter_transformation": 0,
+        "generation_visibility": 0,
+        "invalid_metadata": 0,
+        "missing_stream_source": 0,
+        "other": 0,
+        "parser_failure": 0,
+        "provider_filtering": 0,
+        "unsupported_runtime": 6803
+      },
+      "dropped_items": 6803,
+      "evidence_scope": "persisted sanitized provider audit; no executable addon runtime was run",
+      "family": "link",
+      "generated_at": "2026-09-08T12:19:28.081600+00:00",
+      "loss_distribution_ranked": [
+        {
+          "category": "unsupported_runtime",
+          "contribution_percentage": 100.0,
+          "count": 6803
+        },
+        {
+          "category": "adapter_transformation",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "generation_visibility",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "invalid_metadata",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "missing_stream_source",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "other",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "parser_failure",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "provider_filtering",
+          "contribution_percentage": 0.0,
+          "count": 0
+        }
+      ],
+      "loss_percentage": 61.56,
+      "provider_count": 117,
+      "provider_ids": [
+        "stremio-1785901164186-85y5aph",
+        "stremio-1785901342633-ba29uh9",
+        "stremio-1785901377560-5wcg7wc",
+        "stremio-1785901555716-8wwbgni",
+        "stremio-1785901623266-yrv4e5g",
+        "stremio-1785901646900-q7obiue",
+        "stremio-1785901677386-kv6i2zw",
+        "stremio-1785901696863-26urr4j",
+        "stremio-1785901749790-cwuhr8p",
+        "stremio-1785901772985-ig2he3y",
+        "stremio-1785901791105-1vrnpk4",
+        "stremio-1785901808428-zo42o5o",
+        "stremio-1785901898650-orxu3vj",
+        "stremio-1785901919441-yryyaqg",
+        "stremio-1785901941453-fdl5aob",
+        "stremio-1785902029092-3a73prj",
+        "stremio-1785902061642-qtc3qxy",
+        "stremio-1785902110794-b2efw47",
+        "stremio-1785902144070-dvoei9e",
+        "stremio-1785902192144-3gwuow4",
+        "stremio-1785902219524-4blnj3c",
+        "stremio-1785902236534-i9z95c0",
+        "stremio-1785902285592-vz8q91i",
+        "stremio-1785902561633-8e7ol0m",
+        "stremio-1785902585967-uk2cbxo",
+        "stremio-1785902769526-5gdwzme",
+        "stremio-1785902802401-fzv1z4o",
+        "stremio-1785902838689-8l7n6xf",
+        "stremio-1785902953185-4z1qlq1",
+        "stremio-1785903134645-o0i7x5x",
+        "stremio-1785903183080-143ea8u",
+        "stremio-1785903250813-91a1pqw",
+        "stremio-1785903309957-5eewf6v",
+        "stremio-1785903370843-u15lo3s",
+        "stremio-1785903398431-xlnkfp8",
+        "stremio-1785903495496-y41ssep",
+        "stremio-1785903631751-0zte999",
+        "stremio-1785903734658-9uujl0n",
+        "stremio-1785927315168-0apqflc",
+        "stremio-1785927338346-ohxyq3d",
+        "stremio-1785927405422-zohz1lr",
+        "stremio-1785927411375-plwyri7",
+        "stremio-1785927482795-l2a9bm3",
+        "tvbox-m3u-1785927489739-7wpenjo",
+        "stremio-1785927503947-6grjb3b",
+        "tvbox-m3u-1785927592005-cs78fit",
+        "stremio-1785928949191-3jf3d7a",
+        "src-1785941341232-1ox8aa7",
+        "src-1785941365198-mwyl1zs",
+        "src-1785941390938-m73ay8s",
+        "src-1785941410752-1n3rhqs",
+        "src-1785941472299-md4agr4",
+        "src-1785941490699-3o1n2ti",
+        "src-1785941513351-jowkuub",
+        "src-1785941557268-9364q95",
+        "src-1785941574095-1zw5gzw",
+        "src-1785984602344-r7h4iex",
+        "src-1785985215547-irq0tcv",
+        "src-1785985259741-j2l8g6m",
+        "src-1785985425218-ti1ybuw",
+        "src-1785985501052-e3l4zyj",
+        "src-1785985523291-bxgfhdh",
+        "src-1786151525218-rphuroj",
+        "src-1786151603917-tu7ipey",
+        "src-1786151683487-l48be04",
+        "src-1786151693044-7yaju7f",
+        "src-1786151766725-g2dcgms",
+        "src-1786151834694-dskgy1l",
+        "src-1786151846323-myakomk",
+        "src-1786152042628-qsrykeb",
+        "src-1786153881178-bl8h62s",
+        "src-1786153900806-gorsk7o",
+        "src-1786154046185-0xfabfl",
+        "src-1786154199490-mwgo6m8",
+        "src-1786154849024-e98c8lr",
+        "src-1786154864575-ugomno9",
+        "src-1786154899412-maunf2u",
+        "src-1786154939362-r8g5du4",
+        "src-1786154978217-xj7ys28",
+        "src-1786155013043-td4iriy",
+        "src-1786155061279-s3mr78n",
+        "src-1786155632055-adbczsf",
+        "src-1786155705147-dvrvfu1",
+        "src-1786155918806-0kbul2z",
+        "src-1786155935606-c799ab7",
+        "src-1786155956303-o7f6jct",
+        "src-1786155970948-yztukn2",
+        "src-1786156002051-j0lsh4s",
+        "src-1786158907107-jiegfr8",
+        "src-1786158955582-mplec3y",
+        "src-1786158998052-sn05vkp",
+        "src-1786159376399-8othrd3",
+        "src-1786159410084-jo3cmgl",
+        "src-1786159424652-khpyc5y",
+        "src-1786160331607-7ogezgs",
+        "src-1786160474561-u2ph63b",
+        "src-1786160508033-a4i93yc",
+        "src-1786160519865-0oaixju",
+        "src-1786160535929-oodjbr3",
+        "src-1786160544629-az8v5cr",
+        "src-1786160564839-fmybl01",
+        "src-1786160577178-3i1ijri",
+        "src-1786160585200-65mkufg",
+        "src-1786160869400-md19g3v",
+        "src-1786160894009-rxb70xu",
+        "src-1786161095178-har0kzy",
+        "src-1786161170976-pkaa78l",
+        "src-1786161217073-kpazvmm",
+        "src-1786161227102-1zuvwte",
+        "src-1786161236041-9857sh3",
+        "src-1786161270565-top7wrf",
+        "src-1786161532834-0nxsq5k",
+        "src-1786162616409-duzvp1x",
+        "src-1786184104058-aclhwxu",
+        "src-1786186859240-8gy4sdq",
+        "src-1786194800524-h9ne9xk",
+        "src-1786206904981-lw6yziv"
+      ],
+      "published_or_reused_items": 4248,
+      "remediation_status": "not_proven",
+      "root_cause_categories": [
+        "unsupported_runtime",
+        "parser_failure",
+        "invalid_metadata",
+        "missing_stream_source",
+        "provider_filtering",
+        "generation_visibility",
+        "adapter_transformation",
+        "other"
+      ],
+      "schema_version": "addon-coverage-2",
+      "source": "reports/universal-addon-provider-regression-audit.json",
+      "status": "CLASSIFIED_LOSS"
+    },
+    "stremio": {
+      "accounted_items": 5920,
+      "after_coverage": 0.48277,
+      "before_coverage": 0.4828,
+      "compatibility_inventory": {
+        "all_resources_classified": true,
+        "capabilities": {
+          "browser_executed": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "encrypted_player_endpoint": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "javascript_rendered": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "json_api": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "playlist_generator": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "redirect_chain": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "rss_xml": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "static_html": {
+            "supported": 0,
+            "total": 38,
+            "unsupported": 38
+          },
+          "tokenized_api": {
+            "supported": 0,
+            "total": 7,
+            "unsupported": 7
+          }
+        },
+        "runtime_requirements": {
+          "java_jar": 7,
+          "native": 38
+        },
+        "schema_version": "universal-capability-inventory-1",
+        "total_resources": 45
+      },
+      "coverage": 0.48277,
+      "coverage_delta": -3e-05,
+      "declared_items": 5920,
+      "drop_classifications": {
+        "adapter_transformation": 0,
+        "generation_visibility": 0,
+        "invalid_metadata": 0,
+        "missing_stream_source": 0,
+        "other": 0,
+        "parser_failure": 0,
+        "provider_filtering": 0,
+        "unsupported_runtime": 3062
+      },
+      "dropped_items": 3062,
+      "evidence_scope": "persisted sanitized provider audit; no executable addon runtime was run",
+      "family": "stremio",
+      "generated_at": "2026-09-08T12:19:28.081600+00:00",
+      "loss_distribution_ranked": [
+        {
+          "category": "unsupported_runtime",
+          "contribution_percentage": 100.0,
+          "count": 3062
+        },
+        {
+          "category": "adapter_transformation",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "generation_visibility",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "invalid_metadata",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "missing_stream_source",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "other",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "parser_failure",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "provider_filtering",
+          "contribution_percentage": 0.0,
+          "count": 0
+        }
+      ],
+      "loss_percentage": 51.723,
+      "provider_count": 45,
+      "provider_ids": [
+        "stremio-1785901164186-85y5aph",
+        "stremio-1785901342633-ba29uh9",
+        "stremio-1785901377560-5wcg7wc",
+        "stremio-1785901555716-8wwbgni",
+        "stremio-1785901623266-yrv4e5g",
+        "stremio-1785901646900-q7obiue",
+        "stremio-1785901677386-kv6i2zw",
+        "stremio-1785901696863-26urr4j",
+        "stremio-1785901749790-cwuhr8p",
+        "stremio-1785901772985-ig2he3y",
+        "stremio-1785901791105-1vrnpk4",
+        "stremio-1785901808428-zo42o5o",
+        "stremio-1785901898650-orxu3vj",
+        "stremio-1785901919441-yryyaqg",
+        "stremio-1785901941453-fdl5aob",
+        "stremio-1785902029092-3a73prj",
+        "stremio-1785902061642-qtc3qxy",
+        "stremio-1785902110794-b2efw47",
+        "stremio-1785902144070-dvoei9e",
+        "stremio-1785902192144-3gwuow4",
+        "stremio-1785902219524-4blnj3c",
+        "stremio-1785902236534-i9z95c0",
+        "stremio-1785902285592-vz8q91i",
+        "stremio-1785902561633-8e7ol0m",
+        "stremio-1785902585967-uk2cbxo",
+        "stremio-1785902769526-5gdwzme",
+        "stremio-1785902802401-fzv1z4o",
+        "stremio-1785902838689-8l7n6xf",
+        "stremio-1785902953185-4z1qlq1",
+        "stremio-1785903134645-o0i7x5x",
+        "stremio-1785903183080-143ea8u",
+        "stremio-1785903250813-91a1pqw",
+        "stremio-1785903309957-5eewf6v",
+        "stremio-1785903370843-u15lo3s",
+        "stremio-1785903398431-xlnkfp8",
+        "stremio-1785903495496-y41ssep",
+        "stremio-1785903631751-0zte999",
+        "stremio-1785903734658-9uujl0n",
+        "stremio-1785927315168-0apqflc",
+        "stremio-1785927338346-ohxyq3d",
+        "stremio-1785927405422-zohz1lr",
+        "stremio-1785927411375-plwyri7",
+        "stremio-1785927482795-l2a9bm3",
+        "stremio-1785927503947-6grjb3b",
+        "stremio-1785928949191-3jf3d7a"
+      ],
+      "published_or_reused_items": 2858,
+      "remediation_status": "not_proven",
+      "root_cause_categories": [
+        "unsupported_runtime",
+        "parser_failure",
+        "invalid_metadata",
+        "missing_stream_source",
+        "provider_filtering",
+        "generation_visibility",
+        "adapter_transformation",
+        "other"
+      ],
+      "schema_version": "addon-coverage-2",
+      "source": "reports/universal-addon-provider-regression-audit.json",
+      "status": "CLASSIFIED_LOSS"
+    },
+    "tvbox": {
+      "accounted_items": 4734,
+      "after_coverage": 0.265948,
+      "before_coverage": 0.2659,
+      "compatibility_inventory": {
+        "all_resources_classified": true,
+        "capabilities": {
+          "browser_executed": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "encrypted_player_endpoint": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "javascript_rendered": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "json_api": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "playlist_generator": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "redirect_chain": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "rss_xml": {
+            "supported": 0,
+            "total": 0,
+            "unsupported": 0
+          },
+          "static_html": {
+            "supported": 0,
+            "total": 17,
+            "unsupported": 17
+          },
+          "tokenized_api": {
+            "supported": 0,
+            "total": 52,
+            "unsupported": 52
+          }
+        },
+        "runtime_requirements": {
+          "java_jar": 52,
+          "native": 17
+        },
+        "schema_version": "universal-capability-inventory-1",
+        "total_resources": 69
+      },
+      "coverage": 0.265948,
+      "coverage_delta": 4.8e-05,
+      "declared_items": 4734,
+      "drop_classifications": {
+        "adapter_transformation": 0,
+        "generation_visibility": 0,
+        "invalid_metadata": 0,
+        "missing_stream_source": 0,
+        "other": 0,
+        "parser_failure": 0,
+        "provider_filtering": 0,
+        "unsupported_runtime": 3475
+      },
+      "dropped_items": 3475,
+      "evidence_scope": "persisted sanitized provider audit; no executable addon runtime was run",
+      "family": "tvbox",
+      "generated_at": "2026-09-08T12:19:28.081600+00:00",
+      "loss_distribution_ranked": [
+        {
+          "category": "unsupported_runtime",
+          "contribution_percentage": 100.0,
+          "count": 3475
+        },
+        {
+          "category": "adapter_transformation",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "generation_visibility",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "invalid_metadata",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "missing_stream_source",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "other",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "parser_failure",
+          "contribution_percentage": 0.0,
+          "count": 0
+        },
+        {
+          "category": "provider_filtering",
+          "contribution_percentage": 0.0,
+          "count": 0
+        }
+      ],
+      "loss_percentage": 73.4052,
+      "provider_count": 69,
+      "provider_ids": [
+        "tvbox-m3u-1785927489739-7wpenjo",
+        "tvbox-m3u-1785927592005-cs78fit",
+        "src-1785941341232-1ox8aa7",
+        "src-1785941365198-mwyl1zs",
+        "src-1785941390938-m73ay8s",
+        "src-1785941410752-1n3rhqs",
+        "src-1785941472299-md4agr4",
+        "src-1785941490699-3o1n2ti",
+        "src-1785941513351-jowkuub",
+        "src-1785941557268-9364q95",
+        "src-1785941574095-1zw5gzw",
+        "src-1785984602344-r7h4iex",
+        "src-1785985215547-irq0tcv",
+        "src-1785985259741-j2l8g6m",
+        "src-1785985425218-ti1ybuw",
+        "src-1785985501052-e3l4zyj",
+        "src-1785985523291-bxgfhdh",
+        "src-1786151525218-rphuroj",
+        "src-1786151603917-tu7ipey",
+        "src-1786151683487-l48be04",
+        "src-1786151693044-7yaju7f",
+        "src-1786151766725-g2dcgms",
+        "src-1786151834694-dskgy1l",
+        "src-1786151846323-myakomk",
+        "src-1786152042628-qsrykeb",
+        "src-1786153881178-bl8h62s",
+        "src-1786153900806-gorsk7o",
+        "src-1786154046185-0xfabfl",
+        "src-1786154199490-mwgo6m8",
+        "src-1786154849024-e98c8lr",
+        "src-1786154864575-ugomno9",
+        "src-1786154899412-maunf2u",
+        "src-1786154939362-r8g5du4",
+        "src-1786154978217-xj7ys28",
+        "src-1786155013043-td4iriy",
+        "src-1786155061279-s3mr78n",
+        "src-1786155632055-adbczsf",
+        "src-1786155705147-dvrvfu1",
+        "src-1786155918806-0kbul2z",
+        "src-1786155935606-c799ab7",
+        "src-1786155956303-o7f6jct",
+        "src-1786155970948-yztukn2",
+        "src-1786156002051-j0lsh4s",
+        "src-1786158907107-jiegfr8",
+        "src-1786158955582-mplec3y",
+        "src-1786158998052-sn05vkp",
+        "src-1786159376399-8othrd3",
+        "src-1786159410084-jo3cmgl",
+        "src-1786159424652-khpyc5y",
+        "src-1786160331607-7ogezgs",
+        "src-1786160474561-u2ph63b",
+        "src-1786160508033-a4i93yc",
+        "src-1786160519865-0oaixju",
+        "src-1786160535929-oodjbr3",
+        "src-1786160544629-az8v5cr",
+        "src-1786160564839-fmybl01",
+        "src-1786160577178-3i1ijri",
+        "src-1786160585200-65mkufg",
+        "src-1786160869400-md19g3v",
+        "src-1786160894009-rxb70xu",
+        "src-1786161095178-har0kzy",
+        "src-1786161170976-pkaa78l",
+        "src-1786161217073-kpazvmm",
+        "src-1786161227102-1zuvwte",
+        "src-1786161236041-9857sh3",
+        "src-1786161270565-top7wrf",
+        "src-1786161532834-0nxsq5k",
+        "src-1786162616409-duzvp1x",
+        "src-1786184104058-aclhwxu"
+      ],
+      "published_or_reused_items": 1259,
+      "remediation_status": "measured_improvement",
+      "root_cause_categories": [
+        "unsupported_runtime",
+        "parser_failure",
+        "invalid_metadata",
+        "missing_stream_source",
+        "provider_filtering",
+        "generation_visibility",
+        "adapter_transformation",
+        "other"
+      ],
+      "schema_version": "addon-coverage-2",
+      "source": "reports/universal-addon-provider-regression-audit.json",
+      "status": "CLASSIFIED_LOSS"
+    }
+  },
+  "generated_at": "2026-09-08T12:19:28.081600+00:00",
+  "overall_status": "WITHHOLD",
+  "schema_version": "addon-coverage-summary-2",
+  "source": "reports/universal-addon-provider-regression-audit.json",
+  "threshold": 0.9
+}

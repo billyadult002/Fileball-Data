@@ -1,18 +1,28 @@
 {
   "schema_version": "year-data-quality-1",
-  "generated_at": "2026-09-05T13:32:45.131619+00:00",
+  "generated_at": "2026-09-08T12:16:51.827491+00:00",
   "current_year": 2026,
   "valid_range": {
     "min": 1888,
     "max_released": 2026
   },
-  "future_year_count": 39,
+  "future_year_count": 41,
   "invalid_year_count": 0,
-  "null_year_count": 6506,
+  "null_year_count": 7870,
   "oldest_year": 1900,
   "newest_released_year": 2026,
   "upcoming_count": 0,
   "suspect_future_records": [
+    {
+      "id": "movie-ffcbeaf2db5742b42549",
+      "title": "热血部落",
+      "media_type": "movie",
+      "source_year": 2030,
+      "source_ids": [
+        "regular-u酷"
+      ],
+      "classification": "suspect_no_release_date_or_upcoming_evidence"
+    },
     {
       "id": "movie-2ccf837f12b019cb1517",
       "title": "异林：秘境寻踪",
@@ -489,6 +499,16 @@
       "source_year": 2027,
       "source_ids": [
         "regular-非凡"
+      ],
+      "classification": "suspect_no_release_date_or_upcoming_evidence"
+    },
+    {
+      "id": "other-2d63a604bacaae5a5a71",
+      "title": "卧龙",
+      "media_type": "other",
+      "source_year": 2028,
+      "source_ids": [
+        "regular-u酷"
       ],
       "classification": "suspect_no_release_date_or_upcoming_evidence"
     },

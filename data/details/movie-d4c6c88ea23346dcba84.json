@@ -6,22 +6,22 @@
   "year": 2026,
   "category": "动作片",
   "section": "regular",
-  "poster": "https://snzypic.vip/upload/vod/20260906-1/577ff8b52444301b2b19e493be7cb7ab.jpg",
+  "poster": "https://img.feifeiimg.vip/upload/vod/20260906-1/5a42db275a595c7cf88148da568f056c.jpg",
   "overview": "军事基地逃出了一个神秘的危险存在，被佣军追捕，威胁到了一名此前曾是军人、如今因为某些原因住在拖车里的母亲。为保护所爱之人，她不得不使出特殊技能。",
   "actors": [
-    "丹·史蒂文斯",
     "阿德里娅·阿霍纳",
+    "丹·史蒂文斯",
+    "亚历克斯·佩雷拉",
+    "德鲁·斯塔基",
     "丽贝卡·豪尔",
+    "雷金纳德·维尔约翰逊",
+    "迈克尔·比恩",
+    "艾里克·维尔海姆",
     "雅各布·西皮奥",
     "萨拉·明妮奇",
-    "迈克尔·比恩",
-    "德鲁·斯塔基",
-    "艾里克·维尔海姆",
-    "雷金纳德·维尔约翰逊",
-    "史蒂文·谢尔比",
-    "亚历克斯·佩雷拉",
     "凯尔·奥克利·泽佩尼克",
-    "Jesse·La·Flair",
+    "Jesse La Flair",
+    "史蒂文·谢尔比",
     "马利克·沃森",
     "克里斯蒂安·卡洛韦"
   ],
@@ -33,20 +33,74 @@
     "thriller",
     "horror"
   ],
-  "updated_at": "2026-09-06 20:24:03",
+  "updated_at": "2026-09-06 14:25:11",
   "source_records": [
     {
-      "source_id": "gh72-api-suoni",
-      "source_vod_id": "154415",
-      "source_name": "gh72-api-suoni"
-    },
-    {
-      "source_id": "gh72-api-zuid",
-      "source_vod_id": "130143",
-      "source_name": "gh72-api-zuid"
+      "source_id": "regular-非凡",
+      "source_vod_id": "99254",
+      "source_name": "非凡|点播",
+      "metadata": {
+        "vod_id": 99254,
+        "vod_name": "猛攻",
+        "type_name": "动作片",
+        "vod_year": "2026",
+        "vod_area": "美国",
+        "vod_lang": "英语",
+        "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260906-1/5a42db275a595c7cf88148da568f056c.jpg",
+        "vod_class": "动作,惊悚,恐怖"
+      }
     }
   ],
-  "episodes": [],
+  "episodes": [
+    {
+      "id": "movie-d4c6c88ea23346dcba84-main",
+      "name": "主片",
+      "season": null,
+      "episode": null,
+      "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-play9.com/20260906/49194_1e4be822/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-06 14:25:11",
+          "source_item_id": "99254",
+          "canonical_source_id": "",
+          "source_title": "猛攻",
+          "original_title": "menggong",
+          "localized_titles": {
+            "zh": "猛攻",
+            "en": "menggong"
+          },
+          "language": "英语"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-play9.com/share/1e4be82281a54a839c8849d1e7440d32",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-06 14:25:11",
+          "source_item_id": "99254",
+          "canonical_source_id": "",
+          "source_title": "猛攻",
+          "original_title": "menggong",
+          "localized_titles": {
+            "zh": "猛攻",
+            "en": "menggong"
+          },
+          "language": "英语"
+        }
+      ]
+    }
+  ],
   "content_mode": "vod",
   "title_zh": "猛攻",
   "title_en": "menggong",
@@ -104,8 +158,8 @@
       "source_title": "猛攻",
       "language": "zh",
       "source": "source_api",
-      "source_id": "gh72-api-suoni",
-      "source_item_id": "154415",
+      "source_id": "regular-非凡",
+      "source_item_id": "99254",
       "official": true
     },
     {
@@ -113,14 +167,10 @@
       "source_title": "猛攻",
       "language": "en",
       "source": "source_api",
-      "source_id": "gh72-api-suoni",
-      "source_item_id": "154415",
+      "source_id": "regular-非凡",
+      "source_item_id": "99254",
       "official": true
     }
   ],
-  "media_type": "movie",
-  "source_ids": [
-    "gh72-api-suoni",
-    "gh72-api-zuid"
-  ]
+  "media_type": "movie"
 }

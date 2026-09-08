@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "mission": "7.4",
+  "cycle_id": "mission74-34132488973",
+  "generated_at": "2026-09-07T14:29:10Z",
+  "publication_commit": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+  "registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0",
+  "verification": {
+    "status": "verified",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "retryable_failure",
+        "recorded_at": "2026-09-07T14:29:07Z",
+        "failure_class": "propagation",
+        "detail": "endpoint data commit mismatch: c448a5ec66e3228f38c43a79319acd673ff8d789"
+      },
+      {
+        "attempt": 2,
+        "status": "retryable_failure",
+        "recorded_at": "2026-09-07T14:29:08Z",
+        "failure_class": "propagation",
+        "detail": "canonical and direct endpoint identity mismatch"
+      },
+      {
+        "attempt": 3,
+        "status": "verified",
+        "recorded_at": "2026-09-07T14:29:10Z",
+        "identity": {
+          "data_commit": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+          "registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0",
+          "worker_version": "1.1.0",
+          "catalog_contract": "2.5"
+        },
+        "canonical": {
+          "status": 200,
+          "cache_control": "no-store",
+          "fireball_cache": "BYPASS"
+        },
+        "direct": {
+          "status": 200,
+          "cache_control": "no-store",
+          "fireball_cache": "BYPASS"
+        },
+        "health": {
+          "canonical_status": 200,
+          "direct_status": 200
+        }
+      }
+    ],
+    "identity": {
+      "data_commit": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+      "registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0",
+      "worker_version": "1.1.0",
+      "catalog_contract": "2.5"
+    }
+  },
+  "report_sha256": "d88f813cf3b8d4027f61deb3bb1cf5aff1c4bc2890722cc16cfaefd10cfabebf"
+}

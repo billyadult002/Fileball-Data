@@ -13,22 +13,22 @@
   "genres": [
     "reality"
   ],
-  "updated_at": "2026-09-06 20:42:02",
+  "updated_at": "2026-09-06 20:22:56",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_vod_id": "70113",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "105140",
-      "source_name": "gh72-api-360zy"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "89221",
-      "source_name": "gh72-api-mdzy"
+      "source_name": "ikun|点播",
+      "metadata": {
+        "vod_id": 70113,
+        "vod_name": "潮创新生力",
+        "type_name": "大陆综艺",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260906-1/4424f755be359d23b44a2aac4ee0ad58.jpg",
+        "vod_class": "真人秀"
+      }
     }
   ],
   "episodes": [
@@ -39,8 +39,8 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260906/x4KcRgxo/index.m3u8",
           "protocol": "hls",
@@ -108,7 +108,7 @@
       "source_title": "潮创新生力",
       "language": "zh",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70113",
       "official": true
     },
@@ -117,15 +117,10 @@
       "source_title": "潮创新生力",
       "language": "en",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70113",
       "official": true
     }
   ],
-  "media_type": "other",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-ikun",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "other"
 }

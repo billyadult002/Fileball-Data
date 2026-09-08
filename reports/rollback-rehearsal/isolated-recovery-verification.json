@@ -1,0 +1,72 @@
+{
+  "authority": "separate isolated rehearsal process; no production Worker, route, or data modified; only the published data pins and the real Worker build are exercised locally",
+  "checker": "isolated-rollback-checker",
+  "checks": {
+    "catalog_fingerprint_matches_previous": true,
+    "deterministic_recovery_proven": true,
+    "previous_generation_identified": true,
+    "previous_worker_generation_identified": true,
+    "readback_verified": true,
+    "restored_generation_matches_previous": true,
+    "rollback_verified": true,
+    "source_mapping_fingerprint_matches_previous": true
+  },
+  "current_generation": {
+    "catalog_contract": "2.5",
+    "data_commit": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+    "registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0"
+  },
+  "fingerprints": {
+    "current": {
+      "catalog_contract": "2.5",
+      "catalog_fingerprint": "e4de2c87350754948000eb8b899273b522853b3ef3b9caa6eae6172684dde1ae",
+      "catalog_record_count": 8170,
+      "data_commit": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+      "manifest_registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0",
+      "source_mapping_fingerprint": "04bc01003d872961cd4d30d0538a58b0d9487704252f5699e0a83e39e8b3a1b2",
+      "source_mapping_record_count": 18027
+    },
+    "previous": {
+      "catalog_contract": "2.5",
+      "catalog_fingerprint": "cecaafea074ecebcc86c3f68d0933d2697fb063f989e53dcb07440f675754ae5",
+      "catalog_record_count": 7999,
+      "data_commit": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+      "manifest_registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0",
+      "source_mapping_fingerprint": "965d1e1ccc279d36299335e9b7c06fe0da69e4374c66af854b6675c040889fb7",
+      "source_mapping_record_count": 17771
+    }
+  },
+  "generated_at": "2026-09-07T20:51:04Z",
+  "local_rehearsal": {
+    "current_pin_worker": {
+      "catalog_surface_status": 200,
+      "http_status": 200,
+      "identity_data_commit": "6b5d41baa058b7a598b9c688e98388a6e1153cdc"
+    },
+    "previous_pin_worker": {
+      "catalog_surface_status": 200,
+      "http_status": 200,
+      "identity_data_commit": "207aa8096d289814ab074cd11ef14c718f7a8eb5"
+    }
+  },
+  "observation_mode": "isolated_recovery_checker",
+  "previous_generation": {
+    "catalog_contract": "2.5",
+    "data_commit": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+    "registry_hash": "f39379249ce243dc8888b19a4a7c56c2c9227cda0b89d3e96f54899167915bb0"
+  },
+  "privacy": {
+    "cookies_present": false,
+    "credentials_present": false,
+    "media_bytes_present": false,
+    "payloads_retained": false,
+    "playback_references_present": false,
+    "privacy_safe": true,
+    "sessions_present": false,
+    "signed_links_present": false,
+    "tokens_present": false
+  },
+  "recovery_mechanism": "production Worker deployment is data-pinned: rollback re-pins DATA_COMMIT to the previous accepted publication commit and redeploys through the authoritative federation workflow; the isolated rehearsal proves the pin switch deterministically reverts the runtime generation identity and restores the current one",
+  "rollback_ready": true,
+  "schema_version": "fileball-visibility-rollback-rehearsal-1"
+}

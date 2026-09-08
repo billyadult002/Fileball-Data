@@ -1,0 +1,119 @@
+{
+  "active_production_generation": null,
+  "active_runs": [],
+  "adversarial_audit": {
+    "audited_declarations": 6803,
+    "production_eligible_declarations": 0,
+    "reclassified_runtime_executed_to_runtime_routed": 1456,
+    "synthetic_output_rejected": 0,
+    "verdict": "HOLD_NO_GENUINE_LANGUAGE_RUNTIME_EXECUTION",
+    "worker_is_language_runtime": false
+  },
+  "canonical_sha": "cd33bc4cc",
+  "completed_gates": [
+    "adversarial_evidence_audit",
+    "capability_router",
+    "contract",
+    "native_adapter_unit_tests",
+    "owned_slice_validation",
+    "root_cause_generator_correction",
+    "sandbox_primitive",
+    "static_link_parser_unit_tests"
+  ],
+  "family_coverage": {
+    "kodi": 0.0,
+    "link": 0.0,
+    "stremio": 0.0,
+    "tvbox": 0.0
+  },
+  "family_total": {
+    "kodi": 266,
+    "link": 497,
+    "stremio": 3062,
+    "tvbox": 2978
+  },
+  "genuine_js_engine": {
+    "available_verified": true,
+    "engine_version": "v22.22.3",
+    "verdict": "genuine_javascript_engine_verified"
+  },
+  "implementation_gaps": 6803,
+  "individually_proven_external_blockers": 0,
+  "mapped_declarations": 6803,
+  "mapping_conflicts": 0,
+  "mission": "Fileball Authoritative Source Recovery, Real-Source Replay, and 90 Percent Production Closure",
+  "mission_identity": "K2.3_IN_PROGRESS_ONE_DURABLE_UNIVERSAL_PARSING_AND_PRODUCTION_CLOSURE_MISSION",
+  "next_action": "Acquire current-source or independently verifiable adapter/runtime output for each declaration; do not dispatch synchronization or claim production parity until evidence-stage audit passes.",
+  "observed_declarations": 0,
+  "owned_files": [
+    "updater/extensions/stremio.py",
+    "updater/extensions/kodi.py",
+    "updater/extensions/tvbox.py",
+    "updater/universal_link_parser.py",
+    "updater/source_observation.py",
+    "updater/sandbox_runtime.py",
+    "updater/universal_capabilities.py",
+    "updater/universal_resource_contract.py",
+    "scripts/addon_coverage.py",
+    "scripts/universal_runtime_inventory.py",
+    "tests/test_stremio_adapter.py",
+    "tests/test_kodi_metadata.py",
+    "tests/test_tvbox_merge.py",
+    "tests/test_universal_link_parser.py",
+    "tests/test_source_observation.py",
+    "tests/test_sandbox_runtime.py",
+    "tests/test_universal_capabilities.py",
+    "tests/test_universal_resource_contract.py",
+    "tests/test_universal_runtime_inventory.py",
+    "tests/test_universal_parsing_checkpoint.py",
+    "reports/universal-parsing-runtime.json",
+    "updater/real_source_recovery.py",
+    "scripts/real_source_recovery.py",
+    "tests/test_real_source_recovery.py",
+    "reports/declaration-replay-ledger.json",
+    "reports/residual-matrix.json",
+    "updater/sandbox_worker.py",
+    "scripts/adversarial_parity_audit.py",
+    "tests/test_adversarial_parity_audit.py",
+    "reports/adversarial-parity-audit.json"
+  ],
+  "prohibited_actions": [
+    "modify_worker_validation_test",
+    "manual_fileball_data_publication",
+    "third_party_runtime_in_authoritative_updater",
+    "denominator_reduction",
+    "production_sync_without_replay_evidence"
+  ],
+  "recovered_declarations": 0,
+  "schema_version": "universal-parsing-runtime-1",
+  "slice": "authorized-drpy-rule-vetting",
+  "source_reference_unrecoverable": 0,
+  "superceded_claims": {
+    "346149f47": "claimed 1456 declarations as runtime_executed via quickjs_drpy_worker_v1; worker is a python placeholder with no JS/DRPY engine - FALSE",
+    "ac5bd50d8": "claimed all 6803 declarations recovered and 100% family coverage from synthetic/placeholder output - FALSE"
+  },
+  "total_declarations": 6803,
+  "unexplained_declarations": 0,
+  "unresolved_gates": [
+    "90_percent_family_coverage",
+    "api_acceptance",
+    "authoritative_sync",
+    "browser_acceptance",
+    "cold_path_acceptance",
+    "convergence",
+    "current_source_replay",
+    "genuine_runtime_implementation",
+    "independent_checker",
+    "production_readback",
+    "publication",
+    "push",
+    "runtime_artifact_review"
+  ],
+  "updated_at": "2026-08-30T15:28:16.573074+00:00",
+  "validation": {
+    "canonical_merge": "passed",
+    "diff_check": "passed",
+    "focused_tests": "37 passed",
+    "python_compilation": "passed"
+  }
+}

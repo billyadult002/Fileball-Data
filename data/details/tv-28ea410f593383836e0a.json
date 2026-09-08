@@ -7,13 +7,14 @@
   "category": "欧美剧",
   "section": "regular",
   "poster": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260906-1/3b42733730f6370bfcf570c90733a36f.webp",
-  "overview": "讲述在1782年的伦敦，法国和英国战争期间，Lucie Manette（米伦·麦克 饰）的人生因为一则从巴黎传来的消息而天翻地覆：她那被认为死了20年的父亲，其实还活着。捎来消息的人——理想主义的法国...",
+  "overview": "讲述在1782年的伦敦，法国和英国战争期间，Lucie Manette（米伦·麦克 饰）的人生因为一则从巴黎传来的消息而天翻地覆：她那被认为死了20年的父亲，其实还活着。捎来消息的人——理想主义的法国移民Charles Darnay（弗朗索瓦·西维尔 饰），被逮捕并诉以叛国的罪名。Lucie求助于聪颖但古怪的年轻律师Sydney Carton（基特·哈灵顿 饰），想要还Danny自由，让他可以带自己去巴黎寻找父亲。这也引发了一场复杂的三角恋，“两个男人为得到她的爱而斗争，内心矛盾的Lucie要做出选择，然而这两个外表十分相似，精神却南辕北辙的男人也无法逃脱对方。他们发现自己出生入死、密不可分，一起经历欢喜、悲剧、婚姻和谋杀。”",
   "actors": [
     "弗朗索瓦·西维尔",
     "罗珊妮·杜兰",
     "基特·哈灵顿",
     "伊恩·皮里",
-    "Mirren Mack"
+    "Mirren Mack",
+    "米伦·麦克"
   ],
   "directors": [
     "许泰丰"
@@ -21,37 +22,37 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-07 21:59:41",
+  "updated_at": "2026-09-06 23:08:45",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_vod_id": "70111",
-      "source_name": "gh72-api-ikun"
+      "source_name": "ikun|点播",
+      "metadata": {
+        "vod_id": 70111,
+        "vod_name": "双城记2026",
+        "type_name": "欧美剧",
+        "vod_year": "2026",
+        "vod_area": "英国",
+        "vod_lang": "英语",
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260906-1/3b42733730f6370bfcf570c90733a36f.webp",
+        "vod_class": "剧情"
+      }
     },
     {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "105137",
-      "source_name": "gh72-api-360zy"
-    },
-    {
-      "source_id": "gh72-api-maotai",
-      "source_vod_id": "148528",
-      "source_name": "gh72-api-maotai"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "89218",
-      "source_name": "gh72-api-mdzy"
-    },
-    {
-      "source_id": "gh72-api-jszy",
-      "source_vod_id": "151606",
-      "source_name": "gh72-api-jszy"
-    },
-    {
-      "source_id": "gh72-api-dbzy",
-      "source_vod_id": "148191",
-      "source_name": "gh72-api-dbzy"
+      "source_id": "regular-非凡",
+      "source_vod_id": "99262",
+      "source_name": "非凡|点播",
+      "metadata": {
+        "vod_id": 99262,
+        "vod_name": "双城记2026",
+        "type_name": "欧美剧",
+        "vod_year": "2026",
+        "vod_area": "英国",
+        "vod_lang": "英语",
+        "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260906-1/77ee937f3450c7e1d7c3bc21060a23ab.jpg",
+        "vod_class": "剧情"
+      }
     }
   ],
   "episodes": [
@@ -62,8 +63,28 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260906/40380_734386ab/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-06 23:08:45",
+          "source_item_id": "99262",
+          "canonical_source_id": "",
+          "source_title": "双城记2026",
+          "original_title": "shuangchengji2026",
+          "localized_titles": {
+            "zh": "双城记2026",
+            "en": "shuangchengji2026"
+          },
+          "language": "英语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260906/83lcjGbr/index.m3u8",
           "protocol": "hls",
@@ -80,22 +101,28 @@
             "en": "shuangchengji2026"
           },
           "language": "英语"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/734386ab2d776fbe409de96e548abe42",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-06 23:08:45",
+          "source_item_id": "99262",
+          "canonical_source_id": "",
+          "source_title": "双城记2026",
+          "original_title": "shuangchengji2026",
+          "localized_titles": {
+            "zh": "双城记2026",
+            "en": "shuangchengji2026"
+          },
+          "language": "英语"
         }
       ]
-    },
-    {
-      "id": "tv-28ea410f593383836e0a-item-0001-9abc744d",
-      "name": "正片",
-      "season": null,
-      "episode": null,
-      "streams": []
-    },
-    {
-      "id": "tv-28ea410f593383836e0a-e0001-6b86b273",
-      "name": "第1集",
-      "season": null,
-      "episode": 1,
-      "streams": []
     }
   ],
   "content_mode": "vod",
@@ -145,7 +172,7 @@
       "source_title": "双城记2026",
       "language": "zh",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70111",
       "official": true
     },
@@ -154,18 +181,28 @@
       "source_title": "双城记2026",
       "language": "en",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70111",
+      "official": true
+    },
+    {
+      "value": "双城记2026",
+      "source_title": "双城记2026",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99262",
+      "official": true
+    },
+    {
+      "value": "shuangchengji2026",
+      "source_title": "双城记2026",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99262",
       "official": true
     }
   ],
-  "media_type": "tv",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-dbzy",
-    "gh72-api-ikun",
-    "gh72-api-jszy",
-    "gh72-api-maotai",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "tv"
 }

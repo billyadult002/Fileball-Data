@@ -1,0 +1,23 @@
+{
+  "audited_declarations": 6803,
+  "candidate_recovery_accepted": false,
+  "declarations_per_invocation": {},
+  "denominator_conserved": true,
+  "digest_mismatches": 0,
+  "dispositions": {
+    "implementation_gap": 6803
+  },
+  "generated_at": "2026-08-30T14:55:16.269044+00:00",
+  "inherited_success_entries": 0,
+  "invocations_reported": 0,
+  "invocations_with_shared_output_digest": 0,
+  "invocations_with_uniform_elapsed_ms": 0,
+  "production_closure_verdict": "HOLD_NO_GENUINE_LANGUAGE_RUNTIME_EXECUTION",
+  "production_eligible_declarations": 0,
+  "reclassified_runtime_executed_to_runtime_routed": 0,
+  "required_next": "Implement a real isolated JavaScript/DRPY engine (version- and hash-pinned, independently security-reviewed) or recover these declarations via declarative/static parsing; then re-run evidence staging before any production publication.",
+  "schema_version": "adversarial-parity-audit-3",
+  "worker_file": "updater/sandbox_worker.py",
+  "worker_is_language_runtime": false,
+  "worker_verdict": "python placeholder emitting synthetic index-derived resources; no JS engine, no DRPY semantics, no network"
+}

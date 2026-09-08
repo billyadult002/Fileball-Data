@@ -13,69 +13,72 @@
     "张国喜"
   ],
   "genres": [],
-  "updated_at": "2026-08-05 12:08:44",
+  "updated_at": "2026-09-08 13:02:17",
   "source_records": [
-    {
-      "source_id": "imported-360zy-com-source",
-      "source_vod_id": "102042",
-      "source_name": "🍚玛丽┃秒播",
-      "metadata": {}
-    },
-    {
-      "source_id": "imported-ikunzyapi-com-source",
-      "source_vod_id": "69585",
-      "source_name": "🥣爱坤┃影视",
-      "metadata": {}
-    },
     {
       "source_id": "regular-360",
       "source_vod_id": "102042",
       "source_name": "360|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 102042,
+        "vod_name": "三嫁公主",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://www.imgzy360.com:7788/upload/vod/20260722-1/d114c522a4b0b5b8e05a2b63691018d2.jpg"
+      }
     },
     {
       "source_id": "regular-ikun",
       "source_vod_id": "69585",
       "source_name": "ikun|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 69585,
+        "vod_name": "三嫁公主",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://ynztctv.com/upload/vod/20260722-1/6b3ebbc01f2af718f64987a96c4a04e5.jpg"
+      }
     },
     {
       "source_id": "regular-墨斗",
       "source_vod_id": "86644",
       "source_name": "墨斗|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 86644,
+        "vod_name": "三嫁公主",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260722-1/baaf0b3ca86da3b11647b613f777826c.jpg"
+      }
     },
     {
       "source_id": "regular-魔都",
       "source_vod_id": "86644",
       "source_name": "魔都|点播",
-      "metadata": {}
+      "metadata": {
+        "vod_id": 86644,
+        "vod_name": "三嫁公主",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260722-1/baaf0b3ca86da3b11647b613f777826c.jpg"
+      }
     }
   ],
   "episodes": [
     {
-      "id": "anime-9603e716f1975e42a962-e0001-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0001-6b86b273",
       "name": "第01集",
       "season": null,
       "episode": 1,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260722/5UWhZd0G/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -85,13 +88,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260722/5UWhZd0G/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -102,39 +128,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0002-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0002-d4735e3a",
       "name": "第02集",
       "season": null,
       "episode": 2,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260722/x54NfBPi/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -144,13 +156,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260722/x54NfBPi/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -161,39 +196,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0003-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0003-4e074085",
       "name": "第03集",
       "season": null,
       "episode": 3,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260722/1oD6FzuE/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -203,13 +224,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260722/1oD6FzuE/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -220,39 +264,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0004-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0004-4b227777",
       "name": "第04集",
       "season": null,
       "episode": 4,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260722/h8MVG7vf/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -262,13 +292,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260722/h8MVG7vf/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -279,39 +332,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0005-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0005-ef2d127d",
       "name": "第05集",
       "season": null,
       "episode": 5,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260728/4G7wLA9T/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -321,13 +360,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260728/4G7wLA9T/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -338,39 +400,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0006-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0006-e7f6c011",
       "name": "第06集",
       "season": null,
       "episode": 6,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260729/s0CdWZZl/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -380,13 +428,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260729/s0CdWZZl/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -397,39 +468,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0007-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0007-7902699b",
       "name": "第07集",
       "season": null,
       "episode": 7,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260804/pnlSU1Tb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -439,13 +496,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260804/pnlSU1Tb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -456,39 +536,25 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     },
     {
-      "id": "anime-9603e716f1975e42a962-e0008-e3b0c442",
+      "id": "anime-9603e716f1975e42a962-e0008-2c624232",
       "name": "第08集",
       "season": null,
       "episode": 8,
       "streams": [
-        {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260805/voDemTrg/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-08-05 12:08:44",
-          "source_item_id": "",
-          "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
-        },
         {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
@@ -498,13 +564,36 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:29:39",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260805/voDemTrg/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
         },
         {
           "source_id": "regular-墨斗",
@@ -515,13 +604,628 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-08-05 11:04:32",
-          "source_item_id": "",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
           "canonical_source_id": "",
-          "source_title": "",
-          "original_title": "",
-          "localized_titles": {},
-          "language": "unknown"
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0009-19581e27",
+      "name": "第09集",
+      "season": null,
+      "episode": 9,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260811/MEnn8yMk/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260811/KkGTiJAz/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260811/1CCrC63r/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0010-4a44dc15",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260812/Il9gFLPR/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260812/gYYRieKG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260812/qvwZIVcx/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0011-4fc82b26",
+      "name": "第11集",
+      "season": null,
+      "episode": 11,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260818/jXUrgGhE/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260818/6CiWpH0t/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260818/PEqQfKIB/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0012-6b51d431",
+      "name": "第12集",
+      "season": null,
+      "episode": 12,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260819/oWacxSWJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260819/frSTBW2X/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260819/nkbscjVT/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0013-3fdba35f",
+      "name": "第13集",
+      "season": null,
+      "episode": 13,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260825/eFjqQ09J/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260825/VdobUVNk/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260825/Svi9NgS8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0014-8527a891",
+      "name": "第14集",
+      "season": null,
+      "episode": 14,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260826/SaVIzoPJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260826/erGRCtu9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260826/XnXR0mpJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0015-e629fa65",
+      "name": "第15集",
+      "season": null,
+      "episode": 15,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260901/S1PCFBwC/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260901/5lJwCpgt/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260901/Ws018okV/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0016-b17ef6d1",
+      "name": "第16集",
+      "season": null,
+      "episode": 16,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260902/kMdpx6R1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260902/JYTy9bs3/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260902/ZCSZsTgG/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "anime-9603e716f1975e42a962-e0017-4523540f",
+      "name": "第17集",
+      "season": null,
+      "episode": 17,
+      "streams": [
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/hBJovu68/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 13:02:17",
+          "source_item_id": "69585",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260908/9ymMYlaJ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:33:55",
+          "source_item_id": "102042",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260908/IrmeLIzm/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-08 11:01:51",
+          "source_item_id": "86644",
+          "canonical_source_id": "",
+          "source_title": "三嫁公主",
+          "original_title": "sanjiagongzhu",
+          "localized_titles": {
+            "zh": "三嫁公主",
+            "en": "sanjiagongzhu"
+          },
+          "language": "国语"
         }
       ]
     }
@@ -548,7 +1252,7 @@
   "classification_confidence": 0.85,
   "region": "mainland-china",
   "country": "mainland-china",
-  "language": "mandarin",
+  "language": "unknown",
   "region_labels": {
     "zh": "中国大陆",
     "en": "Mainland China"
@@ -558,20 +1262,80 @@
     "en": "Mainland China"
   },
   "language_labels": {
-    "zh": "普通话",
-    "en": "Mandarin"
+    "zh": "未知",
+    "en": "Unknown"
   },
   "title_records": [
     {
       "value": "三嫁公主",
+      "source_title": "三嫁公主",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-360",
+      "source_item_id": "102042",
       "official": true
     },
     {
       "value": "sanjiagongzhu",
+      "source_title": "三嫁公主",
       "language": "en",
       "source": "source_api",
+      "source_id": "regular-360",
+      "source_item_id": "102042",
+      "official": true
+    },
+    {
+      "value": "三嫁公主",
+      "source_title": "三嫁公主",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "86644",
+      "official": true
+    },
+    {
+      "value": "sanjiagongzhu",
+      "source_title": "三嫁公主",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "86644",
+      "official": true
+    },
+    {
+      "value": "三嫁公主",
+      "source_title": "三嫁公主",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-ikun",
+      "source_item_id": "69585",
+      "official": true
+    },
+    {
+      "value": "sanjiagongzhu",
+      "source_title": "三嫁公主",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-ikun",
+      "source_item_id": "69585",
+      "official": true
+    },
+    {
+      "value": "三嫁公主",
+      "source_title": "三嫁公主",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "86644",
+      "official": true
+    },
+    {
+      "value": "sanjiagongzhu",
+      "source_title": "三嫁公主",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "86644",
       "official": true
     }
   ],

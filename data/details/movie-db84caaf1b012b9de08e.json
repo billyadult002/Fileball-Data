@@ -35,22 +35,22 @@
     "crime",
     "drama"
   ],
-  "updated_at": "2026-09-06 18:56:34",
+  "updated_at": "2026-09-06 17:19:37",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_vod_id": "70108",
-      "source_name": "gh72-api-ikun"
-    },
-    {
-      "source_id": "gh72-api-360zy",
-      "source_vod_id": "105138",
-      "source_name": "gh72-api-360zy"
-    },
-    {
-      "source_id": "gh72-api-mdzy",
-      "source_vod_id": "89216",
-      "source_name": "gh72-api-mdzy"
+      "source_name": "ikun|点播",
+      "metadata": {
+        "vod_id": 70108,
+        "vod_name": "空枪",
+        "type_name": "剧情片",
+        "vod_year": "2026",
+        "vod_area": "中国大陆,中国香港",
+        "vod_lang": "粤语,汉语普通话,英",
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260906-1/a2112cd8a8a286b6b1b89060600c6d31.webp",
+        "vod_class": "剧情,犯罪"
+      }
     }
   ],
   "episodes": [
@@ -61,8 +61,8 @@
       "episode": null,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260906/3LiHcYuH/index.m3u8",
           "protocol": "hls",
@@ -135,7 +135,7 @@
       "source_title": "空枪",
       "language": "zh",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70108",
       "official": true
     },
@@ -144,15 +144,10 @@
       "source_title": "空枪",
       "language": "en",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70108",
       "official": true
     }
   ],
-  "media_type": "movie",
-  "source_ids": [
-    "gh72-api-360zy",
-    "gh72-api-ikun",
-    "gh72-api-mdzy"
-  ]
+  "media_type": "movie"
 }

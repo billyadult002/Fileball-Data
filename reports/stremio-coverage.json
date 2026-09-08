@@ -1,0 +1,180 @@
+{
+  "accounted_items": 5920,
+  "compatibility_inventory": {
+    "all_resources_classified": true,
+    "capabilities": {
+      "browser_executed": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "encrypted_player_endpoint": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "javascript_rendered": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "json_api": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "playlist_generator": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "redirect_chain": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "rss_xml": {
+        "supported": 0,
+        "total": 0,
+        "unsupported": 0
+      },
+      "static_html": {
+        "supported": 0,
+        "total": 38,
+        "unsupported": 38
+      },
+      "tokenized_api": {
+        "supported": 0,
+        "total": 7,
+        "unsupported": 7
+      }
+    },
+    "runtime_requirements": {
+      "java_jar": 7,
+      "native": 38
+    },
+    "schema_version": "universal-capability-inventory-1",
+    "total_resources": 45
+  },
+  "coverage": 0.48277,
+  "declared_items": 5920,
+  "drop_classifications": {
+    "adapter_transformation": 0,
+    "generation_visibility": 0,
+    "invalid_metadata": 0,
+    "missing_stream_source": 0,
+    "other": 0,
+    "parser_failure": 0,
+    "provider_filtering": 0,
+    "unsupported_runtime": 3062
+  },
+  "dropped_items": 3062,
+  "evidence_scope": "persisted sanitized provider audit; no executable addon runtime was run",
+  "family": "stremio",
+  "generated_at": "2026-09-08T12:19:28.081600+00:00",
+  "loss_distribution_ranked": [
+    {
+      "category": "unsupported_runtime",
+      "contribution_percentage": 100.0,
+      "count": 3062
+    },
+    {
+      "category": "adapter_transformation",
+      "contribution_percentage": 0.0,
+      "count": 0
+    },
+    {
+      "category": "generation_visibility",
+      "contribution_percentage": 0.0,
+      "count": 0
+    },
+    {
+      "category": "invalid_metadata",
+      "contribution_percentage": 0.0,
+      "count": 0
+    },
+    {
+      "category": "missing_stream_source",
+      "contribution_percentage": 0.0,
+      "count": 0
+    },
+    {
+      "category": "other",
+      "contribution_percentage": 0.0,
+      "count": 0
+    },
+    {
+      "category": "parser_failure",
+      "contribution_percentage": 0.0,
+      "count": 0
+    },
+    {
+      "category": "provider_filtering",
+      "contribution_percentage": 0.0,
+      "count": 0
+    }
+  ],
+  "loss_percentage": 51.723,
+  "provider_count": 45,
+  "provider_ids": [
+    "stremio-1785901164186-85y5aph",
+    "stremio-1785901342633-ba29uh9",
+    "stremio-1785901377560-5wcg7wc",
+    "stremio-1785901555716-8wwbgni",
+    "stremio-1785901623266-yrv4e5g",
+    "stremio-1785901646900-q7obiue",
+    "stremio-1785901677386-kv6i2zw",
+    "stremio-1785901696863-26urr4j",
+    "stremio-1785901749790-cwuhr8p",
+    "stremio-1785901772985-ig2he3y",
+    "stremio-1785901791105-1vrnpk4",
+    "stremio-1785901808428-zo42o5o",
+    "stremio-1785901898650-orxu3vj",
+    "stremio-1785901919441-yryyaqg",
+    "stremio-1785901941453-fdl5aob",
+    "stremio-1785902029092-3a73prj",
+    "stremio-1785902061642-qtc3qxy",
+    "stremio-1785902110794-b2efw47",
+    "stremio-1785902144070-dvoei9e",
+    "stremio-1785902192144-3gwuow4",
+    "stremio-1785902219524-4blnj3c",
+    "stremio-1785902236534-i9z95c0",
+    "stremio-1785902285592-vz8q91i",
+    "stremio-1785902561633-8e7ol0m",
+    "stremio-1785902585967-uk2cbxo",
+    "stremio-1785902769526-5gdwzme",
+    "stremio-1785902802401-fzv1z4o",
+    "stremio-1785902838689-8l7n6xf",
+    "stremio-1785902953185-4z1qlq1",
+    "stremio-1785903134645-o0i7x5x",
+    "stremio-1785903183080-143ea8u",
+    "stremio-1785903250813-91a1pqw",
+    "stremio-1785903309957-5eewf6v",
+    "stremio-1785903370843-u15lo3s",
+    "stremio-1785903398431-xlnkfp8",
+    "stremio-1785903495496-y41ssep",
+    "stremio-1785903631751-0zte999",
+    "stremio-1785903734658-9uujl0n",
+    "stremio-1785927315168-0apqflc",
+    "stremio-1785927338346-ohxyq3d",
+    "stremio-1785927405422-zohz1lr",
+    "stremio-1785927411375-plwyri7",
+    "stremio-1785927482795-l2a9bm3",
+    "stremio-1785927503947-6grjb3b",
+    "stremio-1785928949191-3jf3d7a"
+  ],
+  "published_or_reused_items": 2858,
+  "root_cause_categories": [
+    "unsupported_runtime",
+    "parser_failure",
+    "invalid_metadata",
+    "missing_stream_source",
+    "provider_filtering",
+    "generation_visibility",
+    "adapter_transformation",
+    "other"
+  ],
+  "schema_version": "addon-coverage-2",
+  "source": "reports/universal-addon-provider-regression-audit.json",
+  "status": "CLASSIFIED_LOSS"
+}
