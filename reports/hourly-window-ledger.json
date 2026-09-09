@@ -374,12 +374,31 @@
     },
     {
       "attempt": 1,
+      "completed_at": "2026-09-09T20:06:10Z",
+      "generation": "d761256b124efc502dc4a2e06bf57445b1235728",
       "logical_end": "2026-09-09T20:00:00Z",
       "logical_start": "2026-09-09T19:00:00Z",
+      "reason_code": "CANONICAL_OUTPUT_CHANGED",
       "run_id": "34395487538-1",
       "started_at": "2026-09-09T19:30:49Z",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED_CHANGED",
       "window_id": "2026-09-09T19:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-09T21:00:00Z",
+      "logical_start": "2026-09-09T20:00:00Z",
+      "recorded_at": "2026-09-09T21:58:30Z",
+      "status": "MISSED",
+      "window_id": "2026-09-09T20:00:00Z"
+    },
+    {
+      "attempt": 1,
+      "logical_end": "2026-09-09T22:00:00Z",
+      "logical_start": "2026-09-09T21:00:00Z",
+      "run_id": "34409779069-1",
+      "started_at": "2026-09-09T21:58:30Z",
+      "status": "IN_PROGRESS",
+      "window_id": "2026-09-09T21:00:00Z"
     }
   ]
 }
