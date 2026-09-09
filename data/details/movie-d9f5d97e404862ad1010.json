@@ -35,7 +35,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-08 21:37:47",
+  "updated_at": "2026-09-09 23:18:31",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -82,6 +82,21 @@
       }
     },
     {
+      "source_id": "regular-非凡",
+      "source_vod_id": "99315",
+      "source_name": "非凡|点播",
+      "metadata": {
+        "vod_id": 99315,
+        "vod_name": "富士子",
+        "type_name": "剧情片",
+        "vod_year": "2026",
+        "vod_area": "日本",
+        "vod_lang": "日语",
+        "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260909-1/5f3161d75116fad15a784ac69763f242.jpg",
+        "vod_class": "剧情"
+      }
+    },
+    {
       "source_id": "regular-魔都",
       "source_vod_id": "89328",
       "source_name": "魔都|点播",
@@ -104,6 +119,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260909/40626_a2d9c0fd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 23:18:31",
+          "source_item_id": "99315",
+          "canonical_source_id": "",
+          "source_title": "富士子",
+          "original_title": "fushizi",
+          "localized_titles": {
+            "zh": "富士子",
+            "en": "fushizi"
+          },
+          "language": "日语"
+        },
         {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
@@ -155,6 +190,26 @@
           "health": "unknown",
           "updated_at": "2026-09-08 21:19:28",
           "source_item_id": "70137",
+          "canonical_source_id": "",
+          "source_title": "富士子",
+          "original_title": "fushizi",
+          "localized_titles": {
+            "zh": "富士子",
+            "en": "fushizi"
+          },
+          "language": "日语"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/a2d9c0fd6720cd8a8684dd52ef32deb8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 23:18:31",
+          "source_item_id": "99315",
           "canonical_source_id": "",
           "source_title": "富士子",
           "original_title": "fushizi",
@@ -261,6 +316,24 @@
       "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "70137",
+      "official": true
+    },
+    {
+      "value": "富士子",
+      "source_title": "富士子",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99315",
+      "official": true
+    },
+    {
+      "value": "fushizi",
+      "source_title": "富士子",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99315",
       "official": true
     },
     {

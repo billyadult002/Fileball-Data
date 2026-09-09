@@ -1,0 +1,27 @@
+{
+  "schema_version": "coverage-gate-attribution-1",
+  "generated_at": "2026-09-09T14:10:17Z",
+  "checker": "independent_ci_coverage_attribution",
+  "repository": "billyadult002/Fileball",
+  "canonical_head": "cf5bc93c095e6b00894d19bcfa4fe5eaa53e6289",
+  "comparison_baseline": "613c4549732639dd81a873aa98d139e3a2e9f11b",
+  "coverage_run": {"run_id": 34331572725, "event": "schedule", "head_sha": "cf5bc93c095e6b00894d19bcfa4fe5eaa53e6289", "workflow": ".github/workflows/test-suite.yml", "classification": "PREEXISTING_FAILURE"},
+  "thresholds": {"lines": 80, "functions": 80, "branches": 75, "statements": 80, "source": "worker/vitest.config.ts and web/vitest.config.ts"},
+  "coverage_observations": [
+    {"package": "web", "runtime": "node-22", "observed": {"lines": 62.26, "functions": 50.73, "branches": 80.09, "statements": 62.26}, "failed_metrics": ["lines", "functions", "statements"], "classification": "PREEXISTING_FAILURE", "evidence": [34331572725, 34162133517, 34161069369, 34151306763]},
+    {"package": "worker", "runtime": "node-22", "observed": {"lines": 65.77, "functions": 65.36, "branches": 50.47, "statements": 59.46}, "failed_metrics": ["lines", "functions", "branches", "statements"], "classification": "PREEXISTING_FAILURE", "evidence": [34331572725, 34206372612, 34151306763]}
+  ],
+  "separate_failures": [
+    {"failure": "worker Node 18 Vitest startup: node:util styleText export unavailable", "classification": "PREEXISTING_FAILURE", "evidence": [34331572725, 34206372612, 34151306763], "reason": "The same Node 18/runtime incompatibility recurs independently of the hourly-rotation diff."},
+    {"failure": "Coverage Report and Quality Gate checkout failures", "classification": "TRANSIENT_INFRASTRUCTURE_FAILURE", "evidence": [34331572725], "reason": "The checkout step failed before coverage aggregation or quality evaluation."}
+  ],
+  "mission_diff_review": {"mission_diff_base": "origin/main...HEAD", "mission_owned_files": [".github/workflows/deploy-worker.yml", ".github/workflows/freshness-monitor.yml", ".github/workflows/update-data.yml", "scripts/freshness_monitor.py", "scripts/hourly_window_ledger.py", "tests/test_freshness_monitor.py", "tests/test_hourly_window_ledger.py"], "application_source_changed": false, "package_manifest_changed": false, "vitest_configuration_changed": false, "coverage_exclusions_changed": false, "coverage_instrumentation_changed": false, "test_suite_workflow_changed": false, "coverage_threshold_changed": false, "classification": "PREEXISTING_FAILURE"},
+  "branch_protection": {"status": "NOT_READABLE", "reason": "GitHub API returned plan restriction 403 for private-repository branch protection and rulesets endpoints.", "merge_eligibility_effect": "Cannot independently assert branch-protection requirements from this API response."},
+  "mission_merge_blocker": false,
+  "production_growth_accounting_changed": false,
+  "generation_convergence_affected": false,
+  "freshness_accounting_affected": false,
+  "privacy_safe": true,
+  "secrets_retained": false,
+  "final_attribution": "PREEXISTING_FAILURE"
+}
