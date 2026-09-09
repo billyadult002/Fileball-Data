@@ -32,7 +32,7 @@
     "fantasy",
     "adventure"
   ],
-  "updated_at": "2026-09-08 22:48:25",
+  "updated_at": "2026-09-09 18:19:30",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -184,6 +184,21 @@
       }
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "156610",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 156610,
+        "vod_name": "海洋奇缘：启航",
+        "type_name": "动作片",
+        "vod_year": "2026",
+        "vod_area": "美国 / 新西兰 / 加拿大 / 匈牙利",
+        "vod_lang": "英语,萨摩亚语",
+        "vod_pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2933001869.webp",
+        "vod_class": "喜剧,动作,歌舞,奇幻,冒险"
+      }
+    },
+    {
       "source_id": "regular-金鹰",
       "source_vod_id": "115076",
       "source_name": "金鹰|点播",
@@ -236,6 +251,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16643_63af2ce9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 18:19:30",
+          "source_item_id": "156610",
+          "canonical_source_id": "",
+          "source_title": "海洋奇缘：启航",
+          "original_title": "haiyangqiyuanqihang",
+          "localized_titles": {
+            "zh": "海洋奇缘：启航",
+            "en": "haiyangqiyuanqihang"
+          },
+          "language": "英语,萨摩亚语"
+        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -415,6 +450,26 @@
             "en": "haiyangqiyuanqihang"
           },
           "language": "英语"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/1ceb3ad80c6675f705c7fef98012e9e1",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 18:19:30",
+          "source_item_id": "156610",
+          "canonical_source_id": "",
+          "source_title": "海洋奇缘：启航",
+          "original_title": "haiyangqiyuanqihang",
+          "localized_titles": {
+            "zh": "海洋奇缘：启航",
+            "en": "haiyangqiyuanqihang"
+          },
+          "language": "英语,萨摩亚语"
         },
         {
           "source_id": "regular-非凡",
@@ -705,6 +760,24 @@
       "source": "source_api",
       "source_id": "regular-非凡",
       "source_item_id": "98587",
+      "official": true
+    },
+    {
+      "value": "海洋奇缘：启航",
+      "source_title": "海洋奇缘：启航",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "156610",
+      "official": true
+    },
+    {
+      "value": "haiyangqiyuanqihang",
+      "source_title": "海洋奇缘：启航",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "156610",
       "official": true
     },
     {

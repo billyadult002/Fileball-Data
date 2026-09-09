@@ -21,10 +21,9 @@
     "action",
     "costume",
     "war",
-    "adventure",
-    "drama"
+    "adventure"
   ],
-  "updated_at": "2026-09-09 14:51:07",
+  "updated_at": "2026-09-09 17:15:06",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -83,21 +82,6 @@
         "vod_lang": "普通话",
         "vod_pic": "https://xl.xltupian.com/cover/7a69af541acf50223d4d446a762af1cf.jpg",
         "vod_class": "动作,冒险,战争,动作片"
-      }
-    },
-    {
-      "source_id": "regular-暴风",
-      "source_vod_id": "162052",
-      "source_name": "暴风|点播",
-      "metadata": {
-        "vod_id": 162052,
-        "vod_name": "热血部落",
-        "type_name": "剧情片",
-        "vod_year": "2026",
-        "vod_area": "中国大陆",
-        "vod_lang": "汉语普通话",
-        "vod_pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935447177.webp",
-        "vod_class": "动作,古装,剧情"
       }
     },
     {
@@ -221,6 +205,21 @@
       }
     },
     {
+      "source_id": "regular-非凡",
+      "source_vod_id": "99308",
+      "source_name": "非凡|点播",
+      "metadata": {
+        "vod_id": 99308,
+        "vod_name": "热血部落",
+        "type_name": "动作片",
+        "vod_year": "2026",
+        "vod_area": "大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260909-1/e70b0395b871d60fa1adb1484f68cc6e.jpg",
+        "vod_class": "动作,古装"
+      }
+    },
+    {
       "source_id": "regular-魔都",
       "source_vod_id": "89327",
       "source_name": "魔都|点播",
@@ -252,7 +251,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-09 14:51:07",
+          "updated_at": "2026-09-09 17:15:06",
           "source_item_id": "151778",
           "canonical_source_id": "",
           "source_title": "热血部落",
@@ -262,6 +261,26 @@
             "en": "rexuebuluo"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://super.ffzy-online6.com/20260909/40607_15c8f2ff/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 16:51:40",
+          "source_item_id": "99308",
+          "canonical_source_id": "",
+          "source_title": "热血部落",
+          "original_title": "rexuebuluo",
+          "localized_titles": {
+            "zh": "热血部落",
+            "en": "rexuebuluo"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-樱花",
@@ -274,26 +293,6 @@
           "health": "unknown",
           "updated_at": "2026-09-09 13:00:09",
           "source_item_id": "102584",
-          "canonical_source_id": "",
-          "source_title": "热血部落",
-          "original_title": "rexuebuluo",
-          "localized_titles": {
-            "zh": "热血部落",
-            "en": "rexuebuluo"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://fengbao12.com/video/rexuebuluo/bda9d6524cae/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-09 12:21:42",
-          "source_item_id": "162052",
           "canonical_source_id": "",
           "source_title": "热血部落",
           "original_title": "rexuebuluo",
@@ -452,7 +451,7 @@
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-09 14:51:07",
+          "updated_at": "2026-09-09 17:15:06",
           "source_item_id": "151778",
           "canonical_source_id": "",
           "source_title": "热血部落",
@@ -462,6 +461,26 @@
             "en": "rexuebuluo"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://super.ffzy-online6.com/share/15c8f2ffbbc0f143001b1edb6b0759b5",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 16:51:40",
+          "source_item_id": "99308",
+          "canonical_source_id": "",
+          "source_title": "热血部落",
+          "original_title": "rexuebuluo",
+          "localized_titles": {
+            "zh": "热血部落",
+            "en": "rexuebuluo"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-红牛",
@@ -701,8 +720,8 @@
       "source_title": "热血部落",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-暴风",
-      "source_item_id": "162052",
+      "source_id": "regular-非凡",
+      "source_item_id": "99308",
       "official": true
     },
     {
@@ -710,8 +729,8 @@
       "source_title": "热血部落",
       "language": "en",
       "source": "source_api",
-      "source_id": "regular-暴风",
-      "source_item_id": "162052",
+      "source_id": "regular-非凡",
+      "source_item_id": "99308",
       "official": true
     },
     {

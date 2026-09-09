@@ -28,15 +28,29 @@
     "Owen Arwyn",
     "Aaron Leacock",
     "Chukwudalu Molokwu",
-    "El"
+    "El",
+    "巴里·沃德",
+    "Sheldon·Jones",
+    "Tristan·Jones",
+    "Leisa·Gwenllian",
+    "Lisa·Jen·Brown",
+    "Robert·Gwyn·Davin",
+    "Stephen·Chapman",
+    "William·Huw",
+    "Owen·Arwyn",
+    "Aaron·Leacock",
+    "Chukwudalu·Molokwu",
+    "Elena·Valentine"
   ],
   "directors": [
-    "Helen Walsh"
+    "Helen Walsh",
+    "Helen·Walsh"
   ],
   "genres": [
-    "drama"
+    "drama",
+    "romance"
   ],
-  "updated_at": "2026-09-09 13:40:58",
+  "updated_at": "2026-09-09 17:33:08",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -51,6 +65,51 @@
         "vod_lang": "英语",
         "vod_pic": "https://www.imgzy360.com:7788/upload/vod/20260909-1/663a948a6fa13fef9852d787d0262b26.webp"
       }
+    },
+    {
+      "source_id": "regular-ikun",
+      "source_vod_id": "70143",
+      "source_name": "ikun|点播",
+      "metadata": {
+        "vod_id": 70143,
+        "vod_name": "海上心狱",
+        "type_name": "爱情片",
+        "vod_year": "2026",
+        "vod_area": "英国",
+        "vod_lang": "英语",
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260909-1/79ec11d5c2cf9b456a20a78fa989263a.webp",
+        "vod_class": "剧情,爱情"
+      }
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "89356",
+      "source_name": "墨斗|点播",
+      "metadata": {
+        "vod_id": 89356,
+        "vod_name": "海上心狱",
+        "type_name": "爱情片",
+        "vod_year": "2026",
+        "vod_area": "英国",
+        "vod_lang": "英语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260909-1/09e4666311c9a3903da32b4281d182b9.webp",
+        "vod_class": "剧情,爱情"
+      }
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "89356",
+      "source_name": "魔都|点播",
+      "metadata": {
+        "vod_id": 89356,
+        "vod_name": "海上心狱",
+        "type_name": "爱情片",
+        "vod_year": "2026",
+        "vod_area": "英国",
+        "vod_lang": "英语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260909-1/09e4666311c9a3903da32b4281d182b9.webp",
+        "vod_class": "剧情,爱情"
+      }
     }
   ],
   "episodes": [
@@ -60,6 +119,46 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260909/Zb6unbVB/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 17:33:08",
+          "source_item_id": "89356",
+          "canonical_source_id": "",
+          "source_title": "海上心狱",
+          "original_title": "haishangxinyu",
+          "localized_titles": {
+            "zh": "海上心狱",
+            "en": "haishangxinyu"
+          },
+          "language": "英语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260909/olONm2V4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 15:28:23",
+          "source_item_id": "70143",
+          "canonical_source_id": "",
+          "source_title": "海上心狱",
+          "original_title": "haishangxinyu",
+          "localized_titles": {
+            "zh": "海上心狱",
+            "en": "haishangxinyu"
+          },
+          "language": "英语"
+        },
         {
           "source_id": "regular-360",
           "source_name": "360|点播",
@@ -138,6 +237,60 @@
       "source": "source_api",
       "source_id": "regular-360",
       "source_item_id": "105341",
+      "official": true
+    },
+    {
+      "value": "海上心狱",
+      "source_title": "海上心狱",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "89356",
+      "official": true
+    },
+    {
+      "value": "haishangxinyu",
+      "source_title": "海上心狱",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "89356",
+      "official": true
+    },
+    {
+      "value": "海上心狱",
+      "source_title": "海上心狱",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-ikun",
+      "source_item_id": "70143",
+      "official": true
+    },
+    {
+      "value": "haishangxinyu",
+      "source_title": "海上心狱",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-ikun",
+      "source_item_id": "70143",
+      "official": true
+    },
+    {
+      "value": "海上心狱",
+      "source_title": "海上心狱",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "89356",
+      "official": true
+    },
+    {
+      "value": "haishangxinyu",
+      "source_title": "海上心狱",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "89356",
       "official": true
     }
   ],

@@ -31,7 +31,7 @@
     "drama",
     "fantasy"
   ],
-  "updated_at": "2026-09-09 14:43:00",
+  "updated_at": "2026-09-09 14:53:48",
   "source_records": [
     {
       "source_id": "regular-丫丫",
@@ -48,18 +48,17 @@
       }
     },
     {
-      "source_id": "regular-无尽",
-      "source_vod_id": "170117",
-      "source_name": "无尽|点播",
+      "source_id": "regular-最大",
+      "source_vod_id": "130252",
+      "source_name": "最大|点播",
       "metadata": {
-        "vod_id": 170117,
+        "vod_id": 130252,
         "vod_name": "未知",
-        "type_name": "奇幻片",
+        "type_name": "剧情片",
         "vod_year": "2026",
         "vod_area": "法国",
         "vod_lang": "法语",
-        "vod_pic": "https://pic.youkupic.com/upload/vod/20260909-1/9810e6b85729c73a254b822839d9b5cf.jpg",
-        "vod_class": "奇幻"
+        "vod_pic": "https://ok.zuidapic.com/upload/vod/20260909-1/4e672f4e4ae6557b2bc7fd9fb76d3fe0.jpg"
       }
     },
     {
@@ -74,21 +73,6 @@
         "vod_area": "法国",
         "vod_lang": "法语",
         "vod_pic": "https://pic.niuniuzy.info/upload/vod/20260909-1/be83c745bfe4753b1ed058e550472fbc.jpg"
-      }
-    },
-    {
-      "source_id": "regular-索尼",
-      "source_vod_id": "154581",
-      "source_name": "索尼|点播",
-      "metadata": {
-        "vod_id": 154581,
-        "vod_name": "未知",
-        "type_name": "剧情片",
-        "vod_year": "2026",
-        "vod_area": "法国",
-        "vod_lang": "法语",
-        "vod_pic": "https://snzypic.vip/upload/vod/20260909-1/76b1e1a4dd04bb6bc9e60c7b7713be73.jpg",
-        "vod_class": "奇幻"
       }
     },
     {
@@ -128,6 +112,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-最大",
+          "source_name": "最大|点播",
+          "provider": "zuidam3u8",
+          "url": "https://v14.zuidazym3u8.com/yyv14/202609/09/UEbukKyPS227/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 14:53:48",
+          "source_item_id": "130252",
+          "canonical_source_id": "",
+          "source_title": "未知",
+          "original_title": "weizhi",
+          "localized_titles": {
+            "zh": "未知",
+            "en": "weizhi"
+          },
+          "language": "法语"
+        },
         {
           "source_id": "regular-丫丫",
           "source_name": "丫丫|点播",
@@ -179,46 +183,6 @@
           "health": "unknown",
           "updated_at": "2026-09-09 14:19:50",
           "source_item_id": "131160",
-          "canonical_source_id": "",
-          "source_title": "未知",
-          "original_title": "weizhi",
-          "localized_titles": {
-            "zh": "未知",
-            "en": "weizhi"
-          },
-          "language": "法语"
-        },
-        {
-          "source_id": "regular-索尼",
-          "source_name": "索尼|点播",
-          "provider": "snm3u8",
-          "url": "https://v14.rstu6.com/202609/09/UEbukKyPS227/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-09 13:20:14",
-          "source_item_id": "154581",
-          "canonical_source_id": "",
-          "source_title": "未知",
-          "original_title": "weizhi",
-          "localized_titles": {
-            "zh": "未知",
-            "en": "weizhi"
-          },
-          "language": "法语"
-        },
-        {
-          "source_id": "regular-无尽",
-          "source_name": "无尽|点播",
-          "provider": "wjm3u8",
-          "url": "https://v8.ppqrrs.com/wjv8/202609/09/Btc7sb5skS95/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-09 13:18:00",
-          "source_item_id": "170117",
           "canonical_source_id": "",
           "source_title": "未知",
           "original_title": "weizhi",
@@ -354,24 +318,6 @@
       "source_title": "未知",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-索尼",
-      "source_item_id": "154581",
-      "official": true
-    },
-    {
-      "value": "weizhi",
-      "source_title": "未知",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-索尼",
-      "source_item_id": "154581",
-      "official": true
-    },
-    {
-      "value": "未知",
-      "source_title": "未知",
-      "language": "zh",
-      "source": "source_api",
       "source_id": "regular-非凡",
       "source_item_id": "99300",
       "official": true
@@ -408,8 +354,8 @@
       "source_title": "未知",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-无尽",
-      "source_item_id": "170117",
+      "source_id": "regular-最大",
+      "source_item_id": "130252",
       "official": true
     },
     {
@@ -417,8 +363,8 @@
       "source_title": "未知",
       "language": "en",
       "source": "source_api",
-      "source_id": "regular-无尽",
-      "source_item_id": "170117",
+      "source_id": "regular-最大",
+      "source_item_id": "130252",
       "official": true
     }
   ],

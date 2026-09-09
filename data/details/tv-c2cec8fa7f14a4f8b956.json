@@ -25,7 +25,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-08 20:21:02",
+  "updated_at": "2026-09-09 20:01:42",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -87,6 +87,36 @@
       }
     },
     {
+      "source_id": "regular-无尽",
+      "source_vod_id": "169707",
+      "source_name": "无尽|点播",
+      "metadata": {
+        "vod_id": 169707,
+        "vod_name": "生逢其时",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://pic.youkupic.com/upload/vod/20260903-1/01d411c61ac84793e290ec9685252466.jpg",
+        "vod_class": "剧情"
+      }
+    },
+    {
+      "source_id": "regular-暴风",
+      "source_vod_id": "161017",
+      "source_name": "暴风|点播",
+      "metadata": {
+        "vod_id": 161017,
+        "vod_name": "生逢其时",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://img.picbf.com/upload/vod/20260903-1/bc31f2a0680bae726df96717673c77e6.webp",
+        "vod_class": "剧情,国产"
+      }
+    },
+    {
       "source_id": "regular-极速",
       "source_vod_id": "151352",
       "source_name": "极速|点播",
@@ -114,6 +144,21 @@
         "vod_lang": "普通话",
         "vod_pic": "https://hhmage.com/cover/ce20bd32e492b603ef68eda13c8cc61b.jpg",
         "vod_class": "剧情,内地剧"
+      }
+    },
+    {
+      "source_id": "regular-索尼",
+      "source_vod_id": "154213",
+      "source_name": "索尼|点播",
+      "metadata": {
+        "vod_id": 154213,
+        "vod_name": "生逢其时",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://snzypic.vip/upload/vod/20260903-1/1f226fdb688913029a618c5ef63c40ec.jpg",
+        "vod_class": "剧情,国产"
       }
     },
     {
@@ -177,6 +222,21 @@
       }
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "155539",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 155539,
+        "vod_name": "生逢其时",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260903-1/048b019ec17b5561cbbbd085549b3c0a.webp",
+        "vod_class": "剧情"
+      }
+    },
+    {
       "source_id": "regular-金鹰",
       "source_vod_id": "157504",
       "source_name": "金鹰|点播",
@@ -229,6 +289,86 @@
       "season": null,
       "episode": 1,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260903/16458_62e93d7a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202609/03/aY52xu189927/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202609/03/ahu9JZHT0F89/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/489becea03ed/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -410,6 +550,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/e2b26aaede09d0d92976621c95297975",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -537,6 +697,86 @@
       "season": null,
       "episode": 2,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260903/16460_2c27495d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202609/03/YwCWuSQvZG27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202609/03/191fiGepAW91/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/0be55643bfa8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -718,6 +958,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/0f952174804b40b04d68a82833cff3f8",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -845,6 +1105,86 @@
       "season": null,
       "episode": 3,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260903/16459_c93e52b3/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202609/03/Z4KEexHd3k27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202609/03/GjN21GKS4N87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/d0adcd828783/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -1026,6 +1366,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/8c287e1e6768cbed0e28ea6b3c3c9dce",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -1153,6 +1513,86 @@
       "season": null,
       "episode": 4,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260904/10130_7e71b179/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202609/04/KjCBYUA34G27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v12.ppqrrs.com/wjv12/202609/04/Gx7udYJvRq93/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/6421e22ec095/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -1334,6 +1774,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/d733a2026011136dc23a005c530aa62f",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -1461,6 +1921,86 @@
       "season": null,
       "episode": 5,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260904/10129_852c2bce/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202609/04/1Xja7wHiLc27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202609/04/BRCtg5cQf990/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/eea3a4bf2e7b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -1642,6 +2182,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/771f8512d26b406d003adb901e3bfc6a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -1769,6 +2329,86 @@
       "season": null,
       "episode": 6,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260905/10182_eb394005/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v15.rstu6.com/202609/05/WmQTv6ZAtC27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202609/05/4NkeXaMDf691/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/677d298e9136/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -1950,6 +2590,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/e847d18006f6d945e8a9ee2f4d3e23f5",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -2077,6 +2737,86 @@
       "season": null,
       "episode": 7,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260906/10218_bdd50d22/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v13.rstu6.com/202609/06/SgwEtGeUGE27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v6.ppqrrs.com/wjv6/202609/06/mM7WVTdaSw87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://v.baofeng9.com/video/shengfengqishi/e1aa88c8f871/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -2258,6 +2998,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/3e1fb9297735057d44263e674078a7fd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -2385,6 +3145,86 @@
       "season": null,
       "episode": 8,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260907/10274_39aa7f88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202609/07/tzJghRaVHF27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v7.ppqrrs.com/wjv7/202609/07/Fz3kKjPZjk89/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/d4e87ea20bb2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -2566,6 +3406,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/2779fda014fbadb761f67dd708c1325e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -2693,6 +3553,86 @@
       "season": null,
       "episode": 9,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10337_fc6e33cc/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202609/08/KduwTX72FP27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v5.ppqrrs.com/wjv5/202609/08/zdX5RHQRWh97/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/8abf7f8db3fc/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
@@ -2874,6 +3814,26 @@
           "language": "汉语普通话"
         },
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/e64f346817ce0c93d7166546ac8ce683",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-红牛",
           "source_name": "红牛|点播",
           "provider": "hnyun",
@@ -2992,6 +3952,222 @@
             "en": "shengfengqishi"
           },
           "language": "国语"
+        }
+      ]
+    },
+    {
+      "id": "tv-c2cec8fa7f14a4f8b956-e0010-4a44dc15",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16670_03016be3/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v15.rstu6.com/202609/09/3k1Uenk4NV27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v3.ppqrrs.com/wjv3/202609/09/aadqZhwfzg87/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/58982168c4e9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/5b18e1a3e2092783aea4b1aa4a894d8a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        }
+      ]
+    },
+    {
+      "id": "tv-c2cec8fa7f14a4f8b956-e0011-4fc82b26",
+      "name": "第11集",
+      "season": null,
+      "episode": 11,
+      "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16671_fe4e3fb2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-索尼",
+          "source_name": "索尼|点播",
+          "provider": "snm3u8",
+          "url": "https://v14.rstu6.com/202609/09/PMgnzBifkK27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:59",
+          "source_item_id": "154213",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v3.ppqrrs.com/wjv3/202609/09/vu5qv4GsN093/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:59:44",
+          "source_item_id": "169707",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shengfengqishi/c0434e921b0d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 19:58:28",
+          "source_item_id": "161017",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/5d4e2809bba49effaa7e5ca4202d043e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 20:01:42",
+          "source_item_id": "155539",
+          "canonical_source_id": "",
+          "source_title": "生逢其时",
+          "original_title": "shengfengqishi",
+          "localized_titles": {
+            "zh": "生逢其时",
+            "en": "shengfengqishi"
+          },
+          "language": "汉语普通话"
         }
       ]
     }
@@ -3127,6 +4303,24 @@
       "source_title": "生逢其时",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-索尼",
+      "source_item_id": "154213",
+      "official": true
+    },
+    {
+      "value": "shengfengqishi",
+      "source_title": "生逢其时",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-索尼",
+      "source_item_id": "154213",
+      "official": true
+    },
+    {
+      "value": "生逢其时",
+      "source_title": "生逢其时",
+      "language": "zh",
+      "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "70080",
       "official": true
@@ -3163,6 +4357,42 @@
       "source_title": "生逢其时",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "155539",
+      "official": true
+    },
+    {
+      "value": "shengfengqishi",
+      "source_title": "生逢其时",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "155539",
+      "official": true
+    },
+    {
+      "value": "生逢其时",
+      "source_title": "生逢其时",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-暴风",
+      "source_item_id": "161017",
+      "official": true
+    },
+    {
+      "value": "shengfengqishi",
+      "source_title": "生逢其时",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-暴风",
+      "source_item_id": "161017",
+      "official": true
+    },
+    {
+      "value": "生逢其时",
+      "source_title": "生逢其时",
+      "language": "zh",
+      "source": "source_api",
       "source_id": "regular-红牛",
       "source_item_id": "193425",
       "official": true
@@ -3192,6 +4422,24 @@
       "source": "source_api",
       "source_id": "regular-虎牙",
       "source_item_id": "155655",
+      "official": true
+    },
+    {
+      "value": "生逢其时",
+      "source_title": "生逢其时",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "169707",
+      "official": true
+    },
+    {
+      "value": "shengfengqishi",
+      "source_title": "生逢其时",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "169707",
       "official": true
     },
     {
