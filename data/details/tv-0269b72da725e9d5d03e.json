@@ -20,7 +20,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-08 13:01:45",
+  "updated_at": "2026-09-09 13:52:29",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -52,6 +52,21 @@
       }
     },
     {
+      "source_id": "regular-u酷",
+      "source_vod_id": "72445",
+      "source_name": "U酷|点播",
+      "metadata": {
+        "vod_id": 72445,
+        "vod_name": "人生赢家",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://img.ukuapi88.com/upload/vod/20260908-1/e06368ac566f348737a620c8673da968.jpg",
+        "vod_class": "剧情"
+      }
+    },
+    {
       "source_id": "regular-墨斗",
       "source_vod_id": "89282",
       "source_name": "墨斗|点播",
@@ -63,6 +78,34 @@
         "vod_area": "中国大陆",
         "vod_lang": "暂无",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260908-1/4fed9144b9c006c89c8ccb0bb38f222e.webp",
+        "vod_class": "剧情"
+      }
+    },
+    {
+      "source_id": "regular-暴风",
+      "source_vod_id": "161810",
+      "source_name": "暴风|点播",
+      "metadata": {
+        "vod_id": 161810,
+        "vod_name": "人生赢家",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_pic": "https://img.picbf.com/upload/vod/20260909-1/3b7510574940254c1ea0e9db89e78aa4.webp",
+        "vod_class": "剧情,国产"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "156361",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 156361,
+        "vod_name": "人生赢家",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2934835070.webp",
         "vod_class": "剧情"
       }
     },
@@ -90,16 +133,16 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/hJlBuP46/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/HY6u6mdp/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -107,7 +150,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/87947b36c229/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -118,7 +181,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -128,6 +191,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/hJlBuP46/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -138,7 +221,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -148,6 +231,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10314_8b817d77/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/NyMZji4Eh1",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/410aa119a67d7a5fa5cac98bd7d78dda",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -158,16 +301,16 @@
       "episode": 2,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/vjwAgwa7/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/ug9E0nJs/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -175,7 +318,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/9b0328d74f9b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -186,7 +349,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -196,6 +359,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/vjwAgwa7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -206,7 +389,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -216,6 +399,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10312_dab11ab1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/UW0YYPVp1w",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/db0cf003e7db9592288d809665cfeb2a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -226,16 +469,16 @@
       "episode": 3,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/8ZjzN0lx/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/7Xo17yXP/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -243,7 +486,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/1aa1301e4ef1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -254,7 +517,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -264,6 +527,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/8ZjzN0lx/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -274,7 +557,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -284,6 +567,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10315_985f7d46/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/ei9pMybZ1q",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/059bbd8df7767d3bc7829e3735c221e2",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -294,16 +637,16 @@
       "episode": 4,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/bIPC22vu/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/TAqCTYC0/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -311,7 +654,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/af543705f99f/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -322,7 +685,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -332,6 +695,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/bIPC22vu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -342,7 +725,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -352,6 +735,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10310_47f0ffc0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/keSjKlr12H",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/a30bc83d95b629973ef10dbe8221ca63",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -362,16 +805,16 @@
       "episode": 5,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/pzxijyHt/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/W0Beti0q/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -379,7 +822,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/7fda766453a2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -390,7 +853,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -400,6 +863,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/pzxijyHt/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -410,7 +893,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -420,6 +903,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10313_49adc4e2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/Xl92Hopp01",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/f0e1f0412f36e086dc5f596b84370e86",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -430,16 +973,16 @@
       "episode": 6,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/u4jVSBpo/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/NwC8qCyO/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -447,7 +990,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/5a31d2c1667b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -458,7 +1021,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -468,6 +1031,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/u4jVSBpo/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -478,7 +1061,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -488,6 +1071,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10311_cba74bb5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/ke1Q8qw6Au",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/65a5e77645ee9f1918165a0a8c503297",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -498,16 +1141,16 @@
       "episode": 7,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/cFGGftdy/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/O3EVd58e/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -515,7 +1158,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/dde054f43fba/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -526,7 +1189,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -536,6 +1199,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/cFGGftdy/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -546,7 +1229,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -556,6 +1239,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10305_4cab43fd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/JOgoigCcJv",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/da16202114b72b61f71124a219db6e3e",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -566,16 +1309,16 @@
       "episode": 8,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/peAEYXHs/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/W3EHmu3a/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -583,7 +1326,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/412c1718e6b1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -594,7 +1357,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -604,6 +1367,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/peAEYXHs/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -614,7 +1397,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -624,6 +1407,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10307_5005ee0d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/mS5d3BrvFx",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/f06adf060c098f11e76fa2ff1565ba70",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -634,16 +1477,16 @@
       "episode": 9,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/CoHOhQUW/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/pmzDMULc/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -651,7 +1494,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/851eb9138cdf/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -662,7 +1525,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -672,6 +1535,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/CoHOhQUW/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -682,7 +1565,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -692,6 +1575,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10304_a34d72b1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/hLh0h8gYN6",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/61a10e6abb1149ad9d08f303267f9bc4",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -702,16 +1645,16 @@
       "episode": 10,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/McQDsMxo/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/1o7Tc5Ab/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -719,7 +1662,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/1859f488561e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -730,7 +1693,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -740,6 +1703,26 @@
             "en": "renshengyingjia"
           },
           "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/McQDsMxo/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
         },
         {
           "source_id": "regular-360",
@@ -750,7 +1733,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -760,6 +1743,66 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10306_76423e09/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/pG9WfqQECa",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/90c34175923a36ab7a5de4b981c1972f",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -770,16 +1813,16 @@
       "episode": 11,
       "streams": [
         {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/LFHvkRAy/index.m3u8",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/i2qIZi3B/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
-          "source_item_id": "70130",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
           "canonical_source_id": "",
           "source_title": "人生赢家",
           "original_title": "renshengyingjia",
@@ -787,7 +1830,27 @@
             "zh": "人生赢家",
             "en": "renshengyingjia"
           },
-          "language": "国语"
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/9aa164eca98f/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         },
         {
           "source_id": "regular-墨斗",
@@ -798,7 +1861,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -810,43 +1873,15 @@
           "language": "暂无"
         },
         {
-          "source_id": "regular-360",
-          "source_name": "360|点播",
-          "provider": "360zy",
-          "url": "https://vod1.maowushi.com/20260908/SL3pHcK4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
-          "source_item_id": "105270",
-          "canonical_source_id": "",
-          "source_title": "人生赢家",
-          "original_title": "renshengyingjia",
-          "localized_titles": {
-            "zh": "人生赢家",
-            "en": "renshengyingjia"
-          },
-          "language": "汉语普通话"
-        }
-      ]
-    },
-    {
-      "id": "tv-0269b72da725e9d5d03e-e0012-6b51d431",
-      "name": "第12集",
-      "season": null,
-      "episode": 12,
-      "streams": [
-        {
           "source_id": "regular-ikun",
           "source_name": "ikun|点播",
           "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20260908/vHSX6X7N/index.m3u8",
+          "url": "https://bfikuncdn.com/20260908/LFHvkRAy/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 13:01:45",
+          "updated_at": "2026-09-09 12:38:14",
           "source_item_id": "70130",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -858,6 +1893,134 @@
           "language": "国语"
         },
         {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260908/SL3pHcK4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:36:03",
+          "source_item_id": "105270",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10308_e5b3fff4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/EQB4j1KFlK",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/9efb1a59d7b58e69996cf0e32cb71098",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "tv-0269b72da725e9d5d03e-e0012-6b51d431",
+      "name": "第12集",
+      "season": null,
+      "episode": 12,
+      "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260908/OTlacfZn/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/38d43e55d905/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -866,7 +2029,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:51:46",
+          "updated_at": "2026-09-09 12:49:57",
           "source_item_id": "89282",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -878,6 +2041,26 @@
           "language": "暂无"
         },
         {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260908/vHSX6X7N/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
+        },
+        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -886,7 +2069,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-08 12:16:46",
+          "updated_at": "2026-09-09 12:36:03",
           "source_item_id": "105270",
           "canonical_source_id": "",
           "source_title": "人生赢家",
@@ -896,6 +2079,738 @@
             "en": "renshengyingjia"
           },
           "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260908/10309_70affbb9/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/eT8Wh8Pi2U",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/2e667fca5e24ac13dcee94ddc4aa751a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "tv-0269b72da725e9d5d03e-e0013-3fdba35f",
+      "name": "第13集",
+      "season": null,
+      "episode": 13,
+      "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260909/Yx60cmu3/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/0aeb449e1635/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260909/hLEezM44/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:49:57",
+          "source_item_id": "89282",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260909/92EAJfTu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260909/J8rjR6fn/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:36:03",
+          "source_item_id": "105270",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16639_09f95444/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/OdJMhQTZS2",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/9b77e252a999cab18512f3db1a414ddf",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "tv-0269b72da725e9d5d03e-e0014-8527a891",
+      "name": "第14集",
+      "season": null,
+      "episode": 14,
+      "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260909/nhBcheSu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/3338565c3a6e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260909/tZYze4nm/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:49:57",
+          "source_item_id": "89282",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260909/hgcJsdJ6/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260909/wKdpjMt8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:36:03",
+          "source_item_id": "105270",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16638_2b3d6b60/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/KapXPvXP53",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/b3432faaca931632a24fc96b3d1c71ef",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "tv-0269b72da725e9d5d03e-e0015-e629fa65",
+      "name": "第15集",
+      "season": null,
+      "episode": 15,
+      "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260909/3G7zxMPP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/0eb442eabb20/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260909/16NW0ETe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:49:57",
+          "source_item_id": "89282",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260909/II9LCvJu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260909/M0dc9AIb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:36:03",
+          "source_item_id": "105270",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16637_140453d1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/TRdfFYaZbA",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/1309167cce18f6973a67a702d7b799fe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "tv-0269b72da725e9d5d03e-e0016-b17ef6d1",
+      "name": "第16集",
+      "season": null,
+      "episode": 16,
+      "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260909/gUzrPFu7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/renshengyingjia_e92b3c/da175a29ea22/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:13:38",
+          "source_item_id": "161810",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260909/8kKnGcB4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:49:57",
+          "source_item_id": "89282",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "暂无"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260909/8wt2Q9Aa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:38:14",
+          "source_item_id": "70130",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260909/FaYgBpFq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:36:03",
+          "source_item_id": "105270",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn27.com/20260909/16636_536cd47b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/zmExmlgxvS",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 13:52:29",
+          "source_item_id": "72445",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn27.com/share/f295553be4c2f4e76f6d15d3dc22e9dd",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-09 12:05:21",
+          "source_item_id": "156361",
+          "canonical_source_id": "",
+          "source_title": "人生赢家",
+          "original_title": "renshengyingjia",
+          "localized_titles": {
+            "zh": "人生赢家",
+            "en": "renshengyingjia"
+          },
+          "language": "unknown"
         }
       ]
     }
@@ -977,6 +2892,24 @@
       "source_title": "人生赢家",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72445",
+      "official": true
+    },
+    {
+      "value": "renshengyingjia",
+      "source_title": "人生赢家",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72445",
+      "official": true
+    },
+    {
+      "value": "人生赢家",
+      "source_title": "人生赢家",
+      "language": "zh",
+      "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "70130",
       "official": true
@@ -988,6 +2921,42 @@
       "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "70130",
+      "official": true
+    },
+    {
+      "value": "人生赢家",
+      "source_title": "人生赢家",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "156361",
+      "official": true
+    },
+    {
+      "value": "renshengyingjia",
+      "source_title": "人生赢家",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "156361",
+      "official": true
+    },
+    {
+      "value": "人生赢家",
+      "source_title": "人生赢家",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-暴风",
+      "source_item_id": "161810",
+      "official": true
+    },
+    {
+      "value": "renshengyingjia",
+      "source_title": "人生赢家",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-暴风",
+      "source_item_id": "161810",
       "official": true
     },
     {
