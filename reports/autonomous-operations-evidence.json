@@ -1,0 +1,687 @@
+{
+  "assembled_at": "2026-09-10T14:30:00Z",
+  "expected_cron": "50 * * * *",
+  "ledger": {
+    "cadence_minutes": 60,
+    "schema_version": 1,
+    "timezone": "UTC",
+    "windows": [
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T00:18:50Z",
+        "generation": "815624e5dd41244c4300c9ed7fc2f488eedfd7e7",
+        "logical_end": "2026-09-08T00:00:00Z",
+        "logical_start": "2026-09-07T23:00:00Z",
+        "reason_code": "WORKFLOW_FAILED",
+        "run_id": "34171646366-1",
+        "started_at": "2026-09-07T23:55:53Z",
+        "status": "FAILED_RECOVERABLE",
+        "window_id": "2026-09-07T23:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T11:56:40Z",
+        "logical_end": "2026-09-08T01:00:00Z",
+        "logical_start": "2026-09-08T00:00:00Z",
+        "reason_code": "STALE_OWNER_TERMINATED",
+        "recovered_at": "2026-09-08T11:56:40Z",
+        "recovered_by_run": "34223340600-1",
+        "run_id": "34173623481-1",
+        "started_at": "2026-09-08T00:32:16Z",
+        "status": "FAILED_RECOVERABLE",
+        "window_id": "2026-09-08T00:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T02:00:00Z",
+        "logical_start": "2026-09-08T01:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T01:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T03:00:00Z",
+        "logical_start": "2026-09-08T02:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T02:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T04:00:00Z",
+        "logical_start": "2026-09-08T03:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T03:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T05:00:00Z",
+        "logical_start": "2026-09-08T04:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T04:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T06:00:00Z",
+        "logical_start": "2026-09-08T05:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T05:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T07:00:00Z",
+        "logical_start": "2026-09-08T06:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T06:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T08:00:00Z",
+        "logical_start": "2026-09-08T07:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T07:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T09:00:00Z",
+        "logical_start": "2026-09-08T08:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T08:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T10:00:00Z",
+        "logical_start": "2026-09-08T09:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T09:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T11:00:00Z",
+        "logical_start": "2026-09-08T10:00:00Z",
+        "recorded_at": "2026-09-08T11:56:40Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T10:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T12:26:57Z",
+        "generation": "fa9f03d6ab74ffad10e8f23948d7012c74a1163f",
+        "logical_end": "2026-09-08T12:00:00Z",
+        "logical_start": "2026-09-08T11:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34223340600-1",
+        "started_at": "2026-09-08T11:56:40Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-08T11:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T13:00:00Z",
+        "logical_start": "2026-09-08T12:00:00Z",
+        "recorded_at": "2026-09-08T15:11:14Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T12:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T14:00:00Z",
+        "logical_start": "2026-09-08T13:00:00Z",
+        "recorded_at": "2026-09-08T15:11:14Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T13:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T15:00:00Z",
+        "logical_start": "2026-09-08T14:00:00Z",
+        "recorded_at": "2026-09-08T15:11:14Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T14:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T15:41:12Z",
+        "generation": "a8d72ca6c9464f647f4b751d060fbf8795fa3493",
+        "logical_end": "2026-09-08T16:00:00Z",
+        "logical_start": "2026-09-08T15:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34243108045-1",
+        "started_at": "2026-09-08T15:11:14Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-08T15:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T17:00:00Z",
+        "logical_start": "2026-09-08T16:00:00Z",
+        "recorded_at": "2026-09-08T18:07:56Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T16:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T18:00:00Z",
+        "logical_start": "2026-09-08T17:00:00Z",
+        "recorded_at": "2026-09-08T18:07:56Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T17:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T18:37:23Z",
+        "generation": "bec5dc37f2d1fe76255e625b90ac986fee3b671e",
+        "logical_end": "2026-09-08T19:00:00Z",
+        "logical_start": "2026-09-08T18:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34261200873-1",
+        "started_at": "2026-09-08T18:07:56Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-08T18:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T20:00:00Z",
+        "logical_start": "2026-09-08T19:00:00Z",
+        "recorded_at": "2026-09-08T20:28:29Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T19:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T20:57:11Z",
+        "generation": "b9515d351ee3fc7725ce92ed77270bcc644d3158",
+        "logical_end": "2026-09-08T21:00:00Z",
+        "logical_start": "2026-09-08T20:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34274993673-1",
+        "started_at": "2026-09-08T20:28:29Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-08T20:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-08T21:56:35Z",
+        "generation": "1566a7a2c622cc96980038f562316e0f813ad887",
+        "logical_end": "2026-09-08T22:00:00Z",
+        "logical_start": "2026-09-08T21:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34280714388-1",
+        "started_at": "2026-09-08T21:27:40Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-08T21:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-08T23:00:00Z",
+        "logical_start": "2026-09-08T22:00:00Z",
+        "recorded_at": "2026-09-08T23:41:56Z",
+        "status": "MISSED",
+        "window_id": "2026-09-08T22:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-09T00:11:47Z",
+        "generation": "8bbe5534a46feb140647993aefe1d6dcc9115b2f",
+        "logical_end": "2026-09-09T00:00:00Z",
+        "logical_start": "2026-09-08T23:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34291790393-1",
+        "started_at": "2026-09-08T23:41:56Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-08T23:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T01:00:00Z",
+        "logical_start": "2026-09-09T00:00:00Z",
+        "recorded_at": "2026-09-09T01:37:15Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T00:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-09T02:04:26Z",
+        "generation": "aba62d20f28f1964ff826395c983d6488bf98571",
+        "logical_end": "2026-09-09T02:00:00Z",
+        "logical_start": "2026-09-09T01:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34299925546-1",
+        "started_at": "2026-09-09T01:37:15Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-09T01:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T03:00:00Z",
+        "logical_start": "2026-09-09T02:00:00Z",
+        "recorded_at": "2026-09-09T06:45:25Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T02:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T04:00:00Z",
+        "logical_start": "2026-09-09T03:00:00Z",
+        "recorded_at": "2026-09-09T06:45:25Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T03:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T05:00:00Z",
+        "logical_start": "2026-09-09T04:00:00Z",
+        "recorded_at": "2026-09-09T06:45:25Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T04:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T06:00:00Z",
+        "logical_start": "2026-09-09T05:00:00Z",
+        "recorded_at": "2026-09-09T06:45:25Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T05:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-09T07:14:57Z",
+        "generation": "810b6afced577b7f7a7c398c897fdfec047e179c",
+        "logical_end": "2026-09-09T07:00:00Z",
+        "logical_start": "2026-09-09T06:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34320505377-1",
+        "started_at": "2026-09-09T06:45:25Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-09T06:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T08:00:00Z",
+        "logical_start": "2026-09-09T07:00:00Z",
+        "recorded_at": "2026-09-09T11:57:20Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T07:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T09:00:00Z",
+        "logical_start": "2026-09-09T08:00:00Z",
+        "recorded_at": "2026-09-09T11:57:20Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T08:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T10:00:00Z",
+        "logical_start": "2026-09-09T09:00:00Z",
+        "recorded_at": "2026-09-09T11:57:20Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T09:00:00Z"
+      },
+      {
+        "logical_end": "2026-09-09T11:00:00Z",
+        "logical_start": "2026-09-09T10:00:00Z",
+        "recorded_at": "2026-09-09T11:57:20Z",
+        "status": "MISSED",
+        "window_id": "2026-09-09T10:00:00Z"
+      },
+      {
+        "attempt": 1,
+        "completed_at": "2026-09-09T12:25:25Z",
+        "generation": "cf5bc93c095e6b00894d19bcfa4fe5eaa53e6289",
+        "logical_end": "2026-09-09T12:00:00Z",
+        "logical_start": "2026-09-09T11:00:00Z",
+        "reason_code": "CANONICAL_OUTPUT_CHANGED",
+        "run_id": "34348264531-1",
+        "started_at": "2026-09-09T11:57:20Z",
+        "status": "COMPLETED_CHANGED",
+        "window_id": "2026-09-09T11:00:00Z"
+      }
+    ]
+  },
+  "privacy": {
+    "cookies_present": false,
+    "credentials_present": false,
+    "media_bytes_present": false,
+    "playback_references_present": false,
+    "privacy_safe": true,
+    "protected_payloads_present": false,
+    "sessions_present": false,
+    "signed_links_present": false,
+    "tokens_present": false
+  },
+  "scheduler_runs": [
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-10T13:46:50Z",
+      "event": "workflow_dispatch",
+      "id": 34484786735,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-10T10:03:47Z",
+      "event": "schedule",
+      "id": 34464050170,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-10T09:30:00Z",
+      "event": "workflow_dispatch",
+      "id": 34460964156,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-10T05:21:43Z",
+      "event": "schedule",
+      "id": 34440757321,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-10T04:46:56Z",
+      "event": "workflow_dispatch",
+      "id": 34438506439,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-10T00:39:34Z",
+      "event": "schedule",
+      "id": 34422223230,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T22:46:46Z",
+      "event": "schedule",
+      "id": 34413877588,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T21:58:22Z",
+      "event": "workflow_dispatch",
+      "id": 34409779069,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-09T20:02:28Z",
+      "event": "schedule",
+      "id": 34398638403,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T19:30:41Z",
+      "event": "workflow_dispatch",
+      "id": 34395487538,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-09T16:54:34Z",
+      "event": "schedule",
+      "id": 34379655781,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T16:32:03Z",
+      "event": "workflow_dispatch",
+      "id": 34377323043,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T11:57:13Z",
+      "event": "schedule",
+      "id": 34348264531,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-09T06:45:53Z",
+      "event": "schedule",
+      "id": 34320555386,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T06:45:17Z",
+      "event": "workflow_dispatch",
+      "id": 34320505377,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-09T01:37:07Z",
+      "event": "schedule",
+      "id": 34299925546,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-08T23:41:49Z",
+      "event": "schedule",
+      "id": 34291790393,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-08T21:27:33Z",
+      "event": "schedule",
+      "id": 34280714388,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-08T20:28:21Z",
+      "event": "workflow_dispatch",
+      "id": 34274993673,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-08T18:07:48Z",
+      "event": "schedule",
+      "id": 34261200873,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-08T15:11:06Z",
+      "event": "workflow_dispatch",
+      "id": 34243108045,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-09-08T11:56:33Z",
+      "event": "workflow_dispatch",
+      "id": 34223340600,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-08T10:06:18Z",
+      "event": "schedule",
+      "id": 34213649086,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-08T05:19:36Z",
+      "event": "schedule",
+      "id": 34190196258,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-08T01:57:45Z",
+      "event": "workflow_dispatch",
+      "id": 34178399408,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-08T00:42:08Z",
+      "event": "schedule",
+      "id": 34174177020,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-08T00:32:02Z",
+      "event": "workflow_dispatch",
+      "id": 34173623481,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-07T23:55:46Z",
+      "event": "workflow_dispatch",
+      "id": 34171646366,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-07T23:34:40Z",
+      "event": "workflow_dispatch",
+      "id": 34170501723,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-09-07T23:30:21Z",
+      "event": "workflow_dispatch",
+      "id": 34170257619,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "cancelled",
+      "created_at": "2026-08-30T14:31:33Z",
+      "event": "schedule",
+      "id": 33317098380,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "cancelled",
+      "created_at": "2026-08-30T09:28:56Z",
+      "event": "schedule",
+      "id": 33304158714,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-08-29T23:38:30Z",
+      "event": "schedule",
+      "id": 33281452046,
+      "recovered_by": null,
+      "recovery": false
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-08-29T23:19:49Z",
+      "event": "workflow_dispatch",
+      "id": 33280721512,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "success",
+      "created_at": "2026-08-29T22:43:05Z",
+      "event": "workflow_dispatch",
+      "id": 33279266084,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-08-29T21:41:30Z",
+      "event": "workflow_dispatch",
+      "id": 33276719256,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-08-29T21:18:20Z",
+      "event": "workflow_dispatch",
+      "id": 33275726206,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-08-29T21:01:32Z",
+      "event": "workflow_dispatch",
+      "id": 33274976120,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-08-29T20:48:47Z",
+      "event": "workflow_dispatch",
+      "id": 33274446445,
+      "recovered_by": null,
+      "recovery": true
+    },
+    {
+      "conclusion": "failure",
+      "created_at": "2026-08-29T20:32:58Z",
+      "event": "workflow_dispatch",
+      "id": 33273773307,
+      "recovered_by": null,
+      "recovery": true
+    }
+  ],
+  "schema_version": "fileball-autonomous-evidence-1",
+  "sources": [],
+  "surfaces": {
+    "fileball-data": {
+      "catalog_contract": "2.5",
+      "data_commit": "3c1459284d465558c779eeffa60b580ea9c5652c",
+      "registry": "7f6ffb97a558da8828a01833ab9fe3bfa0742088f90c88d1c61df5bc8ac39605",
+      "worker_version": "1.1.0"
+    },
+    "media.hengmao.org": {
+      "catalog_contract": "2.5",
+      "data_commit": "3c1459284d465558c779eeffa60b580ea9c5652c",
+      "registry": "7f6ffb97a558da8828a01833ab9fe3bfa0742088f90c88d1c61df5bc8ac39605",
+      "worker_version": "1.1.0"
+    },
+    "v8.hengmao.org": {
+      "catalog_contract": "2.5",
+      "data_commit": "3c1459284d465558c779eeffa60b580ea9c5652c",
+      "registry": "7f6ffb97a558da8828a01833ab9fe3bfa0742088f90c88d1c61df5bc8ac39605",
+      "worker_version": "1.1.0"
+    },
+    "worker-deployment": {
+      "catalog_contract": "2.5",
+      "data_commit": "3c1459284d465558c779eeffa60b580ea9c5652c",
+      "registry": "7f6ffb97a558da8828a01833ab9fe3bfa0742088f90c88d1c61df5bc8ac39605",
+      "worker_version": "1.1.0"
+    }
+  }
+}

@@ -540,12 +540,24 @@
     },
     {
       "attempt": 1,
+      "completed_at": "2026-09-10T14:16:54Z",
+      "generation": "e86c391e6fe8965c5b2be2fb725ff37cb3636c9b",
       "logical_end": "2026-09-10T14:00:00Z",
       "logical_start": "2026-09-10T13:00:00Z",
+      "reason_code": "CANONICAL_OUTPUT_CHANGED",
       "run_id": "34484786735-1",
       "started_at": "2026-09-10T13:46:58Z",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED_CHANGED",
       "window_id": "2026-09-10T13:00:00Z"
+    },
+    {
+      "attempt": 1,
+      "logical_end": "2026-09-10T15:00:00Z",
+      "logical_start": "2026-09-10T14:00:00Z",
+      "run_id": "34490531801-1",
+      "started_at": "2026-09-10T14:39:58Z",
+      "status": "IN_PROGRESS",
+      "window_id": "2026-09-10T14:00:00Z"
     }
   ]
 }

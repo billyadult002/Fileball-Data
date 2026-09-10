@@ -1,0 +1,100 @@
+{
+  "authority_policy": {
+    "evidence_compiler_only": true,
+    "gz360_production_accounting_untouched": true,
+    "network_fetch_performed": false,
+    "production_mutation_performed": false,
+    "workflow_dispatch_counted_as_scheduled": false,
+    "zip0_production_accounting_untouched": true
+  },
+  "digest": "e1f5940d9ff1ee432d86dbfdc40906ae9adb45bab03d9db91eba78bdfc410ab7",
+  "final_policy": "OPERATIONS_READY requires every gate PASS on current declaration-level evidence; any WITHHELD gate keeps OPERATIONS_WITHHELD; no gate may be forced to PASS without evidence.",
+  "gates": {
+    "catalog_contract": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "catalog_contract",
+      "valid": true
+    },
+    "generation_watchdog": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "generation_watchdog",
+      "valid": true
+    },
+    "privacy": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "privacy",
+      "valid": true
+    },
+    "recovery_competition": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "recovery_competition",
+      "valid": true
+    },
+    "registry": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "registry",
+      "valid": true
+    },
+    "rollback": {
+      "blocker_explanation": "Rollback target (previous generation) is identified and Fileball-Data retains it, but a real rollback execution and production non-impact verification for the current generation are not retained.",
+      "classification": "WITHHELD",
+      "gate": "rollback",
+      "valid": false
+    },
+    "scheduler_analytics": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "scheduler_analytics",
+      "valid": true
+    },
+    "source_inventory": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "source_inventory",
+      "valid": true
+    },
+    "source_lifecycle": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "source_lifecycle",
+      "valid": true
+    },
+    "source_no_regression": {
+      "blocker_explanation": "",
+      "classification": "PASS",
+      "gate": "source_no_regression",
+      "valid": true
+    },
+    "visibility": {
+      "blocker_explanation": "Independent browser verification and live-surface validation for the current generation are not retained; surfaces converge but visibility is not independently proven.",
+      "classification": "WITHHELD",
+      "gate": "visibility",
+      "valid": false
+    }
+  },
+  "generated_at": "2026-09-10T14:28:04Z",
+  "harness_verdict": {
+    "checks": {
+      "catalog_contract": true,
+      "generation_watchdog": true,
+      "privacy": true,
+      "recovery_competition": true,
+      "registry": true,
+      "rollback": false,
+      "scheduler_analytics": true,
+      "source_lifecycle": true,
+      "source_no_regression": true,
+      "visibility": false
+    },
+    "operational_ready": false,
+    "policy": "Every independent gate must pass with declaration-level evidence; missing evidence fails closed.",
+    "status": "OPERATIONS_WITHHELD"
+  },
+  "operational_status": "OPERATIONS_WITHHELD",
+  "schema_version": "fileball-operations-readiness-authority-1"
+}

@@ -1,0 +1,468 @@
+{
+  "authority_policy": {
+    "counts_workflow_dispatch_as_scheduled": false,
+    "evidence_compiler_only": true,
+    "gz360_production_accounting_untouched": true,
+    "network_fetch_performed": false,
+    "production_mutation_performed": false,
+    "promotes_html_to_contract": false,
+    "third_party_code_executed": false,
+    "zip0_production_accounting_untouched": true
+  },
+  "evidence": {
+    "ledger_present": true,
+    "scheduler_runs_present": true,
+    "surfaces_present": true,
+    "universal_source_report_present": false
+  },
+  "evidence_digest": "baf0bab8089ce66ed0e62b12ef66ab8882fee3886c6e384bcb6af46c9d170b73",
+  "gates": {
+    "catalog_contract": {
+      "checks": {
+        "contract_version": false,
+        "contracts_equal": false,
+        "contracts_present": false
+      },
+      "valid": false
+    },
+    "generation_watchdog": {
+      "catalog_contract": "2.5",
+      "checks": {
+        "catalog_contract_converged": true,
+        "data_commit_converged": true,
+        "registry_converged": true
+      },
+      "errors": [],
+      "generation": "3c1459284d465558c779eeffa60b580ea9c5652c",
+      "identities": {
+        "fileball-data": "3c1459284d465558c779eeffa60b580ea9c5652c",
+        "media.hengmao.org": "3c1459284d465558c779eeffa60b580ea9c5652c",
+        "v8.hengmao.org": "3c1459284d465558c779eeffa60b580ea9c5652c",
+        "worker-deployment": "3c1459284d465558c779eeffa60b580ea9c5652c"
+      },
+      "registry": "7f6ffb97a558da8828a01833ab9fe3bfa0742088f90c88d1c61df5bc8ac39605",
+      "valid": true
+    },
+    "privacy": {
+      "checks": {
+        "cookies_present": true,
+        "credentials_present": true,
+        "media_bytes_present": true,
+        "playback_references_present": true,
+        "protected_payloads_present": true,
+        "sessions_present": true,
+        "signed_links_present": true,
+        "tokens_present": true
+      },
+      "valid": true
+    },
+    "recovery_competition": {
+      "candidate_count": 0,
+      "promoted_count": 0,
+      "rows": [],
+      "rule": "Only a runtime with contract signal plus semantic verification plus retained evidence may win; browser or HTML surface evidence alone can never promote.",
+      "valid": false,
+      "winner_counts": {}
+    },
+    "registry": {
+      "checks": {
+        "identities_equal": false,
+        "identities_present": false
+      },
+      "valid": false
+    },
+    "rollback": {
+      "checks": {
+        "catalog_fingerprint": false,
+        "previous_generation": false,
+        "previous_worker_data_commit": false,
+        "production_non_impact": false,
+        "rollback_verified": false,
+        "source_mapping_fingerprint": false
+      },
+      "valid": false
+    },
+    "scheduler_analytics": {
+      "counts": {
+        "DELAYED": 7,
+        "DELIVERED": 9,
+        "EXTERNAL_BLOCKED": 2,
+        "RECOVERED": 22
+      },
+      "delivered_count": 9,
+      "drift_seconds_between_last_two_deliveries": -16924.0,
+      "expected_cron": "50 * * * *",
+      "note": "MISSED classification requires an expected window with no observed run; windows must come from the durable ledger.",
+      "recovered_count": 22,
+      "rows": [
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-10T13:46:50Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34484786735"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-10T10:03:47Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34464050170"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-10T09:30:00Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34460964156"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-10T05:21:43Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34440757321"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-10T04:46:56Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34438506439"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-10T00:39:34Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34422223230"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T22:46:46Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34413877588"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T21:58:22Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34409779069"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-09-09T20:02:28Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34398638403"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T19:30:41Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34395487538"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-09-09T16:54:34Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34379655781"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T16:32:03Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34377323043"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T11:57:13Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34348264531"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-09-09T06:45:53Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34320555386"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T06:45:17Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34320505377"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-09T01:37:07Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34299925546"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-08T23:41:49Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34291790393"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-08T21:27:33Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34280714388"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-08T20:28:21Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34274993673"
+        },
+        {
+          "classification": "DELIVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-08T18:07:48Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34261200873"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-08T15:11:06Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34243108045"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-09-08T11:56:33Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34223340600"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-09-08T10:06:18Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34213649086"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-09-08T05:19:36Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34190196258"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-09-08T01:57:45Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34178399408"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-09-08T00:42:08Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "34174177020"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-09-08T00:32:02Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34173623481"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-09-07T23:55:46Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34171646366"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-09-07T23:34:40Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34170501723"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-09-07T23:30:21Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "34170257619"
+        },
+        {
+          "classification": "EXTERNAL_BLOCKED",
+          "conclusion": "cancelled",
+          "created_at": "2026-08-30T14:31:33Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "33317098380"
+        },
+        {
+          "classification": "EXTERNAL_BLOCKED",
+          "conclusion": "cancelled",
+          "created_at": "2026-08-30T09:28:56Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "33304158714"
+        },
+        {
+          "classification": "DELAYED",
+          "conclusion": "failure",
+          "created_at": "2026-08-29T23:38:30Z",
+          "event": "schedule",
+          "recovery_run_id": null,
+          "run_id": "33281452046"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-08-29T23:19:49Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33280721512"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "success",
+          "created_at": "2026-08-29T22:43:05Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33279266084"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-08-29T21:41:30Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33276719256"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-08-29T21:18:20Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33275726206"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-08-29T21:01:32Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33274976120"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-08-29T20:48:47Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33274446445"
+        },
+        {
+          "classification": "RECOVERED",
+          "conclusion": "failure",
+          "created_at": "2026-08-29T20:32:58Z",
+          "event": "workflow_dispatch",
+          "recovery_run_id": null,
+          "run_id": "33273773307"
+        }
+      ],
+      "valid": true
+    },
+    "source_lifecycle": {
+      "errors": [],
+      "gz360_lifecycle": null,
+      "lifecycle_counts": {},
+      "source_count": 0,
+      "sources": [],
+      "valid": false,
+      "zip0_lifecycle": null
+    },
+    "source_no_regression": {
+      "equal": false,
+      "errors": [
+        "fingerprint_missing"
+      ],
+      "reason": "fingerprint evidence missing",
+      "valid": false
+    },
+    "visibility": {
+      "checks": {
+        "browser_verified": false,
+        "generation_consistent": false,
+        "live_surface_validated": false
+      },
+      "valid": false
+    }
+  },
+  "generated_at": "2026-09-10T14:23:10Z",
+  "mission": "FILEBALL AUTONOMOUS OPERATIONS OBSERVABILITY SOURCE RECOVERY AND SELF-HEALING CLOSURE",
+  "operational_readiness": {
+    "checks": {
+      "catalog_contract": false,
+      "generation_watchdog": true,
+      "privacy": true,
+      "recovery_competition": false,
+      "registry": false,
+      "rollback": false,
+      "scheduler_analytics": true,
+      "source_lifecycle": false,
+      "source_no_regression": false,
+      "visibility": false
+    },
+    "operational_ready": false,
+    "policy": "Every independent gate must pass with declaration-level evidence; missing evidence fails closed.",
+    "status": "OPERATIONS_WITHHELD"
+  },
+  "replay_deterministic": true,
+  "schema_version": "fileball-autonomous-operations-readiness-1"
+}

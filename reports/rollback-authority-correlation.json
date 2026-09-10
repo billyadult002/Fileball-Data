@@ -1,0 +1,16 @@
+{
+  "catalog_fingerprint": "084362e9187cbb473431b4475da6bd7fbaa37c87ab8a34b48fc372c8883d59e4",
+  "current_generation": "3c1459284d465558c779eeffa60b580ea9c5652c",
+  "gate": {
+    "blocker_explanation": "Rollback target (previous generation) is identified and Fileball-Data retains it, but a real rollback execution and production non-impact verification for the current generation are not retained.",
+    "classification": "WITHHELD",
+    "gate": "rollback",
+    "valid": false
+  },
+  "generated_at": "2026-09-10T14:28:04Z",
+  "previous_generation": "7713756512a8",
+  "restoration_path": "point Fileball-Data at previous_generation commit 7713756512a8; redeploy worker pinned to that data_commit; verify all four surfaces report the previous generation before re-enabling publication",
+  "rollback_policy": "Rollback readiness requires an identified previous generation, a deterministic restoration path, and an independently verified rollback execution with production non-impact evidence.",
+  "schema_version": "fileball-rollback-authority-correlation-1",
+  "source_mapping_fingerprint": "084362e9187cbb473431b4475da6bd7fbaa37c87ab8a34b48fc372c8883d59e4"
+}
