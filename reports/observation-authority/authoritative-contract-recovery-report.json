@@ -1,0 +1,1284 @@
+{
+  "contract_recovered_sources": [
+    "src-2a64feddbdfc3288",
+    "src-7cb9751e0b57360d",
+    "src-5a04a9a41c60a771",
+    "src-67b7b49f39c9f6e2",
+    "src-3542d8fb5fd8cd4e",
+    "src-b2761467f6fb043b",
+    "src-fdb37411350aec5d",
+    "src-79c759ef80f9a687",
+    "src-6f0e6af9689a8116",
+    "src-3ea6ed6f2d784539",
+    "src-8cad8e59c940cc1e",
+    "src-eb362139644a0ab5",
+    "src-2b4cd1e0e59b0a24",
+    "src-31c18ae16f824277",
+    "src-68ecc938c8f19880",
+    "src-941d7af0268a7be8",
+    "src-521953e729bfd8f7"
+  ],
+  "generated_at": "2026-09-10T16:22:00Z",
+  "preserved_blockers": [
+    {
+      "reason": "Fresh live observation did not establish a contract; the directory source remains outside production accounting.",
+      "source_id": "external-hes-goal-zip",
+      "state": "BLOCKED_REQUIRES_NEW_EVIDENCE"
+    },
+    {
+      "reason": "The retained reference resolves only to an unavailable runtime/CSP artifact; no live provider contract was established.",
+      "source_id": "gz360-derived-runtime-reference",
+      "state": "AUTHORITATIVE_DISCOVERY_BLOCKER"
+    }
+  ],
+  "recoveries": [
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "0d35a6e0e1588202f2c508766e46db6d7a2fb1633fa2a2c7839a541f3acf7cae",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://api.niuniuzy.me/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-2a64feddbdfc3288"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "f445e1e3cfbce5916594bf8b150db624e40d30d18c952db86fc788cc90ae3373",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://cj.yayazy.net/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://cj.yayazy.net/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-7cb9751e0b57360d"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "45ceab28b40845bbeb86a263ef96e08cd93d379b161b3aaf39477956a00e100a",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://cj.lziapi.com/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://cj.lziapi.com/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-5a04a9a41c60a771"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "cedfd42de458f02cf196ea3723028629f43d90b2536f415ca37a340fff427c3d",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://slapibf.com/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://slapibf.com/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-67b7b49f39c9f6e2"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "b67ae3034e0f4c7dc68d1d5da875d8237a6f678e0ecf288d085c3e1aec3b93ec",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://aosikazy.com/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://aosikazy.com/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-3542d8fb5fd8cd4e"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "ac32beb89e42b7a75a460aae5bfe045ba92256c8de3f8838e5347aa2b511322c",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://apiyutu.com/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://apiyutu.com/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-b2761467f6fb043b"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "2aefee3c7ec27645213587846ed12b970d42d688b5eed988316f93f975f5e089",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://apilj.com/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://apilj.com/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-fdb37411350aec5d"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "ac32beb89e42b7a75a460aae5bfe045ba92256c8de3f8838e5347aa2b511322c",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://apilsbzy1.com/api.php/provide/vod/",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://apilsbzy1.com/api.php/provide/vod/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-79c759ef80f9a687"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "67c7c5d44a566d5c5a638d4883abfd9f3d652271b89c13480e1ecb56821b14a9",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://dbzy.tv/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://dbzy.tv/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-6f0e6af9689a8116"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "05698d37ded59f30cfc89bb634e0cc542d1632cd5663fa349ff907c3535af72f",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://xingba111.com/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://xingba111.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-3ea6ed6f2d784539"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "a964a00d204f0cf86e2f60c36e16529c799a5ea22646ef1164eed63063a0aa14",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://suoniapi.com/api.php/provide/vod/from/snm3u8",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://suoniapi.com/api.php/provide/vod/from/snm3u8",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-8cad8e59c940cc1e"
+    },
+    {
+      "adapter": {
+        "adapter_family": null,
+        "adapter_generated": false,
+        "blocking_gates": [
+          "parser_validation",
+          "semantic_validation",
+          "normalization_validation",
+          "attribution_validation",
+          "retention_validation",
+          "deduplication_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": false,
+          "deduplication_validation": false,
+          "normalization_validation": false,
+          "parser_validation": false,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": false
+        },
+        "readiness": "NOT_RECOVERED"
+      },
+      "contract": {},
+      "evidence_chain": {
+        "body_hash": null,
+        "contract_evidence": [],
+        "observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://ikunzyapi.com/api.php/provide/vod",
+      "recovery_state": "RECOVERY_CANDIDATE",
+      "reproducibility": {
+        "input_url": "https://ikunzyapi.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": null
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "927496adba80cb29c444e0150f421be039fe6aa04e0cedcb7ce1534201a310a3",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://jszyapi.com/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://jszyapi.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-eb362139644a0ab5"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "4a08f9407f9819477f15652e110af3f43709b686579373d212af4f694c3b7dc7",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://api.zuidapi.com/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://api.zuidapi.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-2b4cd1e0e59b0a24"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "2bb225038139760974d2019620c946be42b8402a1260db5b3b32c222edf1e925",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://360zy.com/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://360zy.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-31c18ae16f824277"
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "048e2f42bf96ce2a2ea4f70e42fd04c0ba1d85e535a3af334a2d2f0604c87947",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://caiji.maotaizy.cc/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-68ecc938c8f19880"
+    },
+    {
+      "adapter": {
+        "adapter_family": null,
+        "adapter_generated": false,
+        "blocking_gates": [
+          "parser_validation",
+          "semantic_validation",
+          "normalization_validation",
+          "attribution_validation",
+          "retention_validation",
+          "deduplication_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": false,
+          "deduplication_validation": false,
+          "normalization_validation": false,
+          "parser_validation": false,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": false
+        },
+        "readiness": "NOT_RECOVERED"
+      },
+      "contract": {},
+      "evidence_chain": {
+        "body_hash": "fd140b38b0dfd68c93d203a7f4c33dce3cfa7b5104de422bbe163b2e70b653af",
+        "contract_evidence": [],
+        "observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://www.xxibaozyw.com/api.php/provide/vod",
+      "recovery_state": "RECOVERY_CANDIDATE",
+      "reproducibility": {
+        "input_url": "https://www.xxibaozyw.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": null
+    },
+    {
+      "adapter": {
+        "adapter_family": "maccms_response",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "action": false,
+          "catchup": false,
+          "categories": false,
+          "detail": false,
+          "drm": false,
+          "epg": false,
+          "filters": false,
+          "home": false,
+          "live": false,
+          "playback": false,
+          "proxy": false,
+          "search": false,
+          "subtitles": false,
+          "tracks": false
+        },
+        "entry_count": 0,
+        "evidence": [
+          "source_runtime_detector"
+        ],
+        "family": "maccms_response",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "6988eba367a6a1a76da3396a8ef4dfed401e8952bf3d542a77595b74ffca07a9",
+        "contract_evidence": [
+          "source_runtime_detector"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://www.mdzyapi.com/api.php/provide/vod",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://www.mdzyapi.com/api.php/provide/vod",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-941d7af0268a7be8"
+    },
+    {
+      "adapter": {
+        "adapter_family": "M3U",
+        "adapter_generated": true,
+        "blocking_gates": [
+          "retention_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": true,
+          "deduplication_validation": true,
+          "normalization_validation": true,
+          "parser_validation": true,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": true
+        },
+        "readiness": "VALIDATED_NOT_READY"
+      },
+      "contract": {
+        "capabilities": {
+          "live": true,
+          "playback": true
+        },
+        "entry_count": 70,
+        "evidence": [
+          "m3u_parser"
+        ],
+        "family": "M3U",
+        "runtime_required": false,
+        "valid": true
+      },
+      "evidence_chain": {
+        "body_hash": "f4ee282e00fc58e50403cdcb3ec6a99af9338a1d37f67304f5e52504cd577590",
+        "contract_evidence": [
+          "m3u_parser"
+        ],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/e2c4e42154a6726e76efad43188a61c6a61f11a8/m3u/%E5%85%A8%E5%9B%BD%E6%99%AF%E5%8C%BA%E6%BA%90.m3u8",
+      "recovery_state": "CONTRACT_RECOVERED",
+      "reproducibility": {
+        "input_url": "https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/e2c4e42154a6726e76efad43188a61c6a61f11a8/m3u/%E5%85%A8%E5%9B%BD%E6%99%AF%E5%8C%BA%E6%BA%90.m3u8",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-521953e729bfd8f7"
+    },
+    {
+      "adapter": {
+        "adapter_family": "HTML_DISCOVERY",
+        "adapter_generated": false,
+        "blocking_gates": [
+          "parser_validation",
+          "semantic_validation",
+          "normalization_validation",
+          "attribution_validation",
+          "retention_validation",
+          "deduplication_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": false,
+          "deduplication_validation": false,
+          "normalization_validation": false,
+          "parser_validation": false,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": false
+        },
+        "readiness": "NOT_RECOVERED"
+      },
+      "contract": {
+        "capabilities": {},
+        "evidence": [],
+        "family": "HTML_DISCOVERY",
+        "reason": "HTML/discovery signals are not a recovered media contract",
+        "runtime_required": false,
+        "signals": {
+          "ajax_endpoint": true,
+          "api_endpoint": false,
+          "embedded_player": false,
+          "graphql_endpoint": false,
+          "hydration_payload": true,
+          "script_payload": true
+        },
+        "valid": false
+      },
+      "evidence_chain": {
+        "body_hash": "4fea9b81ca14856f6208f475e5d96fa83060e9cfff8a8533fa2d120db22d5f6c",
+        "contract_evidence": [],
+        "observation_status": "OBSERVED",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "https://hes-goal.zip/",
+      "recovery_state": "PARTIAL_RECOVERY",
+      "reproducibility": {
+        "input_url": "https://hes-goal.zip/",
+        "replayable": true,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": "src-c53a5c6c347ffa3c"
+    },
+    {
+      "adapter": {
+        "adapter_family": null,
+        "adapter_generated": false,
+        "blocking_gates": [
+          "parser_validation",
+          "semantic_validation",
+          "normalization_validation",
+          "attribution_validation",
+          "retention_validation",
+          "deduplication_validation",
+          "publication_simulation",
+          "readback_validation"
+        ],
+        "gates": {
+          "attribution_validation": false,
+          "deduplication_validation": false,
+          "normalization_validation": false,
+          "parser_validation": false,
+          "publication_simulation": false,
+          "readback_validation": false,
+          "retention_validation": false,
+          "semantic_validation": false
+        },
+        "readiness": "NOT_RECOVERED"
+      },
+      "contract": {},
+      "evidence_chain": {
+        "body_hash": null,
+        "contract_evidence": [],
+        "observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "input_url": "",
+      "recovery_state": "RECOVERY_CANDIDATE",
+      "reproducibility": {
+        "input_url": "",
+        "replayable": false,
+        "runtime": "HTTP_FETCH_CURL_AUTHORITY"
+      },
+      "source_id": null
+    }
+  ],
+  "schema_version": "firebar-authoritative-contract-recovery-1",
+  "state_counts": {
+    "CONTRACT_RECOVERED": 17,
+    "PARTIAL_RECOVERY": 1,
+    "RECOVERY_CANDIDATE": 3
+  }
+}

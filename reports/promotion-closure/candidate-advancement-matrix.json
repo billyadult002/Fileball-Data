@@ -1,0 +1,1157 @@
+{
+  "deterministic_digest": "e483d1843eca5305dc2897d1e5c48480783dd35d626e867785969aa78db32870",
+  "generated_at": "2026-09-10T17:04:17Z",
+  "rows": [
+    {
+      "contract_family": null,
+      "first_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-110bc268fbce35b0",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "NOT_RECOVERED",
+      "remediation_priority": "P3",
+      "retention": {
+        "blocker": "both_observed",
+        "checks": {
+          "both_observed": false,
+          "contract_valid_both_passes": false,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-33cb94ec2df86baeaa03",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "source_id": "src-110bc268fbce35b0"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-2a64feddbdfc3288",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "safe_fingerprint_stable",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": false,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-7fed42a1fdc0bf9e1d20",
+        "stability": "CHANGED_OR_UNPROVEN",
+        "update_behavior": "CHANGED_OR_UNSTABLE",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-2a64feddbdfc3288"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-2b4cd1e0e59b0a24",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-d824f41ae300107c4d2b",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-2b4cd1e0e59b0a24"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-31c18ae16f824277",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-c2533de1e8b084bd9365",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-31c18ae16f824277"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-3542d8fb5fd8cd4e",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-f0587fd6060e36f3b1a7",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-3542d8fb5fd8cd4e"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-3ea6ed6f2d784539",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-61aa633fb912a357adc2",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-3ea6ed6f2d784539"
+    },
+    {
+      "contract_family": "M3U",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "artifact": {
+          "catalog": [
+            {
+              "contract_family": "M3U",
+              "ordinal": 0,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 1,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 2,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 3,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 4,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 5,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 6,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 7,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 8,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 9,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 10,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 11,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 12,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 13,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 14,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 15,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 16,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 17,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 18,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 19,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 20,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 21,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 22,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 23,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 24,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 25,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 26,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 27,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 28,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 29,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 30,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 31,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 32,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 33,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 34,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 35,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 36,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 37,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 38,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 39,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 40,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 41,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 42,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 43,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 44,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 45,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 46,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 47,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 48,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 49,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 50,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 51,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 52,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 53,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 54,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 55,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 56,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 57,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 58,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 59,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 60,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 61,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 62,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 63,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 64,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 65,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 66,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 67,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 68,
+              "source_id": "src-521953e729bfd8f7"
+            },
+            {
+              "contract_family": "M3U",
+              "ordinal": 69,
+              "source_id": "src-521953e729bfd8f7"
+            }
+          ],
+          "registry": {
+            "contract_family": "M3U",
+            "observation_body_hash": "f4ee282e00fc58e50403cdcb3ec6a99af9338a1d37f67304f5e52504cd577590",
+            "source_id": "src-521953e729bfd8f7"
+          },
+          "source_mapping": {
+            "record_count": 70,
+            "record_id_strategy": "source_id:ordinal",
+            "source_id": "src-521953e729bfd8f7"
+          }
+        },
+        "disposition": "PASS",
+        "production_mutation": false,
+        "publication_generation": "fa6e2ee60317c73cfc636d1a384612d83e3bfe5034abc6a27e3725eb8f915ea3",
+        "simulation_only": true,
+        "source_id": "src-521953e729bfd8f7",
+        "valid": true
+      },
+      "readback": {
+        "blocker": "",
+        "checks": {
+          "generation_correlated": true,
+          "registry_verified": true,
+          "simulation_consistent": true,
+          "source_mapping_verified": true
+        },
+        "disposition": "PASS",
+        "readback_generation": "fa6e2ee60317c73cfc636d1a384612d83e3bfe5034abc6a27e3725eb8f915ea3",
+        "valid": true
+      },
+      "readiness": "PROMOTION_READY",
+      "remediation_priority": "P1",
+      "retention": {
+        "blocker": "",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": true,
+          "normalized_entries_present": true,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "PASS",
+        "idempotency": "PROJECTION_EQUAL",
+        "retention_id": "ret-c0e120d062028e747c98",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": true
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-521953e729bfd8f7"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-5a04a9a41c60a771",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "safe_fingerprint_stable",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": false,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-929302be22b91839e64f",
+        "stability": "CHANGED_OR_UNPROVEN",
+        "update_behavior": "CHANGED_OR_UNSTABLE",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-5a04a9a41c60a771"
+    },
+    {
+      "contract_family": null,
+      "first_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-67330c69dd334666",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "NOT_RECOVERED",
+      "remediation_priority": "P3",
+      "retention": {
+        "blocker": "both_observed",
+        "checks": {
+          "both_observed": false,
+          "contract_valid_both_passes": false,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-747aedd9f04a7b8be963",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "source_id": "src-67330c69dd334666"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-67b7b49f39c9f6e2",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-3d0bbf7372e064936444",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-67b7b49f39c9f6e2"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-68ecc938c8f19880",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-bcbb47a548320d23ad07",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-68ecc938c8f19880"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-6f0e6af9689a8116",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-46b2e0d4c4820bc0d8b5",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-6f0e6af9689a8116"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-79c759ef80f9a687",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-699269cfd36c77aa8bfa",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-79c759ef80f9a687"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-7cb9751e0b57360d",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "safe_fingerprint_stable",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": false,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-e33fb34d303afd6e1f1a",
+        "stability": "CHANGED_OR_UNPROVEN",
+        "update_behavior": "CHANGED_OR_UNSTABLE",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-7cb9751e0b57360d"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-8cad8e59c940cc1e",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-1e61bf651c0188bb8c7f",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-8cad8e59c940cc1e"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-941d7af0268a7be8",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "safe_fingerprint_stable",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": false,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-ba8f7950a03fdc1ab4d1",
+        "stability": "CHANGED_OR_UNPROVEN",
+        "update_behavior": "CHANGED_OR_UNSTABLE",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-941d7af0268a7be8"
+    },
+    {
+      "contract_family": null,
+      "first_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-9df102757ab27088",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "NOT_RECOVERED",
+      "remediation_priority": "P3",
+      "retention": {
+        "blocker": "both_observed",
+        "checks": {
+          "both_observed": false,
+          "contract_valid_both_passes": false,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-db91cb424df1d576b60f",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "source_id": "src-9df102757ab27088"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-b2761467f6fb043b",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "normalized_entries_present",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-f8a5896c3e8117ea7796",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-b2761467f6fb043b"
+    },
+    {
+      "contract_family": "HTML_DISCOVERY",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-c53a5c6c347ffa3c",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "NOT_RECOVERED",
+      "remediation_priority": "P3",
+      "retention": {
+        "blocker": "contract_valid_both_passes",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": false,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": true,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-1e6521c204e316135759",
+        "stability": "STABLE",
+        "update_behavior": "NO_CHANGE_OBSERVED",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-c53a5c6c347ffa3c"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-eb362139644a0ab5",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "safe_fingerprint_stable",
+        "checks": {
+          "both_observed": true,
+          "contract_valid_both_passes": true,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": false,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-135306526610cbcc666c",
+        "stability": "CHANGED_OR_UNPROVEN",
+        "update_behavior": "CHANGED_OR_UNSTABLE",
+        "valid": false
+      },
+      "second_observation_status": "OBSERVED",
+      "source_id": "src-eb362139644a0ab5"
+    },
+    {
+      "contract_family": "maccms_response",
+      "first_observation_status": "OBSERVED",
+      "publication_simulation": {
+        "blocker": "retention_validation",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "source_id": "src-fdb37411350aec5d",
+        "valid": false
+      },
+      "readback": {
+        "blocker": "publication_simulation",
+        "disposition": "READBACK_FAILED",
+        "valid": false
+      },
+      "readiness": "RETENTION_FAILED",
+      "remediation_priority": "P2",
+      "retention": {
+        "blocker": "both_observed",
+        "checks": {
+          "both_observed": false,
+          "contract_valid_both_passes": false,
+          "first_observation_present": true,
+          "idempotent_projection": false,
+          "normalized_entries_present": false,
+          "safe_fingerprint_stable": false,
+          "second_observation_present": true
+        },
+        "disposition": "RETENTION_FAILED",
+        "idempotency": "NOT_PROVEN",
+        "retention_id": "ret-4dea496301114ee5eed5",
+        "stability": "CHANGED_OR_UNPROVEN",
+        "update_behavior": "CHANGED_OR_UNSTABLE",
+        "valid": false
+      },
+      "second_observation_status": "BLOCKED_REQUIRES_NEW_EVIDENCE",
+      "source_id": "src-fdb37411350aec5d"
+    }
+  ],
+  "schema_version": "firebar-candidate-advancement-matrix-1"
+}

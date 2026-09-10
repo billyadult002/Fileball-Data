@@ -1,0 +1,72 @@
+{
+  "classification_counts": {
+    "AUTHORITATIVE_DISCOVERY_BLOCKER": 1,
+    "HTTP_FAILURE": 1,
+    "TLS_FAILURE": 1
+  },
+  "failures": [
+    {
+      "dns": {
+        "transport": "curl",
+        "verified": true
+      },
+      "failure_class": "TLS_FAILURE",
+      "failure_domain": "source-side",
+      "input_url": "https://ikunzyapi.com/api.php/provide/vod",
+      "remediation_priority": "P0",
+      "response": {
+        "body_sha256": null,
+        "bytes": 0,
+        "content_type": "",
+        "resolved_url": "https://ikunzyapi.com/api.php/provide/vod",
+        "status_code": null
+      },
+      "source_id": "src-9df102757ab27088",
+      "tls": {
+        "certificate_verification": "enabled",
+        "verified": false
+      }
+    },
+    {
+      "dns": {
+        "transport": "curl",
+        "verified": true
+      },
+      "failure_class": "HTTP_FAILURE",
+      "failure_domain": "source-side",
+      "input_url": "https://www.xxibaozyw.com/api.php/provide/vod",
+      "remediation_priority": "P1",
+      "response": {
+        "body_sha256": "fd140b38b0dfd68c93d203a7f4c33dce3cfa7b5104de422bbe163b2e70b653af",
+        "bytes": 7301,
+        "content_type": "text/html",
+        "resolved_url": "https://www.xxibaozyw.com/api.php/provide/vod",
+        "status_code": 500
+      },
+      "source_id": "src-67330c69dd334666",
+      "tls": {
+        "certificate_verification": "enabled",
+        "verified": true
+      }
+    },
+    {
+      "dns": {
+        "transport": "not_applicable",
+        "verified": false
+      },
+      "failure_class": "AUTHORITATIVE_DISCOVERY_BLOCKER",
+      "failure_domain": "policy-side",
+      "input_url": "",
+      "remediation_priority": "P1",
+      "response": {},
+      "source_id": "src-110bc268fbce35b0",
+      "tls": {
+        "certificate_verification": "not_applicable",
+        "verified": false
+      }
+    }
+  ],
+  "generated_at": "2026-09-10T16:22:00Z",
+  "policy": "TLS verification remained enabled; no insecure retry or certificate bypass was performed.",
+  "schema_version": "firebar-tls-dns-boundary-report-1"
+}

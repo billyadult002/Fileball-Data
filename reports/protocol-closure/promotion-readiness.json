@@ -1,0 +1,22 @@
+{
+  "first_promotion_ready_source": null,
+  "generated_at": "2026-09-10T15:24:40Z",
+  "policy": "No promotion without parser, semantic, normalization, attribution, retention, deduplication, publication simulation, and readback gates.",
+  "preserved_blockers": [
+    {
+      "reason": "Fresh live observation did not establish a contract; the directory source remains outside production accounting.",
+      "source_id": "external-hes-goal-zip",
+      "state": "BLOCKED_REQUIRES_NEW_EVIDENCE"
+    },
+    {
+      "reason": "The retained reference resolves only to an unavailable runtime/CSP artifact; no live provider contract was established.",
+      "source_id": "gz360-derived-runtime-reference",
+      "state": "AUTHORITATIVE_DISCOVERY_BLOCKER"
+    }
+  ],
+  "promotion_ready_sources": [],
+  "readiness_counts": {
+    "NOT_RECOVERED": 20
+  },
+  "schema_version": "firebar-promotion-readiness-1"
+}

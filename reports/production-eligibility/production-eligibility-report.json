@@ -1,0 +1,1248 @@
+{
+  "counts": {
+    "PRODUCTION_BLOCKED": 20,
+    "VISIBILITY_WITHHELD": 1
+  },
+  "current_identity": {
+    "checks": {
+      "catalog_contract": true,
+      "data_commit": true,
+      "registry_hash": true,
+      "worker_version": true
+    },
+    "identity": {
+      "catalog_contract": "2.5",
+      "data_commit": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+      "registry_hash": "7f6ffb97a558da8828a01833ab9fe3bfa0742088f90c88d1c61df5bc8ac39605",
+      "worker_version": "1.1.0"
+    },
+    "valid": true
+  },
+  "final_disposition": "PRODUCTION_BLOCKED",
+  "generated_at": "2026-09-10T17:54:30Z",
+  "policy": "Simulation/readiness never implies production eligibility; current source visibility, rollback, and independent checker gates are required.",
+  "production_eligible_count": 0,
+  "production_eligible_sources": [],
+  "production_mutation": false,
+  "rows": [
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-110bc268fbce35b0",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "NOT_RECOVERED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-110bc268fbce35b0",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-110bc268fbce35b0",
+        "valid": false
+      },
+      "source_id": "src-110bc268fbce35b0",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-110bc268fbce35b0",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-2a64feddbdfc3288",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-2a64feddbdfc3288",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-2a64feddbdfc3288",
+        "valid": false
+      },
+      "source_id": "src-2a64feddbdfc3288",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-2a64feddbdfc3288",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-2b4cd1e0e59b0a24",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-2b4cd1e0e59b0a24",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-2b4cd1e0e59b0a24",
+        "valid": false
+      },
+      "source_id": "src-2b4cd1e0e59b0a24",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-2b4cd1e0e59b0a24",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-31c18ae16f824277",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-31c18ae16f824277",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-31c18ae16f824277",
+        "valid": false
+      },
+      "source_id": "src-31c18ae16f824277",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-31c18ae16f824277",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-3542d8fb5fd8cd4e",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-3542d8fb5fd8cd4e",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-3542d8fb5fd8cd4e",
+        "valid": false
+      },
+      "source_id": "src-3542d8fb5fd8cd4e",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-3542d8fb5fd8cd4e",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-3ea6ed6f2d784539",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-3ea6ed6f2d784539",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-3ea6ed6f2d784539",
+        "valid": false
+      },
+      "source_id": "src-3ea6ed6f2d784539",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-3ea6ed6f2d784539",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "visibility_recomputed",
+        "checks": {
+          "promotion_ready": true,
+          "publication_candidate_valid": true,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-521953e729bfd8f7",
+        "valid": false
+      },
+      "disposition": "VISIBILITY_WITHHELD",
+      "production_mutation": false,
+      "promotion_readiness": "PROMOTION_READY",
+      "publication": {
+        "artifact_digest": "fa6e2ee60317c73cfc636d1a384612d83e3bfe5034abc6a27e3725eb8f915ea3",
+        "blocker": "",
+        "disposition": "PASS",
+        "production_mutation": false,
+        "simulation_generation": "fa6e2ee60317c73cfc636d1a384612d83e3bfe5034abc6a27e3725eb8f915ea3",
+        "simulation_only": true,
+        "source_id": "src-521953e729bfd8f7",
+        "valid": true
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-521953e729bfd8f7",
+        "valid": false
+      },
+      "source_id": "src-521953e729bfd8f7",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-521953e729bfd8f7",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-5a04a9a41c60a771",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-5a04a9a41c60a771",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-5a04a9a41c60a771",
+        "valid": false
+      },
+      "source_id": "src-5a04a9a41c60a771",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-5a04a9a41c60a771",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-67330c69dd334666",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "NOT_RECOVERED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-67330c69dd334666",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-67330c69dd334666",
+        "valid": false
+      },
+      "source_id": "src-67330c69dd334666",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-67330c69dd334666",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-67b7b49f39c9f6e2",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-67b7b49f39c9f6e2",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-67b7b49f39c9f6e2",
+        "valid": false
+      },
+      "source_id": "src-67b7b49f39c9f6e2",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-67b7b49f39c9f6e2",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-68ecc938c8f19880",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-68ecc938c8f19880",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-68ecc938c8f19880",
+        "valid": false
+      },
+      "source_id": "src-68ecc938c8f19880",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-68ecc938c8f19880",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-6f0e6af9689a8116",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-6f0e6af9689a8116",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-6f0e6af9689a8116",
+        "valid": false
+      },
+      "source_id": "src-6f0e6af9689a8116",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-6f0e6af9689a8116",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-79c759ef80f9a687",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-79c759ef80f9a687",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-79c759ef80f9a687",
+        "valid": false
+      },
+      "source_id": "src-79c759ef80f9a687",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-79c759ef80f9a687",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-7cb9751e0b57360d",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-7cb9751e0b57360d",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-7cb9751e0b57360d",
+        "valid": false
+      },
+      "source_id": "src-7cb9751e0b57360d",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-7cb9751e0b57360d",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-8cad8e59c940cc1e",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-8cad8e59c940cc1e",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-8cad8e59c940cc1e",
+        "valid": false
+      },
+      "source_id": "src-8cad8e59c940cc1e",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-8cad8e59c940cc1e",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-941d7af0268a7be8",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-941d7af0268a7be8",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-941d7af0268a7be8",
+        "valid": false
+      },
+      "source_id": "src-941d7af0268a7be8",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-941d7af0268a7be8",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-9df102757ab27088",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "NOT_RECOVERED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-9df102757ab27088",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-9df102757ab27088",
+        "valid": false
+      },
+      "source_id": "src-9df102757ab27088",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-9df102757ab27088",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-b2761467f6fb043b",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-b2761467f6fb043b",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-b2761467f6fb043b",
+        "valid": false
+      },
+      "source_id": "src-b2761467f6fb043b",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-b2761467f6fb043b",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-c53a5c6c347ffa3c",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "NOT_RECOVERED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-c53a5c6c347ffa3c",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-c53a5c6c347ffa3c",
+        "valid": false
+      },
+      "source_id": "src-c53a5c6c347ffa3c",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-c53a5c6c347ffa3c",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-eb362139644a0ab5",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-eb362139644a0ab5",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-eb362139644a0ab5",
+        "valid": false
+      },
+      "source_id": "src-eb362139644a0ab5",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-eb362139644a0ab5",
+        "valid": false
+      }
+    },
+    {
+      "checker": {
+        "blocker": "promotion_ready",
+        "checks": {
+          "promotion_ready": false,
+          "publication_candidate_valid": false,
+          "rollback_recomputed": false,
+          "visibility_recomputed": false
+        },
+        "disposition": "FAILED_RECOVERABLE",
+        "source_id": "src-fdb37411350aec5d",
+        "valid": false
+      },
+      "disposition": "PRODUCTION_BLOCKED",
+      "production_mutation": false,
+      "promotion_readiness": "RETENTION_FAILED",
+      "publication": {
+        "artifact_digest": null,
+        "blocker": "simulation_artifact_missing_or_not_pure",
+        "disposition": "PUBLICATION_SIMULATION_FAILED",
+        "production_mutation": false,
+        "simulation_generation": null,
+        "simulation_only": false,
+        "source_id": "src-fdb37411350aec5d",
+        "valid": false
+      },
+      "rollback": {
+        "blocker": "current_generation_matches",
+        "checks": {
+          "current_generation_matches": false,
+          "previous_generation_identified": true,
+          "production_non_impact": true,
+          "readback_verified": true,
+          "rollback_verified": true
+        },
+        "current_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "disposition": "ROLLBACK_WITHHELD",
+        "previous_generation": "207aa8096d289814ab074cd11ef14c718f7a8eb5",
+        "source_id": "src-fdb37411350aec5d",
+        "valid": false
+      },
+      "source_id": "src-fdb37411350aec5d",
+      "visibility": {
+        "blocker": "source_row_present",
+        "checks": {
+          "attribution_observed": false,
+          "generation_matches_current": false,
+          "independent_verification": true,
+          "source_row_present": false,
+          "visible": false
+        },
+        "current_generation": "530c9d9c6cc072d47a221235f73dd8e80c41cb41",
+        "disposition": "VISIBILITY_WITHHELD",
+        "observed_generation": "6b5d41baa058b7a598b9c688e98388a6e1153cdc",
+        "source_id": "src-fdb37411350aec5d",
+        "valid": false
+      }
+    }
+  ],
+  "schema_version": "firebar-production-eligibility-1"
+}

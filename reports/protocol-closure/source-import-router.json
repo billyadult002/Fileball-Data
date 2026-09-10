@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-09-10T15:24:40Z",
+  "policy": "Kodi runtime, torrent, and remote-code execution are never attempted.",
+  "preserved_blockers": [
+    {
+      "reason": "Fresh live observation did not establish a contract; the directory source remains outside production accounting.",
+      "source_id": "external-hes-goal-zip",
+      "state": "BLOCKED_REQUIRES_NEW_EVIDENCE"
+    },
+    {
+      "reason": "The retained reference resolves only to an unavailable runtime/CSP artifact; no live provider contract was established.",
+      "source_id": "gz360-derived-runtime-reference",
+      "state": "AUTHORITATIVE_DISCOVERY_BLOCKER"
+    }
+  ],
+  "routes": [
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    },
+    {
+      "family": "PLAYLIST_SOURCE",
+      "observation_allowed": true,
+      "protocol": "m3u8",
+      "reason": "playlist contract can be parsed without execution",
+      "requires_runtime": false
+    },
+    {
+      "family": "WEB_DISCOVERY_SOURCE",
+      "observation_allowed": true,
+      "protocol": "http",
+      "reason": "HTML/unknown web source requires bounded observation",
+      "requires_runtime": false
+    }
+  ],
+  "schema_version": "firebar-source-import-router-1",
+  "supported_families": [
+    "KODI_PLUGIN_REFERENCE",
+    "KODI_REPOSITORY",
+    "STREMIO_ADDON",
+    "TORRENT_SOURCE",
+    "PLAYLIST_SOURCE",
+    "API_SOURCE",
+    "WEB_DISCOVERY_SOURCE",
+    "UNKNOWN_SOURCE"
+  ]
+}
