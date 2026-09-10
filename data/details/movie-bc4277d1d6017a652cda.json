@@ -30,8 +30,23 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-10 15:08:37",
+  "updated_at": "2026-09-10 18:03:30",
   "source_records": [
+    {
+      "source_id": "regular-u酷",
+      "source_vod_id": "72578",
+      "source_name": "U酷|点播",
+      "metadata": {
+        "vod_id": 72578,
+        "vod_name": "峡湾",
+        "type_name": "剧情片",
+        "vod_year": "2026",
+        "vod_area": "挪威,罗马尼亚,瑞典,芬兰,丹麦,法国",
+        "vod_lang": "英语,罗马尼亚语,挪",
+        "vod_pic": "https://img.ukuapi88.com/upload/vod/20260910-1/fd285d20c37209c8a335e8d20cd1b13f.jpg",
+        "vod_class": "剧情"
+      }
+    },
     {
       "source_id": "regular-新浪",
       "source_vod_id": "233941",
@@ -206,6 +221,26 @@
       "episode": null,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzyvod3.ukubf5.com/20260910/tRm07TB8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-10 18:03:30",
+          "source_item_id": "72578",
+          "canonical_source_id": "",
+          "source_title": "峡湾",
+          "original_title": "xiawan",
+          "localized_titles": {
+            "zh": "峡湾",
+            "en": "xiawan"
+          },
+          "language": "英语,罗马尼亚语,挪"
+        },
+        {
           "source_id": "regular-索尼",
           "source_name": "索尼|点播",
           "provider": "snm3u8",
@@ -364,6 +399,26 @@
             "en": "xiawan"
           },
           "language": "英语"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzyvod3.ukubf5.com/share/JDLVAOshf2",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-10 18:03:30",
+          "source_item_id": "72578",
+          "canonical_source_id": "",
+          "source_title": "峡湾",
+          "original_title": "xiawan",
+          "localized_titles": {
+            "zh": "峡湾",
+            "en": "xiawan"
+          },
+          "language": "英语,罗马尼亚语,挪"
         },
         {
           "source_id": "regular-非凡",
@@ -549,6 +604,24 @@
       "source": "source_api",
       "source_id": "regular-金鹰",
       "source_item_id": "157989",
+      "official": true
+    },
+    {
+      "value": "峡湾",
+      "source_title": "峡湾",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72578",
+      "official": true
+    },
+    {
+      "value": "xiawan",
+      "source_title": "峡湾",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72578",
       "official": true
     },
     {
