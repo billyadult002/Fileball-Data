@@ -19,7 +19,10 @@
     "英格维尔德·利恩",
     "阿林·潘克",
     "亨里克·伦德·奥尔森",
-    "图里德·里弗茨·瓦特内"
+    "图里德·里弗茨·瓦特内",
+    "埃米莉·赫特兰",
+    "索菲·瓦特达尔",
+    "内森·安德烈·奥古斯托"
   ],
   "directors": [
     "克里斯蒂安·蒙吉"
@@ -27,7 +30,7 @@
   "genres": [
     "drama"
   ],
-  "updated_at": "2026-09-10 00:48:02",
+  "updated_at": "2026-09-10 10:34:03",
   "source_records": [
     {
       "source_id": "regular-新浪",
@@ -148,6 +151,21 @@
         "vod_pic": "https://image.jinyingimage.com/cover/0c5c6b798bb86832e5a0d95d06b3b6ed.jpg",
         "vod_class": "剧情,剧情片"
       }
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "99318",
+      "source_name": "非凡|点播",
+      "metadata": {
+        "vod_id": 99318,
+        "vod_name": "峡湾",
+        "type_name": "剧情片",
+        "vod_year": "2026",
+        "vod_area": "其它",
+        "vod_lang": "英语",
+        "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260910-1/263db27888cdfd677f456e8876d663ec.jpg",
+        "vod_class": "剧情"
+      }
     }
   ],
   "episodes": [
@@ -157,6 +175,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-play10.com/20260910/71544_46295639/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-10 10:34:03",
+          "source_item_id": "99318",
+          "canonical_source_id": "",
+          "source_title": "峡湾",
+          "original_title": "xiawan",
+          "localized_titles": {
+            "zh": "峡湾",
+            "en": "xiawan"
+          },
+          "language": "英语"
+        },
         {
           "source_id": "regular-豪华",
           "source_name": "豪华|点播",
@@ -248,6 +286,26 @@
           "health": "unknown",
           "updated_at": "2026-09-10 00:44:02",
           "source_item_id": "193910",
+          "canonical_source_id": "",
+          "source_title": "峡湾",
+          "original_title": "xiawan",
+          "localized_titles": {
+            "zh": "峡湾",
+            "en": "xiawan"
+          },
+          "language": "英语"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-play10.com/share/46295639a2821e4e2a07cfc69f70a721",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-10 10:34:03",
+          "source_item_id": "99318",
           "canonical_source_id": "",
           "source_title": "峡湾",
           "original_title": "xiawan",
@@ -457,6 +515,24 @@
       "source": "source_api",
       "source_id": "regular-极速",
       "source_item_id": "151837",
+      "official": true
+    },
+    {
+      "value": "峡湾",
+      "source_title": "峡湾",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99318",
+      "official": true
+    },
+    {
+      "value": "xiawan",
+      "source_title": "峡湾",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99318",
       "official": true
     },
     {
