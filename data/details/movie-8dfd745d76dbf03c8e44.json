@@ -12,7 +12,17 @@
     "约翰·威尔士",
     "Isabel Ramirez",
     "Thandiwe McMillan",
-    "Hamid-Reza Benjamin Thompson"
+    "Hamid-Reza Benjamin Thompson",
+    "Jarod Brock",
+    "蔡斯·布雷索夫",
+    "Sai Piña",
+    "罗布·尤班克斯",
+    "Tevin Paul",
+    "Will Dyer",
+    "Jenin Gonzalez",
+    "Becky Hopper",
+    "Leigh Anne Mason",
+    "Michael L. Parker"
   ],
   "directors": [
     "瑞恩·埃伯特"
@@ -20,7 +30,7 @@
   "genres": [
     "horror"
   ],
-  "updated_at": "2026-09-11 14:30:05",
+  "updated_at": "2026-09-11 19:02:31",
   "source_records": [
     {
       "source_id": "regular-u酷",
@@ -36,6 +46,21 @@
         "vod_pic": "https://img.ukuapi88.com/upload/vod/20260911-1/def28ed6bb0a3f582039910bf4dc4fb9.jpg",
         "vod_class": "恐怖"
       }
+    },
+    {
+      "source_id": "regular-暴风",
+      "source_vod_id": "162455",
+      "source_name": "暴风|点播",
+      "metadata": {
+        "vod_id": 162455,
+        "vod_name": "生化杀机",
+        "type_name": "恐怖片",
+        "vod_year": "2026",
+        "vod_area": "美国",
+        "vod_lang": "英语",
+        "vod_pic": "https://img.picbf.com/upload/vod/20260911-1/f92adaa53d0a5216e2c32b0f13a02912.webp",
+        "vod_class": "恐怖"
+      }
     }
   ],
   "episodes": [
@@ -45,6 +70,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-暴风",
+          "source_name": "暴风|点播",
+          "provider": "bfzym3u8",
+          "url": "https://fengbao12.com/video/shenghuashaji/cecc16646a49/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 19:02:31",
+          "source_item_id": "162455",
+          "canonical_source_id": "",
+          "source_title": "生化杀机",
+          "original_title": "shenghuashaji",
+          "localized_titles": {
+            "zh": "生化杀机",
+            "en": "shenghuashaji"
+          },
+          "language": "英语"
+        },
         {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
@@ -149,6 +194,24 @@
       "source": "source_api",
       "source_id": "regular-u酷",
       "source_item_id": "72616",
+      "official": true
+    },
+    {
+      "value": "生化杀机",
+      "source_title": "生化杀机",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-暴风",
+      "source_item_id": "162455",
+      "official": true
+    },
+    {
+      "value": "shenghuashaji",
+      "source_title": "生化杀机",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-暴风",
+      "source_item_id": "162455",
       "official": true
     }
   ],
