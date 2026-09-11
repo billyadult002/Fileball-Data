@@ -744,12 +744,38 @@
     },
     {
       "attempt": 1,
+      "completed_at": "2026-09-11T12:22:40Z",
+      "generation": "c269988addf8fae693cd87b6a578e47e467432c9",
       "logical_end": "2026-09-11T12:00:00Z",
       "logical_start": "2026-09-11T11:00:00Z",
+      "reason_code": "CANONICAL_OUTPUT_CHANGED",
       "run_id": "34595982502-1",
       "started_at": "2026-09-11T11:50:49Z",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED_CHANGED",
       "window_id": "2026-09-11T11:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-11T13:00:00Z",
+      "logical_start": "2026-09-11T12:00:00Z",
+      "recorded_at": "2026-09-11T14:17:17Z",
+      "status": "MISSED",
+      "window_id": "2026-09-11T12:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-11T14:00:00Z",
+      "logical_start": "2026-09-11T13:00:00Z",
+      "recorded_at": "2026-09-11T14:17:17Z",
+      "status": "MISSED",
+      "window_id": "2026-09-11T13:00:00Z"
+    },
+    {
+      "attempt": 1,
+      "logical_end": "2026-09-11T15:00:00Z",
+      "logical_start": "2026-09-11T14:00:00Z",
+      "run_id": "34609217331-1",
+      "started_at": "2026-09-11T14:17:17Z",
+      "status": "IN_PROGRESS",
+      "window_id": "2026-09-11T14:00:00Z"
     }
   ]
 }

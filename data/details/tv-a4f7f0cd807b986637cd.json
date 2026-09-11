@@ -26,7 +26,7 @@
     "泰剧",
     "海外"
   ],
-  "updated_at": "2026-09-11 19:57:02",
+  "updated_at": "2026-09-11 20:00:02",
   "source_records": [
     {
       "source_id": "regular-u酷",
@@ -187,6 +187,46 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dG6MpBLb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bDkQmyya/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
+        },
+        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -287,16 +327,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bDkQmyya/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dG6MpBLb",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -307,16 +347,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/dG6MpBLb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bDkQmyya",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -405,17 +445,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0002-d4735e3a",
+      "name": "第2集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/aM8Jkmme/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bDkQmyya",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/aKrLgkGe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -426,34 +494,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/dG6MpBLb",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0002-d4735e3a",
-      "name": "第2集",
-      "season": null,
-      "episode": 2,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -555,16 +595,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/aKrLgkGe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/aM8Jkmme",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -575,16 +615,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/aM8Jkmme/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/aKrLgkGe",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -673,17 +713,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0003-4e074085",
+      "name": "第3集",
+      "season": null,
+      "episode": 3,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bDkQGYxa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/aKrLgkGe",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/aADMBQOe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -694,34 +762,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/aM8Jkmme",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0003-4e074085",
-      "name": "第3集",
-      "season": null,
-      "episode": 3,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -823,16 +863,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/aADMBQOe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bDkQGYxa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -843,16 +883,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/bDkQGYxa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/aADMBQOe",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -941,17 +981,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0004-4b227777",
+      "name": "第4集",
+      "season": null,
+      "episode": 4,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/ejR0xPWe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/aADMBQOe",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e0R01B7b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -962,34 +1030,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/bDkQGYxa",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0004-4b227777",
-      "name": "第4集",
-      "season": null,
-      "episode": 4,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -1091,16 +1131,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/e0R01B7b/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/ejR0xPWe",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1111,16 +1151,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/ejR0xPWe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e0R01B7b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1209,17 +1249,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0005-ef2d127d",
+      "name": "第5集",
+      "season": null,
+      "episode": 5,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eXDr3Ole/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/e0R01B7b",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/eVO71M9a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -1230,34 +1298,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/ejR0xPWe",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0005-ef2d127d",
-      "name": "第5集",
-      "season": null,
-      "episode": 5,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -1359,16 +1399,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/eVO71M9a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eXDr3Ole",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1379,16 +1419,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/eXDr3Ole/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/eVO71M9a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1477,17 +1517,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0006-e7f6c011",
+      "name": "第6集",
+      "season": null,
+      "episode": 6,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eZ606k5e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/eVO71M9a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/eXD5Dgge/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -1498,34 +1566,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/eXDr3Ole",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0006-e7f6c011",
-      "name": "第6集",
-      "season": null,
-      "episode": 6,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -1627,16 +1667,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/eXD5Dgge/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eZ606k5e",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1647,16 +1687,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/eZ606k5e/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/eXD5Dgge",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1745,17 +1785,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0007-7902699b",
+      "name": "第7集",
+      "season": null,
+      "episode": 7,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bW6q7g4a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/eXD5Dgge",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/dR61o4zd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -1766,34 +1834,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/eZ606k5e",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0007-7902699b",
-      "name": "第7集",
-      "season": null,
-      "episode": 7,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -1895,16 +1935,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/dR61o4zd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bW6q7g4a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -1915,16 +1955,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/bW6q7g4a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/dR61o4zd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2013,17 +2053,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0008-2c624232",
+      "name": "第8集",
+      "season": null,
+      "episode": 8,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e1w46LGb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/dR61o4zd",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bYE578Wb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -2034,34 +2102,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/bW6q7g4a",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0008-2c624232",
-      "name": "第8集",
-      "season": null,
-      "episode": 8,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -2163,16 +2203,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bYE578Wb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e1w46LGb",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2183,16 +2223,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/e1w46LGb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bYE578Wb",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2281,17 +2321,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0009-19581e27",
+      "name": "第9集",
+      "season": null,
+      "episode": 9,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bmZyykEd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bYE578Wb",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bkR77gra/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -2302,34 +2370,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/e1w46LGb",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0009-19581e27",
-      "name": "第9集",
-      "season": null,
-      "episode": 9,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -2431,16 +2471,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bkR77gra/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bmZyykEd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2451,16 +2491,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/bmZyykEd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bkR77gra",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2549,17 +2589,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0010-4a44dc15",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/egJ2kD6d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bkR77gra",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e9rg2A3a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -2570,34 +2638,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/bmZyykEd",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0010-4a44dc15",
-      "name": "第10集",
-      "season": null,
-      "episode": 10,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -2699,16 +2739,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/e9rg2A3a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/egJ2kD6d",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2719,16 +2759,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/egJ2kD6d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e9rg2A3a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2817,17 +2857,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0011-4fc82b26",
+      "name": "第11集",
+      "season": null,
+      "episode": 11,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/av2ZmX8a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/e9rg2A3a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bqxZAP7a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -2838,34 +2906,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/egJ2kD6d",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0011-4fc82b26",
-      "name": "第11集",
-      "season": null,
-      "episode": 11,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -2967,16 +3007,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bqxZAP7a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/av2ZmX8a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -2987,16 +3027,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/av2ZmX8a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bqxZAP7a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3085,17 +3125,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0012-6b51d431",
+      "name": "第12集",
+      "season": null,
+      "episode": 12,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bmZyX0nd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bqxZAP7a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bkR7MjKa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -3106,34 +3174,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/av2ZmX8a",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0012-6b51d431",
-      "name": "第12集",
-      "season": null,
-      "episode": 12,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -3235,16 +3275,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bkR7MjKa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bmZyX0nd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3255,16 +3295,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/bmZyX0nd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bkR7MjKa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3353,17 +3393,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0013-3fdba35f",
+      "name": "第13集",
+      "season": null,
+      "episode": 13,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e9rgXAYa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bkR7MjKa",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e73XJyOe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -3374,34 +3442,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/bmZyX0nd",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0013-3fdba35f",
-      "name": "第13集",
-      "season": null,
-      "episode": 13,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -3503,16 +3543,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/e73XJyOe/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e9rgXAYa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3523,16 +3563,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/e9rgXAYa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e73XJyOe",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3621,17 +3661,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0014-8527a891",
+      "name": "第14集",
+      "season": null,
+      "episode": 14,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e31wJr9b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/e73XJyOe",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e1w47pGb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -3642,34 +3710,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/e9rgXAYa",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0014-8527a891",
-      "name": "第14集",
-      "season": null,
-      "episode": 14,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -3771,16 +3811,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/e1w47pGb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e31wJr9b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3791,16 +3831,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/e31wJr9b/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e1w47pGb",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -3889,17 +3929,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0015-e629fa65",
+      "name": "第15集",
+      "season": null,
+      "episode": 15,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dJ6Q1XPd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/e1w47pGb",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/eERxyQ0a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -3910,34 +3978,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/e31wJr9b",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0015-e629fa65",
-      "name": "第15集",
-      "season": null,
-      "episode": 15,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -4039,16 +4079,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/eERxyQ0a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dJ6Q1XPd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4059,16 +4099,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/dJ6Q1XPd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/eERxyQ0a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4157,17 +4197,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0016-b17ef6d1",
+      "name": "第16集",
+      "season": null,
+      "episode": 16,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/egJ2Pojd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/eERxyQ0a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e9rgmZza/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -4178,34 +4246,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/dJ6Q1XPd",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0016-b17ef6d1",
-      "name": "第16集",
-      "season": null,
-      "episode": 16,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -4307,16 +4347,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/e9rgmZza/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/egJ2Pojd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4327,16 +4367,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/egJ2Pojd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e9rgmZza",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4425,17 +4465,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0017-4523540f",
+      "name": "第17集",
+      "season": null,
+      "episode": 17,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/av2Zpxga/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/e9rgmZza",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bqxZkpRa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -4446,34 +4514,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/egJ2Pojd",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0017-4523540f",
-      "name": "第17集",
-      "season": null,
-      "episode": 17,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -4575,16 +4615,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bqxZkpRa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/av2Zpxga",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4595,16 +4635,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/av2Zpxga/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bqxZkpRa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4693,17 +4733,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0018-4ec9599f",
+      "name": "第18集",
+      "season": null,
+      "episode": 18,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dR61VK0d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bqxZkpRa",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/dPNQVKla/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -4714,34 +4782,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/av2Zpxga",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0018-4ec9599f",
-      "name": "第18集",
-      "season": null,
-      "episode": 18,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -4843,16 +4883,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/dPNQVKla/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dR61VK0d",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4863,16 +4903,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/dR61VK0d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/dPNQVKla",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -4961,17 +5001,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0019-9400f1b2",
+      "name": "第19集",
+      "season": null,
+      "episode": 19,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/axk1W3Be/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/dPNQVKla",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/av2Z635a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -4982,34 +5050,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/dR61VK0d",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0019-9400f1b2",
-      "name": "第19集",
-      "season": null,
-      "episode": 19,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -5111,16 +5151,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/av2Z635a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/axk1W3Be",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5131,16 +5171,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/axk1W3Be/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/av2Z635a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5229,17 +5269,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0020-f5ca38f7",
+      "name": "第20集",
+      "season": null,
+      "episode": 20,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dR61qYEd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/av2Z635a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/dPNQom4a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -5250,34 +5318,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/axk1W3Be",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0020-f5ca38f7",
-      "name": "第20集",
-      "season": null,
-      "episode": 20,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -5379,16 +5419,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/dPNQom4a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dR61qYEd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5399,16 +5439,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/dR61qYEd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/dPNQom4a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5497,17 +5537,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0021-6f4b6612",
+      "name": "第21集",
+      "season": null,
+      "episode": 21,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e31wNnQb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/dPNQom4a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e1w4Lljb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -5518,34 +5586,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/dR61qYEd",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0021-6f4b6612",
-      "name": "第21集",
-      "season": null,
-      "episode": 21,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -5647,16 +5687,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/e1w4Lljb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e31wNnQb",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5667,16 +5707,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/e31wNnQb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e1w4Lljb",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5765,17 +5805,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0022-785f3ec7",
+      "name": "第22集",
+      "season": null,
+      "episode": 22,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/eERx560a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/e1w4Lljb",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/dBB65RNd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -5786,34 +5854,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/e31wNnQb",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0022-785f3ec7",
-      "name": "第22集",
-      "season": null,
-      "episode": 22,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -5915,16 +5955,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/dBB65RNd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/eERx560a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -5935,16 +5975,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/eERx560a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/dBB65RNd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6033,17 +6073,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0023-535fa30d",
+      "name": "第23集",
+      "season": null,
+      "episode": 23,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/azpXZE8d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/dBB65RNd",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/axk1XBre/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -6054,34 +6122,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/eERx560a",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0023-535fa30d",
-      "name": "第23集",
-      "season": null,
-      "episode": 23,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -6183,16 +6223,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/axk1XBre/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/azpXZE8d",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6203,16 +6243,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/azpXZE8d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/axk1XBre",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6301,17 +6341,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0024-c2356069",
+      "name": "第24集",
+      "season": null,
+      "episode": 24,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bYE53Z2b/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/axk1XBre",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bW6q31xa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -6322,34 +6390,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/azpXZE8d",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0024-c2356069",
-      "name": "第24集",
-      "season": null,
-      "episode": 24,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -6451,16 +6491,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bW6q31xa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bYE53Z2b",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6471,16 +6511,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/bYE53Z2b/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bW6q31xa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6569,17 +6609,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0025-b7a56873",
+      "name": "第25集",
+      "season": null,
+      "episode": 25,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/azpXLr7d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bW6q31xa",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/axk1Jpne/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -6590,34 +6658,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/bYE53Z2b",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0025-b7a56873",
-      "name": "第25集",
-      "season": null,
-      "episode": 25,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -6719,16 +6759,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/axk1Jpne/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/azpXLr7d",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6739,16 +6779,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/azpXLr7d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/axk1Jpne",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -6837,17 +6877,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0026-5f9c4ab0",
+      "name": "第26集",
+      "season": null,
+      "episode": 26,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/av2ZNk8a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/axk1Jpne",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bqxZG97a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -6858,34 +6926,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/azpXLr7d",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0026-5f9c4ab0",
-      "name": "第26集",
-      "season": null,
-      "episode": 26,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -6987,16 +7027,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bqxZG97a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/av2ZNk8a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7007,16 +7047,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/av2ZNk8a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bqxZG97a",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7105,17 +7145,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0027-670671cd",
+      "name": "第27集",
+      "season": null,
+      "episode": 27,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/dJ6QVlJd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bqxZG97a",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/eERxNGYa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -7126,34 +7194,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/av2ZNk8a",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0027-670671cd",
-      "name": "第27集",
-      "season": null,
-      "episode": 27,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -7255,16 +7295,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/eERxNGYa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/dJ6QVlJd",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7275,16 +7315,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/dJ6QVlJd/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/eERxNGYa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7373,17 +7413,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0028-59e19706",
+      "name": "第28集",
+      "season": null,
+      "episode": 28,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/bo2ypgKa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/eERxNGYa",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/bmZyl90d/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -7394,34 +7462,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/dJ6QVlJd",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0028-59e19706",
-      "name": "第28集",
-      "season": null,
-      "episode": 28,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -7523,16 +7563,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-速博",
-          "source_name": "速博|点播",
-          "provider": "subm3u8",
-          "url": "https://play.xluuss.com/play/bmZyl90d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/bo2ypgKa",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
-          "source_item_id": "117450",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7543,16 +7583,16 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhm3u8",
-          "url": "https://play.hhuus.com/play/bo2ypgKa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/bmZyl90d",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7641,17 +7681,45 @@
             "en": "longpohu"
           },
           "language": "泰语"
+        }
+      ]
+    },
+    {
+      "id": "tv-a4f7f0cd807b986637cd-e0029-35135aaa",
+      "name": "第29集",
+      "season": null,
+      "episode": 29,
+      "streams": [
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhm3u8",
+          "url": "https://play.hhuus.com/play/e5yWyKxe/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
         },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
-          "provider": "subyun",
-          "url": "https://play.xluuss.com/play/bmZyl90d",
-          "protocol": "http",
-          "supported": false,
+          "provider": "subm3u8",
+          "url": "https://play.xluuss.com/play/e3191Vrb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-10 19:24:43",
+          "updated_at": "2026-09-11 19:59:43",
           "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
@@ -7662,34 +7730,6 @@
           },
           "language": "泰语"
         },
-        {
-          "source_id": "regular-豪华",
-          "source_name": "豪华|点播",
-          "provider": "hhyun",
-          "url": "https://play.hhuus.com/play/bo2ypgKa",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-10 19:24:01",
-          "source_item_id": "139571",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        }
-      ]
-    },
-    {
-      "id": "tv-a4f7f0cd807b986637cd-e0029-35135aaa",
-      "name": "第29集",
-      "season": null,
-      "episode": 29,
-      "streams": [
         {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
@@ -7751,26 +7791,6 @@
           "language": "泰语"
         },
         {
-          "source_id": "regular-新浪",
-          "source_name": "新浪|点播",
-          "provider": "xlm3u8",
-          "url": "https://play.xluuss.com/play/e3191Vrb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 19:55:03",
-          "source_item_id": "169431",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        },
-        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -7801,6 +7821,46 @@
           "health": "unknown",
           "updated_at": "2026-09-11 12:00:12",
           "source_item_id": "101427",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
+        },
+        {
+          "source_id": "regular-豪华",
+          "source_name": "豪华|点播",
+          "provider": "hhyun",
+          "url": "https://play.hhuus.com/play/e5yWyKxe",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 20:00:02",
+          "source_item_id": "139571",
+          "canonical_source_id": "",
+          "source_title": "龙婆虎",
+          "original_title": "longpohu",
+          "localized_titles": {
+            "zh": "龙婆虎",
+            "en": "longpohu"
+          },
+          "language": "泰语"
+        },
+        {
+          "source_id": "regular-速博",
+          "source_name": "速博|点播",
+          "provider": "subyun",
+          "url": "https://play.xluuss.com/play/e3191Vrb",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 19:59:43",
+          "source_item_id": "117450",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
@@ -7861,26 +7921,6 @@
           "health": "unknown",
           "updated_at": "2026-09-11 19:56:02",
           "source_item_id": "116907",
-          "canonical_source_id": "",
-          "source_title": "龙婆虎",
-          "original_title": "longpohu",
-          "localized_titles": {
-            "zh": "龙婆虎",
-            "en": "longpohu"
-          },
-          "language": "泰语"
-        },
-        {
-          "source_id": "regular-新浪",
-          "source_name": "新浪|点播",
-          "provider": "xlyun",
-          "url": "https://play.xluuss.com/play/e3191Vrb",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 19:55:03",
-          "source_item_id": "169431",
           "canonical_source_id": "",
           "source_title": "龙婆虎",
           "original_title": "longpohu",
