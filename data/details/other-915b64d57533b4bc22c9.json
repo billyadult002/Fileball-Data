@@ -13,8 +13,23 @@
   "genres": [
     "漫剧"
   ],
-  "updated_at": "2026-09-11 12:39:50",
+  "updated_at": "2026-09-11 13:29:18",
   "source_records": [
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "170319",
+      "source_name": "无尽|点播",
+      "metadata": {
+        "vod_id": 170319,
+        "vod_name": "把厂建在有光的地方",
+        "type_name": "漫剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://pic.youkupic.com/upload/vod/20260911-1/396599ad4b9c26a7541bd665bad6b03a.jpg",
+        "vod_class": "漫剧"
+      }
+    },
     {
       "source_id": "regular-索尼",
       "source_vod_id": "154746",
@@ -38,6 +53,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v4.ppqrrs.com/wjv4/202609/06/R2zcYwcnr989/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:29:18",
+          "source_item_id": "170319",
+          "canonical_source_id": "",
+          "source_title": "把厂建在有光的地方",
+          "original_title": "bachangjianzaiyouguangdedifang",
+          "localized_titles": {
+            "zh": "把厂建在有光的地方",
+            "en": "bachangjianzaiyouguangdedifang"
+          },
+          "language": "国语"
+        },
         {
           "source_id": "regular-索尼",
           "source_name": "索尼|点播",
@@ -113,6 +148,24 @@
       "source": "source_api",
       "source_id": "regular-索尼",
       "source_item_id": "154746",
+      "official": true
+    },
+    {
+      "value": "把厂建在有光的地方",
+      "source_title": "把厂建在有光的地方",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "170319",
+      "official": true
+    },
+    {
+      "value": "bachangjianzaiyouguangdedifang",
+      "source_title": "把厂建在有光的地方",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "170319",
       "official": true
     }
   ],

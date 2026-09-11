@@ -26,7 +26,7 @@
     "romance",
     "costume"
   ],
-  "updated_at": "2026-09-11 13:18:26",
+  "updated_at": "2026-09-11 13:26:18",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -58,6 +58,21 @@
       }
     },
     {
+      "source_id": "regular-u酷",
+      "source_vod_id": "72602",
+      "source_name": "U酷|点播",
+      "metadata": {
+        "vod_id": 72602,
+        "vod_name": "天赐娘子小镖师",
+        "type_name": "国产剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://img.ukuapi88.com/upload/vod/20260911-1/b25dbbba0563b3da24dc3057da113f22.jpg",
+        "vod_class": "喜剧,爱情,古装"
+      }
+    },
+    {
       "source_id": "regular-墨斗",
       "source_vod_id": "89442",
       "source_name": "墨斗|点播",
@@ -84,20 +99,6 @@
         "vod_lang": "普通话",
         "vod_pic": "https://xl.xltupian.com/cover/c375be6b5cae946ef86524a792993b9f.jpg",
         "vod_class": "喜剧,爱情,古装,内地剧"
-      }
-    },
-    {
-      "source_id": "regular-最大",
-      "source_vod_id": "130321",
-      "source_name": "最大|点播",
-      "metadata": {
-        "vod_id": 130321,
-        "vod_name": "天赐娘子小镖师",
-        "type_name": "国产剧",
-        "vod_year": "2026",
-        "vod_area": "中国大陆",
-        "vod_lang": "汉语普通话",
-        "vod_pic": "https://ok.zuidapic.com/upload/vod/20260911-1/8b7c5b52c3dafb38e5a9e6d02ae5c3b9.jpg"
       }
     },
     {
@@ -206,20 +207,6 @@
       }
     },
     {
-      "source_id": "regular-闪电",
-      "source_vod_id": "136519",
-      "source_name": "闪电|点播",
-      "metadata": {
-        "vod_id": 136519,
-        "vod_name": "天赐娘子小镖师",
-        "type_name": "国产剧",
-        "vod_year": "2026",
-        "vod_area": "中国大陆",
-        "vod_lang": "汉语普通话",
-        "vod_pic": "https://shandianpic.vip/upload/vod/20260911-1/0f405c790ad0d0773aa7066910603f40.jpg"
-      }
-    },
-    {
       "source_id": "regular-非凡",
       "source_vod_id": "99333",
       "source_name": "非凡|点播",
@@ -230,7 +217,7 @@
         "vod_year": "2026",
         "vod_area": "大陆",
         "vod_lang": "国语",
-        "vod_pic": "https://img.feifeiimg.vip/upload/vod/20260911-1/483d420552befbf3ddb4b5593ac89d2d.jpg",
+        "vod_pic": "https://fffgood.com/upload/vod/20260911-1/483d420552befbf3ddb4b5593ac89d2d.jpg",
         "vod_class": "喜剧,爱情,古装"
       }
     },
@@ -256,6 +243,26 @@
       "season": null,
       "episode": 1,
       "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/kmuT0Uuv/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
@@ -357,26 +364,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/11/fp19j0x7ip27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -457,16 +444,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/11/fp19j0x7ip27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/0pqsHKRp45",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -605,6 +592,26 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/WGjL6KrF/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -705,26 +712,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202609/11/9NUQTA6Lmf27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -805,16 +792,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202609/11/9NUQTA6Lmf27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/7HT8FK7zwM",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -953,6 +940,26 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/fwwa9cJq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -1053,26 +1060,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/11/Kgj4V4QRBX27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -1153,16 +1140,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/11/Kgj4V4QRBX27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/UghcFRMiEV",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -1301,6 +1288,26 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/8xZPtySu/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -1401,26 +1408,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/11/jqedZKvjyf27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -1501,16 +1488,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/11/jqedZKvjyf27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/dof76lk38K",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -1649,6 +1636,26 @@
       "episode": 5,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/Jx1sJBN3/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -1749,26 +1756,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202609/11/b6NRrrr4yr27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -1849,16 +1836,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202609/11/b6NRrrr4yr27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/SuAuUKlRJl",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -1997,6 +1984,26 @@
       "episode": 6,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/d3qeXoz2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -2097,26 +2104,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202609/11/WYUnGwuKQE27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -2197,16 +2184,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202609/11/WYUnGwuKQE27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/n6z3tQ5rgX",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -2345,6 +2332,26 @@
       "episode": 7,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/IV8A8LSN/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -2445,26 +2452,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/11/Ui5rfm1HCc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -2545,16 +2532,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/11/Ui5rfm1HCc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/ynCS1H5OzD",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -2693,6 +2680,26 @@
       "episode": 8,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260911/U3bNlPjq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
+          "canonical_source_id": "",
+          "source_title": "天赐娘子小镖师",
+          "original_title": "tianciniangzixiaobiaoshi",
+          "localized_titles": {
+            "zh": "天赐娘子小镖师",
+            "en": "tianciniangzixiaobiaoshi"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-非凡",
           "source_name": "非凡|点播",
           "provider": "ffm3u8",
@@ -2793,26 +2800,6 @@
           "language": "国语"
         },
         {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/11/hZK0PkVyGG27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:47:17",
-          "source_item_id": "130321",
-          "canonical_source_id": "",
-          "source_title": "天赐娘子小镖师",
-          "original_title": "tianciniangzixiaobiaoshi",
-          "localized_titles": {
-            "zh": "天赐娘子小镖师",
-            "en": "tianciniangzixiaobiaoshi"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-极速",
           "source_name": "极速|点播",
           "provider": "jsm3u8",
@@ -2893,16 +2880,16 @@
           "language": "普通话"
         },
         {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/11/hZK0PkVyGG27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/yj70WpIedx",
+          "protocol": "http",
+          "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 11:34:16",
-          "source_item_id": "136519",
+          "updated_at": "2026-09-11 13:26:18",
+          "source_item_id": "72602",
           "canonical_source_id": "",
           "source_title": "天赐娘子小镖师",
           "original_title": "tianciniangzixiaobiaoshi",
@@ -3126,6 +3113,24 @@
       "official": true
     },
     {
+      "value": "天赐娘子小镖师",
+      "source_title": "天赐娘子小镖师",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72602",
+      "official": true
+    },
+    {
+      "value": "tianciniangzixiaobiaoshi",
+      "source_title": "天赐娘子小镖师",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72602",
+      "official": true
+    },
+    {
       "value": "天赐娘子·小镖师",
       "source_title": "天赐娘子·小镖师",
       "language": "zh",
@@ -3216,24 +3221,6 @@
       "official": true
     },
     {
-      "value": "天赐娘子小镖师",
-      "source_title": "天赐娘子小镖师",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-闪电",
-      "source_item_id": "136519",
-      "official": true
-    },
-    {
-      "value": "tianciniangzixiaobiaoshi",
-      "source_title": "天赐娘子小镖师",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-闪电",
-      "source_item_id": "136519",
-      "official": true
-    },
-    {
       "value": "天赐娘子·小镖师",
       "source_title": "天赐娘子·小镖师",
       "language": "zh",
@@ -3285,24 +3272,6 @@
       "source": "source_api",
       "source_id": "regular-魔都",
       "source_item_id": "89442",
-      "official": true
-    },
-    {
-      "value": "天赐娘子小镖师",
-      "source_title": "天赐娘子小镖师",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-最大",
-      "source_item_id": "130321",
-      "official": true
-    },
-    {
-      "value": "tianciniangzixiaobiaoshi",
-      "source_title": "天赐娘子小镖师",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-最大",
-      "source_item_id": "130321",
       "official": true
     },
     {

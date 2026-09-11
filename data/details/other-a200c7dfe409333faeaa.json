@@ -6,49 +6,72 @@
   "year": 2026,
   "category": "日韩综艺",
   "section": "regular",
-  "poster": "https://img.picbf.com/upload/vod/20260911-1/39d0670249478afc88525ac320dc0b38.jpg",
-  "overview": "暂无简介，敬请期待",
-  "actors": [],
+  "poster": "https://img.lzipic.com/upload/vod/20260911-1/810b510464f4c0120f31645a600b9386.jpg",
+  "overview": "全球生活改造真人秀，以首尔这座“灯火不息的城市”为背景，记录不同国籍女性选择改变自我的瞬间。",
+  "actors": [
+    "孙胜完",
+    "申瑟琪",
+    "文夏奈尔"
+  ],
   "directors": [],
   "genres": [
-    "日韩综艺"
+    "reality"
   ],
-  "updated_at": "2026-09-11 13:00:16",
+  "updated_at": "2026-09-11 13:53:52",
   "source_records": [
     {
-      "source_id": "regular-暴风",
-      "source_vod_id": "162255",
-      "source_name": "暴风|点播",
+      "source_id": "regular-量子",
+      "source_vod_id": "157002",
+      "source_name": "量子|点播",
       "metadata": {
-        "vod_id": 162255,
+        "vod_id": 157002,
         "vod_name": "Shine on in Seoul",
         "type_name": "日韩综艺",
         "vod_year": "2026",
         "vod_area": "韩国",
         "vod_lang": "韩语",
-        "vod_pic": "https://img.picbf.com/upload/vod/20260911-1/39d0670249478afc88525ac320dc0b38.jpg",
-        "vod_class": "日韩综艺"
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260911-1/810b510464f4c0120f31645a600b9386.jpg",
+        "vod_class": "真人秀"
       }
     }
   ],
   "episodes": [
     {
       "id": "other-a200c7dfe409333faeaa-e0001-6b86b273",
-      "name": "第1期",
+      "name": "第01集",
       "season": null,
       "episode": 1,
       "streams": [
         {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://fengbao12.com/video/ShineoninSeoul/9f6b2b51a1e3/index.m3u8",
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn28.com/share/5ebe5626b9f1cd89fbb9f665a527591f",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:53:52",
+          "source_item_id": "157002",
+          "canonical_source_id": "",
+          "source_title": "Shine on in Seoul",
+          "original_title": "ShineoninSeoul",
+          "localized_titles": {
+            "en": "ShineoninSeoul"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn28.com/20260911/15610_bae0ae55/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 13:00:16",
-          "source_item_id": "162255",
+          "updated_at": "2026-09-11 13:53:52",
+          "source_item_id": "157002",
           "canonical_source_id": "",
           "source_title": "Shine on in Seoul",
           "original_title": "ShineoninSeoul",
@@ -68,7 +91,12 @@
     "zh": "其他",
     "en": "Other"
   },
-  "genre_labels": {},
+  "genre_labels": {
+    "reality": {
+      "zh": "真人秀",
+      "en": "Reality"
+    }
+  },
   "source_category_translations": {
     "zh": "日韩综艺",
     "en": ""
@@ -76,7 +104,8 @@
   "search_terms": [
     "Shine on in Seoul",
     "ShineoninSeoul",
-    "日韩综艺"
+    "日韩综艺",
+    "reality"
   ],
   "classification_rule": "fallback",
   "classification_confidence": 0.5,
@@ -101,8 +130,8 @@
       "source_title": "Shine on in Seoul",
       "language": "en",
       "source": "source_api",
-      "source_id": "regular-暴风",
-      "source_item_id": "162255",
+      "source_id": "regular-量子",
+      "source_item_id": "157002",
       "official": true
     }
   ],

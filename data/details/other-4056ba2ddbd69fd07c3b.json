@@ -13,8 +13,23 @@
   "genres": [
     "漫剧"
   ],
-  "updated_at": "2026-09-11 12:38:34",
+  "updated_at": "2026-09-11 13:28:04",
   "source_records": [
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "170313",
+      "source_name": "无尽|点播",
+      "metadata": {
+        "vod_id": 170313,
+        "vod_name": "归田不负兄",
+        "type_name": "漫剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://pic.youkupic.com/upload/vod/20260911-1/65619069312d0558309ceb5f3c00abfc.jpg",
+        "vod_class": "漫剧"
+      }
+    },
     {
       "source_id": "regular-索尼",
       "source_vod_id": "154740",
@@ -38,6 +53,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v10.ppqrrs.com/wjv10/202609/06/kns1c38bkU96/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:28:04",
+          "source_item_id": "170313",
+          "canonical_source_id": "",
+          "source_title": "归田不负兄",
+          "original_title": "guitianbufuxiong",
+          "localized_titles": {
+            "zh": "归田不负兄",
+            "en": "guitianbufuxiong"
+          },
+          "language": "国语"
+        },
         {
           "source_id": "regular-索尼",
           "source_name": "索尼|点播",
@@ -113,6 +148,24 @@
       "source": "source_api",
       "source_id": "regular-索尼",
       "source_item_id": "154740",
+      "official": true
+    },
+    {
+      "value": "归田不负兄",
+      "source_title": "归田不负兄",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "170313",
+      "official": true
+    },
+    {
+      "value": "guitianbufuxiong",
+      "source_title": "归田不负兄",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "170313",
       "official": true
     }
   ],

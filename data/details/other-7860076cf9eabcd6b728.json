@@ -13,8 +13,23 @@
   "genres": [
     "漫剧"
   ],
-  "updated_at": "2026-09-11 12:40:02",
+  "updated_at": "2026-09-11 13:29:31",
   "source_records": [
+    {
+      "source_id": "regular-无尽",
+      "source_vod_id": "170320",
+      "source_name": "无尽|点播",
+      "metadata": {
+        "vod_id": 170320,
+        "vod_name": "护宝寻踪长安道",
+        "type_name": "漫剧",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://pic.youkupic.com/upload/vod/20260911-1/9c639b44365a2cf297d11f3759ed2e7b.jpg",
+        "vod_class": "漫剧"
+      }
+    },
     {
       "source_id": "regular-索尼",
       "source_vod_id": "154747",
@@ -38,6 +53,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-无尽",
+          "source_name": "无尽|点播",
+          "provider": "wjm3u8",
+          "url": "https://v9.ppqrrs.com/wjv9/202609/06/ZbeZmNvSdE92/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 13:29:31",
+          "source_item_id": "170320",
+          "canonical_source_id": "",
+          "source_title": "护宝寻踪长安道",
+          "original_title": "hubaoxunzongchangandao",
+          "localized_titles": {
+            "zh": "护宝寻踪长安道",
+            "en": "hubaoxunzongchangandao"
+          },
+          "language": "国语"
+        },
         {
           "source_id": "regular-索尼",
           "source_name": "索尼|点播",
@@ -113,6 +148,24 @@
       "source": "source_api",
       "source_id": "regular-索尼",
       "source_item_id": "154747",
+      "official": true
+    },
+    {
+      "value": "护宝寻踪长安道",
+      "source_title": "护宝寻踪长安道",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "170320",
+      "official": true
+    },
+    {
+      "value": "hubaoxunzongchangandao",
+      "source_title": "护宝寻踪长安道",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-无尽",
+      "source_item_id": "170320",
       "official": true
     }
   ],
