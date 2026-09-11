@@ -12,13 +12,18 @@
     "杨天翔",
     "刘校妤"
   ],
-  "directors": [],
+  "directors": [
+    "暂无"
+  ],
   "genres": [
     "action",
     "comedy",
+    "romance",
+    "fantasy",
+    "animation",
     "drama"
   ],
-  "updated_at": "2026-09-11 13:45:09",
+  "updated_at": "2026-09-11 17:15:37",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -35,18 +40,32 @@
       }
     },
     {
-      "source_id": "regular-u酷",
-      "source_vod_id": "72600",
-      "source_name": "U酷|点播",
+      "source_id": "regular-ikun",
+      "source_vod_id": "70168",
+      "source_name": "ikun|点播",
       "metadata": {
-        "vod_id": 72600,
+        "vod_id": 70168,
         "vod_name": "狐妖小红娘 黄风岭篇",
-        "type_name": "动漫",
+        "type_name": "国产动漫",
         "vod_year": "2026",
         "vod_area": "中国大陆",
         "vod_lang": "汉语普通话",
-        "vod_pic": "https://img.ukuapi88.com/upload/vod/20260911-1/fa16c4aecb414c8ec5027e3c44b7d7f5.webp",
-        "vod_class": "剧情,喜剧,动作"
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260911-1/f0382f2dd473c3cdaf0e802b8bc5c0a9.webp",
+        "vod_class": "剧情,喜剧,动作,爱情,动画,奇幻"
+      }
+    },
+    {
+      "source_id": "regular-墨斗",
+      "source_vod_id": "89450",
+      "source_name": "墨斗|点播",
+      "metadata": {
+        "vod_id": 89450,
+        "vod_name": "狐妖小红娘黄风岭篇",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260911-1/0ddc7e81357c8ab14f8b5974a7fa0a35.webp"
       }
     },
     {
@@ -63,6 +82,20 @@
         "vod_pic": "https://fffgood.com/upload/vod/20260911-1/9d1457c241198e99bb112e17e92d0b70.jpg",
         "vod_class": "剧情,喜剧,动作"
       }
+    },
+    {
+      "source_id": "regular-魔都",
+      "source_vod_id": "89450",
+      "source_name": "魔都|点播",
+      "metadata": {
+        "vod_id": 89450,
+        "vod_name": "狐妖小红娘黄风岭篇",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "国语",
+        "vod_pic": "https://www.mdzypic.com/upload/vod/20260911-1/0ddc7e81357c8ab14f8b5974a7fa0a35.webp"
+      }
     }
   ],
   "episodes": [
@@ -72,6 +105,46 @@
       "season": null,
       "episode": 1,
       "streams": [
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260911/BZMzW5Hy/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 17:15:37",
+          "source_item_id": "89450",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260911/OxLubH8k/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 14:56:58",
+          "source_item_id": "70168",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘 黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘 黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-360",
           "source_name": "360|点播",
@@ -88,26 +161,6 @@
           "original_title": "huyaoxiaohongnianghuangfenglingpian",
           "localized_titles": {
             "zh": "狐妖小红娘黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260911/NQMbYdNf/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "汉语普通话"
@@ -131,26 +184,6 @@
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "国语"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/oETrZiS44k",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
         },
         {
           "source_id": "regular-非凡",
@@ -181,6 +214,46 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260911/DjIRQI8j/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 17:15:37",
+          "source_item_id": "89450",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260911/aAYXMQmP/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 14:56:58",
+          "source_item_id": "70168",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘 黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘 黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -196,26 +269,6 @@
           "original_title": "huyaoxiaohongnianghuangfenglingpian",
           "localized_titles": {
             "zh": "狐妖小红娘黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260911/V78Gyzfn/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "汉语普通话"
@@ -239,26 +292,6 @@
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "国语"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/oHVDwhpbGx",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
         },
         {
           "source_id": "regular-非凡",
@@ -289,6 +322,46 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260911/k1VtKxAQ/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 17:15:37",
+          "source_item_id": "89450",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260911/kooNMo1T/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 14:56:58",
+          "source_item_id": "70168",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘 黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘 黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -304,26 +377,6 @@
           "original_title": "huyaoxiaohongnianghuangfenglingpian",
           "localized_titles": {
             "zh": "狐妖小红娘黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260911/sHIQYICg/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "汉语普通话"
@@ -347,26 +400,6 @@
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "国语"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/UNMWEssATg",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
         },
         {
           "source_id": "regular-非凡",
@@ -397,6 +430,46 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20260911/fuvliuKb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 17:15:37",
+          "source_item_id": "89450",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "国语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260911/BU4l12zO/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-11 14:56:58",
+          "source_item_id": "70168",
+          "canonical_source_id": "",
+          "source_title": "狐妖小红娘 黄风岭篇",
+          "original_title": "huyaoxiaohongnianghuangfenglingpian",
+          "localized_titles": {
+            "zh": "狐妖小红娘 黄风岭篇",
+            "en": "huyaoxiaohongnianghuangfenglingpian"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -412,26 +485,6 @@
           "original_title": "huyaoxiaohongnianghuangfenglingpian",
           "localized_titles": {
             "zh": "狐妖小红娘黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20260911/UF7tEGAS/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "汉语普通话"
@@ -455,26 +508,6 @@
             "en": "huyaoxiaohongnianghuangfenglingpian"
           },
           "language": "国语"
-        },
-        {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/qwRDYpjPBh",
-          "protocol": "http",
-          "supported": false,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 11:41:05",
-          "source_item_id": "72600",
-          "canonical_source_id": "",
-          "source_title": "狐妖小红娘 黄风岭篇",
-          "original_title": "huyaoxiaohongnianghuangfenglingpian",
-          "localized_titles": {
-            "zh": "狐妖小红娘 黄风岭篇",
-            "en": "huyaoxiaohongnianghuangfenglingpian"
-          },
-          "language": "汉语普通话"
         },
         {
           "source_id": "regular-非凡",
@@ -554,12 +587,30 @@
       "official": true
     },
     {
+      "value": "狐妖小红娘黄风岭篇",
+      "source_title": "狐妖小红娘黄风岭篇",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "89450",
+      "official": true
+    },
+    {
+      "value": "huyaoxiaohongnianghuangfenglingpian",
+      "source_title": "狐妖小红娘黄风岭篇",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-墨斗",
+      "source_item_id": "89450",
+      "official": true
+    },
+    {
       "value": "狐妖小红娘 黄风岭篇",
       "source_title": "狐妖小红娘 黄风岭篇",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-u酷",
-      "source_item_id": "72600",
+      "source_id": "regular-ikun",
+      "source_item_id": "70168",
       "official": true
     },
     {
@@ -567,8 +618,8 @@
       "source_title": "狐妖小红娘 黄风岭篇",
       "language": "en",
       "source": "source_api",
-      "source_id": "regular-u酷",
-      "source_item_id": "72600",
+      "source_id": "regular-ikun",
+      "source_item_id": "70168",
       "official": true
     },
     {
@@ -587,6 +638,24 @@
       "source": "source_api",
       "source_id": "regular-非凡",
       "source_item_id": "99331",
+      "official": true
+    },
+    {
+      "value": "狐妖小红娘黄风岭篇",
+      "source_title": "狐妖小红娘黄风岭篇",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "89450",
+      "official": true
+    },
+    {
+      "value": "huyaoxiaohongnianghuangfenglingpian",
+      "source_title": "狐妖小红娘黄风岭篇",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-魔都",
+      "source_item_id": "89450",
       "official": true
     }
   ],
