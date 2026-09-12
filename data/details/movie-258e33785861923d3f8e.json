@@ -20,7 +20,7 @@
     "comedy",
     "horror"
   ],
-  "updated_at": "2026-09-11 20:27:02",
+  "updated_at": "2026-09-12 16:28:09",
   "source_records": [
     {
       "source_id": "regular-新浪",
@@ -128,6 +128,21 @@
       }
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "157089",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157089,
+        "vod_name": "单细胞少女与学校怪谈2：教学实习",
+        "type_name": "喜剧片",
+        "vod_year": "2025",
+        "vod_area": "韩国",
+        "vod_lang": "韩语",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260912-1/15ab9aa9ebff2ca097884dc29c3ececc.webp",
+        "vod_class": "喜剧,恐怖"
+      }
+    },
+    {
       "source_id": "regular-金鹰",
       "source_vod_id": "158121",
       "source_name": "金鹰|点播",
@@ -165,6 +180,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260912/10441_fa889fee/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 16:28:09",
+          "source_item_id": "157089",
+          "canonical_source_id": "",
+          "source_title": "单细胞少女与学校怪谈2：教学实习",
+          "original_title": "danxibaoshaonvyuxuexiaoguaitan2jiaoxueshixi",
+          "localized_titles": {
+            "zh": "单细胞少女与学校怪谈2：教学实习",
+            "en": "danxibaoshaonvyuxuexiaoguaitan2jiaoxueshixi"
+          },
+          "language": "韩语"
+        },
         {
           "source_id": "regular-速博",
           "source_name": "速博|点播",
@@ -276,6 +311,26 @@
           "health": "unknown",
           "updated_at": "2026-09-11 16:56:38",
           "source_item_id": "99336",
+          "canonical_source_id": "",
+          "source_title": "单细胞少女与学校怪谈2：教学实习",
+          "original_title": "danxibaoshaonvyuxuexiaoguaitan2jiaoxueshixi",
+          "localized_titles": {
+            "zh": "单细胞少女与学校怪谈2：教学实习",
+            "en": "danxibaoshaonvyuxuexiaoguaitan2jiaoxueshixi"
+          },
+          "language": "韩语"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/293835c2cc75b585649498ee74b395f5",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 16:28:09",
+          "source_item_id": "157089",
           "canonical_source_id": "",
           "source_title": "单细胞少女与学校怪谈2：教学实习",
           "original_title": "danxibaoshaonvyuxuexiaoguaitan2jiaoxueshixi",
@@ -528,6 +583,24 @@
       "source": "source_api",
       "source_id": "regular-非凡",
       "source_item_id": "99336",
+      "official": true
+    },
+    {
+      "value": "单细胞少女与学校怪谈2：教学实习",
+      "source_title": "单细胞少女与学校怪谈2：教学实习",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157089",
+      "official": true
+    },
+    {
+      "value": "danxibaoshaonvyuxuexiaoguaitan2jiaoxueshixi",
+      "source_title": "单细胞少女与学校怪谈2：教学实习",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157089",
       "official": true
     },
     {

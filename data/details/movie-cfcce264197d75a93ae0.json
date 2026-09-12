@@ -35,7 +35,7 @@
     "drama",
     "family"
   ],
-  "updated_at": "2026-09-11 15:08:46",
+  "updated_at": "2026-09-12 17:01:26",
   "source_records": [
     {
       "source_id": "regular-ikun",
@@ -53,6 +53,21 @@
       }
     },
     {
+      "source_id": "regular-u酷",
+      "source_vod_id": "72663",
+      "source_name": "U酷|点播",
+      "metadata": {
+        "vod_id": 72663,
+        "vod_name": "出入平安",
+        "type_name": "剧情片",
+        "vod_year": "2024",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话,河北方言",
+        "vod_pic": "https://img.ukuapi88.com/upload/vod/20260912-1/4192bb35f7d9b67924114df88c03ccb1.jpg",
+        "vod_class": "剧情,家庭,灾难"
+      }
+    },
+    {
       "source_id": "regular-墨斗",
       "source_vod_id": "89449",
       "source_name": "墨斗|点播",
@@ -65,6 +80,21 @@
         "vod_lang": "汉语普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260911-1/a90286813ed74875fe88179e1c40090c.jpg",
         "vod_class": "剧情,冒险,灾难"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157083",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157083,
+        "vod_name": "出入平安",
+        "type_name": "剧情片",
+        "vod_year": "2024",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话,河北方言",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260912-1/638cc8fb847c66329f3b43a4709fbab8.webp",
+        "vod_class": "剧情,家庭,灾难"
       }
     },
     {
@@ -105,6 +135,46 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzyvod3.ukubf5.com/20260912/KOIDguPz/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 17:01:26",
+          "source_item_id": "72663",
+          "canonical_source_id": "",
+          "source_title": "出入平安",
+          "original_title": "churupingan",
+          "localized_titles": {
+            "zh": "出入平安",
+            "en": "churupingan"
+          },
+          "language": "汉语普通话,河北方言"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lfthirtytwo.com/20260912/10447_d23310a1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 16:27:50",
+          "source_item_id": "157083",
+          "canonical_source_id": "",
+          "source_title": "出入平安",
+          "original_title": "churupingan",
+          "localized_titles": {
+            "zh": "出入平安",
+            "en": "churupingan"
+          },
+          "language": "汉语普通话,河北方言"
+        },
         {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
@@ -164,6 +234,46 @@
             "en": "churupingan"
           },
           "language": "国语"
+        },
+        {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzyvod3.ukubf5.com/share/gu9luNU4YF",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 17:01:26",
+          "source_item_id": "72663",
+          "canonical_source_id": "",
+          "source_title": "出入平安",
+          "original_title": "churupingan",
+          "localized_titles": {
+            "zh": "出入平安",
+            "en": "churupingan"
+          },
+          "language": "汉语普通话,河北方言"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lfthirtytwo.com/share/91afd735eb9677bbd3c7abbb175f6112",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 16:27:50",
+          "source_item_id": "157083",
+          "canonical_source_id": "",
+          "source_title": "出入平安",
+          "original_title": "churupingan",
+          "localized_titles": {
+            "zh": "出入平安",
+            "en": "churupingan"
+          },
+          "language": "汉语普通话,河北方言"
         },
         {
           "source_id": "regular-非凡",
@@ -261,6 +371,24 @@
       "source_title": "出入平安",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72663",
+      "official": true
+    },
+    {
+      "value": "churupingan",
+      "source_title": "出入平安",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "72663",
+      "official": true
+    },
+    {
+      "value": "出入平安",
+      "source_title": "出入平安",
+      "language": "zh",
+      "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "70163",
       "official": true
@@ -290,6 +418,24 @@
       "source": "source_api",
       "source_id": "regular-非凡",
       "source_item_id": "99332",
+      "official": true
+    },
+    {
+      "value": "出入平安",
+      "source_title": "出入平安",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157083",
+      "official": true
+    },
+    {
+      "value": "churupingan",
+      "source_title": "出入平安",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157083",
       "official": true
     },
     {
