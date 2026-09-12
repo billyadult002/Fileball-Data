@@ -30,7 +30,7 @@
     "romance",
     "drama"
   ],
-  "updated_at": "2026-09-13 00:21:17",
+  "updated_at": "2026-09-13 02:31:18",
   "source_records": [
     {
       "source_id": "regular-无尽",
@@ -61,6 +61,20 @@
         "vod_pic": "https://snzypic.vip/upload/vod/20260913-1/b3b4898bb5125b2d51255bb2e9679afd.jpg",
         "vod_class": "剧情,喜剧,爱情"
       }
+    },
+    {
+      "source_id": "regular-闪电",
+      "source_vod_id": "136562",
+      "source_name": "闪电|点播",
+      "metadata": {
+        "vod_id": 136562,
+        "vod_name": "煽疯点火",
+        "type_name": "喜剧片",
+        "vod_year": "2019",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://shandianpic.vip/upload/vod/20260913-1/5d45ac91717f71fba1b72eac41927333.jpg"
+      }
     }
   ],
   "episodes": [
@@ -70,6 +84,26 @@
       "season": null,
       "episode": null,
       "streams": [
+        {
+          "source_id": "regular-闪电",
+          "source_name": "闪电|点播",
+          "provider": "sdm3u8",
+          "url": "https://v13.qqqrst.com/yyv13/202609/12/ijWNEykS2m27/video/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 02:31:18",
+          "source_item_id": "136562",
+          "canonical_source_id": "",
+          "source_title": "煽疯点火",
+          "original_title": "shanfengdianhuo",
+          "localized_titles": {
+            "zh": "煽疯点火",
+            "en": "shanfengdianhuo"
+          },
+          "language": "汉语普通话"
+        },
         {
           "source_id": "regular-索尼",
           "source_name": "索尼|点播",
@@ -184,6 +218,24 @@
       "source": "source_api",
       "source_id": "regular-索尼",
       "source_item_id": "154815",
+      "official": true
+    },
+    {
+      "value": "煽疯点火",
+      "source_title": "煽疯点火",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-闪电",
+      "source_item_id": "136562",
+      "official": true
+    },
+    {
+      "value": "shanfengdianhuo",
+      "source_title": "煽疯点火",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-闪电",
+      "source_item_id": "136562",
       "official": true
     },
     {
