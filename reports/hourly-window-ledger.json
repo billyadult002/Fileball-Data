@@ -933,12 +933,45 @@
     },
     {
       "attempt": 1,
+      "completed_at": "2026-09-12T10:11:54Z",
+      "generation": "5d66dc0ce5f5a88c12b04b3f1012d42a6eefc4ee",
       "logical_end": "2026-09-12T10:00:00Z",
       "logical_start": "2026-09-12T09:00:00Z",
+      "reason_code": "CANONICAL_OUTPUT_CHANGED",
       "run_id": "34686333619-1",
       "started_at": "2026-09-12T09:37:24Z",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED_CHANGED",
       "window_id": "2026-09-12T09:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-12T11:00:00Z",
+      "logical_start": "2026-09-12T10:00:00Z",
+      "recorded_at": "2026-09-12T13:10:30Z",
+      "status": "MISSED",
+      "window_id": "2026-09-12T10:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-12T12:00:00Z",
+      "logical_start": "2026-09-12T11:00:00Z",
+      "recorded_at": "2026-09-12T13:10:30Z",
+      "status": "MISSED",
+      "window_id": "2026-09-12T11:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-12T13:00:00Z",
+      "logical_start": "2026-09-12T12:00:00Z",
+      "recorded_at": "2026-09-12T13:10:30Z",
+      "status": "MISSED",
+      "window_id": "2026-09-12T12:00:00Z"
+    },
+    {
+      "attempt": 1,
+      "logical_end": "2026-09-12T14:00:00Z",
+      "logical_start": "2026-09-12T13:00:00Z",
+      "run_id": "34695682686-1",
+      "started_at": "2026-09-12T13:10:30Z",
+      "status": "IN_PROGRESS",
+      "window_id": "2026-09-12T13:00:00Z"
     }
   ]
 }
