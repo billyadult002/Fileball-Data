@@ -12,6 +12,7 @@
     "暂无"
   ],
   "directors": [
+    "宇宙乐人",
     "暂无"
   ],
   "genres": [
@@ -19,13 +20,50 @@
     "fantasy",
     "animation"
   ],
-  "updated_at": "2026-09-06 12:12:03",
+  "updated_at": "2026-09-12 13:04:40",
   "source_records": [
     {
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-360",
+      "source_vod_id": "105070",
+      "source_name": "360|点播",
+      "metadata": {
+        "vod_id": 105070,
+        "vod_name": "深渊之上",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话"
+      }
+    },
+    {
+      "source_id": "regular-ikun",
       "source_vod_id": "70103",
-      "source_name": "gh72-api-ikun",
-      "metadata": {}
+      "source_name": "ikun|点播",
+      "metadata": {
+        "vod_id": 70103,
+        "vod_name": "深渊之上",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://tu.ikisfyigdaisasdad.com/upload/vod/20260905-1/dae973f59efcbd3068389346b2116a26.webp",
+        "vod_class": "动作,动画,奇幻,灾难"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "154952",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 154952,
+        "vod_name": "深渊之上",
+        "type_name": "国产动漫",
+        "vod_year": "2026",
+        "vod_area": "中国大陆",
+        "vod_lang": "汉语普通话",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260830-1/3e56a2042b0150629cc77a0bed66741e.webp",
+        "vod_class": "动作,动画,奇幻,灾难"
+      }
     }
   ],
   "episodes": [
@@ -36,16 +74,76 @@
       "episode": 1,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/lhzXAxNL/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/38AEwwLT/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260830/10774_0b311ff8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/5a52499520e1a57cf6daa1dd645fc85c",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -64,16 +162,76 @@
       "episode": 2,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/5wxuKMpo/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/dXWmaaBd/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260830/10773_69be8b75/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/ea89621bee7c88b2c5be6681c8ef4906",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -92,16 +250,76 @@
       "episode": 3,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/WA02KURA/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/2hCCUJPj/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260830/10775_3127a6b1/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/b951782ef245e750f4bb131e66fb3825",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -120,16 +338,76 @@
       "episode": 4,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/M5JpqSn5/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/59tgSZv3/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260830/10771_e545c934/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/85be7e92377849414323f55a9e3c4e36",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -148,16 +426,76 @@
       "episode": 5,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/Kvb26pkB/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/rgY8tIzg/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260830/10770_6984500e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/72ab54f9b8c11fae5b923d7f854ef06a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -176,16 +514,76 @@
       "episode": 6,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/ppbjh7xK/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/eDH4uVi6/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260830/10772_3cae98bb/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/51ca7239c43e5ad0214414035feb0453",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -204,16 +602,76 @@
       "episode": 7,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260905/IHzHpec8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260905/xRu5J4u5/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260905/10999_d72805a8/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/97885afd60c10c4a454c11e225763e04",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -232,16 +690,212 @@
       "episode": 8,
       "streams": [
         {
-          "source_id": "gh72-api-ikun",
-          "source_name": "gh72-api-ikun",
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260906/0lvhxhDW/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
           "provider": "ikm3u8",
           "url": "https://bfikuncdn.com/20260906/EMaX9TWw/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-06 12:12:03",
+          "updated_at": "2026-09-12 11:41:32",
           "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260905/11023_6a808c07/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/7d787bb950167c81630d2f1256eec848",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        }
+      ]
+    },
+    {
+      "id": "anime-41302c1aedc065bdedb1-e0009-19581e27",
+      "name": "第09集",
+      "season": null,
+      "episode": 9,
+      "streams": [
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20260912/EKXzlHIL/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 13:04:40",
+          "source_item_id": "105070",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20260912/qF4LPwvp/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:41:32",
+          "source_item_id": "70103",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260906/11049_42b61b7f/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/8d12cf40aa0cf92405843c12a2d57f03",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        }
+      ]
+    },
+    {
+      "id": "anime-41302c1aedc065bdedb1-e0010-4a44dc15",
+      "name": "第10集",
+      "season": null,
+      "episode": 10,
+      "streams": [
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://v.lzcdn31.com/20260912/11293_fd61d4ec/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
+          "canonical_source_id": "",
+          "source_title": "深渊之上",
+          "original_title": "shenyuanzhishang",
+          "localized_titles": {
+            "zh": "深渊之上",
+            "en": "shenyuanzhishang"
+          },
+          "language": "汉语普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://v.lzcdn31.com/share/421b0ea70ab7fd681ae63a8f12695199",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:28:59",
+          "source_item_id": "154952",
           "canonical_source_id": "",
           "source_title": "深渊之上",
           "original_title": "shenyuanzhishang",
@@ -262,20 +916,7 @@
     "zh": "动漫",
     "en": "Anime"
   },
-  "genre_labels": {
-    "action": {
-      "zh": "动作",
-      "en": "Action"
-    },
-    "fantasy": {
-      "zh": "奇幻",
-      "en": "Fantasy"
-    },
-    "animation": {
-      "zh": "动画",
-      "en": "Animation"
-    }
-  },
+  "genre_labels": {},
   "source_category_translations": {
     "zh": "国产动漫",
     "en": ""
@@ -283,10 +924,7 @@
   "search_terms": [
     "深渊之上",
     "shenyuanzhishang",
-    "国产动漫",
-    "action",
-    "fantasy",
-    "animation"
+    "国产动漫"
   ],
   "classification_rule": "keyword_mapping",
   "classification_confidence": 0.85,
@@ -311,7 +949,25 @@
       "source_title": "深渊之上",
       "language": "zh",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-360",
+      "source_item_id": "105070",
+      "official": true
+    },
+    {
+      "value": "shenyuanzhishang",
+      "source_title": "深渊之上",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-360",
+      "source_item_id": "105070",
+      "official": true
+    },
+    {
+      "value": "深渊之上",
+      "source_title": "深渊之上",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-ikun",
       "source_item_id": "70103",
       "official": true
     },
@@ -320,8 +976,26 @@
       "source_title": "深渊之上",
       "language": "en",
       "source": "source_api",
-      "source_id": "gh72-api-ikun",
+      "source_id": "regular-ikun",
       "source_item_id": "70103",
+      "official": true
+    },
+    {
+      "value": "深渊之上",
+      "source_title": "深渊之上",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "154952",
+      "official": true
+    },
+    {
+      "value": "shenyuanzhishang",
+      "source_title": "深渊之上",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "154952",
       "official": true
     }
   ],

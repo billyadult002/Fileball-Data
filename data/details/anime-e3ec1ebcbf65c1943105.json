@@ -24,10 +24,9 @@
     "暂无"
   ],
   "genres": [
-    "animation",
-    "日韩动漫"
+    "animation"
   ],
-  "updated_at": "2026-09-12 00:27:10",
+  "updated_at": "2026-09-12 11:02:04",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -59,6 +58,21 @@
       }
     },
     {
+      "source_id": "regular-u酷",
+      "source_vod_id": "66639",
+      "source_name": "U酷|点播",
+      "metadata": {
+        "vod_id": 66639,
+        "vod_name": "神之水滴",
+        "type_name": "动漫",
+        "vod_year": "2026",
+        "vod_area": "日本",
+        "vod_lang": "日语",
+        "vod_pic": "https://img.ukuapi88.com/upload/vod/20260411-1/3155657ffbb33f58a539b1cb390d99bc.webp",
+        "vod_class": "动画"
+      }
+    },
+    {
       "source_id": "regular-墨斗",
       "source_vod_id": "80795",
       "source_name": "墨斗|点播",
@@ -70,36 +84,6 @@
         "vod_area": "日本",
         "vod_lang": "日语",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260411-1/39e8e9987e95d843e258552ed0276d02.webp",
-        "vod_class": "动画"
-      }
-    },
-    {
-      "source_id": "regular-暴风",
-      "source_vod_id": "140992",
-      "source_name": "暴风|点播",
-      "metadata": {
-        "vod_id": 140992,
-        "vod_name": "神之水滴",
-        "type_name": "日韩动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://img.picbf.com/upload/vod/20260410-1/7ab1f95fca2396d7ace8a9f8d87dd17d.webp",
-        "vod_class": "日韩动漫"
-      }
-    },
-    {
-      "source_id": "regular-量子",
-      "source_vod_id": "133530",
-      "source_name": "量子|点播",
-      "metadata": {
-        "vod_id": 133530,
-        "vod_name": "神之水滴",
-        "type_name": "日韩动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://img.lzipic.com/upload/vod/20260410-1/1aa2becfe3137d993ff4b8cfeacd275b.webp",
         "vod_class": "动画"
       }
     },
@@ -127,6 +111,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260411/Hy7ChZt6/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -137,46 +141,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260410/8516_11fd9890/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://c1.rrcdnbf6.com/video/shenzhishuidi/第01集/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -227,16 +191,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/6a12d7ebc27cae44623468302c47ad74",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/ji5qTAUHli",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -255,6 +219,26 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260418/PwCnKQnR/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -265,46 +249,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260417/8877_f2dfa0c2/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/0f4129076730/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -355,16 +299,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/110e7d180dc9a996341b90c4e61101db",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/tRzwfwM6Zf",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -383,6 +327,26 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260425/NbPQwM3V/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -393,46 +357,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260425/9252_500a2067/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/c68e5d7242e1/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -483,16 +407,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/613690cd913c7e69998dd12df14a96fa",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/PJGYELocdD",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -511,6 +435,26 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260502/jyEqfAgk/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -521,46 +465,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260502/9635_2672cca2/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/72e9cac3779f/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -611,16 +515,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/b742027da6f65c2b92a85d76e41464e4",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/6lwsxnztFu",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -639,6 +543,26 @@
       "episode": 5,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260509/UGMrKlDY/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -649,46 +573,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260508/10039_ba2ad949/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/26270a0adf82/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -739,16 +623,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/2a8009525763356ad5e3bb48b7475b4d",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/XfUprhjWd7",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -767,6 +651,26 @@
       "episode": 6,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260516/vsFiC2UR/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -777,46 +681,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260515/10401_dd67d8b5/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/3edf755f56f1/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -867,16 +731,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/071f8a36715a8a6b7f7ded54074cc8c6",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/5NVhjaI6X0",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -895,6 +759,26 @@
       "episode": 7,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260523/ozipAkSY/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -905,46 +789,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260522/10732_b2af03b9/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/98da1fbde5b8/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -995,16 +839,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/4cce0644e37052e4c750f194dd5cccfd",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/cY4AWmRcS4",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1023,6 +867,26 @@
       "episode": 8,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260530/ZKrgJe8C/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1033,46 +897,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260529/11131_047f3212/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/9360a09d8dd7/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1123,16 +947,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/e896db75d35788e14104e4eb490e725b",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/iZDexUHf6s",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1151,6 +975,26 @@
       "episode": 9,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260605/CLWkY6zq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1161,46 +1005,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260605/11454_e938f013/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/2e8014df43bb/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1251,16 +1055,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/8b36cb431b5aa0d245be4e62cdb8e6b3",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/6hlWgKkvmI",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1279,6 +1083,26 @@
       "episode": 10,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260612/Q8ZiWOiO/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1289,46 +1113,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn27.com/20260612/11811_cadca952/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/165f69b4bba0/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1379,16 +1163,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn27.com/share/988ffc07e6cc403de91ec70d5508767e",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/NxLgFMc365",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1407,6 +1191,26 @@
       "episode": 11,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260619/EZGHb7FM/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1417,46 +1221,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260619/7514_8c9691c7/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng10.com/video/shenzhishuidi/e76d735c8be5/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1507,16 +1271,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/2c29d89cc56cdb191c60db2f0bae796b",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/A0zYan32kX",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1535,6 +1299,26 @@
       "episode": 12,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260628/sJ3PipZn/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1545,46 +1329,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260626/7693_2d1ff124/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/72cf96ca4946/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1635,16 +1379,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/1f8f69b53d86cf2a952bf95d87a59b0c",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/3E3Sdw0New",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1663,6 +1407,26 @@
       "episode": 13,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260703/BxdOtQtn/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1673,46 +1437,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260704/7955_54a41e0b/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/10cc86078a1e/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1763,16 +1487,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/62d081df1f0040acd58bcfd3c3040fc1",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/yRC7lW8zNy",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1791,6 +1515,26 @@
       "episode": 14,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260710/ovcboAvB/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1801,46 +1545,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260710/8293_8df9cc42/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/9c5de8f72955/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1891,16 +1595,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/a11513a4f1fd7e7b0c29be2cf7ad701d",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/BO7x1Bv66P",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -1919,6 +1623,26 @@
       "episode": 15,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260717/xVUv9yPw/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1929,46 +1653,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260717/8569_48c82288/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/16b60b205f0c/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2019,16 +1703,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/8cd7775f9129da8b5bf787a063d8426e",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/Hr5FlGpPT3",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2047,6 +1731,26 @@
       "episode": 16,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260724/HJyjqLsN/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2057,46 +1761,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260724/8877_55dcfec4/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/f95c688d05bc/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2147,16 +1811,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/110e7d180dc9a996341b90c4e61101db",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/c5nnzhkboH",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2175,6 +1839,26 @@
       "episode": 17,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260731/8RmPRqnd/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2185,46 +1869,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260731/9197_9a7c4e92/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/e7945339324a/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2275,16 +1919,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/a2790947391a51d18dc235eea344d981",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/TSLlASebnj",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2303,6 +1947,26 @@
       "episode": 18,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260808/8qVjrBVq/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2313,46 +1977,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260807/9510_459f1f7d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/46279cb55957/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2403,16 +2027,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/4e4f523705f88c7253fc492d5a45743a",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/NIPvORyahV",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2431,6 +2055,26 @@
       "episode": 19,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260814/UMKolk2s/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2441,46 +2085,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260814/9824_40414d11/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://bfeng11.com/video/shenzhishuidi/200a541f7a21/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2531,16 +2135,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/9724412729185d53a2e3e7f889d9f057",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/y4Aoefwpsu",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2559,6 +2163,26 @@
       "episode": 20,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260821/bs97ybiE/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2569,46 +2193,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260821/10311_57262c32/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://fengbao12.com/video/shenzhishuidi/f05552eeecb2/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2659,16 +2243,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/65a5e77645ee9f1918165a0a8c503297",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/fAXB303ysZ",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2687,6 +2271,26 @@
       "episode": 21,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260828/AKCouOtH/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2697,46 +2301,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260828/10670_86e3f741/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://fengbao12.com/video/shenzhishuidi/90a3dd53deac/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2787,16 +2351,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/5631e6ee59a4175cd06c305840562ff3",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/QN31rbHDM4",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2815,6 +2379,26 @@
       "episode": 22,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260905/Tzgs0noU/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2825,46 +2409,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260904/10983_242c91b1/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://fengbao12.com/video/shenzhishuidi/535e3c3ab27d/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2915,16 +2459,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/76b605730bd2606bbcb290f1244dac9a",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/wRir4L11vc",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -2943,6 +2487,26 @@
       "episode": 23,
       "streams": [
         {
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukm3u8",
+          "url": "https://ukzy.ukubf3.com/20260912/GJexP6mo/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
+          "canonical_source_id": "",
+          "source_title": "神之水滴",
+          "original_title": "shenzhishuidi",
+          "localized_titles": {
+            "zh": "神之水滴",
+            "en": "shenzhishuidi"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2953,46 +2517,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 00:27:10",
           "source_item_id": "80795",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "lzm3u8",
-          "url": "https://v.lzcdn31.com/20260911/11259_d60f8217/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
-          "canonical_source_id": "",
-          "source_title": "神之水滴",
-          "original_title": "shenzhishuidi",
-          "localized_titles": {
-            "zh": "神之水滴",
-            "en": "shenzhishuidi"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-暴风",
-          "source_name": "暴风|点播",
-          "provider": "bfzym3u8",
-          "url": "https://fengbao12.com/video/shenzhishuidi/c9a3122f3b57/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-11 23:53:37",
-          "source_item_id": "140992",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -3043,16 +2567,16 @@
           "language": "日语"
         },
         {
-          "source_id": "regular-量子",
-          "source_name": "量子|点播",
-          "provider": "liangzi",
-          "url": "https://v.lzcdn31.com/share/523df5a6db0544f3600434b9ffe68367",
+          "source_id": "regular-u酷",
+          "source_name": "U酷|点播",
+          "provider": "ukyun",
+          "url": "https://ukzy.ukubf3.com/share/MK1E0TsoWd",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-09-11 23:58:21",
-          "source_item_id": "133530",
+          "updated_at": "2026-09-12 11:02:04",
+          "source_item_id": "66639",
           "canonical_source_id": "",
           "source_title": "神之水滴",
           "original_title": "shenzhishuidi",
@@ -3145,6 +2669,24 @@
       "source_title": "神之水滴",
       "language": "zh",
       "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "66639",
+      "official": true
+    },
+    {
+      "value": "shenzhishuidi",
+      "source_title": "神之水滴",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-u酷",
+      "source_item_id": "66639",
+      "official": true
+    },
+    {
+      "value": "神之水滴",
+      "source_title": "神之水滴",
+      "language": "zh",
+      "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "68290",
       "official": true
@@ -3156,42 +2698,6 @@
       "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "68290",
-      "official": true
-    },
-    {
-      "value": "神之水滴",
-      "source_title": "神之水滴",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-量子",
-      "source_item_id": "133530",
-      "official": true
-    },
-    {
-      "value": "shenzhishuidi",
-      "source_title": "神之水滴",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-量子",
-      "source_item_id": "133530",
-      "official": true
-    },
-    {
-      "value": "神之水滴",
-      "source_title": "神之水滴",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-暴风",
-      "source_item_id": "140992",
-      "official": true
-    },
-    {
-      "value": "shenzhishuidi",
-      "source_title": "神之水滴",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-暴风",
-      "source_item_id": "140992",
       "official": true
     },
     {
