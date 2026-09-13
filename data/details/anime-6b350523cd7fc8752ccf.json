@@ -25,9 +25,11 @@
     "马引圭"
   ],
   "genres": [
-    "animation"
+    "animation",
+    "日韩动漫",
+    "日本动漫"
   ],
-  "updated_at": "2026-09-12 23:32:47",
+  "updated_at": "2026-09-13 12:00:11",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -74,20 +76,6 @@
       }
     },
     {
-      "source_id": "regular-丫丫",
-      "source_vod_id": "127616",
-      "source_name": "丫丫|点播",
-      "metadata": {
-        "vod_id": 127616,
-        "vod_name": "暗黑灯火",
-        "type_name": "日韩动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://pic.yayazy.info/upload/vod/20260912-1/c5763aa337c48545a16189963ed99542.jpg"
-      }
-    },
-    {
       "source_id": "regular-墨斗",
       "source_vod_id": "85662",
       "source_name": "墨斗|点播",
@@ -118,20 +106,6 @@
       }
     },
     {
-      "source_id": "regular-最大",
-      "source_vod_id": "127605",
-      "source_name": "最大|点播",
-      "metadata": {
-        "vod_id": 127605,
-        "vod_name": "暗黑灯火",
-        "type_name": "日韩动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://ok.zuidapic.com/upload/vod/20260912-1/1f9b702bf778dc9ea76e3e7fa0211244.jpg"
-      }
-    },
-    {
       "source_id": "regular-极速",
       "source_vod_id": "111082",
       "source_name": "极速|点播",
@@ -147,6 +121,21 @@
       }
     },
     {
+      "source_id": "regular-樱花",
+      "source_vod_id": "100125",
+      "source_name": "樱花|点播",
+      "metadata": {
+        "vod_id": 100125,
+        "vod_name": "暗黑灯火",
+        "type_name": "日本动漫",
+        "vod_year": "2026",
+        "vod_area": "日本",
+        "vod_lang": "日语",
+        "vod_pic": "https://pic.jegms.com/upload/vod/20260705-1/34169a99db331a6739dfcc3e07319eb7.jpg",
+        "vod_class": "日韩动漫,日本动漫"
+      }
+    },
+    {
       "source_id": "regular-火狐",
       "source_vod_id": "137195",
       "source_name": "火狐|点播",
@@ -159,20 +148,6 @@
         "vod_lang": "日语",
         "vod_pic": "https://hhmage.com/cover/68f5d72fd558955639b8f0448be211f8.jpg",
         "vod_class": "动画,日本动漫"
-      }
-    },
-    {
-      "source_id": "regular-牛牛",
-      "source_vod_id": "128499",
-      "source_name": "牛牛|点播",
-      "metadata": {
-        "vod_id": 128499,
-        "vod_name": "暗黑灯火",
-        "type_name": "日韩动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://pic.niuniuzy.info/upload/vod/20260912-1/117db809b3e73d3059a33440a4008bb4.jpg"
       }
     },
     {
@@ -251,20 +226,6 @@
       }
     },
     {
-      "source_id": "regular-闪电",
-      "source_vod_id": "133792",
-      "source_name": "闪电|点播",
-      "metadata": {
-        "vod_id": 133792,
-        "vod_name": "暗黑灯火",
-        "type_name": "日韩动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://shandianpic.vip/upload/vod/20260912-1/e28819ead84731d4f7244b660c6feb96.jpg"
-      }
-    },
-    {
       "source_id": "regular-非凡",
       "source_vod_id": "98499",
       "source_name": "非凡|点播",
@@ -303,6 +264,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260705/KvZSK7U44v96/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -313,66 +294,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v4.rstuuv.com/yyv4/202607/04/5TSDvkF6wH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v4.qqqrst.com/yyv4/202607/04/5TSDvkF6wH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v4.gghijk.com/yyv4/202607/04/5TSDvkF6wH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -413,26 +334,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v4.zuidazym3u8.com/yyv4/202607/04/5TSDvkF6wH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -731,6 +632,26 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260712/wCD7JexcU096/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -741,66 +662,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202607/11/intp6RdEWG27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202607/11/intp6RdEWG27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v13.gghijk.com/yyv13/202607/11/intp6RdEWG27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -841,26 +702,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202607/11/intp6RdEWG27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -1159,6 +1000,26 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260719/uhGHesYcCZ91/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -1169,66 +1030,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202607/18/Nx4HR0RE3827/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202607/18/Nx4HR0RE3827/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v14.gghijk.com/yyv14/202607/18/Nx4HR0RE3827/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -1269,26 +1070,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/18/Nx4HR0RE3827/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -1587,6 +1368,26 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260726/vhWrnMHuqD96/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -1597,66 +1398,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202607/25/WxzNknFgwg27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202607/25/WxzNknFgwg27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v13.gghijk.com/yyv13/202607/25/WxzNknFgwg27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -1697,26 +1438,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202607/25/WxzNknFgwg27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -2015,6 +1736,26 @@
       "episode": 5,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260802/h93dwts2vi86/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -2025,66 +1766,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/01/AW6EnveM6u27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/01/AW6EnveM6u27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v14.gghijk.com/yyv14/202608/01/AW6EnveM6u27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -2125,26 +1806,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/01/AW6EnveM6u27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -2443,6 +2104,26 @@
       "episode": 6,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260809/RGBsc7m2w095/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -2453,66 +2134,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/08/qHgcH4TFKc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/08/qHgcH4TFKc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v14.gghijk.com/yyv14/202608/08/qHgcH4TFKc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -2553,26 +2174,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/08/qHgcH4TFKc27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -2871,6 +2472,26 @@
       "episode": 7,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260816/8xRySGxUds86/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -2881,66 +2502,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/15/vWDjwpahLs27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/15/vWDjwpahLs27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v14.gghijk.com/yyv14/202608/15/vWDjwpahLs27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -2981,26 +2542,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/15/vWDjwpahLs27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -3299,6 +2840,26 @@
       "episode": 8,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260823/igCufbtbPg86/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -3309,66 +2870,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202608/22/nbMpgjcsZ527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202608/22/nbMpgjcsZ527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v13.gghijk.com/yyv13/202608/22/nbMpgjcsZ527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -3409,26 +2910,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202608/22/nbMpgjcsZ527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -3727,6 +3208,26 @@
       "episode": 9,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260830/RFZksRpH6t97/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -3737,66 +3238,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/29/EnzDdRXJWN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/29/EnzDdRXJWN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v14.gghijk.com/yyv14/202608/29/EnzDdRXJWN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -3837,26 +3278,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/29/EnzDdRXJWN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -4155,6 +3576,26 @@
       "episode": 10,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260906/82WmR3A8Pn97/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -4165,66 +3606,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v15.rstuuv.com/yyv15/202609/05/BUhbKQpcn227/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/05/BUhbKQpcn227/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v15.gghijk.com/yyv15/202609/05/BUhbKQpcn227/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -4265,26 +3646,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/05/BUhbKQpcn227/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -4583,6 +3944,26 @@
       "episode": 11,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260913/57tqBhN0pU96/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-13 12:00:11",
+          "source_item_id": "100125",
+          "canonical_source_id": "",
+          "source_title": "暗黑灯火",
+          "original_title": "anheidenghuo",
+          "localized_titles": {
+            "zh": "暗黑灯火",
+            "en": "anheidenghuo"
+          },
+          "language": "日语"
+        },
+        {
           "source_id": "regular-u酷",
           "source_name": "U酷|点播",
           "provider": "ukm3u8",
@@ -4593,66 +3974,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 23:32:47",
           "source_item_id": "69789",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v15.rstuuv.com/yyv15/202609/12/tG3VnzCmc327/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:38:22",
-          "source_item_id": "127616",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/12/tG3VnzCmc327/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:34:00",
-          "source_item_id": "133792",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-牛牛",
-          "source_name": "牛牛|点播",
-          "provider": "nnm3u8",
-          "url": "https://v15.gghijk.com/yyv15/202609/12/tG3VnzCmc327/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:26:38",
-          "source_item_id": "128499",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -4693,26 +4014,6 @@
           "health": "unknown",
           "updated_at": "2026-09-12 22:08:24",
           "source_item_id": "69340",
-          "canonical_source_id": "",
-          "source_title": "暗黑灯火",
-          "original_title": "anheidenghuo",
-          "localized_titles": {
-            "zh": "暗黑灯火",
-            "en": "anheidenghuo"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/12/tG3VnzCmc327/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-12 22:05:56",
-          "source_item_id": "127605",
           "canonical_source_id": "",
           "source_title": "暗黑灯火",
           "original_title": "anheidenghuo",
@@ -5100,42 +4401,6 @@
       "source_title": "暗黑灯火",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-牛牛",
-      "source_item_id": "128499",
-      "official": true
-    },
-    {
-      "value": "anheidenghuo",
-      "source_title": "暗黑灯火",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-牛牛",
-      "source_item_id": "128499",
-      "official": true
-    },
-    {
-      "value": "暗黑灯火",
-      "source_title": "暗黑灯火",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-丫丫",
-      "source_item_id": "127616",
-      "official": true
-    },
-    {
-      "value": "anheidenghuo",
-      "source_title": "暗黑灯火",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-丫丫",
-      "source_item_id": "127616",
-      "official": true
-    },
-    {
-      "value": "暗黑灯火",
-      "source_title": "暗黑灯火",
-      "language": "zh",
-      "source": "source_api",
       "source_id": "regular-u酷",
       "source_item_id": "69789",
       "official": true
@@ -5244,8 +4509,8 @@
       "source_title": "暗黑灯火",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-闪电",
-      "source_item_id": "133792",
+      "source_id": "regular-樱花",
+      "source_item_id": "100125",
       "official": true
     },
     {
@@ -5253,8 +4518,8 @@
       "source_title": "暗黑灯火",
       "language": "en",
       "source": "source_api",
-      "source_id": "regular-闪电",
-      "source_item_id": "133792",
+      "source_id": "regular-樱花",
+      "source_item_id": "100125",
       "official": true
     },
     {
@@ -5309,24 +4574,6 @@
       "source": "source_api",
       "source_id": "regular-魔都",
       "source_item_id": "85662",
-      "official": true
-    },
-    {
-      "value": "暗黑灯火",
-      "source_title": "暗黑灯火",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-最大",
-      "source_item_id": "127605",
-      "official": true
-    },
-    {
-      "value": "anheidenghuo",
-      "source_title": "暗黑灯火",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-最大",
-      "source_item_id": "127605",
       "official": true
     },
     {
