@@ -1195,12 +1195,31 @@
     },
     {
       "attempt": 1,
+      "completed_at": "2026-09-13T16:56:02Z",
+      "generation": "5ef13d5edb65735a1cd1f0219a98c7381fe69db2",
       "logical_end": "2026-09-13T17:00:00Z",
       "logical_start": "2026-09-13T16:00:00Z",
+      "reason_code": "CANONICAL_OUTPUT_CHANGED",
       "run_id": "34768307309-1",
       "started_at": "2026-09-13T16:21:09Z",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED_CHANGED",
       "window_id": "2026-09-13T16:00:00Z"
+    },
+    {
+      "logical_end": "2026-09-13T18:00:00Z",
+      "logical_start": "2026-09-13T17:00:00Z",
+      "recorded_at": "2026-09-13T18:53:48Z",
+      "status": "MISSED",
+      "window_id": "2026-09-13T17:00:00Z"
+    },
+    {
+      "attempt": 1,
+      "logical_end": "2026-09-13T19:00:00Z",
+      "logical_start": "2026-09-13T18:00:00Z",
+      "run_id": "34776021750-1",
+      "started_at": "2026-09-13T18:53:48Z",
+      "status": "IN_PROGRESS",
+      "window_id": "2026-09-13T18:00:00Z"
     }
   ]
 }
