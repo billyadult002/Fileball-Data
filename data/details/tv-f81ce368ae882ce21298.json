@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-13 15:20:57",
+  "updated_at": "2026-09-14 03:50:02",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260913-1/db431162a3d29c78978209e2a3d10a3f.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157546",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157546,
+        "vod_name": "你是我的阳光玫瑰",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/43ad20fe8ae42e5c6b9992b6f8cb3230.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6300_064230e0/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:50:02",
+          "source_item_id": "157546",
+          "canonical_source_id": "",
+          "source_title": "你是我的阳光玫瑰",
+          "original_title": "nishiwodeyangguangmeigui",
+          "localized_titles": {
+            "zh": "你是我的阳光玫瑰",
+            "en": "nishiwodeyangguangmeigui"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "nishiwodeyangguangmeigui"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/42d02bd0c73cb27e4ffc7862910ea1f4",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:50:02",
+          "source_item_id": "157546",
+          "canonical_source_id": "",
+          "source_title": "你是我的阳光玫瑰",
+          "original_title": "nishiwodeyangguangmeigui",
+          "localized_titles": {
+            "zh": "你是我的阳光玫瑰",
+            "en": "nishiwodeyangguangmeigui"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -1780,6 +1832,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89583",
+      "official": true
+    },
+    {
+      "value": "你是我的阳光玫瑰",
+      "source_title": "你是我的阳光玫瑰",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157546",
+      "official": true
+    },
+    {
+      "value": "nishiwodeyangguangmeigui",
+      "source_title": "你是我的阳光玫瑰",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157546",
       "official": true
     },
     {

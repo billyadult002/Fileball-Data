@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 20:03:05",
+  "updated_at": "2026-09-14 03:31:33",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/49a7836acb6aef620f68bc391899a3aa.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157522",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157522,
+        "vod_name": "重生八零她又飒又甜",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/4161342abb4d3ee3fb9ef5b34cfbd40c.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6271_71576cd7/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:31:33",
+          "source_item_id": "157522",
+          "canonical_source_id": "",
+          "source_title": "重生八零她又飒又甜",
+          "original_title": "zhongshengbalingtayousayoutian",
+          "localized_titles": {
+            "zh": "重生八零她又飒又甜",
+            "en": "zhongshengbalingtayousayoutian"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "zhongshengbalingtayousayoutian"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/a1b63b36ba67b15d2f47da55cdb8018d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:31:33",
+          "source_item_id": "157522",
+          "canonical_source_id": "",
+          "source_title": "重生八零她又飒又甜",
+          "original_title": "zhongshengbalingtayousayoutian",
+          "localized_titles": {
+            "zh": "重生八零她又飒又甜",
+            "en": "zhongshengbalingtayousayoutian"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -1892,6 +1944,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89560",
+      "official": true
+    },
+    {
+      "value": "重生八零她又飒又甜",
+      "source_title": "重生八零她又飒又甜",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157522",
+      "official": true
+    },
+    {
+      "value": "zhongshengbalingtayousayoutian",
+      "source_title": "重生八零她又飒又甜",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157522",
       "official": true
     },
     {

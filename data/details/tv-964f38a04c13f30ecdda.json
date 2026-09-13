@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 20:00:46",
+  "updated_at": "2026-09-14 03:32:31",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/461bab2beaead358c336be9d162890d3.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157524",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157524,
+        "vod_name": "这个赘婿太彪悍了",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/4af7eea816357d61c5e6aa587c151a60.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6273_b444bf73/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:32:31",
+          "source_item_id": "157524",
+          "canonical_source_id": "",
+          "source_title": "这个赘婿太彪悍了",
+          "original_title": "zhegezhuixutaibiaohanliao",
+          "localized_titles": {
+            "zh": "这个赘婿太彪悍了",
+            "en": "zhegezhuixutaibiaohanliao"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "zhegezhuixutaibiaohanliao"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/619953730129049907919279f29bd9d7",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:32:31",
+          "source_item_id": "157524",
+          "canonical_source_id": "",
+          "source_title": "这个赘婿太彪悍了",
+          "original_title": "zhegezhuixutaibiaohanliao",
+          "localized_titles": {
+            "zh": "这个赘婿太彪悍了",
+            "en": "zhegezhuixutaibiaohanliao"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2060,6 +2112,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89558",
+      "official": true
+    },
+    {
+      "value": "这个赘婿太彪悍了",
+      "source_title": "这个赘婿太彪悍了",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157524",
+      "official": true
+    },
+    {
+      "value": "zhegezhuixutaibiaohanliao",
+      "source_title": "这个赘婿太彪悍了",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157524",
       "official": true
     },
     {

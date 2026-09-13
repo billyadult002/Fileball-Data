@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 19:36:53",
+  "updated_at": "2026-09-14 03:37:37",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/37b41bcbe767827dbd02d7cb620690eb.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157534",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157534,
+        "vod_name": "桑榆遇珩的第二十八年秋",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/7097fdd41d502fdc227a8f5475b64d2a.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6283_a8c34612/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:37:37",
+          "source_item_id": "157534",
+          "canonical_source_id": "",
+          "source_title": "桑榆遇珩的第二十八年秋",
+          "original_title": "sangyuyuhengdediershibanianqiu",
+          "localized_titles": {
+            "zh": "桑榆遇珩的第二十八年秋",
+            "en": "sangyuyuhengdediershibanianqiu"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "sangyuyuhengdediershibanianqiu"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/8a9c8ac001d3ef9e4ce39b1177295e03",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:37:37",
+          "source_item_id": "157534",
+          "canonical_source_id": "",
+          "source_title": "桑榆遇珩的第二十八年秋",
+          "original_title": "sangyuyuhengdediershibanianqiu",
+          "localized_titles": {
+            "zh": "桑榆遇珩的第二十八年秋",
+            "en": "sangyuyuhengdediershibanianqiu"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -1276,6 +1328,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89544",
+      "official": true
+    },
+    {
+      "value": "桑榆遇珩的第二十八年秋",
+      "source_title": "桑榆遇珩的第二十八年秋",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157534",
+      "official": true
+    },
+    {
+      "value": "sangyuyuhengdediershibanianqiu",
+      "source_title": "桑榆遇珩的第二十八年秋",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157534",
       "official": true
     },
     {

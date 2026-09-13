@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 19:57:52",
+  "updated_at": "2026-09-14 03:37:08",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/abe1863fbf88b27778abf7553a3e48ab.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157533",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157533,
+        "vod_name": "心动二次方",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/86c2a1380e86eaa121354c15fd6018ae.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6282_e01186b4/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:37:08",
+          "source_item_id": "157533",
+          "canonical_source_id": "",
+          "source_title": "心动二次方",
+          "original_title": "xindongercifang",
+          "localized_titles": {
+            "zh": "心动二次方",
+            "en": "xindongercifang"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "xindongercifang"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/c2073ffa77b5357a498057413bb09d3a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:37:08",
+          "source_item_id": "157533",
+          "canonical_source_id": "",
+          "source_title": "心动二次方",
+          "original_title": "xindongercifang",
+          "localized_titles": {
+            "zh": "心动二次方",
+            "en": "xindongercifang"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -1220,6 +1272,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89557",
+      "official": true
+    },
+    {
+      "value": "心动二次方",
+      "source_title": "心动二次方",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157533",
+      "official": true
+    },
+    {
+      "value": "xindongercifang",
+      "source_title": "心动二次方",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157533",
       "official": true
     },
     {

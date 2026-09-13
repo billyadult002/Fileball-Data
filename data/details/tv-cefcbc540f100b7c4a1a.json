@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 19:07:15",
+  "updated_at": "2026-09-14 03:33:30",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/5bf2a30aa354148c3dd8fe95e0f0d306.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157526",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157526,
+        "vod_name": "落魄书生：开局迎娶俏佳人",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/f97a331eaa534e33c3c98b46dd0e6952.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6275_a89bab5e/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:33:30",
+          "source_item_id": "157526",
+          "canonical_source_id": "",
+          "source_title": "落魄书生：开局迎娶俏佳人",
+          "original_title": "luoposhushengkaijuyingquqiaojiaren",
+          "localized_titles": {
+            "zh": "落魄书生：开局迎娶俏佳人",
+            "en": "luoposhushengkaijuyingquqiaojiaren"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "luoposhushengkaijuyingquqiaojiaren"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/22c432f46fd86e1be5bc4429282eb65d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:33:30",
+          "source_item_id": "157526",
+          "canonical_source_id": "",
+          "source_title": "落魄书生：开局迎娶俏佳人",
+          "original_title": "luoposhushengkaijuyingquqiaojiaren",
+          "localized_titles": {
+            "zh": "落魄书生：开局迎娶俏佳人",
+            "en": "luoposhushengkaijuyingquqiaojiaren"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2144,6 +2196,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89535",
+      "official": true
+    },
+    {
+      "value": "落魄书生：开局迎娶俏佳人",
+      "source_title": "落魄书生：开局迎娶俏佳人",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157526",
+      "official": true
+    },
+    {
+      "value": "luoposhushengkaijuyingquqiaojiaren",
+      "source_title": "落魄书生：开局迎娶俏佳人",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157526",
       "official": true
     },
     {

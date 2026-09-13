@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-13 15:55:18",
+  "updated_at": "2026-09-14 03:41:54",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260913-1/2addf1e2ae83e023385075b2cff9dcda.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157541",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157541,
+        "vod_name": "步步登阶",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/1fd6f2cb35236e226f2432d1da975912.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6290_3cac9571/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:41:54",
+          "source_item_id": "157541",
+          "canonical_source_id": "",
+          "source_title": "步步登阶",
+          "original_title": "bubudengjie",
+          "localized_titles": {
+            "zh": "步步登阶",
+            "en": "bubudengjie"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "bubudengjie"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/5d8c6ee0d8964e66a3225458f981522d",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:41:54",
+          "source_item_id": "157541",
+          "canonical_source_id": "",
+          "source_title": "步步登阶",
+          "original_title": "bubudengjie",
+          "localized_titles": {
+            "zh": "步步登阶",
+            "en": "bubudengjie"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2984,6 +3036,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89563",
+      "official": true
+    },
+    {
+      "value": "步步登阶",
+      "source_title": "步步登阶",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157541",
+      "official": true
+    },
+    {
+      "value": "bubudengjie",
+      "source_title": "步步登阶",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157541",
       "official": true
     },
     {

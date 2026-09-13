@@ -17,7 +17,7 @@
     "现代都市",
     "国产"
   ],
-  "updated_at": "2026-09-13 13:13:28",
+  "updated_at": "2026-09-14 03:39:24",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -49,6 +49,18 @@
       }
     },
     {
+      "source_id": "regular-量子",
+      "source_vod_id": "157536",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157536,
+        "vod_name": "旷野萤火",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/1bdb11a9e91dc5622cfa01bb9e7b3914.jpg"
+      }
+    },
+    {
       "source_id": "regular-魔都",
       "source_vod_id": "89576",
       "source_name": "魔都|点播",
@@ -72,6 +84,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6285_b915a576/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:39:24",
+          "source_item_id": "157536",
+          "canonical_source_id": "",
+          "source_title": "旷野萤火",
+          "original_title": "kuangyeyinghuo",
+          "localized_titles": {
+            "zh": "旷野萤火",
+            "en": "kuangyeyinghuo"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -90,6 +122,26 @@
             "en": "kuangyeyinghuo"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/b7ae8fecf15b8b6c3c69eceae636d203",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:39:24",
+          "source_item_id": "157536",
+          "canonical_source_id": "",
+          "source_title": "旷野萤火",
+          "original_title": "kuangyeyinghuo",
+          "localized_titles": {
+            "zh": "旷野萤火",
+            "en": "kuangyeyinghuo"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2470,6 +2522,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89576",
+      "official": true
+    },
+    {
+      "value": "旷野萤火",
+      "source_title": "旷野萤火",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157536",
+      "official": true
+    },
+    {
+      "value": "kuangyeyinghuo",
+      "source_title": "旷野萤火",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157536",
       "official": true
     },
     {

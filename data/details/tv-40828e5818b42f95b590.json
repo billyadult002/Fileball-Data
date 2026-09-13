@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 19:48:55",
+  "updated_at": "2026-09-14 03:27:38",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/7c796a8da5c2d01492472e7d4695557b.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157514",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157514,
+        "vod_name": "纨绔双骄",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/b4c0310d6774e95896a045aeb68b43c0.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6263_ae831e7a/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:27:38",
+          "source_item_id": "157514",
+          "canonical_source_id": "",
+          "source_title": "纨绔双骄",
+          "original_title": "wankushuangjiao",
+          "localized_titles": {
+            "zh": "纨绔双骄",
+            "en": "wankushuangjiao"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "wankushuangjiao"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/30ee748d38e21392de740e2f9dc686b6",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:27:38",
+          "source_item_id": "157514",
+          "canonical_source_id": "",
+          "source_title": "纨绔双骄",
+          "original_title": "wankushuangjiao",
+          "localized_titles": {
+            "zh": "纨绔双骄",
+            "en": "wankushuangjiao"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2172,6 +2224,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89550",
+      "official": true
+    },
+    {
+      "value": "纨绔双骄",
+      "source_title": "纨绔双骄",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157514",
+      "official": true
+    },
+    {
+      "value": "wankushuangjiao",
+      "source_title": "纨绔双骄",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157514",
       "official": true
     },
     {

@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-13 15:36:03",
+  "updated_at": "2026-09-14 03:41:24",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260913-1/44e2654a247662790338892c7a85c486.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157540",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157540,
+        "vod_name": "这真千金，是东北虎吧",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/fb3cc6ea36204957c3355003c8308dc7.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6289_d6efc817/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:41:24",
+          "source_item_id": "157540",
+          "canonical_source_id": "",
+          "source_title": "这真千金，是东北虎吧",
+          "original_title": "zhezhenqianjinshidongbeihuba",
+          "localized_titles": {
+            "zh": "这真千金，是东北虎吧",
+            "en": "zhezhenqianjinshidongbeihuba"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "zhezhenqianjinshidongbeihuba"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/f7fbc4bafcc80cbf690acbef25f2ce1c",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:41:24",
+          "source_item_id": "157540",
+          "canonical_source_id": "",
+          "source_title": "这真千金，是东北虎吧",
+          "original_title": "zhezhenqianjinshidongbeihuba",
+          "localized_titles": {
+            "zh": "这真千金，是东北虎吧",
+            "en": "zhezhenqianjinshidongbeihuba"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2144,6 +2196,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89599",
+      "official": true
+    },
+    {
+      "value": "这真千金，是东北虎吧",
+      "source_title": "这真千金，是东北虎吧",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157540",
+      "official": true
+    },
+    {
+      "value": "zhezhenqianjinshidongbeihuba",
+      "source_title": "这真千金，是东北虎吧",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157540",
       "official": true
     },
     {

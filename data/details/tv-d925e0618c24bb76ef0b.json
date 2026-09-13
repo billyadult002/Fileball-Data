@@ -13,7 +13,7 @@
   "genres": [
     "短剧"
   ],
-  "updated_at": "2026-09-12 19:55:30",
+  "updated_at": "2026-09-14 03:35:42",
   "source_records": [
     {
       "source_id": "regular-墨斗",
@@ -28,6 +28,18 @@
         "vod_lang": "普通话",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20260912-1/7f738e552aebe93cd156b69a0cbe5bc2.jpg",
         "vod_class": "短剧"
+      }
+    },
+    {
+      "source_id": "regular-量子",
+      "source_vod_id": "157530",
+      "source_name": "量子|点播",
+      "metadata": {
+        "vod_id": 157530,
+        "vod_name": "向仙文明，大夏让我先成仙",
+        "type_name": "短剧",
+        "vod_year": "2026",
+        "vod_pic": "https://img.lzipic.com/upload/vod/20260914-1/cafd3b50019579341da0e349f2e89ab5.jpg"
       }
     },
     {
@@ -54,6 +66,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "lzm3u8",
+          "url": "https://lzv34.com/20260913/6279_b0836dbf/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:35:42",
+          "source_item_id": "157530",
+          "canonical_source_id": "",
+          "source_title": "向仙文明，大夏让我先成仙",
+          "original_title": "xiangxianwenmingdaxiarangwoxianchengxian",
+          "localized_titles": {
+            "zh": "向仙文明，大夏让我先成仙",
+            "en": "xiangxianwenmingdaxiarangwoxianchengxian"
+          },
+          "language": "unknown"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -72,6 +104,26 @@
             "en": "xiangxianwenmingdaxiarangwoxianchengxian"
           },
           "language": "普通话"
+        },
+        {
+          "source_id": "regular-量子",
+          "source_name": "量子|点播",
+          "provider": "liangzi",
+          "url": "https://lzv34.com/share/dc0e1946e45197021f072193c520505a",
+          "protocol": "http",
+          "supported": false,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-14 03:35:42",
+          "source_item_id": "157530",
+          "canonical_source_id": "",
+          "source_title": "向仙文明，大夏让我先成仙",
+          "original_title": "xiangxianwenmingdaxiarangwoxianchengxian",
+          "localized_titles": {
+            "zh": "向仙文明，大夏让我先成仙",
+            "en": "xiangxianwenmingdaxiarangwoxianchengxian"
+          },
+          "language": "unknown"
         }
       ]
     },
@@ -2340,6 +2392,24 @@
       "source": "source_api",
       "source_id": "regular-墨斗",
       "source_item_id": "89555",
+      "official": true
+    },
+    {
+      "value": "向仙文明，大夏让我先成仙",
+      "source_title": "向仙文明，大夏让我先成仙",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157530",
+      "official": true
+    },
+    {
+      "value": "xiangxianwenmingdaxiarangwoxianchengxian",
+      "source_title": "向仙文明，大夏让我先成仙",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-量子",
+      "source_item_id": "157530",
       "official": true
     },
     {
