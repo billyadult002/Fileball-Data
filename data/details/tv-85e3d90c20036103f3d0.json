@@ -27,9 +27,11 @@
   "genres": [
     "mystery",
     "crime",
-    "drama"
+    "drama",
+    "美国",
+    "欧美"
   ],
-  "updated_at": "2026-09-14 17:06:02",
+  "updated_at": "2026-09-15 13:00:10",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -103,6 +105,20 @@
         "vod_lang": "英语",
         "vod_pic": "https://img.jisuimage.com/cover/9d04ee3f9deb404b31a377564f608e30.jpg",
         "vod_class": "剧情,悬疑,犯罪,欧美剧"
+      }
+    },
+    {
+      "source_id": "regular-樱花",
+      "source_vod_id": "102562",
+      "source_name": "樱花|点播",
+      "metadata": {
+        "vod_id": 102562,
+        "vod_name": "翠鸟谋杀案",
+        "type_name": "欧美剧",
+        "vod_year": "2026",
+        "vod_lang": "英语",
+        "vod_pic": "https://pic.jegms.com/upload/vod/20260908-1/5fc721c30c94c1063748450e695fd77f.jpg",
+        "vod_class": "美国,欧美"
       }
     },
     {
@@ -233,6 +249,26 @@
       "season": null,
       "episode": 1,
       "streams": [
+        {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260908/kv9cjJFMZh90/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-15 13:00:10",
+          "source_item_id": "102562",
+          "canonical_source_id": "",
+          "source_title": "翠鸟谋杀案",
+          "original_title": "cuiniaomoushaan",
+          "localized_titles": {
+            "zh": "翠鸟谋杀案",
+            "en": "cuiniaomoushaan"
+          },
+          "language": "英语"
+        },
         {
           "source_id": "regular-豪华",
           "source_name": "豪华|点播",
@@ -541,6 +577,26 @@
       "season": null,
       "episode": 2,
       "streams": [
+        {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260915/eC8fYgZKW594/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-09-15 13:00:10",
+          "source_item_id": "102562",
+          "canonical_source_id": "",
+          "source_title": "翠鸟谋杀案",
+          "original_title": "cuiniaomoushaan",
+          "localized_titles": {
+            "zh": "翠鸟谋杀案",
+            "en": "cuiniaomoushaan"
+          },
+          "language": "英语"
+        },
         {
           "source_id": "regular-豪华",
           "source_name": "豪华|点播",
@@ -1019,6 +1075,24 @@
       "source": "source_api",
       "source_id": "regular-红牛",
       "source_item_id": "193765",
+      "official": true
+    },
+    {
+      "value": "翠鸟谋杀案",
+      "source_title": "翠鸟谋杀案",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-樱花",
+      "source_item_id": "102562",
+      "official": true
+    },
+    {
+      "value": "cuiniaomoushaan",
+      "source_title": "翠鸟谋杀案",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-樱花",
+      "source_item_id": "102562",
       "official": true
     },
     {
