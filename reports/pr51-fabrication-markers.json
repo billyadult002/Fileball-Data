@@ -1,0 +1,83 @@
+{
+  "schema_version": "pr51-fabrication-markers-1",
+  "mission": "FIREBALL_FALSE_DATA_REMEDIATION_AUTHORITATIVE_SOURCE_REINGESTION_PRODUCTION_RECOVERY_AND_AIRPLAY_CLOSURE",
+  "declared_by": "false-data-remediation",
+  "remediated_commit": "d064f89fb0a19818a24502f4b7f6941de5a063d7",
+  "remediated_pr_head": "5e574c0f2f02bc440216c3a7260158112c00466c",
+  "authoritative_pre_remediation_commit": "26d2a20567e427e127d7cad09571c50901c55618",
+  "claim_status": "SUPERSEDED_FALSE_EVIDENCE",
+  "fabricated_item_to_stream_associations": [
+    {
+      "marker": "play.hhuus.com/play/b82M4wWe",
+      "classification": "FABRICATED_ITEM_TO_STREAM_ASSOCIATION",
+      "origin": "scripts/universal_source_ingest.py",
+      "declared_source_id": "gh72-api-dbzy",
+      "declared_provider": "default",
+      "affected_local_detail_files": 6990,
+      "committed_occurrences": 0,
+      "published_occurrences": 0,
+      "counted_in_success_numerator": false,
+      "note": "One fixed HLS stream reused as fallback playback for every item whose detail was missing. No authoritative item-to-stream association existed for any of those items."
+    }
+  ],
+  "fabrication_markers": [
+    {
+      "marker": "strand-default.jpg",
+      "classification": "PLACEHOLDER_POSTER_FOR_UNATTRIBUTED_RECORDS",
+      "affected_catalog_records": 3576
+    },
+    {
+      "marker": "完整资源收录",
+      "classification": "TEMPLATED_OVERVIEW_FOR_SYNTHETIC_DETAILS",
+      "affected_local_detail_files": 6988
+    }
+  ],
+  "unsupported_source_records": [
+    {
+      "id": "strand-vod-addon",
+      "classification": "SOURCE_UNATTRIBUTED",
+      "claimed_item_count": 3576,
+      "claimed_playback_validated": true,
+      "claimed_technical_status": "validated",
+      "authority_basis": null,
+      "durable_acquisition_input": null,
+      "local_only_source_path": "/Users/billtin/projects/strand-vod-addon/docs/playlist.m3u8"
+    },
+    {
+      "id": "kodi-nigel1992",
+      "classification": "MANIFEST_OBSERVED",
+      "claimed_item_count": 120,
+      "claimed_playback_validated": true,
+      "claimed_technical_status": "validated",
+      "authority_basis": null,
+      "durable_acquisition_input": null
+    }
+  ],
+  "assumed_item_count_defaults": [500],
+  "hard_coded_success_states": [
+    "playback_validated=true",
+    "technical_status=validated",
+    "playable_count=count",
+    "supported=true",
+    "playable_streams=1",
+    "detail coverage 100%"
+  ],
+  "scan_roots": [
+    "updater",
+    "scripts",
+    "adapters",
+    "external_adapters",
+    "crawler",
+    "worker/src",
+    "web/src",
+    "sources",
+    "data"
+  ],
+  "scan_excluded_paths": [
+    "reports",
+    "data/details",
+    "data/search",
+    "data/catalog",
+    "node_modules"
+  ]
+}

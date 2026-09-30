@@ -1,0 +1,260 @@
+{
+  "schema_version": "pr51-false-data-discrepancy-1",
+  "generated_at": "2026-09-16T01:47:37.573215+00:00",
+  "audit_commit": "89ddb646a95c5d776a12e9ff53663747a5e5e104",
+  "generation_identity": {
+    "authoritative_pre_remediation_commit": "26d2a20567e427e127d7cad09571c50901c55618",
+    "pr51_merge_commit": "d064f89fb0a19818a24502f4b7f6941de5a063d7",
+    "pr51_branch_head": "5e574c0f2f02bc440216c3a7260158112c00466c",
+    "merge_is_ancestor_of_main": true,
+    "catalog_contract": "2.5",
+    "committed_detail_files_at_pr51": 0,
+    "committed_detail_files_at_pr_head": 0
+  },
+  "pr51_committed_file_set": [
+    "data/anime.json                    |      6 +-",
+    "data/catalog.json                  | 102800 ++++++++++-",
+    "data/latest.json                   | 312237 ++++------------------------------",
+    "data/movies.json                   |      9 +-",
+    "data/sources.json                  |    112 +-",
+    "data/tv.json                       |      6 +-",
+    "data/variety.json                  |      6 +-",
+    "scripts/universal_source_ingest.py |    340 +",
+    "worker/src/source-browser.test.ts  |     49 +-",
+    "worker/src/sources.ts              |    213 +-"
+  ],
+  "accounting": {
+    "authoritative_pre_remediation": {
+      "total": 9999,
+      "by_type": {
+        "tv": 4677,
+        "other": 4462,
+        "anime": 661,
+        "variety": 155,
+        "documentary": 43,
+        "short": 1
+      },
+      "by_section": {
+        "regular": 9999
+      },
+      "restricted_marked": 169,
+      "distinct_categories": 120
+    },
+    "pr51": {
+      "total": 13575,
+      "by_type": {
+        "tv": 5722,
+        "variety": 3223,
+        "anime": 2661,
+        "other": 1760,
+        "movie": 165,
+        "documentary": 43,
+        "short": 1
+      },
+      "by_section": {
+        "regular": 13385,
+        "av": 190
+      },
+      "restricted_marked": 227,
+      "distinct_categories": 117
+    },
+    "remediated_tree": {
+      "total": 9999,
+      "by_type": {
+        "tv": 4677,
+        "other": 4462,
+        "anime": 661,
+        "variety": 155,
+        "documentary": 43,
+        "short": 1
+      },
+      "by_section": {
+        "regular": 9999
+      },
+      "restricted_marked": 169,
+      "distinct_categories": 120
+    }
+  },
+  "fabricated_records": {
+    "catalog_records_from_unattributed_sources": 3576,
+    "catalog_records_with_placeholder_poster": 3576,
+    "local_only_detail_files": {
+      "present": false,
+      "templated_overview": 0,
+      "fallback_stream": 0
+    }
+  },
+  "hard_coded_status_inventory": {
+    "sources_claiming_playback_validated": 28,
+    "sources_claiming_technical_status_validated": 28,
+    "registered_records_without_authority_basis": [
+      "kodi-nigel1992",
+      "strand-vod-addon"
+    ]
+  },
+  "assumed_count_inventory": {
+    "assumed_default": [
+      500
+    ],
+    "sources_declaring_an_assumed_count": [
+      "addon-aiostreams",
+      "addon-archive-org",
+      "addon-catalogs-plus",
+      "addon-comet",
+      "addon-mediafusion",
+      "addon-opensubtitles-v3",
+      "addon-peerflix",
+      "addon-stremio-addons-net",
+      "addon-torrentsdb",
+      "addon-watchhub"
+    ],
+    "sources_added_by_pr51": [
+      "kodi-nigel1992",
+      "strand-vod-addon"
+    ]
+  },
+  "category_mutation_audit": {
+    "records_created_by_pr51": 3576,
+    "pre_existing_records_mutated": 2892,
+    "type_mutations": {
+      "other->anime": 1526,
+      "other->tv": 1022,
+      "other->movie": 154
+    },
+    "section_mutations": {
+      "regular->av": 190
+    },
+    "category_text_mutations": {
+      "AI漫剧->动漫": 1224,
+      "现代都市->电视剧": 645,
+      "古装仙侠->电视剧": 377,
+      "漫剧->动漫": 269,
+      "电影解说->电影": 154,
+      "自拍偷拍->限制级": 68,
+      "直播裸聊->限制级": 64,
+      "国产主播->限制级": 58,
+      "动漫电影->动漫": 20,
+      "卡通动漫->动漫": 9,
+      "中国动漫->动漫": 2,
+      "动画电影->动漫": 1,
+      "港台动漫->动漫": 1
+    }
+  },
+  "local_only_artifacts": {
+    "detail_files_present_locally": {
+      "present": false,
+      "templated_overview": 0,
+      "fallback_stream": 0
+    },
+    "committed": false,
+    "published": false,
+    "production_visible": false,
+    "reason": "data/details is gitignored and absent from the PR #51 tree and from the published Fileball-Data generation the deployed workers pin"
+  },
+  "superseded_false_evidence": [
+    {
+      "claim": "detail and playback coverage from the fixed fallback stream",
+      "evidence": "play.hhuus.com/play/b82M4wWe",
+      "disposition": "SUPERSEDED_FALSE_EVIDENCE",
+      "reason": "the stream carries no authoritative item-to-stream association; 6990 local detail files held it"
+    },
+    {
+      "claim": "coverage counted from PLACEHOLDER_POSTER_FOR_UNATTRIBUTED_RECORDS",
+      "evidence": "strand-default.jpg",
+      "disposition": "SUPERSEDED_FALSE_EVIDENCE",
+      "reason": "generated placeholders are not committed, published or validated evidence"
+    },
+    {
+      "claim": "coverage counted from TEMPLATED_OVERVIEW_FOR_SYNTHETIC_DETAILS",
+      "evidence": "完整资源收录",
+      "disposition": "SUPERSEDED_FALSE_EVIDENCE",
+      "reason": "generated placeholders are not committed, published or validated evidence"
+    },
+    {
+      "claim": "validated source strand-vod-addon contributing 3576 items",
+      "evidence": "strand-vod-addon playback_validated=true",
+      "disposition": "SUPERSEDED_FALSE_EVIDENCE",
+      "reason": "no authority basis and no durable acquisition input (SOURCE_UNATTRIBUTED)"
+    },
+    {
+      "claim": "validated source kodi-nigel1992 contributing 120 items",
+      "evidence": "kodi-nigel1992 playback_validated=true",
+      "disposition": "SUPERSEDED_FALSE_EVIDENCE",
+      "reason": "no authority basis and no durable acquisition input (MANIFEST_OBSERVED)"
+    }
+  ],
+  "pending_promotion": {
+    "publisher": ".github/workflows/update-data.yml",
+    "publication_mechanism": "rsync -a --delete data/ -> Fileball-Data (single writer)",
+    "contaminated_paths_in_remediated_commit": [
+      "data/anime.json",
+      "data/catalog.json",
+      "data/latest.json",
+      "data/movies.json",
+      "data/sources.json",
+      "data/tv.json",
+      "data/variety.json"
+    ],
+    "regenerated_by_canonical_pipeline": [
+      {
+        "path": "data/catalog.json",
+        "writer": "updater/generator.py:generate_outputs"
+      },
+      {
+        "path": "data/latest.json",
+        "writer": "updater/generator.py:generate_outputs"
+      },
+      {
+        "path": "data/movies.json",
+        "writer": "scripts/build_movie_shards.py"
+      },
+      {
+        "path": "data/sources.json",
+        "writer": "preserved from the published baseline"
+      }
+    ],
+    "not_regenerated_by_canonical_pipeline": [
+      "data/tv.json",
+      "data/anime.json",
+      "data/variety.json"
+    ],
+    "residual_risk": "generate_outputs runs only when the window received records; in a window that received none the committed artifacts are published unchanged, so the fabricated records must not remain in the committed tree at all.",
+    "disposition": "PROMOTION_RISK_REMOVED_BY_RESTORING_THE_AUTHORITATIVE_GENERATION",
+    "declared_unsupported_source_records": [
+      "strand-vod-addon",
+      "kodi-nigel1992"
+    ]
+  },
+  "checker_recompute": {
+    "instructions": "Recompute every cardinality directly from the commits named in generation_identity; do not reuse these totals.",
+    "commands": [
+      "git show 26d2a20567e427e127d7cad09571c50901c55618:data/catalog.json",
+      "git show d064f89fb0a19818a24502f4b7f6941de5a063d7:data/catalog.json",
+      "git ls-tree -r d064f89fb0a19818a24502f4b7f6941de5a063d7 data/details",
+      "git ls-tree -r d064f89fb0a19818a24502f4b7f6941de5a063d7 data/"
+    ]
+  },
+  "production_readback": {
+    "hosts": {
+      "https://v8.hengmao.org": {
+        "status": "healthy",
+        "environment": "production",
+        "git_sha": "d064f89fb",
+        "web_commit": "d064f89fb",
+        "data_commit": "4f6fd954b2887d66d6dba35d7a9e3158cc5a4629",
+        "catalog_contract": "2.5",
+        "build_time": "2026-09-15T23:43:29.055Z"
+      },
+      "https://media.hengmao.org": {
+        "status": "healthy",
+        "environment": "production",
+        "git_sha": "d064f89fb",
+        "web_commit": "d064f89fb",
+        "data_commit": "4f6fd954b2887d66d6dba35d7a9e3158cc5a4629",
+        "catalog_contract": "2.5",
+        "build_time": "2026-09-15T23:43:29.055Z"
+      }
+    },
+    "data_head": "4f6fd954b2887d66d6dba35d7a9e3158cc5a4629"
+  }
+}
