@@ -39,7 +39,7 @@
     "fantasy",
     "animation"
   ],
-  "updated_at": "2026-09-30 13:29:20",
+  "updated_at": "2026-10-01 13:00:07",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -71,20 +71,6 @@
       }
     },
     {
-      "source_id": "regular-丫丫",
-      "source_vod_id": "128723",
-      "source_name": "丫丫|点播",
-      "metadata": {
-        "vod_id": 128723,
-        "vod_name": "顾长歌：我！天命大反派",
-        "type_name": "国产动漫",
-        "vod_year": "2026",
-        "vod_area": "中国大陆",
-        "vod_lang": "汉语普通话",
-        "vod_pic": "https://pic.yayazy.info/upload/vod/20260930-1/9bc38fe442e1586b07272a7c40b7b83f.jpg"
-      }
-    },
-    {
       "source_id": "regular-墨斗",
       "source_vod_id": "87142",
       "source_name": "墨斗|点播",
@@ -100,31 +86,18 @@
       }
     },
     {
-      "source_id": "regular-最大",
-      "source_vod_id": "128698",
-      "source_name": "最大|点播",
+      "source_id": "regular-樱花",
+      "source_vod_id": "101139",
+      "source_name": "樱花|点播",
       "metadata": {
-        "vod_id": 128698,
+        "vod_id": 101139,
         "vod_name": "顾长歌：我！天命大反派",
         "type_name": "国产动漫",
         "vod_year": "2026",
         "vod_area": "中国大陆",
         "vod_lang": "汉语普通话",
-        "vod_pic": "https://ok.zuidapic.com/upload/vod/20260930-1/1584673f583516f81b79d9b7b0d43786.jpg"
-      }
-    },
-    {
-      "source_id": "regular-闪电",
-      "source_vod_id": "134893",
-      "source_name": "闪电|点播",
-      "metadata": {
-        "vod_id": 134893,
-        "vod_name": "顾长歌：我！天命大反派",
-        "type_name": "国产动漫",
-        "vod_year": "2026",
-        "vod_area": "中国大陆",
-        "vod_lang": "汉语普通话",
-        "vod_pic": "https://shandianpic.vip/upload/vod/20260930-1/c44c25276818f7ba24938f1a75598407.jpg"
+        "vod_pic": "https://pic.jegms.com/upload/vod/20260730-1/409f75d1616b59c812dbb30718b17a84.jpg",
+        "vod_class": "动作,动画,奇幻,国产动漫"
       }
     },
     {
@@ -151,6 +124,26 @@
       "episode": 1,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/UQ505xmmdS90/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -171,46 +164,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202607/29/SFUWpyWSeZ27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202607/29/SFUWpyWSeZ27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -221,26 +174,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202607/29/SFUWpyWSeZ27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -279,6 +212,26 @@
       "episode": 2,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/Uj8vbtUZQA93/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -299,46 +252,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202607/29/CsjDSXpaje27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/29/CsjDSXpaje27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -349,26 +262,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202607/29/CsjDSXpaje27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -407,6 +300,26 @@
       "episode": 3,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/YbG9wpx4jp88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -427,46 +340,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202607/29/kRLxAZC34527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202607/29/kRLxAZC34527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -477,26 +350,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202607/29/kRLxAZC34527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -535,6 +388,26 @@
       "episode": 4,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/zyMKEeSf5P96/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -555,46 +428,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202607/29/s4KzPh12k427/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/29/s4KzPh12k427/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -605,26 +438,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202607/29/s4KzPh12k427/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -663,6 +476,26 @@
       "episode": 5,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/rCdJ4yU9QH93/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -683,46 +516,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202607/29/X3wD56Kf0D27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202607/29/X3wD56Kf0D27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -733,26 +526,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202607/29/X3wD56Kf0D27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -791,6 +564,26 @@
       "episode": 6,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/0gGf8Y3wWu87/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -811,46 +604,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202607/29/HRsZav020H27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202607/29/HRsZav020H27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -861,26 +614,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202607/29/HRsZav020H27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -919,6 +652,26 @@
       "episode": 7,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260730/WEmuaHpk0s86/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -939,46 +692,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202607/29/EkiqADFKtA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202607/29/EkiqADFKtA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -989,26 +702,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202607/29/EkiqADFKtA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1047,6 +740,26 @@
       "episode": 8,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260806/uspQF6eCBk97/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1067,46 +780,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202608/05/cu7RbVQhF527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202608/05/cu7RbVQhF527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1117,26 +790,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202608/05/cu7RbVQhF527/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1175,6 +828,26 @@
       "episode": 9,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260806/D4nZsyQWhJ95/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1195,46 +868,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/05/2AME8NynBK27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/05/2AME8NynBK27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1245,26 +878,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/05/2AME8NynBK27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1303,6 +916,26 @@
       "episode": 10,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260813/A2YaK4YpWZ97/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1323,46 +956,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202608/12/tvQwCzGAJB27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202608/12/tvQwCzGAJB27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1373,26 +966,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202608/12/tvQwCzGAJB27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1431,6 +1004,26 @@
       "episode": 11,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260813/U5n7bGemny88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1451,46 +1044,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/12/L3qCnNECPy27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/12/L3qCnNECPy27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1501,26 +1054,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/12/L3qCnNECPy27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1559,6 +1092,26 @@
       "episode": 12,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260820/0Km3NQJVgJ93/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1579,46 +1132,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/19/s5Usd5Tc1q27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/19/s5Usd5Tc1q27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1629,26 +1142,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/19/s5Usd5Tc1q27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1687,6 +1180,26 @@
       "episode": 13,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260820/S57Hgmtzh088/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1707,46 +1220,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/19/RCLGSAGMLj27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/19/RCLGSAGMLj27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1757,26 +1230,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/19/RCLGSAGMLj27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1815,6 +1268,26 @@
       "episode": 14,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260827/ev9XB386va86/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1835,46 +1308,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/26/dcA5W3JTWB27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/26/dcA5W3JTWB27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -1885,26 +1318,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/26/dcA5W3JTWB27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -1943,6 +1356,26 @@
       "episode": 15,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260827/b6YqaBwf6f93/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -1963,46 +1396,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202608/26/a1LjvufMAA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202608/26/a1LjvufMAA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2013,26 +1406,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202608/26/a1LjvufMAA27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2071,6 +1444,26 @@
       "episode": 16,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260903/cZMg6Hht9v91/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2091,46 +1484,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202609/02/DhjrHvkcu027/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202609/02/DhjrHvkcu027/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2141,26 +1494,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202609/02/DhjrHvkcu027/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2199,6 +1532,26 @@
       "episode": 17,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260903/XJdjF9zY5d86/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2219,46 +1572,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202609/02/man8chAqud27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202609/02/man8chAqud27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2269,26 +1582,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202609/02/man8chAqud27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2327,6 +1620,26 @@
       "episode": 18,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260910/MMkzTBVprc88/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2347,46 +1660,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202609/09/j6gc0KQqbn27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/09/j6gc0KQqbn27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2397,26 +1670,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/09/j6gc0KQqbn27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2455,6 +1708,26 @@
       "episode": 19,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260910/aU4KGEKrDU91/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2475,46 +1748,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202609/09/EMWm7SpXBk27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/09/EMWm7SpXBk27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2525,26 +1758,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/09/EMWm7SpXBk27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2583,6 +1796,26 @@
       "episode": 20,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260917/99ph6NjhSC87/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2603,46 +1836,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v15.rstuuv.com/yyv15/202609/16/c7R1cxaSDj27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/16/c7R1cxaSDj27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2653,26 +1846,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/16/c7R1cxaSDj27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2711,6 +1884,26 @@
       "episode": 21,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260917/Tgzg9QDVz392/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2731,46 +1924,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202609/16/ybi96pmhRz27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/16/ybi96pmhRz27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2781,26 +1934,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/16/ybi96pmhRz27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2839,6 +1972,26 @@
       "episode": 22,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260924/WHPGRJSwCp89/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2859,46 +2012,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v15.rstuuv.com/yyv15/202609/23/PDtdFQMTDH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/23/PDtdFQMTDH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -2909,26 +2022,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/23/PDtdFQMTDH27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -2967,6 +2060,26 @@
       "episode": 23,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20260924/51nBf9vh2h97/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -2987,46 +2100,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v13.rstuuv.com/yyv13/202609/23/uKAHM8JhPa27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v13.zuidazym3u8.com/yyv13/202609/23/uKAHM8JhPa27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -3037,26 +2110,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v13.qqqrst.com/yyv13/202609/23/uKAHM8JhPa27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -3095,6 +2148,26 @@
       "episode": 24,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20261001/E8NJeQCMqB90/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -3115,46 +2188,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v15.rstuuv.com/yyv15/202609/30/LuRWva5ZAN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v15.zuidazym3u8.com/yyv15/202609/30/LuRWva5ZAN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -3165,26 +2198,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v15.qqqrst.com/yyv15/202609/30/LuRWva5ZAN27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -3223,6 +2236,26 @@
       "episode": 25,
       "streams": [
         {
+          "source_id": "regular-樱花",
+          "source_name": "樱花|点播",
+          "provider": "yhm3u8",
+          "url": "https://vod12.wgslsw.com/20261001/YvCpjWM9mA89/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-01 13:00:07",
+          "source_item_id": "101139",
+          "canonical_source_id": "",
+          "source_title": "顾长歌：我！天命大反派",
+          "original_title": "guchanggewotianmingdafanpai",
+          "localized_titles": {
+            "zh": "顾长歌：我！天命大反派",
+            "en": "guchanggewotianmingdafanpai"
+          },
+          "language": "汉语普通话"
+        },
+        {
           "source_id": "regular-墨斗",
           "source_name": "墨斗|点播",
           "provider": "modum3u8",
@@ -3243,46 +2276,6 @@
           "language": "汉语普通话"
         },
         {
-          "source_id": "regular-丫丫",
-          "source_name": "丫丫|点播",
-          "provider": "yym3u8",
-          "url": "https://v14.rstuuv.com/yyv14/202609/30/HXqZe0iW3D27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:06:32",
-          "source_item_id": "128723",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-最大",
-          "source_name": "最大|点播",
-          "provider": "zuidam3u8",
-          "url": "https://v14.zuidazym3u8.com/yyv14/202609/30/HXqZe0iW3D27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:05:30",
-          "source_item_id": "128698",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
           "source_id": "regular-360",
           "source_name": "360|点播",
           "provider": "360zy",
@@ -3293,26 +2286,6 @@
           "health": "unknown",
           "updated_at": "2026-09-30 13:04:19",
           "source_item_id": "102526",
-          "canonical_source_id": "",
-          "source_title": "顾长歌：我！天命大反派",
-          "original_title": "guchanggewotianmingdafanpai",
-          "localized_titles": {
-            "zh": "顾长歌：我！天命大反派",
-            "en": "guchanggewotianmingdafanpai"
-          },
-          "language": "汉语普通话"
-        },
-        {
-          "source_id": "regular-闪电",
-          "source_name": "闪电|点播",
-          "provider": "sdm3u8",
-          "url": "https://v14.qqqrst.com/yyv14/202609/30/HXqZe0iW3D27/video/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-09-30 13:01:18",
-          "source_item_id": "134893",
           "canonical_source_id": "",
           "source_title": "顾长歌：我！天命大反派",
           "original_title": "guchanggewotianmingdafanpai",
@@ -3422,24 +2395,6 @@
       "source_title": "顾长歌：我！天命大反派",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-丫丫",
-      "source_item_id": "128723",
-      "official": true
-    },
-    {
-      "value": "guchanggewotianmingdafanpai",
-      "source_title": "顾长歌：我！天命大反派",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-丫丫",
-      "source_item_id": "128723",
-      "official": true
-    },
-    {
-      "value": "顾长歌：我！天命大反派",
-      "source_title": "顾长歌：我！天命大反派",
-      "language": "zh",
-      "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "69676",
       "official": true
@@ -3458,8 +2413,8 @@
       "source_title": "顾长歌：我！天命大反派",
       "language": "zh",
       "source": "source_api",
-      "source_id": "regular-闪电",
-      "source_item_id": "134893",
+      "source_id": "regular-樱花",
+      "source_item_id": "101139",
       "official": true
     },
     {
@@ -3467,8 +2422,8 @@
       "source_title": "顾长歌：我！天命大反派",
       "language": "en",
       "source": "source_api",
-      "source_id": "regular-闪电",
-      "source_item_id": "134893",
+      "source_id": "regular-樱花",
+      "source_item_id": "101139",
       "official": true
     },
     {
@@ -3487,24 +2442,6 @@
       "source": "source_api",
       "source_id": "regular-魔都",
       "source_item_id": "87142",
-      "official": true
-    },
-    {
-      "value": "顾长歌：我！天命大反派",
-      "source_title": "顾长歌：我！天命大反派",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-最大",
-      "source_item_id": "128698",
-      "official": true
-    },
-    {
-      "value": "guchanggewotianmingdafanpai",
-      "source_title": "顾长歌：我！天命大反派",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-最大",
-      "source_item_id": "128698",
       "official": true
     }
   ],
