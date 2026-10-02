@@ -40,7 +40,7 @@
     "animation",
     "drama"
   ],
-  "updated_at": "2026-10-01 12:27:04",
+  "updated_at": "2026-10-03 00:30:38",
   "source_records": [
     {
       "source_id": "regular-360",
@@ -72,21 +72,6 @@
       }
     },
     {
-      "source_id": "regular-u酷",
-      "source_vod_id": "73550",
-      "source_name": "U酷|点播",
-      "metadata": {
-        "vod_id": 73550,
-        "vod_name": "桃源暗鬼 ～日光・华严之泷篇～",
-        "type_name": "动漫",
-        "vod_year": "2026",
-        "vod_area": "日本",
-        "vod_lang": "日语",
-        "vod_pic": "https://img.ukuapi88.com/upload/vod/20261001-1/1489f1e2885faf358ec9f6e0adc62f07.webp",
-        "vod_class": "剧情,动画,奇幻"
-      }
-    },
-    {
       "source_id": "regular-墨斗",
       "source_vod_id": "90520",
       "source_name": "墨斗|点播",
@@ -98,6 +83,21 @@
         "vod_area": "日本",
         "vod_lang": "日语",
         "vod_pic": "https://www.mdzypic.com/upload/vod/20261001-1/c98449d4fdd053ca7de7230b33bef51b.webp",
+        "vod_class": "剧情,动画,奇幻"
+      }
+    },
+    {
+      "source_id": "regular-非凡",
+      "source_vod_id": "99608",
+      "source_name": "非凡|点播",
+      "metadata": {
+        "vod_id": 99608,
+        "vod_name": "桃源暗鬼～日光・华严之泷篇～",
+        "type_name": "日韩动漫",
+        "vod_year": "2026",
+        "vod_area": "日本",
+        "vod_lang": "日语",
+        "vod_pic": "https://fffgood.com/upload/vod/20261003-1/277124b6c8a366d69d3bf80f573d1af7.jpg",
         "vod_class": "剧情,动画,奇幻"
       }
     },
@@ -119,47 +119,135 @@
   ],
   "episodes": [
     {
-      "id": "anime-7e0990982a4ceb6553ea-e0000-e3b0c442",
-      "name": "第00集",
+      "id": "anime-7e0990982a4ceb6553ea-e0001-6b86b273",
+      "name": "特别篇第01集",
       "season": null,
-      "episode": 0,
+      "episode": 1,
       "streams": [
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukm3u8",
-          "url": "https://ukzy.ukubf3.com/20261001/zgRgo0SP/index.m3u8",
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "ffm3u8",
+          "url": "https://vip.ffzy-plays.com/20261003/58984_2a51f132/index.m3u8",
           "protocol": "hls",
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-10-01 10:42:25",
-          "source_item_id": "73550",
+          "updated_at": "2026-10-03 00:30:38",
+          "source_item_id": "99608",
           "canonical_source_id": "",
-          "source_title": "桃源暗鬼 ～日光・华严之泷篇～",
+          "source_title": "桃源暗鬼～日光・华严之泷篇～",
           "original_title": "taoyuananguiriguanghuayanzhilongpian",
           "localized_titles": {
-            "zh": "桃源暗鬼 ～日光・华严之泷篇～",
+            "zh": "桃源暗鬼～日光・华严之泷篇～",
             "en": "taoyuananguiriguanghuayanzhilongpian"
           },
           "language": "日语"
         },
         {
-          "source_id": "regular-u酷",
-          "source_name": "U酷|点播",
-          "provider": "ukyun",
-          "url": "https://ukzy.ukubf3.com/share/hEl4F7PFpH",
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20261001/3ix7grGa/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-02 11:58:37",
+          "source_item_id": "70371",
+          "canonical_source_id": "",
+          "source_title": "桃源暗鬼：日光华严之泷篇",
+          "original_title": "taoyuananguiriguanghuayanzhilongpian",
+          "localized_titles": {
+            "zh": "桃源暗鬼：日光华严之泷篇",
+            "en": "taoyuananguiriguanghuayanzhilongpian"
+          },
+          "language": "日语"
+        },
+        {
+          "source_id": "regular-非凡",
+          "source_name": "非凡|点播",
+          "provider": "feifan",
+          "url": "https://vip.ffzy-plays.com/share/2a51f1327274ea6934061e143d6563a5",
           "protocol": "http",
           "supported": false,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-10-01 10:42:25",
-          "source_item_id": "73550",
+          "updated_at": "2026-10-03 00:30:38",
+          "source_item_id": "99608",
           "canonical_source_id": "",
-          "source_title": "桃源暗鬼 ～日光・华严之泷篇～",
+          "source_title": "桃源暗鬼～日光・华严之泷篇～",
           "original_title": "taoyuananguiriguanghuayanzhilongpian",
           "localized_titles": {
-            "zh": "桃源暗鬼 ～日光・华严之泷篇～",
+            "zh": "桃源暗鬼～日光・华严之泷篇～",
+            "en": "taoyuananguiriguanghuayanzhilongpian"
+          },
+          "language": "日语"
+        }
+      ]
+    },
+    {
+      "id": "anime-7e0990982a4ceb6553ea-e0002-d4735e3a",
+      "name": "第02集",
+      "season": null,
+      "episode": 2,
+      "streams": [
+        {
+          "source_id": "regular-360",
+          "source_name": "360|点播",
+          "provider": "360zy",
+          "url": "https://vod1.maowushi.com/20261002/spxoA5P2/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-02 13:28:27",
+          "source_item_id": "106775",
+          "canonical_source_id": "",
+          "source_title": "桃源暗鬼：日光华严之泷篇",
+          "original_title": "taoyuananguiriguanghuayanzhilongpian",
+          "localized_titles": {
+            "zh": "桃源暗鬼：日光华严之泷篇",
+            "en": "taoyuananguiriguanghuayanzhilongpian"
+          },
+          "language": "日语"
+        },
+        {
+          "source_id": "regular-墨斗",
+          "source_name": "墨斗|点播",
+          "provider": "modum3u8",
+          "url": "https://play.modujx17.com/20261002/kFYnVvAk/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-02 12:30:16",
+          "source_item_id": "90520",
+          "canonical_source_id": "",
+          "source_title": "桃源暗鬼：日光华严之泷篇",
+          "original_title": "taoyuananguiriguanghuayanzhilongpian",
+          "localized_titles": {
+            "zh": "桃源暗鬼：日光华严之泷篇",
+            "en": "taoyuananguiriguanghuayanzhilongpian"
+          },
+          "language": "日语"
+        },
+        {
+          "source_id": "regular-ikun",
+          "source_name": "ikun|点播",
+          "provider": "ikm3u8",
+          "url": "https://bfikuncdn.com/20261002/1Lkrsgcs/index.m3u8",
+          "protocol": "hls",
+          "supported": true,
+          "priority": 50,
+          "health": "unknown",
+          "updated_at": "2026-10-02 11:58:37",
+          "source_item_id": "70371",
+          "canonical_source_id": "",
+          "source_title": "桃源暗鬼：日光华严之泷篇",
+          "original_title": "taoyuananguiriguanghuayanzhilongpian",
+          "localized_titles": {
+            "zh": "桃源暗鬼：日光华严之泷篇",
             "en": "taoyuananguiriguanghuayanzhilongpian"
           },
           "language": "日语"
@@ -181,7 +269,7 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-10-01 12:27:04",
+          "updated_at": "2026-10-02 13:28:27",
           "source_item_id": "106775",
           "canonical_source_id": "",
           "source_title": "桃源暗鬼：日光华严之泷篇",
@@ -201,28 +289,8 @@
           "supported": true,
           "priority": 50,
           "health": "unknown",
-          "updated_at": "2026-10-01 12:26:55",
+          "updated_at": "2026-10-02 12:30:16",
           "source_item_id": "90520",
-          "canonical_source_id": "",
-          "source_title": "桃源暗鬼：日光华严之泷篇",
-          "original_title": "taoyuananguiriguanghuayanzhilongpian",
-          "localized_titles": {
-            "zh": "桃源暗鬼：日光华严之泷篇",
-            "en": "taoyuananguiriguanghuayanzhilongpian"
-          },
-          "language": "日语"
-        },
-        {
-          "source_id": "regular-ikun",
-          "source_name": "ikun|点播",
-          "provider": "ikm3u8",
-          "url": "https://bfikuncdn.com/20261001/3ix7grGa/index.m3u8",
-          "protocol": "hls",
-          "supported": true,
-          "priority": 50,
-          "health": "unknown",
-          "updated_at": "2026-10-01 12:12:39",
-          "source_item_id": "70371",
           "canonical_source_id": "",
           "source_title": "桃源暗鬼：日光华严之泷篇",
           "original_title": "taoyuananguiriguanghuayanzhilongpian",
@@ -308,24 +376,6 @@
       "official": true
     },
     {
-      "value": "桃源暗鬼 ～日光・华严之泷篇～",
-      "source_title": "桃源暗鬼 ～日光・华严之泷篇～",
-      "language": "zh",
-      "source": "source_api",
-      "source_id": "regular-u酷",
-      "source_item_id": "73550",
-      "official": true
-    },
-    {
-      "value": "taoyuananguiriguanghuayanzhilongpian",
-      "source_title": "桃源暗鬼 ～日光・华严之泷篇～",
-      "language": "en",
-      "source": "source_api",
-      "source_id": "regular-u酷",
-      "source_item_id": "73550",
-      "official": true
-    },
-    {
       "value": "桃源暗鬼：日光华严之泷篇",
       "source_title": "桃源暗鬼：日光华严之泷篇",
       "language": "zh",
@@ -341,6 +391,24 @@
       "source": "source_api",
       "source_id": "regular-ikun",
       "source_item_id": "70371",
+      "official": true
+    },
+    {
+      "value": "桃源暗鬼～日光・华严之泷篇～",
+      "source_title": "桃源暗鬼～日光・华严之泷篇～",
+      "language": "zh",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99608",
+      "official": true
+    },
+    {
+      "value": "taoyuananguiriguanghuayanzhilongpian",
+      "source_title": "桃源暗鬼～日光・华严之泷篇～",
+      "language": "en",
+      "source": "source_api",
+      "source_id": "regular-非凡",
+      "source_item_id": "99608",
       "official": true
     },
     {
